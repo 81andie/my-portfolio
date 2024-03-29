@@ -177,3 +177,22 @@
   justify-content: center;
 
 }
+
+.seccionInformacion{
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+
+}
+
+.pi-thumbs-up{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color:rgb(153, 171, 244);
+}
