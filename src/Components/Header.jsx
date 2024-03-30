@@ -14,10 +14,10 @@ export const Header = () => {
        <img src ={img} className='logo_header'/>
      
        <div className="navbar">
-        <NavLink to="/inicio">Inicio</NavLink>
-        <NavLink to="/curriculum">Curriculum</NavLink>
-        <NavLink to="/proyectos">Proyectos</NavLink>
-        <NavLink to="/contacto">Contacto</NavLink>
+        <NavLink to="/inicio" className="enlaces_navbar">Inicio</NavLink>
+        <NavLink to="/curriculum" className="enlaces_navbar">Curriculum</NavLink>
+        <NavLink to="/proyectos" className="enlaces_navbar">Proyectos</NavLink>
+        <NavLink to="/contacto" className="enlaces_navbar">Contacto</NavLink>
        
        </div>
     </div>

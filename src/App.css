@@ -36,13 +36,18 @@
   font-weight: 300;
   font-style: normal;
 
+ 
 }
 
-.navbar li {
+.enlaces_navbar{
 
   padding: 5px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  
 }
 
 
@@ -237,10 +242,19 @@
 }
 
 /*Curriculum*/
+.skills {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.2rem;
+  margin-left: 45px;
+  margin-top: 40px;
+}
+
 
 .contenedor {
   width: 100%;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -287,7 +301,7 @@
 }
 
 .contenedor figure:hover>.capa h2 {
-  margin-top: 20px;
+  margin-top: 12px;
   margin-bottom: 15px;
 }
 
@@ -316,17 +330,43 @@
 }
 
 @-webkit-keyframes AnimationName {
-  0%{background-position:43% 0%}
-  50%{background-position:58% 100%}
-  100%{background-position:43% 0%}
+  0% {
+    background-position: 43% 0%
+  }
+
+  50% {
+    background-position: 58% 100%
+  }
+
+  100% {
+    background-position: 43% 0%
+  }
 }
+
 @-moz-keyframes AnimationName {
-  0%{background-position:43% 0%}
-  50%{background-position:58% 100%}
-  100%{background-position:43% 0%}
+  0% {
+    background-position: 43% 0%
+  }
+
+  50% {
+    background-position: 58% 100%
+  }
+
+  100% {
+    background-position: 43% 0%
+  }
 }
+
 @keyframes AnimationName {
-  0%{background-position:43% 0%}
-  50%{background-position:58% 100%}
-  100%{background-position:43% 0%}
+  0% {
+    background-position: 43% 0%
+  }
+
+  50% {
+    background-position: 58% 100%
+  }
+
+  100% {
+    background-position: 43% 0%
+  }
 }
