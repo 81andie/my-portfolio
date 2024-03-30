@@ -1,16 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import { Header } from './Components/Header';
-import { Cabecera } from './Components/Cabecera';
-import { SeccionInformativa } from './Components/SeccionInformativa';
+import { RoutasPrincipales } from './routing/RoutasPrincipales';
+import {Inicio} from './Components/Inicio';
+
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Cabecera/>
-      <SeccionInformativa/>
       
+     <RoutasPrincipales/>
+     <Inicio/>
+   
     </div>
   );
 }

@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+
+
 export const Header = () => {
 
     let img = "img/logo.jpeg";
@@ -9,7 +12,6 @@ export const Header = () => {
     <div className="header">
        <img src ={img} className='logo_header'/>
      
-
        <div className="navbar">
         <li>Inicio</li>
         <li>CV</li>
