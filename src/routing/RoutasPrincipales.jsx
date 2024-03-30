@@ -11,7 +11,6 @@ export const RoutasPrincipales = () => {
        <Route path= "/" element= {<Inicio/>}/>
        <Route path= "/inicio" element= {<Inicio/>}/>
       
-       
     </Routes>
    
     

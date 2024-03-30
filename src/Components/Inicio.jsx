@@ -4,10 +4,11 @@ import{Cabecera} from './Cabecera';
 import {SeccionInformativa} from './SeccionInformativa';
 
 
+
 export const Inicio = () => {
   return (
     <div>
-    
+        
         <Header/>
         <Cabecera/>
         <SeccionInformativa/>
