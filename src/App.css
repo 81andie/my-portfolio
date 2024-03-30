@@ -82,13 +82,14 @@
 }
 
 .grid_fotos {
+ 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: center;
   row-gap: 20px;
-  margin: 0 25px;
+  margin: 0px 20px;
   -webkit-animation: slide-in-fwd-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-fwd-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
@@ -143,7 +144,7 @@
 .item {
   display: block;
   margin: 0 auto;
-  width: 28%;
+  width: 29%;
   background-color: gainsboro;
 
 }
@@ -154,8 +155,9 @@
   flex-wrap: wrap;
   align-items: flex-end;
   align-content: center;
-  row-gap: 10px;
-  margin: 0 25px;
+  column-gap: 10px;
+  margin: -10px 25px;
+  
   -webkit-animation: slide-in-fwd-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-fwd-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
