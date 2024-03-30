@@ -9,7 +9,7 @@ export const Inicio = () => {
   return (
     <div>
         
-        <Header/>
+       
         <Cabecera/>
         <SeccionInformativa/>
     </div>
