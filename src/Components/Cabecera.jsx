@@ -16,10 +16,11 @@ export const Cabecera = () => {
                 <h3 className="titulo_cabecera">Andrea Hernández</h3>      
             </div>
 
-            <div className="cabecera-container">
-                <h2 className="subtitulo_cabecera">Soy Andrea- Desarrolladora Web Frontend</h2>
-
-            </div>
+            <div className="header_decoracion">
+     <span className="span_maqEscribir">Hello World,
+      I'm a Web Developer Frontend_</span>
+   
+  </div>
 
             <div className="grid_fotos">
                 <div className="item">

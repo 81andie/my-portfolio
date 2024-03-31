@@ -9,8 +9,11 @@ export const Header = () => {
     let img = "img/logo.jpeg";
 
   return (
+<>
+   
     
     <div className="header">
+     
        <img src ={img} className='logo_header'/>
      
        <div className="navbar">
@@ -21,5 +24,6 @@ export const Header = () => {
        
        </div>
     </div>
+    </>
   )
 }
