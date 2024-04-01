@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
+import './responsive.css'
 import { RoutasPrincipales } from './routing/RoutasPrincipales';
-import {Inicio} from './Components/Inicio';
+
 
 
 function App() {

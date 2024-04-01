@@ -13,14 +13,14 @@ export const Cabecera = () => {
         <>
 
             <div className="titulo_nombre">
-                <h3 className="titulo_cabecera">Andrea Hernández</h3>      
+                <h3 className="titulo_cabecera">Andrea Hernández</h3>
             </div>
 
             <div className="header_decoracion">
-     <span className="span_maqEscribir">Hello World,
-      I'm a Web Developer Frontend_</span>
-   
-  </div>
+                <span className="span_maqEscribir">Hello World,
+                    I'm a Web Developer Frontend_</span>
+
+            </div>
 
             <div className="grid_fotos">
                 <div className="item">
@@ -35,20 +35,20 @@ export const Cabecera = () => {
                     <img src={gift1} className="imagenes_centradas" alt="imagenes-mobil" />
                 </div>
 
-            
+
             </div>
 
             <div className="grid_fotos1">
-            <div className="item">
-                <img src={gift2} className="imagenes_centradas" alt="imagenes-mobil1" />
+                <div className="item">
+                    <img src={gift2} className="imagenes_centradas" alt="imagenes-mobil1" />
                 </div>
 
                 <div className="item">
-                <img src={gift} className="imagenes_centradas" alt="imagenes-mobil" />
+                    <img src={gift} className="imagenes_centradas" alt="imagenes-mobil" />
                 </div>
 
                 <div className="item">
-                <img src={gift2} className="imagenes_centradas" alt="imagenes-mobil1" />
+                    <img src={gift2} className="imagenes_centradas" alt="imagenes-mobil1" />
                 </div>
 
 
@@ -57,13 +57,13 @@ export const Cabecera = () => {
 
 
 
-           <div className='botones_cabecera'>
+            <div className='botones_cabecera'>
 
-                <button className="conoceme">Contacto  <i className="pi pi-user" style={{ color: 'white' }}></i></button>
-               
-                </div>
+                <button className="conoceme">Contacto<i className="pi pi-user" style={{ color: 'white' }}></i></button>
 
-               
+            </div>
+
+
 
 
 
