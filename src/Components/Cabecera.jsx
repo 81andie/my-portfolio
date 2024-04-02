@@ -37,8 +37,6 @@ export const Cabecera = () => {
                 {mostrarTexto && <span className="span_maqEscribir">Hello World, I'm a Web Developer Frontend
                </span>}
 
-               
-
             </div>
 
             <div className="grid_fotos">
@@ -70,8 +68,6 @@ export const Cabecera = () => {
                     <img src={gift2} className="imagenes_centradas" alt="imagenes-mobil1" />
                 </div>
 
-
-
             </div>
 
 
@@ -81,9 +77,6 @@ export const Cabecera = () => {
                 <button className="conoceme">Contacto<i className="pi pi-user" style={{ color: 'white' }}></i></button>
 
             </div>
-
-
-
 
 
         </>
