@@ -1,10 +1,27 @@
 import React from 'react'
+import { useState, useEffect } from 'react';
 
 
 export const Cabecera = () => {
     let gift = "img/mobile (4).gif";
     let gift1 = "img/mobile (5).gif";
     let gift2 = "img/mobile (6).gif"
+
+    const [mostrarTexto, setMostrarTexto] = useState(false);
+
+
+    useEffect(() => {
+        const timer =
+            setTimeout(() => {
+                setMostrarTexto(true);
+            }, 1000);
+
+        return () => clearTimeout(timer)
+    }, []);
+
+
+
+
 
 
 
@@ -17,8 +34,10 @@ export const Cabecera = () => {
             </div>
 
             <div className="header_decoracion">
-                <span className="span_maqEscribir">Hello World,
-                    I'm a Web Developer Frontend_</span>
+                {mostrarTexto && <span className="span_maqEscribir">Hello World, I'm a Web Developer Frontend
+               </span>}
+
+               
 
             </div>
 

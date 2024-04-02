@@ -2,12 +2,13 @@
   --color-general-text: black;
   --color-background-principal: whitesmoke;
   --color-background-item: gainsboro;
+  --color-secundary: rgba(65, 86, 111, 0.817);
 
 }
 
 .span_maqEscribir{
   font-size: 0.9rem;
-  color: rgba(65, 86, 111, 0.817);
+  color:var(--color-secundary);
   display: block;
   margin-left: 15px;
   margin-bottom: 50px;
@@ -67,7 +68,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-decoration: none;
-  color: black;
+  color: var(--color-general-text);
   font-size: 0.9rem;
   
 }*
@@ -86,11 +87,9 @@
 
 .titulo_cabecera {
   font-family: "Roboto", sans-serif;
-
   margin-left: 21px;
   margin-top: 30px;
-
-  color: black;
+  color: var(--color-general-text);
   background-color: rgba(245, 245, 245, 0.562);
   padding: 10px;
 }
