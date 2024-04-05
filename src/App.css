@@ -1,5 +1,13 @@
 
-         
+.light-theme {
+  background-color: #ffffff;
+  color:rgb(248, 244, 244);
+}
+
+.dark-theme {
+  background-color: #000027;
+  color: #ffffff;
+}   
 
 
 
@@ -8,7 +16,7 @@
   --color-general-text: black;
   --color-background-principal: whitesmoke;
   --color-background-item: gainsboro;
-  --color-secundary: rgba(65, 86, 111, 0.817);
+  --color-secundary: rgba(35, 158, 224, 0.817);
 
 }
 
@@ -76,8 +84,10 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-decoration: none;
-  color: var(--color-general-text);
+  color: rgb(161, 159, 159);
   font-size: 0.9rem;
+  background-color:rgba(149, 202, 230, 0.436);
+  border-radius: 5px;
   
 }
 
@@ -122,8 +132,8 @@
   font-family: "Roboto", sans-serif;
   margin-left: 21px;
   margin-top: 30px;
-  color: var(--color-general-text);
-  background-color: rgba(245, 245, 245, 0.562);
+  color: gray;
+ 
   padding: 10px;
 }
 
