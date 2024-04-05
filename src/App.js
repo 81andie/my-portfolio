@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import './responsive.css'
-import {useState} from 'react';
+import { useState } from 'react';
 import { RoutasPrincipales } from './routing/RoutasPrincipales';
+import { SeccionInformativa } from './Components/SeccionInformativa';
 
 
 
@@ -15,18 +16,23 @@ function App() {
 
 
   return (
-    
+
     <div className="App">
 
-      <div className= {theme === 'light' ? 'light-theme' : 'dark-theme'}>
-      <button className={theme} onClick={toggleTheme}>Cambiar theme</button>
+      <div className={theme === 'light' ? 'light-theme' : 'dark-theme'}>
+        <button className={theme} onClick={toggleTheme}>
 
-      <RoutasPrincipales/>
-    
-   </div>
+          <i className="pi pi-moon"></i>
+         <br/> DARK THEME
+        </button>
+
+        <RoutasPrincipales />
+
+
+      </div>
     </div>
 
- 
+
   );
 }
 

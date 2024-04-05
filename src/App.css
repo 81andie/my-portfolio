@@ -1,15 +1,36 @@
 
 .light-theme {
-  background-color: #ffffff;
-  color:rgb(248, 244, 244);
+ color: gray;
+  color:rgb(6, 6, 6);
 }
 
 .dark-theme {
-  background-color: #000027;
-  color: #ffffff;
+  background-color: #010112;
+  color: #f9f6f6;
 }   
 
+ .light{
+  margin-top: 20px;
+  margin-left: 15px;
+  background-color:#290340;
+  color: white;
+  padding: 7px;
+  margin-right: 5px;
+  border-radius: 15px;
+  border: none;
 
+}
+
+.dark{
+  margin-top: 20px;
+  margin-left: 15px;
+  background-color:#3d3343;
+  color: white;
+  padding: 7px;
+  margin-right: 5px;
+  border-radius: 15px;
+  border:none;
+}
 
 
 :root {

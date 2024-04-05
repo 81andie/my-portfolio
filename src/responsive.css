@@ -9,7 +9,7 @@
 
 
     .enlaces_navbar {
-        visibility:hidden;
+        visibility: hidden;
     }
 
     /*Cabecera*/
@@ -59,9 +59,9 @@
 @media(min-width: 641px) {
 
     /*header*/
-   .enlaces_navbar{
-     visibility: visible;
-   }
+    .enlaces_navbar {
+        visibility: visible;
+    }
 
     .item {
         display: block;
@@ -110,4 +110,18 @@
 
 
 
-@media(min-width: 1025px) {}
+@media(min-width: 1025px) {
+    .seccionInformacion {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .icon_section{
+        width: 29%;
+    }
+
+
+}
