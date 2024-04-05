@@ -1,3 +1,9 @@
+
+         
+
+
+
+
 :root {
   --color-general-text: black;
   --color-background-principal: whitesmoke;
@@ -93,7 +99,7 @@
 .card:hover{
   text-align: center;
   visibility: visible;
-opacity: 2;
+  opacity: 2;
 }
 
 .p-chip-text{
@@ -221,8 +227,6 @@ opacity: 2;
 
 }
 
-
-
 .botones_cabecera {
   display: flex;
   justify-content: center;
@@ -242,7 +246,6 @@ opacity: 2;
   height: 100vh;
   margin: 0 auto;
   
-
 }
 
 

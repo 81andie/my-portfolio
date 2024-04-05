@@ -16,7 +16,7 @@ export const Cabecera = () => {
         const timer =
             setTimeout(() => {
                 setMostrarTexto(true);
-            }, 1000);
+            }, 100);
 
         return () => clearTimeout(timer)
     }, []);
@@ -43,7 +43,7 @@ export const Cabecera = () => {
 
             <div className="grid_fotos">
                 <div className="item">
-                    <img src={gift} className="imagenes_centradas" alt="imagenes-mobil" />
+                    <img src={gift} className="imagenes_centradas" loading="lazy"  alt="imagenes-mobil" />
                     <div className="card flex flex-wrap gap-2">
                         <Chip label="REACT"
                             className="custom-chip"
@@ -95,7 +95,7 @@ export const Cabecera = () => {
                 </div>
 
                 <div className="item">
-                    <img src={gift2} className="imagenes_centradas" alt="imagenes-mobil1" />
+                    <img src={gift2} className="imagenes_centradas" loading="lazy" alt="imagenes-mobil1" />
 
                     <div className="card flex flex-wrap gap-2">
                        
@@ -133,7 +133,7 @@ export const Cabecera = () => {
                 </div>
 
                 <div className="item">
-                    <img src={gift1} className="imagenes_centradas" alt="imagenes-mobil" />
+                    <img src={gift1} className="imagenes_centradas" loading="lazy"  alt="imagenes-mobil" />
 
                     <div className="card flex flex-wrap gap-2">
                        
@@ -175,7 +175,7 @@ export const Cabecera = () => {
 
             <div className="grid_fotos1">
                 <div className="item">
-                    <img src={gift2} className="imagenes_centradas" alt="imagenes-mobil1" />
+                    <img src={gift2} loading="lazy" className="imagenes_centradas" alt="imagenes-mobil1" />
                     <div className="card flex flex-wrap gap-2">
                        
 
@@ -211,7 +211,7 @@ export const Cabecera = () => {
                 </div>
 
                 <div className="item">
-                    <img src={gift} className="imagenes_centradas" alt="imagenes-mobil" />
+                    <img src={gift} className="imagenes_centradas" loading="lazy" alt="imagenes-mobil" />
                     <div className="card flex flex-wrap gap-2">
                        
 
@@ -247,7 +247,7 @@ export const Cabecera = () => {
                 </div>
 
                 <div className="item">
-                    <img src={gift2} className="imagenes_centradas" alt="imagenes-mobil1" />
+                    <img src={gift2} className="imagenes_centradas" loading="lazy" alt="imagenes-mobil1" />
                     <div className="card flex flex-wrap gap-1">
                        
 

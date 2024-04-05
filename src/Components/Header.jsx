@@ -4,13 +4,18 @@ import { NavLink } from 'react-router-dom';
 
 
 
+
 export const Header = () => {
 
   let img = "img/logo.jpeg";
 
+
+        
+
   return (
     <>
 
+        
 
       <div className="header">
 
@@ -24,6 +29,7 @@ export const Header = () => {
 
         </div>
       </div>
+     
     </>
   )
 }
