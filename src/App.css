@@ -81,7 +81,17 @@
 .cabecera-container {
   font-size: 1.5rem;
   
+}
 
+.card{
+  opacity: 0;
+  transition: ease 500ms;
+}
+
+.card:hover{
+  text-align: center;
+  visibility: visible;
+opacity: 2;
 }
 
 .p-chip-text{
@@ -93,9 +103,9 @@
 }
 
 .custom-chip img{
-  width: 32px;
-  padding: 4px;
-  background-color: #c4feef;
+  width: 20px;
+  padding: 2px;
+  background-color: whitesmoke;
   
 }
 

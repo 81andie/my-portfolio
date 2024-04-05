@@ -45,21 +45,49 @@ export const Cabecera = () => {
                 <div className="item">
                     <img src={gift} className="imagenes_centradas" alt="imagenes-mobil" />
                     <div className="card flex flex-wrap gap-2">
-                        <Chip label="React"
+                        <Chip label="REACT"
                             className="custom-chip"
                             image="/logo192.png"
                             style={{
-                                backgroundColor: 'lightgray',
-                                width: '130px',
-                                color: 'white',
+                                backgroundColor: '#CCF9FB',
+                                fontWeight: 'bolder',
+                                width: '84px',
+                                color: '#418C90',
                                 borderRadius: '23px',
-                                padding: '0.2rem',
+                                padding: '0.1rem',
+                                marginRight: '15px',
+                                marginBottom: '12px',
+                                marginLeft: '6px'
+                            }} />
+
+                        <Chip label="HTML"
+                            className="custom-chip"
+                            image="img/5352-html5_102567.png"
+                            style={{
+                                backgroundColor: '#FDEACE',
+                                width: '82px',
+                                color: 'orange',
+                                fontWeight: 'bolder',
+                                borderRadius: '23px',
+                                padding: '0.1rem',
                                 marginRight: '15px',
                                 marginBottom: '12px'
                             }} />
-                        <Chip label="Facebook" icon="pi pi-facebook" />
-                        <Chip label="Google" icon="pi pi-google" />
-                        <Chip label="Microsoft" icon="pi pi-microsoft" removable />
+
+                        <Chip label="CSS"
+                            className="custom-chip"
+                            image="/img/file_type_css_icon_130661.png"
+                            style={{
+                                backgroundColor: '#7ABCFA',
+                                width: '66px',
+                                color: '#155A9A',
+                                borderRadius: '23px',
+                                fontWeight: 'bolder',
+                                padding: '0.1rem',
+                                marginRight: '15px',
+                                marginBottom: '12px'
+                            }} />
+
                     </div>
 
 
@@ -68,10 +96,78 @@ export const Cabecera = () => {
 
                 <div className="item">
                     <img src={gift2} className="imagenes_centradas" alt="imagenes-mobil1" />
+
+                    <div className="card flex flex-wrap gap-2">
+                       
+
+                        <Chip label="HTML"
+                            className="custom-chip"
+                            image="img/5352-html5_102567.png"
+                            style={{
+                                backgroundColor: '#FDEACE',
+                                width: '82px',
+                                color: 'orange',
+                                fontWeight: 'bolder',
+                                borderRadius: '23px',
+                                padding: '0.1rem',
+                                marginRight: '15px',
+                                marginBottom: '12px'
+                            }} />
+
+                        <Chip label="CSS"
+                            className="custom-chip"
+                            image="/img/file_type_css_icon_130661.png"
+                            style={{
+                                backgroundColor: '#7ABCFA',
+                                width: '66px',
+                                color: '#155A9A',
+                                borderRadius: '23px',
+                                fontWeight: 'bolder',
+                                padding: '0.1rem',
+                                marginRight: '15px',
+                                marginBottom: '12px'
+                            }} />
+
+                    </div>
+                    
                 </div>
 
                 <div className="item">
                     <img src={gift1} className="imagenes_centradas" alt="imagenes-mobil" />
+
+                    <div className="card flex flex-wrap gap-2">
+                       
+
+                       <Chip label="HTML"
+                           className="custom-chip"
+                           image="img/5352-html5_102567.png"
+                           style={{
+                               backgroundColor: '#FDEACE',
+                               width: '82px',
+                               color: 'orange',
+                               fontWeight: 'bolder',
+                               borderRadius: '23px',
+                               padding: '0.1rem',
+                               marginRight: '15px',
+                               marginBottom: '12px'
+                           }} />
+
+                       <Chip label="CSS"
+                           className="custom-chip"
+                           image="/img/file_type_css_icon_130661.png"
+                           style={{
+                               backgroundColor: '#7ABCFA',
+                               width: '66px',
+                               color: '#155A9A',
+                               borderRadius: '23px',
+                               fontWeight: 'bolder',
+                               padding: '0.1rem',
+                               marginRight: '15px',
+                               marginBottom: '12px'
+                           }} />
+
+                   </div>
+                    
                 </div>
 
 
@@ -80,14 +176,110 @@ export const Cabecera = () => {
             <div className="grid_fotos1">
                 <div className="item">
                     <img src={gift2} className="imagenes_centradas" alt="imagenes-mobil1" />
+                    <div className="card flex flex-wrap gap-2">
+                       
+
+                       <Chip label="HTML"
+                           className="custom-chip"
+                           image="img/5352-html5_102567.png"
+                           style={{
+                               backgroundColor: '#FDEACE',
+                               width: '82px',
+                               color: 'orange',
+                               fontWeight: 'bolder',
+                               borderRadius: '23px',
+                               padding: '0.1rem',
+                               marginRight: '15px',
+                               marginBottom: '12px'
+                           }} />
+
+                       <Chip label="CSS"
+                           className="custom-chip"
+                           image="/img/file_type_css_icon_130661.png"
+                           style={{
+                               backgroundColor: '#7ABCFA',
+                               width: '66px',
+                               color: '#155A9A',
+                               borderRadius: '23px',
+                               fontWeight: 'bolder',
+                               padding: '0.1rem',
+                               marginRight: '15px',
+                               marginBottom: '12px'
+                           }} />
+
+                   </div>
                 </div>
 
                 <div className="item">
                     <img src={gift} className="imagenes_centradas" alt="imagenes-mobil" />
+                    <div className="card flex flex-wrap gap-2">
+                       
+
+                       <Chip label="HTML"
+                           className="custom-chip"
+                           image="img/5352-html5_102567.png"
+                           style={{
+                               backgroundColor: '#FDEACE',
+                               width: '82px',
+                               color: 'orange',
+                               fontWeight: 'bolder',
+                               borderRadius: '23px',
+                               padding: '0.1rem',
+                               marginRight: '15px',
+                               marginBottom: '12px'
+                           }} />
+
+                       <Chip label="CSS"
+                           className="custom-chip"
+                           image="/img/file_type_css_icon_130661.png"
+                           style={{
+                               backgroundColor: '#7ABCFA',
+                               width: '66px',
+                               color: '#155A9A',
+                               borderRadius: '23px',
+                               fontWeight: 'bolder',
+                               padding: '0.1rem',
+                               marginRight: '15px',
+                               marginBottom: '12px'
+                           }} />
+
+                   </div>
                 </div>
 
                 <div className="item">
                     <img src={gift2} className="imagenes_centradas" alt="imagenes-mobil1" />
+                    <div className="card flex flex-wrap gap-1">
+                       
+
+                       <Chip label="HTML"
+                           className="custom-chip"
+                           image="img/5352-html5_102567.png"
+                           style={{
+                               backgroundColor: '#FDEACE',
+                               width: '82px',
+                               color: 'orange',
+                               fontWeight: 'bolder',
+                               borderRadius: '23px',
+                               padding: '0.1rem',
+                               marginRight: '15px',
+                               marginBottom: '12px'
+                           }} />
+
+                       <Chip label="CSS"
+                           className="custom-chip"
+                           image="/img/file_type_css_icon_130661.png"
+                           style={{
+                               backgroundColor: '#7ABCFA',
+                               width: '66px',
+                               color: '#155A9A',
+                               borderRadius: '23px',
+                               fontWeight: 'bolder',
+                               padding: '0.1rem',
+                               marginRight: '15px',
+                               marginBottom: '12px'
+                           }} />
+
+                   </div>
                 </div>
 
             </div>
