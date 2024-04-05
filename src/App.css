@@ -71,7 +71,7 @@
   color: var(--color-general-text);
   font-size: 0.9rem;
   
-}*
+}
 
 
 
@@ -80,10 +80,25 @@
 
 .cabecera-container {
   font-size: 1.5rem;
-
-
+  
 
 }
+
+.p-chip-text{
+ margin-left: 8px;
+}
+
+.custom-chip{
+  text-align: center;
+}
+
+.custom-chip img{
+  width: 32px;
+  padding: 4px;
+  background-color: #c4feef;
+  
+}
+
 
 .titulo_cabecera {
   font-family: "Roboto", sans-serif;
