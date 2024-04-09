@@ -1,29 +1,32 @@
 
 .light-theme {
- color: gray;
+ color: rgb(99, 96, 96);
   color:rgb(6, 6, 6);
 }
 
 .dark-theme {
   background-color: #010112;
-  color: #f9f6f6;
+  color: hsl(0, 20%, 97%);
+  height: 400vh;
+
 }   
 
  .light{
   margin-top: 20px;
-  margin-left: 15px;
+  
   background-color:#290340;
   color: white;
   padding: 7px;
   margin-right: 5px;
   border-radius: 15px;
   border: none;
+  margin-left: 25px;
 
 }
 
 .dark{
   margin-top: 20px;
-  margin-left: 15px;
+  margin-left: 25px;
   background-color:#3d3343;
   color: white;
   padding: 7px;
@@ -151,11 +154,11 @@
 
 .titulo_cabecera {
   font-family: "Roboto", sans-serif;
-  margin-left: 21px;
+  margin-left: 15px;
   margin-top: 30px;
   color: gray;
- 
   padding: 10px;
+  font-size: 1.7rem;
 }
 
 .subtitulo_cabecera {
@@ -265,6 +268,10 @@
 }
 
 /*Seccion Información*/
+
+.titsec_Informacion{
+  font-size: 1.3rem;
+}
 
 .seccionInformacion {
   width: 90%;

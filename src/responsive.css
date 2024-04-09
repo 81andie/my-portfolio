@@ -1,6 +1,10 @@
 @media (min-width:320px) {
     /*Header*/
 
+    .dark-theme{
+        height: 900vh;
+    }
+
     .header {
         display: flex;
         justify-content: center;
@@ -15,7 +19,7 @@
     /*Cabecera*/
 
     .titulo_cabecera {
-        margin-left: 15px;
+       
     }
 
     .grid_fotos {
@@ -59,6 +63,10 @@
 @media(min-width: 641px) {
 
     /*header*/
+
+    .dark-theme{
+        height: 900vh;
+    }
     .enlaces_navbar {
         visibility: visible;
     }

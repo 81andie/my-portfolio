@@ -19,15 +19,16 @@ function App() {
 
     <div className="App">
 
+
       <div className={theme === 'light' ? 'light-theme' : 'dark-theme'}>
         <button className={theme} onClick={toggleTheme}>
 
           <i className="pi pi-moon"></i>
          <br/> DARK THEME
         </button>
-
+      
         <RoutasPrincipales />
-
+        <SeccionInformativa/>
 
       </div>
     </div>
