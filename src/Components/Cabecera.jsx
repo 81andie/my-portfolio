@@ -31,15 +31,13 @@ export const Cabecera = () => {
 
         <>
 
-            <div className="titulo_nombre">
-                <h3 className="titulo_cabecera">Andrea Hernández</h3>
-            </div>
+          
 
             <div className="header_decoracion">
                 {mostrarTexto && <span className="span_maqEscribir">Hello World,<br></br>
                </span> }
 
-               {mostrarTexto && <span className="span_maqEscribir1">I'm a Web Developer<br></br>
+               {mostrarTexto && <span className="span_maqEscribir1">I'm Andrea, a Web Developer<br></br>
                </span> }
              
 

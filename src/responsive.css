@@ -1,17 +1,23 @@
 @media (min-width:320px) {
     /*Header*/
 
-    .dark-theme{
+    .dark-theme {
         height: 900vh;
     }
 
-  
 
-   .logo_header{
-     width: 8%;
-     height: 8%;
-    
-   }
+   .logo_container{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 25px;
+        }
+        
+        .logo_header{
+         width: 20%;
+         height: auto;
+         margin-bottom: 50px;
+         margin-top: 20px;
+        }
 
 
     .enlaces_navbar {
@@ -20,9 +26,7 @@
 
     /*Cabecera*/
 
-    .titulo_cabecera {
-      text-align: center;
-    }
+
 
     .grid_fotos {
         display: flex;
@@ -59,16 +63,42 @@
 }
 
 
-@media (min-width:481px) {}
+@media (min-width:481px) {
+
+    .logo_container{
+        display: flex;
+        justify-content: center;
+        }
+        
+        .logo_header{
+         width: 18%;
+         height: auto;
+         margin-bottom: 50px;
+         margin-top: 20px;
+        }
+}
 
 
 @media(min-width: 641px) {
 
     /*header*/
 
-    .dark-theme{
+    .dark-theme {
         height: 900vh;
     }
+
+    .logo_container{
+        display: flex;
+        justify-content: center;
+        }
+        
+        .logo_header{
+         width: 18%;
+         height: auto;
+         margin-bottom: 50px;
+         margin-top: 7px;
+        }
+
     .enlaces_navbar {
         visibility: visible;
     }
@@ -121,6 +151,9 @@
 
 
 @media(min-width: 1025px) {
+
+ 
+
     .seccionInformacion {
         display: flex;
         flex-wrap: wrap;
@@ -129,7 +162,7 @@
 
     }
 
-    .icon_section{
+    .icon_section {
         width: 29%;
     }
 
