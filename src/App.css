@@ -270,7 +270,11 @@ justify-content: center;
 /*Seccion Información*/
 
 .titsec_Informacion{
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+}
+
+.parrsec_Informacion{
+  font-size: 1.2rem;
 }
 
 .seccionInformacion {

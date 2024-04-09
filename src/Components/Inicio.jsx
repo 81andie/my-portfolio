@@ -10,7 +10,7 @@ export const Inicio = () => {
     <div>
 
       <Cabecera />
-   
+       <SeccionInformativa/>
     </div>
   )
 }

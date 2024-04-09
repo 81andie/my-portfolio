@@ -28,7 +28,7 @@ function App() {
         </button>
       
         <RoutasPrincipales />
-        <SeccionInformativa/>
+       
 
       </div>
     </div>
