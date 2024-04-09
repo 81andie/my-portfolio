@@ -5,11 +5,13 @@
         height: 900vh;
     }
 
-    .header {
-        display: flex;
-        justify-content: center;
-        margin-left: 88px;
-    }
+  
+
+   .logo_header{
+     width: 8%;
+     height: 8%;
+    
+   }
 
 
     .enlaces_navbar {
@@ -19,7 +21,7 @@
     /*Cabecera*/
 
     .titulo_cabecera {
-       
+      text-align: center;
     }
 
     .grid_fotos {

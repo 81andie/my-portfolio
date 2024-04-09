@@ -36,8 +36,12 @@ export const Cabecera = () => {
             </div>
 
             <div className="header_decoracion">
-                {mostrarTexto && <span className="span_maqEscribir">Hello World, I'm a Web Developer Frontend
-                </span>}
+                {mostrarTexto && <span className="span_maqEscribir">Hello World,<br></br>
+               </span> }
+
+               {mostrarTexto && <span className="span_maqEscribir1">I'm a Web Developer<br></br>
+               </span> }
+             
 
             </div>
 

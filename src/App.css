@@ -47,17 +47,30 @@
 /*Header*/
 
 .span_maqEscribir{
-  font-size: 0.9rem;
+  font-size: 1.9rem;
   color:var(--color-secundary);
   display: block;
-  margin-left: 15px;
+  margin: 0 auto;
   margin-bottom: 50px;
-  justify-content: center;
   font-family:monospace;
-  white-space: wrap;
+  white-space: nowrap;
   border-right: 4px solid;
-  width:42ch;
+  width:13ch;
   animation: typing 2s steps(18), blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+.span_maqEscribir1{
+  font-size: 1.5rem;
+  color:burlywood;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-family:monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width:20ch;
+  animation: typing 5s steps(16), blink .5s infinite step-end alternate;
   overflow: hidden;
 }
 
@@ -70,8 +83,9 @@
 }
 
 .logo_header {
-  width: 50px;
-  height: 50px;
+ 
+  width: 20px;
+  height: 20px;
   border-radius: 10px;
 
 }
@@ -80,6 +94,7 @@
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  vertical-align: auto;
 
 }
 
@@ -92,7 +107,7 @@
   list-style-type: none;
   justify-content: right;
   gap: 3px;
-  margin-top: 10px;
+  margin-top: 22px;
   margin-left: 2px;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
