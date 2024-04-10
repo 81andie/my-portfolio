@@ -1,7 +1,6 @@
-
 .light-theme {
- color: rgb(99, 96, 96);
-  color:rgb(6, 6, 6);
+  color: rgb(99, 96, 96);
+  color: rgb(6, 6, 6);
 }
 
 .dark-theme {
@@ -9,12 +8,12 @@
   color: hsl(0, 20%, 97%);
   height: 400vh;
 
-}   
+}
 
- .light{
+.light {
   margin-top: 20px;
 
-  background-color:var(--color-secundary);
+  background-color: var(--color-secundary);
   color: white;
   padding: 9px;
   margin-right: 5px;
@@ -25,20 +24,20 @@
 
 }
 
-.light:hover{
+.light:hover {
   background-color: lightgoldenrodyellow;
-  color:goldenrod
+  color: goldenrod
 }
 
-.dark{
+.dark {
   margin-top: 20px;
   margin-left: 25px;
-  background-color:#3d3343;
+  background-color: #3d3343;
   color: white;
   padding: 9px;
   margin-right: 5px;
   border-radius: 15px;
-  border:none;
+  border: none;
   font-size: 1rem;
 }
 
@@ -53,53 +52,59 @@
 
 /*Header*/
 
-.span_maqEscribir{
+.span_maqEscribir {
   font-size: 1.9rem;
-  color:var(--color-secundary);
+  color: var(--color-secundary);
   display: block;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-family:monospace;
+  font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width:13ch;
+  width: 13ch;
   animation: typing 2s steps(18), blink .5s infinite step-end alternate;
   overflow: hidden;
 }
 
-.span_maqEscribir1{
+.span_maqEscribir1 {
   font-size: 1.2rem;
-  color:burlywood;
+  color: burlywood;
   display: block;
   margin: 0 auto;
   margin-bottom: 50px;
-  font-family:monospace;
+  font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width:27ch;
+  width: 27ch;
   animation: typing 5s steps(16), blink .5s infinite step-end alternate;
   overflow: hidden;
 }
 
-@Keyframes typing{
-  from{width: 0};
+@Keyframes typing {
+  from {
+    width: 0
+  }
+
+  ;
 }
 
-@keyframes blink{
-  50%{border-color:transparent}
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
 
-.logo_container{
-display: flex;
-justify-content: center;
+.logo_container {
+  display: flex;
+  justify-content: center;
 }
 
-.logo_header{
- width: 15%;
- height: auto;
- margin-bottom: 50px;
- margin-top: 20px;
+.logo_header {
+  width: 15%;
+  height: auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 
@@ -113,7 +118,7 @@ justify-content: center;
 
   text-decoration: none;
   list-style-type: none;
-  
+
   gap: 3px;
 
   margin-left: 2px;
@@ -124,7 +129,7 @@ justify-content: center;
 
 }
 
-.enlaces_navbar{
+.enlaces_navbar {
 
   padding: 5px;
   font-family: "Roboto", sans-serif;
@@ -132,11 +137,11 @@ justify-content: center;
   text-decoration: none;
   color: rgb(161, 159, 159);
   font-size: 0.9rem;
-  background-color:rgba(149, 202, 230, 0.436);
+  background-color: rgba(149, 202, 230, 0.436);
   border-radius: 5px;
   margin-top: 5px;
 
-  
+
 }
 
 
@@ -146,38 +151,38 @@ justify-content: center;
 
 .cabecera-container {
   font-size: 1.5rem;
-  
+
 }
 
-.card{
+.card {
   opacity: 0;
   transition: ease 500ms;
 }
 
-.card:hover{
+.card:hover {
   text-align: center;
   visibility: visible;
   opacity: 2;
 }
 
-.p-chip-text{
- margin-left: 8px;
+.p-chip-text {
+  margin-left: 8px;
 }
 
-.custom-chip{
+.custom-chip {
   text-align: center;
 }
 
-.custom-chip img{
+.custom-chip img {
   width: 20px;
   padding: 2px;
   background-color: whitesmoke;
-  
+
 }
 
 
 .grid_fotos {
- 
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -247,7 +252,7 @@ justify-content: center;
   align-content: center;
   column-gap: 10px;
   margin: -10px 25px;
-  
+
   -webkit-animation: slide-in-fwd-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-fwd-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
@@ -276,11 +281,11 @@ justify-content: center;
 
 /*Seccion Información*/
 
-.titsec_Informacion{
+.titsec_Informacion {
   font-size: 1.7rem;
 }
 
-.parrsec_Informacion{
+.parrsec_Informacion {
   font-size: 1.2rem;
 }
 
@@ -294,7 +299,8 @@ justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0 auto;
-  
+ margin-bottom: 100px;
+
 }
 
 
@@ -476,18 +482,18 @@ justify-content: center;
 
 /*footer*/
 
-.footer{
-  margin-top: 280px;
+.footer {
+  
   text-align: center;
- line-height: 13px;
+  line-height: 13px;
 }
 
-.logo_footer{
+.logo_footer {
   width: 7%;
   margin-top: 20px;
 }
 
-.icons_social{
+.icons_social {
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -497,14 +503,14 @@ justify-content: center;
 .pi-instagram,
 .pi-facebook,
 .pi-github,
-.pi-telegram{
+.pi-telegram {
   font-size: 26px;
   padding: 8px;
   background-color: rgba(149, 202, 230, 0.436);
   border-radius: 8px;
 }
 
-.pi-envelope{
+.pi-envelope {
   font-size: 19px;
   background-color: rgba(177, 214, 234, 0.436);
   padding: 4px;

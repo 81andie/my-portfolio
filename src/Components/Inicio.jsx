@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Cabecera } from './Cabecera';
 import { SeccionInformativa } from './SeccionInformativa';
-
+import { Footer } from './Footer';
 
 
 export const Inicio = () => {
@@ -11,6 +11,7 @@ export const Inicio = () => {
 
       <Cabecera />
        <SeccionInformativa/>
+      
     </div>
   )
 }

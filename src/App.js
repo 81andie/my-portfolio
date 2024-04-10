@@ -8,6 +8,7 @@ import { Footer } from './Components/Footer';
 
 
 
+
 function App() {
   const [theme, setTheme] = useState('light');
 
@@ -17,7 +18,7 @@ function App() {
 
 
   return (
-
+<>
     <div className="App">
 
 
@@ -28,15 +29,11 @@ function App() {
         <br/> {theme === 'light' ? 'LIGHT THEME' : 'DARK THEME'}
         </button>
       
-        <RoutasPrincipales />
-        <Footer/>
-       
-       
-
       </div>
     </div>
-
-
+   <RoutasPrincipales />
+   <Footer/>
+   </>
   );
 }
 

@@ -5,13 +5,16 @@ import {Skills} from '../Components/Skills';
 import { Header } from '../Components/Header';
 import { Proyectos } from '../Components/Proyectos';
 import { Contacto } from '../Components/Contacto';
+import { Footer } from '../Components/Footer';
+
 
 
 export const RoutasPrincipales = () => {
   return (
-
+<>
     <BrowserRouter>
     <Header/>
+   
     <Routes>
    
        <Route path= "/" element= {<Inicio/>}/>
@@ -22,12 +25,14 @@ export const RoutasPrincipales = () => {
        
       
     </Routes>
+  
    
     
     
     
     
     </BrowserRouter>
-    
+ 
+    </>
   )
 }
