@@ -299,7 +299,8 @@
   align-items: center;
   height: 100vh;
   margin: 0 auto;
- margin-bottom: 100px;
+  margin-bottom: 290px;
+  
 
 }
 
@@ -483,13 +484,13 @@
 /*footer*/
 
 .footer {
-  
+  margin-top: 350px;
   text-align: center;
-  line-height: 13px;
+  line-height: 4px;
 }
 
 .logo_footer {
-  width: 7%;
+  width: 5%;
   margin-top: 20px;
 }
 
