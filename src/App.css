@@ -473,3 +473,40 @@ justify-content: center;
     background-position: 43% 0%
   }
 }
+
+/*footer*/
+
+.footer{
+  margin-top: 280px;
+  text-align: center;
+ line-height: 13px;
+}
+
+.logo_footer{
+  width: 7%;
+  margin-top: 20px;
+}
+
+.icons_social{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.pi-instagram,
+.pi-facebook,
+.pi-github,
+.pi-telegram{
+  font-size: 26px;
+  padding: 8px;
+  background-color: rgba(149, 202, 230, 0.436);
+  border-radius: 8px;
+}
+
+.pi-envelope{
+  font-size: 19px;
+  background-color: rgba(177, 214, 234, 0.436);
+  padding: 4px;
+  border-radius: 4px;
+}

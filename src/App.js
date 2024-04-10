@@ -3,6 +3,7 @@ import './App.css';
 import './responsive.css'
 import { useState } from 'react';
 import { RoutasPrincipales } from './routing/RoutasPrincipales';
+import { Footer } from './Components/Footer';
 
 
 
@@ -28,6 +29,7 @@ function App() {
         </button>
       
         <RoutasPrincipales />
+        <Footer/>
        
        
 
