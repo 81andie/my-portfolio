@@ -24,7 +24,7 @@ export const Header = () => {
         <img src={img} className='logo_header' alt="logo-imagen"/>
         <div className="navbar">
           <NavLink to="/inicio" className="enlaces_navbar">Inicio</NavLink>
-          <NavLink to="/curriculum" className="enlaces_navbar">Curriculum</NavLink>
+          <NavLink to="/skills" className="enlaces_navbar">Skills</NavLink>
           <NavLink to="/proyectos" className="enlaces_navbar">Proyectos</NavLink>
           <NavLink to="/contacto" className="enlaces_navbar">Contacto</NavLink>
 

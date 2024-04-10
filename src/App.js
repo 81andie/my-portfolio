@@ -3,7 +3,7 @@ import './App.css';
 import './responsive.css'
 import { useState } from 'react';
 import { RoutasPrincipales } from './routing/RoutasPrincipales';
-import { SeccionInformativa } from './Components/SeccionInformativa';
+
 
 
 
@@ -28,6 +28,7 @@ function App() {
         </button>
       
         <RoutasPrincipales />
+       
        
 
       </div>

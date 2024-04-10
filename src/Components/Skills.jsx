@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export const Curriculum = () => {
+export const Skills = () => {
   return (
     <>
 
