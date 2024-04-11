@@ -46,17 +46,18 @@ export const Header = () => {
         <div className="logo_container">
 
           <img src={img} className='logo_header' alt="logo-imagen" />
+
           <div className="navbar">
             <NavLink to="/inicio" className="enlaces_navbar">Inicio</NavLink>
             <select className="enlaces_navbar" ref={selectRef1} value={selectedOption1} onChange={handleOptionChange1} title="Seleccionar una opción" >
               <option value="" className="conoceme">Conóceme algo más</option>
-              <option value="/sobremi" className="sobremi">SOBRE MI</option>
-              <option value="/queofrezco" className="queofrezco" >QUÉ OFREZCO</option>
+              <option value="/sobremi" className="sobremi">Sobre mi</option>
+              <option value="/queofrezco" className="queofrezco" >Qué ofrezco</option>
             </select>
             <select className="enlaces_navbar" ref={selectRef2} value={selectedOption2} onChange={handleOptionChange2}>
-              <option value="" className="formacion">FORMACIÓN</option>
-              <option value="/skills" className="skills1">SKILLS</option>
-              <option value="/certificaciones" className="certificaciones" >CERTIFICACIONES</option>
+              <option value="" className="formacion">Formación</option>
+              <option value="/skills" className="skills1">Skills</option>
+              <option value="/certificaciones" className="certificaciones">Certificaciones</option>
             </select>
 
             <NavLink to="/contacto" className="enlaces_navbar">Contacto</NavLink>
