@@ -49,7 +49,7 @@ export const Header = () => {
           <div className="navbar">
             <NavLink to="/inicio" className="enlaces_navbar">Inicio</NavLink>
             <select className="enlaces_navbar" ref={selectRef1}  value={selectedOption1} onChange={handleOptionChange1} title="Seleccionar una opción" >
-            <option value="">CONÓCEME</option>
+            <option value="">Conóceme algo más</option>
               <option value="/sobremi">SOBRE MI</option>
               <option value="/queofrezco">QUÉ OFREZCO</option>
             </select>
