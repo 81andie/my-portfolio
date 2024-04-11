@@ -4,7 +4,7 @@
 }
 
 .dark-theme {
-  background-color: #010112;
+  background-color: rgb(2, 2, 53);
   color: hsl(0, 20%, 97%);
   height: 400vh;
 

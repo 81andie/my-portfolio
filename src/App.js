@@ -28,11 +28,11 @@ function App() {
         <i className={theme === 'light' ? 'pi pi-sun' : 'pi pi-moon'}></i>
         <br/> {theme === 'light' ? 'LIGHT THEME' : 'DARK THEME'}
         </button>
-      
+        <RoutasPrincipales />
+   <Footer/>
       </div>
     </div>
-   <RoutasPrincipales />
-   <Footer/>
+  
    </>
   );
 }
