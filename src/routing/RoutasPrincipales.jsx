@@ -8,6 +8,7 @@ import { Contacto } from '../Components/Contacto';
 
 import { Sobremi } from '../Components/Sobremi';
 import { Queofrezco } from '../Components/Queofrezco';
+import { Certificaciones } from '../Components/Certificaciones';
 
 
 
@@ -24,6 +25,7 @@ export const RoutasPrincipales = () => {
        <Route path= "/sobremi" element= {<Sobremi/>}/>
        <Route path="/queofrezco" element={<Queofrezco/>}/>
        <Route path= "/skills" element= {<Skills/>}/>
+       <Route path= "/certificaciones" element= {<Certificaciones/>}/>
        <Route path= "/proyectos" element= {<Proyectos/>}/>
        <Route path= "/contacto" element= {<Contacto/>}/>
        
