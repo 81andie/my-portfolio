@@ -140,14 +140,27 @@
   background-color: rgba(149, 202, 230, 0.436);
   border-radius: 5px;
   margin-top: 5px;
+  text-align:center;
 
 
 }
 
-.option {
- width: 200px;
- padding: 7px;
+
+.skills1,
+.conoceme,
+.sobremi,
+.queofrezco,
+.certificaciones,
+.formacion{
+  width: 500px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 22px;
+  background-color:rgb(210, 238, 251);
 }
+
+
+
 
 
 
