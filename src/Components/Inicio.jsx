@@ -1,8 +1,9 @@
 import React from 'react'
 
 import { Cabecera } from './Cabecera';
-import { SeccionInformativa } from './SeccionInformativa';
-import { Footer } from './Footer';
+import { Queofrezco } from './Queofrezco';
+
+
 
 
 export const Inicio = () => {
@@ -10,8 +11,9 @@ export const Inicio = () => {
     <div>
 
       <Cabecera />
-       <SeccionInformativa/>
+      <Queofrezco/>
       
+    
     </div>
   )
 }

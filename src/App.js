@@ -29,7 +29,7 @@ function App() {
         <br/> {theme === 'light' ? 'LIGHT THEME' : 'DARK THEME'}
         </button>
         <RoutasPrincipales />
-   <Footer/>
+        <Footer/>
       </div>
     </div>
   
