@@ -1,6 +1,7 @@
 .light-theme {
-  color: rgb(99, 96, 96);
-  color: rgb(6, 6, 6);
+  
+  color: black
+
 }
 
 .dark-theme {
@@ -57,7 +58,7 @@
   color: var(--color-secundary);
   display: block;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 90px;
   margin-bottom: 30px;
   font-family: monospace;
   white-space: nowrap;
@@ -97,7 +98,9 @@
 
 .logo_container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  margin-bottom: 20px;
+
 }
 
 .logo_header {
@@ -115,14 +118,10 @@
   flex-direction: column;
   padding: 5px;
   height: 30px;
-
   text-decoration: none;
   list-style-type: none;
-
   gap: 3px;
-
   margin-left: 2px;
- 
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -131,7 +130,7 @@
 
 .enlaces_navbar {
 
-  padding: 7px;
+  padding: 5px;
   font-family: monospace;
   font-weight: 400;
   text-decoration: none;
@@ -140,58 +139,24 @@
   background-color: rgba(149, 202, 230, 0.436);
   border-radius: 5px;
   margin-top: 5px;
-  text-align:center;
-
-
-}
-
-
-
-.skills1{
- 
   text-align: center;
-  margin-top: 20px;
-  font-size: 16px;
-  background-color:rgb(210, 238, 251);
+
 }
 
-.conoceme{
- 
-  text-align: center;
-  margin-top: 20px;
-  font-size: 16px;
-  background-color:rgb(210, 238, 251);
-}
-.sobremi{
-  text-align: center;
-  margin-top: 20px;
-  font-size: 16px;
-  background-color:rgb(210, 238, 251);
-}
-.queofrezco{
-  text-align: center;
-  margin-top: 20px;
-  font-size: 16px;
-  background-color:rgb(210, 238, 251);
-}
-.certificaciones{
-  
-  text-align: center;
-  margin-top: 20px;
-  font-size: 16px;
-  background-color:rgb(210, 238, 251);
-}
 
-.formacion{
+
+.enlaces {
   font-family: monospace;
-  text-align: center;
-  margin-top: 20px;
-  font-size: 16px;
-  background-color:rgb(137, 216, 252);
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  text-decoration: none;
+  background-color: rgba(35, 158, 224, 0.63);
+  border-radius: 5px;
+  color:rgb(254, 253, 253);
+
 }
-
-
-
 
 
 
@@ -348,7 +313,7 @@
   height: 100vh;
   margin: 0 auto;
   margin-bottom: 190px;
-  
+
 
 }
 
@@ -363,7 +328,7 @@
   margin-top: 40px;
   border-radius: 50%;
   padding: 20px;
-  background-color: rgb(195, 205, 247);
+  background-color:rgba(35, 158, 224, 0.203);
   -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 

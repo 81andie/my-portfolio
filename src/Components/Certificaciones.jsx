@@ -2,6 +2,12 @@ import React from 'react'
 
 export const Certificaciones = () => {
   return (
-    <div>Certificaciones</div>
+    <>
+    <div className="container_certificaciones">
+
+
+    </div>
+    </>
   )
 }
+

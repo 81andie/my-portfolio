@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './Certificaciones.css';
 import './responsive.css'
 import { useState } from 'react';
 import { RoutasPrincipales } from './routing/RoutasPrincipales';
