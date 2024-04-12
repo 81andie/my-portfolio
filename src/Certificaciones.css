@@ -1,6 +1,6 @@
 .container_certificaciones {
 
-    width: 400px;
+    width: 350px;
     margin: auto;
     color: rgb(103, 100, 100);
    
@@ -20,8 +20,8 @@
 
 
 .card_google {
-    margin-top: 100px;
-    width: 400px;
+    margin-top: 60px;
+    width: 350px;
     height: auto;
 
     background-image: url("https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900");
@@ -33,7 +33,7 @@
 }
 
 .card_google1 {
-    width: 400px;
+    width: 350px;
     height: auto;
     background-image: url("https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2148996213.jpg?t=st=1712941497~exp=1712945097~hmac=d92a0f0d76ed68e8d2da654fe6bc67fb7cddb5dad5a8d8c2a73d012060773d8c&w=900");
     padding: 20px;
@@ -44,7 +44,7 @@
 }
 
 .card_google2 {
-    width: 400px;
+    width: 350px;
     height: auto;
     background-image: url("https://img.freepik.com/fotos-premium/patron-circulo-degradado-blanco-abstracto-plantilla-fondo-burbujas-3d-fondo-pantalla-elemento-impresion_551880-931.jpg?w=1060");
     padding: 20px;
@@ -56,7 +56,7 @@
 }
 
 .card_google3{
-    width: 400px;
+    width: 350px;
     height: auto;
     background-image: url("https://img.freepik.com/fotos-premium/ilustracion-3d-fondo-ondas-papel-blanco_34478-2578.jpg?w=1380");
     padding: 20px;

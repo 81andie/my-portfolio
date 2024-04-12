@@ -26,8 +26,8 @@ export const Certificaciones = () => {
           <img src="https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png" className="logo_google" />
           <details>
             <summary>Sumario</summary>
-            <li>Cómo se define la presentación de una página web</li>
-            <li>Cómo se define la presentación de los elementos de una página web</li>
+            <li>Cómo se define la presentación <br/>de una página web</li>
+            <li>Cómo se define la presentación de los elementos<br/> de una página web</li>
             <li>Como se logra que una página web tenga éxito</li>
             <li>Como se maqueta una página web</li>
           </details>
@@ -36,7 +36,7 @@ export const Certificaciones = () => {
 
         <div className="card_google3">
           <h2>Agosto 2023</h2>
-          <h3>Build Responsive Real World <br /> Websites with HTML AND CSS (Udemy)</h3>
+          <h3>Build Responsive Real World <br /> Websites with HTML AND CSS<br/> (Udemy)</h3>
           <img src="https://logosmarcas.net/wp-content/uploads/2021/11/Udemy-Logo-650x366.png" className="logo_google" />
           <details>
             <summary>Sumario</summary>
