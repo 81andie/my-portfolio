@@ -1,7 +1,6 @@
 .light-theme {
   color: gray;
   color: black
-
 }
 
 .dark-theme {
@@ -51,6 +50,7 @@
 }
 
 /*Header*/
+
 
 .span_maqEscribir {
   font-size: 1.9rem;
@@ -154,7 +154,7 @@
   text-decoration: none;
   background-color: rgba(35, 158, 224, 0.63);
   border-radius: 5px;
-  color:rgb(254, 253, 253);
+  color: rgb(254, 253, 253);
 
 }
 
@@ -328,7 +328,7 @@
   margin-top: 40px;
   border-radius: 50%;
   padding: 20px;
-  background-color:rgba(35, 158, 224, 0.203);
+  background-color: rgba(35, 158, 224, 0.203);
   -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
@@ -529,4 +529,51 @@
   background-color: rgba(177, 214, 234, 0.436);
   padding: 4px;
   border-radius: 4px;
+}
+
+
+.sobremi {
+  padding: 25px;
+  margin: 0 auto;
+  width: 90%;
+  filter: opacity(70%);
+  height: 70vh;
+  background-image: url("https://img.freepik.com/vector-premium/fondo-codigo-programa-gris-personalizado_144316-7676.jpg?w=740");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.prueba_parrallax {
+  margin: 0 auto;
+  width: 90%;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/fotos-premium/exposicion-multiple-holograma-desarrollo-software-abstracto-concepto-investigacion-analisis-fondo-computadora-portatil_258654-3810.jpg?w=900");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+.imge_sobremi{
+  width: 21%;
+  height: auto;
+}
+
+
+.parallax{
+  width: 90%;
+  height: auto;
+  display: flex;
+  padding: 41px;
+  gap: 50px;
+ 
+  background-color: rgba(255, 255, 255, 0.856);
+ 
+  
 }

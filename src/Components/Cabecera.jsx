@@ -31,7 +31,9 @@ export const Cabecera = () => {
 
         <>
 
-            <div className="header_decoracion">
+       
+
+            <div className="header">
                 {mostrarTexto && <span className="span_maqEscribir">Hello World,<br></br>
                </span> }
 
