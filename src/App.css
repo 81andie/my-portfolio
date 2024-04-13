@@ -532,45 +532,28 @@
 }
 
 
-.sobremi {
-  padding: 25px;
-  margin: 0 auto;
-  width: 90%;
-  filter: opacity(70%);
-  height: 70vh;
-  background-image: url("https://img.freepik.com/vector-premium/fondo-codigo-programa-gris-personalizado_144316-7676.jpg?w=740");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.prueba_parrallax {
-  margin: 0 auto;
-  width: 90%;
-  height: 100vh;
-  background-image: url("https://img.freepik.com/fotos-premium/exposicion-multiple-holograma-desarrollo-software-abstracto-concepto-investigacion-analisis-fondo-computadora-portatil_258654-3810.jpg?w=900");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
- 
-.parallax{
-  display: grid;
-  grid-template-columns: 50% 50%;
-  background-color: whitesmoke;
-  justify-content: center;
+.sobremi{
+  display: block;
+ text-align: center;
 }
 
 .imge_sobremi{
   width: 10%;
+  height: auto;
+ border-radius: 50% 50% 10% 10%
 }
 
 
 .imge_sobremi:hover{
-  transform:perspective()
+transform:
+
 }
+
+
+.presentación{
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+
