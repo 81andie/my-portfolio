@@ -3,8 +3,10 @@ import React from 'react'
 export const Certificaciones = () => {
   return (
     <>
+
+<h1 className="certificaciones_title">Certificaciones</h1>
       <div className="container_certificaciones">
-        <h1 className="certificaciones_title">Certificaciones</h1>
+      
         <div className="card_google">
           <h2>Junio 2023</h2>
           <h3>Curso de instroducción <br /> al desarrollo web: HTML y CSS</h3>

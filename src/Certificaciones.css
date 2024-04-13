@@ -1,16 +1,27 @@
 .container_certificaciones {
 
-    width: 350px;
-    margin: auto;
+
     color: rgb(103, 100, 100);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:normal;
+    height: 50vh;
+    vertical-align: bottom;
+
+    
    
+
+
 }
 
-.certificaciones_title{
+.certificaciones_title {
     margin-top: 90px;
     margin-left: 15px;
     color: rgb(91, 90, 90);
-   
+
 }
 
 .logo_google {
@@ -20,8 +31,8 @@
 
 
 .card_google {
-    margin-top: 60px;
-    width: 350px;
+    overflow: hidden;
+    width: 255px;
     height: auto;
 
     background-image: url("https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900");
@@ -30,10 +41,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 6px;
 }
 
 .card_google1 {
-    width: 350px;
+    border-radius: 6px;
+    width: 255px;
     height: auto;
     background-image: url("https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2148996213.jpg?t=st=1712941497~exp=1712945097~hmac=d92a0f0d76ed68e8d2da654fe6bc67fb7cddb5dad5a8d8c2a73d012060773d8c&w=900");
     padding: 20px;
@@ -44,23 +57,26 @@
 }
 
 .card_google2 {
-    width: 350px;
+    width: 255px;
     height: auto;
     background-image: url("https://img.freepik.com/fotos-premium/patron-circulo-degradado-blanco-abstracto-plantilla-fondo-burbujas-3d-fondo-pantalla-elemento-impresion_551880-931.jpg?w=1060");
     padding: 20px;
-    padding: 20px;
+  
+    border-radius: 6px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.card_google3{
-    width: 350px;
+.card_google3 {
+   
+    width: 255px;
     height: auto;
     background-image: url("https://img.freepik.com/fotos-premium/ilustracion-3d-fondo-ondas-papel-blanco_34478-2578.jpg?w=1380");
     padding: 20px;
-    padding: 20px;
+   
+    border-radius: 6px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
