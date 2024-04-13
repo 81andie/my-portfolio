@@ -11,10 +11,10 @@ export const Sobremi = () => {
   return (
     <>
       <section className="sobremi">
+
+      <img src={gift} className="imge_sobremi"/>
       
         <div className="parallax">
-
-        <img src={gift} className="imge_sobremi"/>
 
           <h2>Hola, me llamo Andrea, una apasionada del desarrollo web autodidacta.
             Resido en Gerona. <br/><br/>Desde que descubrí este mundo, hace aproximadamente un año, me he sumergido

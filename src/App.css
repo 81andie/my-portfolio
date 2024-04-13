@@ -558,22 +558,19 @@
 
 }
 
-
+ 
+.parallax{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: whitesmoke;
+  justify-content: center;
+}
 
 .imge_sobremi{
-  width: 21%;
-  height: auto;
+  width: 10%;
 }
 
 
-.parallax{
-  width: 90%;
-  height: auto;
-  display: flex;
-  padding: 41px;
-  gap: 50px;
- 
-  background-color: rgba(255, 255, 255, 0.856);
- 
-  
+.imge_sobremi:hover{
+  transform:perspective()
 }
