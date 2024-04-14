@@ -1,0 +1,17 @@
+{
+    "header": {
+      "home": "Inicio",
+      "KnowMe": "Conóceme un poco más",
+      "aboutMe": "Sobre mí",
+      "whatdoIoffer": "¿Qué ofrezco?",
+      "training": "Formación",
+      "skills": "Habilidades",
+      "certifications": "Certificaciones",
+      "contact": "Contacto",
+      "helloWorld": "Hola mundo, soy Andrea, una desarrolladora web"
+    },
+    "footer": {
+      "contactUs": "Contáctenos",
+      "privacyPolicy": "Política de privacidad"
+    }
+  }

@@ -1,0 +1,22 @@
+
+{
+    "header": {
+      "home": "Inici",
+      "KnowMe": "Coneix-me una mica més",
+      "aboutMe": "Sobre mi",
+      "whatdoIoffer": "Què ofereixo",
+      "training": "Formació",
+      "skills": "Competències",
+      "certifications": "Certificacions",
+      "contact": "Contacte",
+      "helloWorld": "Hola món, sóc Andrea, una programadora web"
+    },
+
+
+    "footer": {
+      "contactUs": "Contacteu-nos",
+      "privacyPolicy": "Política de privacitat"
+    }
+  }
+  
+  

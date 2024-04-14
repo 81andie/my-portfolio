@@ -18,14 +18,13 @@ export const Header = () => {
 
       <div className="header">
 
-        <div className="logo_container">
+        <div className="logo_container"w>
 
           <img src={img} className='logo_header' alt="logo-imagen" />
 
           <div className="navbar">
             <NavLink to="/inicio" className="enlaces_navbar">Inicio</NavLink>
            
-
             <details>
               <summary className="enlaces_navbar">Conóceme algo más</summary>
               <NavLink to="/sobremi" className="enlaces">Sobre mi</NavLink>

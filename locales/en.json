@@ -1,0 +1,19 @@
+
+{
+    "header": {
+      "home": "Home",
+      "KnowMe": "Know Me More",
+      "aboutMe": "About Me",
+      "whatdoIoffer": "What Do I Offer?",
+      "training": "Training",
+      "skills": "Skills",
+      "certifications": "Certifications",
+      "contact": "Contact",
+      "helloWorld": "Hello World, I'm Andrea, a Web Developer"
+    },
+    "footer": {
+      "contactUs": "Contact Us",
+      "privacyPolicy": "Privacy Policy"
+    }
+  }
+  

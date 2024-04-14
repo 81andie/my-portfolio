@@ -22,11 +22,6 @@ export const Cabecera = () => {
     }, []);
 
 
-
-
-
-
-
     return (
 
         <>
