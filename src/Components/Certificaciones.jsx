@@ -46,7 +46,7 @@ export const Certificaciones = () => {
             <li>Fundamentos CSS</li>
             <li>Layouts</li>
             <li>Componentes</li>
-            <li>Proyecots</li>
+            <li>Proyectos</li>
           </details>
           </div>
 

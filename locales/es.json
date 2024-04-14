@@ -29,7 +29,50 @@
         "gitExperience": "Al igual que Github, Git siempre ha estado en mi curso de aprendizaje, el estudio ha sido diario.",
         "tailwindExperience": "He trabajado asiduamente con Tailwind, lo que me ha proporcionado un dominio profundo y equilibrado de este framework."
     },
-    
+
+    "certificationsGoogle": {
+        "june": "Junio 2023",
+        "course": "Curso de introducción al desarrollo web: HTML y CSS",
+        "summary": "Sumario",
+        "topics": {
+          "history": "Historia de la Web",
+          "functioning": "Cómo funciona la Web",
+          "writing": "Cómo se escribe la Web",
+          "publication": "Cómo se publica un sitio Web",
+          "page": "Cómo se escribe una página Web"
+        }
+ 
+    },
+
+    "certificationsGoogle1":{
+        "july": "Julio 2023",
+        "course": "Curso de introducción al desarrollo web: HTML y CSS",
+        "summary": "Sumario",
+        "topics": {
+          "presentationDefinition": "Cómo se define la presentación de una página web",
+          "elementsPresentationDefinition": "Cómo se define la presentación de los elementos de una página web",
+          "webSuccessAchievement": "Cómo se logra que una página web tenga éxito",
+          "webLayout": "Cómo se maqueta una página web"
+        }
+      },
+
+      "certificationsUdemy":{
+        "august": "Agosto 2023",
+        "course": "Construcción de sitios web responsivos del mundo real con HTML y CSS (Udemy)",
+        "summary": "Sumario",
+        "topics": {
+          "htmlFundamentals": "Fundamentos de HTML",
+          "cssFundamentals": "Fundamentos de CSS",
+          "layouts": "Diseños",
+          "components": "Componentes",
+          "projects": "Proyectos"
+        }
+      },
+
+      
+      
+
+
     "footer": {
         "contactUs": "Contáctenos",
         "privacyPolicy": "Política de privacidad"
