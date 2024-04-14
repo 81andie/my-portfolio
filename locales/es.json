@@ -1,17 +1,37 @@
 {
     "header": {
-      "home": "Inicio",
-      "KnowMe": "Conóceme un poco más",
-      "aboutMe": "Sobre mí",
-      "whatdoIoffer": "¿Qué ofrezco?",
-      "training": "Formación",
-      "skills": "Habilidades",
-      "certifications": "Certificaciones",
-      "contact": "Contacto",
-      "helloWorld": "Hola mundo, soy Andrea, una desarrolladora web"
+        "home": "Inicio",
+        "KnowMe": "Conóceme un poco más",
+        "aboutMe": "Sobre mí",
+        "whatdoIoffer": "¿Qué ofrezco?",
+        "training": "Formación",
+        "skills": "Habilidades",
+        "certifications": "Certificaciones",
+        "contact": "Contacto",
+        "helloWorld": "Hola mundo, soy Andrea, una desarrolladora web"
     },
+    "sectionInformation": {
+        "professionalismTitle": "100% profesionalidad",
+        "professionalismText": "Me comprometo a ofrecerte un servicio de calidad y profesionalidad excepcional, en la creación de tu página web ideal. Estoy aquí para brindarte una experiencia de diseño web y de funcionalidad, rápida, precisa y adaptada a tus necesidades específicas.",
+        "adviceTitle": "Te asesoro para escoger la mejor opción para tu empresa",
+        "adviceText": "Estoy aquí para ayudarte a encontrar la mejor solución para tu proyecto. Si necesitas orientación sobre las mejores opciones disponibles, estaré encantada de ofrecerte mi mejor solución para ti y tu trabajo.",
+        "deviceTitle": "Tu página web en cualquier dispositivo",
+        "deviceText": "Trabajo diligentemente para asegurarme de que cada elemento de tu página web esté perfectamente optimizado y sea adaptable a diferentes tamaños de pantalla. El diseño responsive de alta calidad se adapta fluidamente a cualquier dispositivo."
+    },
+    "skills": {
+        "markupLanguage": "Dominio profundo del lenguaje de marcado, lo que me permite crear y estructurar contenido de manera clara y concisa.",
+        "webInterfaceDesign": "Creo y diseño interfaces web con estilo y elegancia, sin olvidar la responsividad en todos los dispositivos.",
+        "javascriptKnowledge": "Conocimiento sólido de las principales funcionalidades de Javascript, y sigo en continuo aprendizaje.",
+        "reactExperience": "Actualmente llevo varios meses perfeccionándome en el dominio de React, esta misma página está construida en React.",
+        "databaseExperience": "Mi experiencia abarca aspectos fundamentales como creación de bases de datos y colecciones, diseño de consultas básicas y manipulación de documentos.",
+        "bootstrapKnowledge": "Buen conocimiento de Bootstrap, suelo utilizarlo en varios proyectos.",
+        "dailyUsage": "En mi día a día, no puedo prescindir de Git, me ha acompañado en toda esta aventura, el 100% de mi tiempo.",
+        "gitExperience": "Al igual que Github, Git siempre ha estado en mi curso de aprendizaje, el estudio ha sido diario.",
+        "tailwindExperience": "He trabajado asiduamente con Tailwind, lo que me ha proporcionado un dominio profundo y equilibrado de este framework."
+    },
+    
     "footer": {
-      "contactUs": "Contáctenos",
-      "privacyPolicy": "Política de privacidad"
+        "contactUs": "Contáctenos",
+        "privacyPolicy": "Política de privacidad"
     }
-  }
+}

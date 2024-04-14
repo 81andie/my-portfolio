@@ -1,22 +1,36 @@
-
 {
     "header": {
-      "home": "Inici",
-      "KnowMe": "Coneix-me una mica més",
-      "aboutMe": "Sobre mi",
-      "whatdoIoffer": "Què ofereixo",
-      "training": "Formació",
-      "skills": "Competències",
-      "certifications": "Certificacions",
-      "contact": "Contacte",
-      "helloWorld": "Hola món, sóc Andrea, una programadora web"
+        "home": "Inici",
+        "KnowMe": "Coneix-me una mica més",
+        "aboutMe": "Sobre mi",
+        "whatdoIoffer": "Què ofereixo",
+        "training": "Formació",
+        "skills": "Competències",
+        "certifications": "Certificacions",
+        "contact": "Contacte",
+        "helloWorld": "Hola món, sóc Andrea, una programadora web"
     },
-
-
+    "seccionInformacion": {
+        "professionalismTitle": "100% professionalitat",
+        "professionalismText": "Em comprometo a oferir-te un servei de qualitat i professionalitat excepcional, en la creació de la teva pàgina web ideal. Estic aquí per brindar-te una experiència de disseny web i de funcionalitat, ràpida, precisa i adaptada a les teves necessitats específiques.",
+        "adviceTitle": "Et aconsello per escollir la millor opció per a la teva empresa",
+        "adviceText": "Estic aquí per ajudar-te a trobar la millor solució per al teu projecte. Si necessites orientació sobre les millors opcions disponibles, estaré encantada d'oferir-te la millor solució per a tu i el teu treball.",
+        "deviceTitle": "La teva pàgina web en qualsevol dispositiu",
+        "deviceText": "Treballo diligentment per assegurar-me que cada element de la teva pàgina web estigui perfectament optimitzat i sigui adaptable a diferents mides de pantalla. El disseny responsive de alta qualitat s'adapta fluidament a qualsevol dispositiu."
+    },
+    "skills": {
+        "markupLanguage": "Domini profund del llenguatge de marcat, el que em permet crear i estructurar contingut de manera clara i concisa.",
+        "webInterfaceDesign": "Creo i dissenyo interfícies web amb estil i elegància, sense oblidar la responsivitat en tots els dispositius.",
+        "javascriptKnowledge": "Coneixement sòlid de les principals funcionalitats de Javascript, i segueixo en continu aprenentatge.",
+        "reactExperience": "Actualment porto diversos mesos perfeccionant-me en el domini de React, aquesta mateixa pàgina està construïda en React.",
+        "databaseExperience": "La meva experiència abasta aspectes fonamentals com la creació de bases de dades i col·leccions, disseny de consultes bàsiques i manipulació de documents.",
+        "bootstrapKnowledge": "Bon coneixement de Bootstrap, solc utilitzar-lo en diversos projectes.",
+        "dailyUsage": "En el meu dia a dia, no puc prescindir de Git, m'ha acompanyat en tota aquesta aventura, el 100% del meu temps.",
+        "gitExperience": "Al igual que Github, Git sempre ha estat en el meu curs d'aprenentatge, l'estudi ha estat diari.",
+        "tailwindExperience": "He treballat assíduament amb Tailwind, el que m'ha proporcionat un domini profund i equilibrat d'aquest framework."
+    },
     "footer": {
-      "contactUs": "Contacteu-nos",
-      "privacyPolicy": "Política de privacitat"
+        "contactUs": "Contacteu-nos",
+        "privacyPolicy": "Política de privacitat"
     }
-  }
-  
-  
+}

@@ -1,19 +1,37 @@
-
 {
     "header": {
-      "home": "Home",
-      "KnowMe": "Know Me More",
-      "aboutMe": "About Me",
-      "whatdoIoffer": "What Do I Offer?",
-      "training": "Training",
-      "skills": "Skills",
-      "certifications": "Certifications",
-      "contact": "Contact",
-      "helloWorld": "Hello World, I'm Andrea, a Web Developer"
+        "home": "Home",
+        "KnowMe": "Know Me More",
+        "aboutMe": "About Me",
+        "whatdoIoffer": "What Do I Offer?",
+        "training": "Training",
+        "skills": "Skills",
+        "certifications": "Certifications",
+        "contact": "Contact",
+        "helloWorld": "Hello World, I'm Andrea, a Web Developer"
     },
+    "sectionInformation": {
+        "professionalismTitle": "100% professionalism",
+        "professionalismText": "I am committed to providing you with exceptional quality and professionalism in creating your ideal website. I am here to offer you a web design and functionality experience that is fast, precise, and tailored to your specific needs.",
+        
+        
+        "deviceTitle": "Your website on any device",
+        "deviceText": "I work diligently to ensure that every element of your website is perfectly optimized and adaptable to different screen sizes. The high-quality responsive design fluidly adapts to any device."
+    },
+
+      "skills":{
+        "markupLanguage": "Deep domain of markup language, allowing me to create and structure content clearly and concisely.",
+        "webInterfaceDesign": "I create and design web interfaces with style and elegance, without forgetting responsiveness on all devices.",
+        "javascriptKnowledge": "Solid knowledge of the main functionalities of Javascript, and I continue to learn continuously.",
+        "reactExperience": "I have been perfecting my skills in React for several months now, this very page is built in React.",
+        "databaseExperience": "My experience covers fundamental aspects such as creating databases and collections, designing basic queries, and document manipulation.",
+        "bootstrapKnowledge": "Good knowledge of Bootstrap, I often use it in various projects.",
+        "dailyUsage": "In my daily life, I cannot do without Git, it has accompanied me throughout this adventure, 100% of my time.",
+        "gitExperience": "Like Github, Git has always been in my learning course, studying has been daily.",
+        "tailwindExperience": "I have worked diligently with Tailwind, which has provided me with a deep and balanced mastery of this framework."
+      },
     "footer": {
-      "contactUs": "Contact Us",
-      "privacyPolicy": "Privacy Policy"
+        "contactUs": "Contact Us",
+        "privacyPolicy": "Privacy Policy"
     }
-  }
-  
+}
