@@ -5,6 +5,11 @@ import './responsive.css'
 import { useState } from 'react';
 import { RoutasPrincipales } from './routing/RoutasPrincipales';
 import { Footer } from './Components/Footer';
+import { I18nextProvider } from 'react-i18next';
+import i18n from './Configuracion/i18n'; // Importa tu archivo de configuración de i18next
+import LanguageSelector from './Components/LanguageSelector';
+
+
 
 
 
@@ -17,11 +22,21 @@ function App() {
     setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
+ 
+
+
 
   return (
-<>
-    <div className="App">
 
+
+<>
+
+
+<I18nextProvider i18n={i18n}>
+
+
+    <div className="App">
+    <LanguageSelector />
 
       <div className={theme === 'light' ? 'light-theme' : 'dark-theme'}>
         <button className={theme} onClick={toggleTheme}>
@@ -33,6 +48,8 @@ function App() {
         <Footer/>
       </div>
     </div>
+  
+    </I18nextProvider>
   
    </> 
   );

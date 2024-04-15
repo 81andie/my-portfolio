@@ -8,9 +8,23 @@
         "skills": "Skills",
         "certifications": "Certifications",
         "contact": "Contact",
-        "helloWorld": "Hello World, I'm Andrea, a Web Developer"
+        "helloWorld": "Hello World,",
+        "Im": "I'm Andrea, a Web Developer"
     },
-   
+    "sectionInformation": {
+        "professionalism": {
+            "title": "100% professionalism",
+            "description": "I am committed to offering you a service of quality and exceptional professionalism, in the creation of your website. I am here to provide you with a web design and functionality experience, fast, precise, and adapted to all your needs."
+        },
+        "advice": {
+            "title": "I advise you to choose the best option for your company",
+            "description": "I am here to help you find the best solution for your project. If you need guidance on the best available options, I will be happy to offer you my best option for you and your work, the same if you already have a website and want to adapt a new design or functionality."
+        },
+        "devices": {
+            "title": "Your website on any device",
+            "description": "I work diligently to ensure that each element of your website is perfectly optimized and adaptable to different screen sizes. Nowadays, we navigate everything towards mobile devices, so it is important to dedicate a part of the development to responsive design."
+        }
+    },
     "skills": {
         "markupLanguage": "Deep domain of markup language, allowing me to create and structure content clearly and concisely.",
         "webInterfaceDesign": "I create and design web interfaces with style and elegance, without forgetting responsiveness on all devices.",
@@ -57,8 +71,22 @@
             "projects": "Projects"
         }
     },
-
-   
+    "certificationsFreeCodeCamp": {
+        "certification_info": {
+            "title": "September 2023",
+            "subtitle": "Responsive Web Design Developer Certification",
+            "image_source": "https://www.arnoldgelacio.com/images/skills/logo-freecodecamp.png",
+            "summary": {
+                "title": "Summary 300h",
+                "details": [
+                    "Build a Survey Form",
+                    "Build a tribute page",
+                    "Build a Technical Documentation Page",
+                    "Build a Personal Portfolio Page"
+                ]
+            }
+        }
+    },
     "footer": {
         "contactUs": "Contact Us",
         "privacyPolicy": "Privacy Policy"

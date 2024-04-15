@@ -62,13 +62,13 @@
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 13ch;
+  width: 10ch;
   animation: typing 2s steps(18), blink .5s infinite step-end alternate;
   overflow: hidden;
 }
 
 .span_maqEscribir1 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: burlywood;
   display: block;
   margin: 0 auto;
@@ -76,7 +76,7 @@
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 27ch;
+  width: 32ch;
   animation: typing 5s steps(16), blink .5s infinite step-end alternate;
   overflow: hidden;
 }

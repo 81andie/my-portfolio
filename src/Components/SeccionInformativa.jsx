@@ -6,8 +6,6 @@ export const SeccionInformativa = () => {
 
         <>
 
-
-
             <div className="seccionInformacion">
 
                 <div className='icon_section'>
@@ -32,9 +30,6 @@ export const SeccionInformativa = () => {
                     <h1 className="titsec_Informacion">Tu página web en cualquier dispositivo</h1>
                     <p className="parrsec_Informacion"> Trabajo diligentemente para asegurarme que cada elemento de tu página web esté perfectamente optimizado y sea adaptable a diferentes tamaños de pantalla. Hoy en día, navegamos hacia la consulta te todo hacia los dispositivos móbiles, por eso es importante dedicarle una parte del desarrollo al diseño responsive. </p>
                 </div>
-
-
-
 
         </div>
 

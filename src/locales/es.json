@@ -1,0 +1,79 @@
+{
+  "header": {
+    "home": "Inicio",
+    "KnowMe": "Conóceme un poco más",
+    "aboutMe": "Sobre mí",
+    "whatdoIoffer": "¿Qué ofrezco?",
+    "training": "Formación",
+    "skills": "Habilidades",
+    "certifications": "Certificaciones",
+    "contact": "Contacto",
+    "helloWorld": "Hola mundo!",
+    "Im":"soy Andrea, una programadora Web"
+  },
+  "sectionInformation": {
+    "professionalism": {
+      "title": "100% profesionalidad",
+      "description": "Me comprometo a ofrecerte un servicio de calidad y profesionalidad excepcional, en la creación de tu página web. Estoy aquí para brindarte una experiencia de diseño web y de funcionalidad, rápida, precisa y adaptada a todas tus necesidades."
+    },
+    "advice": {
+      "title": "Te aconsejo elegir la mejor opción para tu empresa",
+      "description": "Estoy aquí para ayudarte a encontrar la mejor solución para tu proyecto. Si necesitas orientación sobre las mejores opciones disponibles, estaré encantado de ofrecerte mi mejor opción para ti y tu trabajo, lo mismo si ya tienes un sitio web y deseas adaptar un nuevo diseño o funcionalidad."
+    },
+    "devices": {
+      "title": "Tu sitio web en cualquier dispositivo",
+      "description": "Trabajo diligentemente para asegurarme de que cada elemento de tu sitio web esté perfectamente optimizado y sea adaptable a diferentes tamaños de pantalla. Hoy en día, navegamos hacia los dispositivos móviles, por lo que es importante dedicar una parte del desarrollo al diseño responsivo."
+    }
+  },
+  "skills": {
+    "markupLanguage": "Dominio profundo del lenguaje de marcado, lo que me permite crear y estructurar contenido de manera clara y concisa.",
+    "webInterfaceDesign": "Creo y diseño interfaces web con estilo y elegancia, sin olvidar la responsividad en todos los dispositivos.",
+    "javascriptKnowledge": "Conocimiento sólido de las principales funcionalidades de Javascript, y sigo en continuo aprendizaje.",
+    "reactExperience": "Actualmente llevo varios meses perfeccionándome en el dominio de React, esta misma página está construida en React.",
+    "databaseExperience": "Mi experiencia abarca aspectos fundamentales como creación de bases de datos y colecciones, diseño de consultas básicas y manipulación de documentos.",
+    "bootstrapKnowledge": "Buen conocimiento de Bootstrap, suelo utilizarlo en varios proyectos.",
+    "dailyUsage": "En mi día a día, no puedo prescindir de Git, me ha acompañado en toda esta aventura, el 100% de mi tiempo.",
+    "gitExperience": "Al igual que Github, Git siempre ha estado en mi curso de aprendizaje, el estudio ha sido diario.",
+    "tailwindExperience": "He trabajado asiduamente con Tailwind, lo que me ha proporcionado un dominio profundo y equilibrado de este framework."
+  },
+  "certificationsGoogle": {
+    "june": "Junio 2023",
+    "course": "Curso de introducción al desarrollo web: HTML y CSS",
+    "summary": "Sumario",
+    "topics": {
+      "history": "Historia de la Web",
+      "functioning": "Cómo funciona la Web",
+      "writing": "Cómo se escribe la Web",
+      "publication": "Cómo se publica un sitio Web",
+      "page": "Cómo se escribe una página Web"
+    }
+  },
+  "certificationsGoogle1": {
+    "july": "Julio 2023",
+    "course": "Curso de introducción al desarrollo web: HTML y CSS",
+    "summary": "Sumario",
+    "topics": {
+      "presentationDefinition": "Cómo se define la presentación de una página web",
+      "elementsPresentationDefinition": "Cómo se define la presentación de los elementos de una página web",
+      "webSuccessAchievement": "Cómo se logra que una página web tenga éxito",
+      "webLayout": "Cómo se maqueta una página web"
+    }
+  },
+  "certificationsUdemy": {
+    "august": "Agosto 2023",
+    "course": "Construcción de sitios web responsivos del mundo real con HTML y CSS (Udemy)",
+    "summary": "Sumario",
+    "topics": {
+      "htmlFundamentals": "Fundamentos de HTML",
+      "cssFundamentals": "Fundamentos de CSS",
+      "layouts": "Diseños",
+      "components": "Componentes",
+      "projects": "Proyectos"
+    }
+  },
+  "footer": {
+    "text": "Diseñadora de páginas web y desarrolladora web:",
+    "contactUs": "Contáctenos",
+    "privacyPolicy": "Política de privacidad"
+  }
+}

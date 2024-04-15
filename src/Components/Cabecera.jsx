@@ -1,10 +1,15 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { Chip } from 'primereact/chip';
+import { useTranslation } from 'react-i18next';
 
 
 
 export const Cabecera = () => {
+
+    const { t } = useTranslation();
+
+
     let gift = "img/mobile (4).gif";
     let gift1 = "img/mobile (5).gif";
     let gift2 = "img/mobile (6).gif"
@@ -29,10 +34,10 @@ export const Cabecera = () => {
        
 
             <div className="header">
-                {mostrarTexto && <span className="span_maqEscribir">Hello World,<br></br>
+                {mostrarTexto && <span className="span_maqEscribir">{t('header.helloWorld')}<br></br>
                </span> }
 
-               {mostrarTexto && <span className="span_maqEscribir1">I'm Andrea, a Web Developer<br></br>
+               {mostrarTexto && <span className="span_maqEscribir1">{t('header.Im')}<br></br>
                </span> }
              
 
@@ -285,7 +290,7 @@ export const Cabecera = () => {
 
             <div className='botones_cabecera'>
 
-                <button className="conoceme">Contacto<i className="pi pi-user" style={{ color: 'white' }}></i></button>
+                <button className="conoceme">{t('header.contact')}<i className="pi pi-user" style={{ color: 'white' }}></i></button>
 
             </div>
 
