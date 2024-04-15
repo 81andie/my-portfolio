@@ -36,21 +36,26 @@
     "gitExperience": "Al igual que Github, Git siempre ha estado en mi curso de aprendizaje, el estudio ha sido diario.",
     "tailwindExperience": "He trabajado asiduamente con Tailwind, lo que me ha proporcionado un dominio profundo y equilibrado de este framework."
   },
-  "certificationsGoogle": {
-    "june": "Junio 2023",
-    "course": "Curso de introducción al desarrollo web: HTML y CSS",
-    "summary": "Sumario",
+
+  "certificationesGoogle": {
+    "june": "Junio de 2023",
+    "course": "Curso de introducción",
+    "coursetitle": "al desarrollo web: HTML y CSS (I)",
+    "summary": "Resumen",
     "topics": {
-      "history": "Historia de la Web",
-      "functioning": "Cómo funciona la Web",
-      "writing": "Cómo se escribe la Web",
-      "publication": "Cómo se publica un sitio Web",
-      "page": "Cómo se escribe una página Web"
+    "history": "Historia de la Web",
+    "functioning": "Cómo funciona la Web",
+    "writing": "Escritura para la Web",
+    "publication": "Publicación de un sitio web",
+    "page": "Creación de una página web"
     }
-  },
+    },
+
+
   "certificationsGoogle1": {
     "july": "Julio 2023",
-    "course": "Curso de introducción al desarrollo web: HTML y CSS",
+    "course": "Curso de introducción",
+    "coursetitle": "al desarrololo web: HTML and CSS (II)",
     "summary": "Sumario",
     "topics": {
       "presentationDefinition": "Cómo se define la presentación de una página web",

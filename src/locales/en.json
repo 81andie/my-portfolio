@@ -37,20 +37,23 @@
         "tailwindExperience": "I have worked diligently with Tailwind, which has provided me with a deep and balanced mastery of this framework."
     },
     "certificationsGoogle": {
-        "june": "Juny 2023",
-        "course": "Curs d'introducció al desenvolupament web: HTML i CSS",
-        "summary": "Sumari",
+        "june": "June 2023",
+        "course": "Introduction Course",
+        "coursetitle": "to Web Development: HTML and CSS (I)",
+        "summary": "Summary",
         "topics": {
-            "history": "Història de la Web",
-            "functioning": "Com funciona la Web",
-            "writing": "Com s'escriu la Web",
-            "publication": "Com es publica un lloc web",
-            "page": "Com s'escriu una pàgina Web"
+        "history": "History of the Web",
+        "functioning": "How the Web Works",
+        "writing": "Writing for the Web",
+        "publication": "Publishing a Website",
+        "page": "Creating a Web Page"
         }
-    },
+        },
+
     "certificationsGoogle1": {
         "july": "July 2023",
-        "course": "Introduction to Web Development: HTML and CSS",
+        "course": "Introduction",
+        "coursetitle": "to Web Development: HTML and CSS (II)",
         "summary": "Summary",
         "topics": {
             "presentationDefinition": "How the presentation of a web page is defined",
