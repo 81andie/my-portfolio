@@ -10,14 +10,7 @@
         "contact": "Contacto",
         "helloWorld": "Hola mundo, soy Andrea, una desarrolladora web"
     },
-    "sectionInformation": {
-        "professionalismTitle": "100% profesionalidad",
-        "professionalismText": "Me comprometo a ofrecerte un servicio de calidad y profesionalidad excepcional, en la creación de tu página web ideal. Estoy aquí para brindarte una experiencia de diseño web y de funcionalidad, rápida, precisa y adaptada a tus necesidades específicas.",
-        "adviceTitle": "Te asesoro para escoger la mejor opción para tu empresa",
-        "adviceText": "Estoy aquí para ayudarte a encontrar la mejor solución para tu proyecto. Si necesitas orientación sobre las mejores opciones disponibles, estaré encantada de ofrecerte mi mejor solución para ti y tu trabajo.",
-        "deviceTitle": "Tu página web en cualquier dispositivo",
-        "deviceText": "Trabajo diligentemente para asegurarme de que cada elemento de tu página web esté perfectamente optimizado y sea adaptable a diferentes tamaños de pantalla. El diseño responsive de alta calidad se adapta fluidamente a cualquier dispositivo."
-    },
+    
     "skills": {
         "markupLanguage": "Dominio profundo del lenguaje de marcado, lo que me permite crear y estructurar contenido de manera clara y concisa.",
         "webInterfaceDesign": "Creo y diseño interfaces web con estilo y elegancia, sin olvidar la responsividad en todos los dispositivos.",

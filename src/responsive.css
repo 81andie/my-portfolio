@@ -60,11 +60,12 @@
         margin: 40px 60px;
         gap: 45px;
     }
-   .seccionInformacion{
-    margin-bottom: 300px;
-   }
+ 
    .footer{
-    margin-top: 580px;
+    margin-top: 500px;
+   }
+   .logo_footer{
+    margin-top: 400px;
    }
 }
 
@@ -168,7 +169,7 @@
     .seccionInformacion {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
      
 

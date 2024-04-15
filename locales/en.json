@@ -10,12 +10,7 @@
         "contact": "Contact",
         "helloWorld": "Hello World, I'm Andrea, a Web Developer"
     },
-    "sectionInformation": {
-        "professionalismTitle": "100% professionalism",
-        "professionalismText": "I am committed to providing you with exceptional quality and professionalism in creating your ideal website. I am here to offer you a web design and functionality experience that is fast, precise, and tailored to your specific needs.",
-        "deviceTitle": "Your website on any device",
-        "deviceText": "I work diligently to ensure that every element of your website is perfectly optimized and adaptable to different screen sizes. The high-quality responsive design fluidly adapts to any device."
-    },
+   
     "skills": {
         "markupLanguage": "Deep domain of markup language, allowing me to create and structure content clearly and concisely.",
         "webInterfaceDesign": "I create and design web interfaces with style and elegance, without forgetting responsiveness on all devices.",

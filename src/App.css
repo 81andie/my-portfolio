@@ -295,11 +295,12 @@
 /*Seccion Información*/
 
 .titsec_Informacion {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 }
 
 .parrsec_Informacion {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 20px;
 }
 
 .seccionInformacion {
@@ -312,10 +313,15 @@
   align-items: center;
   height: 100vh;
   margin: 0 auto;
-  margin-bottom: 190px;
-
-
+ 
 }
+
+
+.icon_section{
+  
+  padding: 10px;
+}
+
 
 
 
@@ -497,14 +503,15 @@
 /*footer*/
 
 .footer {
-  margin-top: 170px;
+  margin-top: 140px;
   text-align: center;
+  line-height: 15px;
 
 }
 
 .logo_footer {
   width: 10%;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .icons_social {
@@ -518,14 +525,14 @@
 .pi-facebook,
 .pi-github,
 .pi-telegram {
-  font-size: 26px;
+  font-size: 16px;
   padding: 8px;
   background-color: rgba(149, 202, 230, 0.436);
   border-radius: 8px;
 }
 
 .pi-envelope {
-  font-size: 19px;
+  font-size: 16px;
   background-color: rgba(177, 214, 234, 0.436);
   padding: 4px;
   border-radius: 4px;
@@ -544,10 +551,7 @@
 }
 
 
-.imge_sobremi:hover{
-transform:
 
-}
 
 
 .presentación{

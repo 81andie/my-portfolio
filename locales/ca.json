@@ -10,14 +10,7 @@
         "contact": "Contacte",
         "helloWorld": "Hola món, sóc Andrea, una programadora web"
     },
-    "seccionInformacion": {
-        "professionalismTitle": "100% professionalitat",
-        "professionalismText": "Em comprometo a oferir-te un servei de qualitat i professionalitat excepcional, en la creació de la teva pàgina web ideal. Estic aquí per brindar-te una experiència de disseny web i de funcionalitat, ràpida, precisa i adaptada a les teves necessitats específiques.",
-        "adviceTitle": "Et aconsello per escollir la millor opció per a la teva empresa",
-        "adviceText": "Estic aquí per ajudar-te a trobar la millor solució per al teu projecte. Si necessites orientació sobre les millors opcions disponibles, estaré encantada d'oferir-te la millor solució per a tu i el teu treball.",
-        "deviceTitle": "La teva pàgina web en qualsevol dispositiu",
-        "deviceText": "Treballo diligentment per assegurar-me que cada element de la teva pàgina web estigui perfectament optimitzat i sigui adaptable a diferents mides de pantalla. El disseny responsive de alta qualitat s'adapta fluidament a qualsevol dispositiu."
-    },
+    
     "skills": {
         "markupLanguage": "Domini profund del llenguatge de marcat, el que em permet crear i estructurar contingut de manera clara i concisa.",
         "webInterfaceDesign": "Creo i dissenyo interfícies web amb estil i elegància, sense oblidar la responsivitat en tots els dispositius.",
