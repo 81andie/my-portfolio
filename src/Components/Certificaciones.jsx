@@ -40,29 +40,29 @@ export const Certificaciones = () => {
         </div>
 
         <div className="card_google3">
-          <h2>Agosto 2023</h2>
-          <h3>Build Responsive Real World <br /> Websites with HTML AND CSS<br /> (Udemy)</h3>
+          <h2>{t('certificationsUdemy.august')}</h2>
+          <h3>{t('certificationsUdemy.course')}</h3>
           <img src="https://logosmarcas.net/wp-content/uploads/2021/11/Udemy-Logo-650x366.png" className="logo_google" />
           <details>
             <summary>{t('certificationsGoogle.summary')}</summary>
-            <li>Fundamentos html</li>
-            <li>Fundamentos CSS</li>
-            <li>Layouts</li>
-            <li>Componentes</li>
-            <li>Proyectos</li>
+            <li>{t('certificationsUdemy.topics.htmlFundamentals')}</li>
+            <li>{t('certificationsUdemy.topics.cssFundamentals')}</li>
+            <li>{t('certificationsUdemy.topics.layouts')}</li>
+            <li>{t('certificationsUdemy.topics.components')}</li>
+            <li>{t('certificationsUdemy.topics.projects')}</li>
           </details>
         </div>
 
         <div className="card_google2">
-          <h2>Setiembre 2023</h2>
-          <h3>Responsive Web Design <br /> Developer Certification</h3>
+          <h2>{t('certificationsFreeCodeCamp.certification_info.title')}</h2>
+          <h3>{t('certificationsFreeCodeCamp.certification_info.subtitle')}</h3>
           <img src="https://www.arnoldgelacio.com/images/skills/logo-freecodecamp.png" className="logo_google" />
           <details>
             <summary>{t('certificationsGoogle.summary')} 300h</summary>
-            <li>Build a Survey Form</li>
-            <li>Build a tribute page</li>
-            <li>Build a Technical Documentation Page</li>
-            <li>Build a Personal Portfolio Page</li>
+            <li>{t('certificationsFreeCodeCamp.certification_info.summary.details.0')}</li>
+            <li>{t('certificationsFreeCodeCamp.certification_info.summary.details.1')}</li>
+            <li>{t('certificationsFreeCodeCamp.certification_info.summary.details.2')}</li>
+            <li>{t('certificationsFreeCodeCamp.certification_info.summary.details.3')}</li>
           </details>
 
         </div>

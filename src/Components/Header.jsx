@@ -19,7 +19,7 @@ export const Header = () => {
 
       <div className="header">
 
-        <div className="logo_container"w>
+        <div className="logo_container">
 
           <img src={img} className='logo_header' alt="logo-imagen" />
 

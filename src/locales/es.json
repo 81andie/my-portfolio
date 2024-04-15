@@ -37,7 +37,7 @@
     "tailwindExperience": "He trabajado asiduamente con Tailwind, lo que me ha proporcionado un dominio profundo y equilibrado de este framework."
   },
 
-  "certificationesGoogle": {
+  "certificationsGoogle": {
     "june": "Junio de 2023",
     "course": "Curso de introducción",
     "coursetitle": "al desarrollo web: HTML y CSS (I)",
@@ -55,7 +55,7 @@
   "certificationsGoogle1": {
     "july": "Julio 2023",
     "course": "Curso de introducción",
-    "coursetitle": "al desarrololo web: HTML and CSS (II)",
+    "coursetitle": "al desarrollo web: HTML and CSS (II)",
     "summary": "Sumario",
     "topics": {
       "presentationDefinition": "Cómo se define la presentación de una página web",
@@ -76,6 +76,24 @@
       "projects": "Proyectos"
     }
   },
+
+  "certificationsFreeCodeCamp": {
+    "certification_info": {
+      "title": "Setiembre 2023",
+      "subtitle": "Certificación de Diseño Web Responsivo i Deserrollo",
+      "image_source": "https://www.arnoldgelacio.com/images/skills/logo-freecodecamp.png",
+      "summary": {
+        "title": "Resumen 300h",
+        "details": [
+          "Construeix un formulari d'enquesta",
+          "Construeix una pàgina de tribut",
+          "Construeix una pàgina de documentació tècnica",
+          "Construeix una pàgina de cartera personal"
+        ]
+      }
+    }
+},
+
   "footer": {
     "text": "Diseñadora de páginas web y desarrolladora web:",
     "contactUs": "Contáctenos",

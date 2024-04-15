@@ -36,9 +36,10 @@ function App() {
 
 
     <div className="App">
-    <LanguageSelector />
+      
 
       <div className={theme === 'light' ? 'light-theme' : 'dark-theme'}>
+      <LanguageSelector />
         <button className={theme} onClick={toggleTheme}>
 
         <i className={theme === 'light' ? 'pi pi-sun' : 'pi pi-moon'}></i>
