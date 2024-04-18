@@ -540,26 +540,35 @@
 
 
 .sobremi{
-  margin-top: 20px;
-  height: 65vh;
-  padding: 20px;
+ 
+ margin-top: 20px;
+  padding: 10px;
  
   display: flex;
+ width: 12%;
 
  background-image: url("https://img.freepik.com/fotos-premium/estatua-piedra-blanca-afrodita-milos-sonriendo-usando-gafas-sol-programando-computadora-portatil-piedra-headph_935410-6542.jpg?w=900");
  
  background-size: cover;
-
- background-attachment: fixed;
+ background-attachment:fixed;
   background-position: center;
   background-repeat: no-repeat;
+  transition: 0.5s ease-in;
+  opacity: 0.1;
  
  
 }
 
+
+.sobremi:hover{
+  width: 35%;
+  opacity: 1;
+  
+}
+
 .parallax h1{
-  font-size: 5rem;
-  color: rgb(244, 4, 168);
+  font-size: 3rem;
+  color: rgb(4, 164, 244);
   text-align: center;
 
 }
@@ -584,21 +593,68 @@
 
 
 
-.presentación{
-  font-size: 1rem;
-  width: 100%;
+.presentación,
+.presentación1,
+.presentación2{
+  margin-top: 10px;
+  font-size: 1.1rem;
+  width: 70%;
+  height: auto;
   text-align: left;
   margin: auto;
  
   color:#080808;
-  padding: 20px;
+  padding: 10px;
   backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(221, 217, 217, 0.73);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
-    background-attachment: fixed;
-    background-position: center;
+   
   }
 
 
+.sobremi1{
+  margin-top: 20px;
+
+  width: 12%;
+  padding: 20px;
+ 
+  display: flex;
+  
+ background-image: url("https://img.freepik.com/fotos-premium/hombre-mujer-escultura-cabeza-yeso-mira-pantalla-portatil-sobre-fondo-rojo-abstracto-moderno-collage-ilustracion-generativa-ai_92753-15077.jpg?w=900");
+ 
+ background-size: cover;
+
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.5s ease-in;
+  opacity: 0.1;
+}
+
+.sobremi1:hover{
+  width: 35%;
+  opacity: 1;
+}
+
+
+.sobremi2{
+  margin-top: 20px;
+  width: 20%;
+  padding: 20px;
+  display: flex;
+
+ background-image: url("https://img.freepik.com/fotos-premium/estatua-diosa-afrodita-telefono-movil-fondo-rosa_168171-5705.jpg?w=900");
+ 
+ background-size: cover;
+
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.efects{
+  width: 200%;
+  display: flex;
+}
