@@ -11,15 +11,16 @@
 }
 
 .light {
-  margin-top: 20px;
+  margin-top: 30px;
   background-color: var(--color-secundary);
   color: white;
-  padding: 9px;
+  padding: 7px;
   margin-right: 5px;
   border-radius: 15px;
   border: none;
   margin-left: 25px;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
 
 }
 
@@ -541,13 +542,14 @@
 
 .sobremi {
 
-  margin-top: 30px;
+  margin-top: 100px;
   padding: 10px;
 
   display: flex;
   height: 70vh;
+  justify-content: center;
 
-
+align-items: center;
   background-image: url("https://img.freepik.com/fotos-premium/estatua-piedra-blanca-afrodita-milos-sonriendo-usando-gafas-sol-programando-computadora-portatil-piedra-headph_935410-6542.jpg?w=900");
 
   background-size: cover;
@@ -572,17 +574,18 @@
 .presentación1,
 .presentación2 {
 
-  margin-top: 50px;
+
   font-size: 1rem;
   width: 77%;
-  height: 60%;
-  line-height: 28px;
-
-
+  height: auto;
+  line-height: 20px;
   margin: 0 auto;
+
+
+
   transition: 0.8s ease-in-out;
   color: #080808;
-  padding: 10px;
+  padding: 20px;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(221, 217, 217, 0.73);
@@ -605,6 +608,7 @@
   padding: 20px;
   height: 80vh;
   display: flex;
+  align-items: center;
   opacity: 0.50;
   background-image: url("https://img.freepik.com/fotos-premium/hombre-mujer-escultura-cabeza-yeso-mira-pantalla-portatil-sobre-fondo-rojo-abstracto-moderno-collage-ilustracion-generativa-ai_92753-15077.jpg?w=900");
   
@@ -626,7 +630,7 @@
 .sobremi2 {
   margin-top: 20px;
   height: 80vh;
- 
+  align-items: center;
   padding: 20px;
   display: flex;
   opacity: 0.50;
