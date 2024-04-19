@@ -18,7 +18,7 @@ export const Sobremi = () => {
       
         <div className="parallax">
          
-         <h1>Soy Andrea</h1>
+       
          
           <h2 className="presentación">Soy gerundense apasionada del desarrollo web. Me he formado en esta profesión de manera autodidactica, en parte y grácias a la ayuda de dos mentores y excelentes profesores en Inginiera Informática y Desarrollo Web, a ellos les debo todo lo aprendido, han sido mi guia y referente para mejorar en todos los aspectos necesarios de esta profesión.
          </h2>
