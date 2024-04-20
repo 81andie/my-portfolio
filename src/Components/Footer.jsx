@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer = () => {
 
-    let img = "img/logo.jpeg";
+    let img = "img/logo2.png";
   return (
     <>
     <div className="footer">

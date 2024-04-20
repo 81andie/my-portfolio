@@ -8,22 +8,19 @@
 
    .logo_container{
         display: flex;
-        justify-content: flex-start;
-        margin-left: 25px;
+        justify-content: center;
+    
         }
         
         .logo_header{
-         width: 18%;
+         width: 40%;
          height: auto;
-         margin-bottom: 50px;
-         margin-top: 20px;
+         margin-bottom: 70px;
+         margin-top: 10px;
         }
 
 
-    .enlaces_navbar {
-        visibility: hidden;
-    }
-
+   
     /*Cabecera*/
 
 
@@ -67,6 +64,11 @@
    .logo_footer{
     margin-top: 500px;
    }
+
+   /*seccion sobremi*/
+
+  
+
 }
 
 
@@ -162,8 +164,9 @@
 @media(min-width: 1025px) {
 
     .logo_header{
-        width: 11%;
+        width: 15%;
         height: auto;
+        margin-top: -10px;
     }
 
     .seccionInformacion {

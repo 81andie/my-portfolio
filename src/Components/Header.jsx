@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 
 export const Header = () => {
 
-  let img = "img/logo.jpeg";
+  let img = "img/logo2.png";
 
   const { t } = useTranslation();
 
