@@ -1,3 +1,9 @@
+#favicon {
+  /* Tamaño deseado */
+  width: 60px;
+  height: 60px;
+}
+
 .light-theme {
   color: gray;
   color: black
@@ -657,3 +663,68 @@
   zoom: 90%;
   opacity: 1;
 }
+
+.register-form{
+
+  text-align: center;
+}
+
+
+
+.form_title{
+ 
+  color: var(--color-secundary);
+}
+
+.form-group input{
+ display: block;
+margin: 0 auto;
+ width: 400px;
+ background-color: #efe7f3;
+ padding: 10px;
+ border-radius: 7px;
+}
+
+.img_src{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(13, 14, 14);
+  background-image: url("girona.png");
+  background-size:cover;
+  overflow: hidden;
+ 
+
+
+
+
+
+}
+
+.img_src::before {
+ 
+  content: "";
+  opacity: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 20%;
+  
+ 
+  background-image: url('lune.png'); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  opacity: 0.6;
+ 
+  transition: transform 0.3s ease;
+  transform: translateY(-80%);
+
+}
+
+
+
+ .img_src_
+
