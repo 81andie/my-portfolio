@@ -9,6 +9,7 @@ import { Contacto } from '../Components/Contacto';
 import { Sobremi } from '../Components/Sobremi';
 import { Queofrezco } from '../Components/Queofrezco';
 import { Certificaciones } from '../Components/Certificaciones';
+import { ErrorPage } from '../Components/ErrorPage';
 
 
 
@@ -28,6 +29,8 @@ export const RoutasPrincipales = () => {
        <Route path= "/certificaciones" element= {<Certificaciones/>}/>
        <Route path= "/proyectos" element= {<Proyectos/>}/>
        <Route path= "/contacto" element= {<Contacto/>}/>
+       <Route path= "*" element= {<ErrorPage/>}/>
+       
        
       
     </Routes>

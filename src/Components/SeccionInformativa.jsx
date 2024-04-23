@@ -2,6 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next';
 
 
+
 export const SeccionInformativa = () => {
 
     const { t } = useTranslation();
@@ -9,6 +10,8 @@ export const SeccionInformativa = () => {
     return (
 
         <>
+
+       
 
             <div className="seccionInformacion">
 

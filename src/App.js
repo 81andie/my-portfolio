@@ -8,6 +8,7 @@ import { Footer } from './Components/Footer';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './Configuracion/i18n'; // Importa tu archivo de configuración de i18next
 import LanguageSelector from './Components/LanguageSelector';
+import { Sobremi } from './Components/Sobremi';
 
 
 
@@ -46,6 +47,7 @@ function App() {
         <br/> {theme === 'light' ? 'LIGHT THEME' : 'DARK THEME'}
         </button>
         <RoutasPrincipales />
+        
         <Footer/>
       </div>
     </div>
