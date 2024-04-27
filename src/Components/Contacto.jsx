@@ -8,25 +8,14 @@ export const Contacto = () => {
 
 
     <>
-    
-    <div> <h1 className="form_title">Si quieres la página de tus sueños, déjame tu correo, <br />me pondré en contacto contigo, juntos encontraremos la fórmula</h1></div>
-
-     <form className="register-form" >
-
-       
 
 
-        <div className="form-group">
-          
-            {/* Contenido del div aquí */}
-            <img src="https://img.freepik.com/foto-gratis/icono-proceso-diseno-creacion-ideas_53876-124499.jpg?t=st=1714231630~exp=1714235230~hmac=5bed6039feab31a0ae4ec86005459c2110a8045c6d3634b85e906296716faa74&w=360" className="imagen_form"/>
-          
-         
-          </div>
+    <div className="contenedor_principal">
+      <div className="contenedor_inputs">
 
-          <div className="contenedor_inputs">
-        
-         <div className="form-inputs">
+        <div className="form-inputs">
+          <h3>Por deja tu nombre, y tu email, te contactaré lo más rápido posible. O si lo prefieres puedes enviarme un whasapp al 650493930</h3>
+          <img src="https://cdn.pixabay.com/photo/2014/08/25/22/53/control-427512_1280.png" className="img-form" />
           <label htmlFor="name">Nombre</label>
           <input type="text" name="name" />
         </div>
@@ -37,9 +26,11 @@ export const Contacto = () => {
         </div>
 
         <input type="submit" value="Registrate" className='btn-Registrate' />
-     
-        </div>
-      </form>
+
+      </div>
+      </div>
+
+
     </>
   )
 }
