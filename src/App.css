@@ -1,3 +1,37 @@
+.marquee-wrapper {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+ background-color: rgb(193, 228, 248);
+  font-size: 1rem;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color:rgb(73, 119, 220);
+margin-top: -10px;
+margin: 1px;
+
+ 
+
+
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: marquee-animation 28s linear infinite;
+ 
+}
+
+@keyframes marquee-animation {
+  0% {
+    top: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
 #favicon {
   /* Tamaño deseado */
   width: 60px;
@@ -663,24 +697,25 @@
   zoom: 90%;
   opacity: 1;
 }
-.img-form{
-  width: 50%;
- 
+
+.img-form {
+  width: 30%;
   margin: 0 auto;
 }
 
 
 .contenedor_inputs {
- width: 50%;
- height: 80vh;
-  background-color: rgb(174, 174, 245);
+  width: 50%;
+  height: 70vh;
+  background-color: rgba(181, 208, 241, 0.642);
   padding-top: 20px;
   margin: 10px;
 }
 
-label, h3,
+label,
+h3,
 input {
-  width: 83%;
+  width: 90%;
   display: block;
 
   margin-top: 20px;
@@ -691,9 +726,10 @@ input {
   border-radius: 5px;
 }
 
-.contenedor_principal{
+.contenedor_principal {
   display: flex;
-justify-content: center;
-width: 50%;
-height: 80vh;
+  justify-content: left;
+  width: 50%;
+  height: 80vh;
+  color: gray;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './Certificaciones.css';
 import './responsive.css'
+import { Marquee } from 'react-fast-marquee';
 import { useState } from 'react';
 import { RoutasPrincipales } from './routing/RoutasPrincipales';
 import { Footer } from './Components/Footer';
@@ -16,6 +17,8 @@ import { Sobremi } from './Components/Sobremi';
 
 
 
+
+
 function App() {
   const [theme, setTheme] = useState('light');
 
@@ -23,38 +26,43 @@ function App() {
     setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
- 
+
 
 
 
   return (
 
 
-<>
+    <>
 
 
-<I18nextProvider i18n={i18n}>
+      <I18nextProvider i18n={i18n}>
 
 
-    <div className="App">
-      
+        <div className={theme === 'light' ? 'light-theme' : 'dark-theme'}>
+          <div className="App">
+            <div className="marquee-wrapper">
+              <div className="marquee-content">
+                <p>_WEB <strong>DEVELOPER FRONTEND</strong>__<strong>H</strong>TML__ <strong>C</strong>SS__<strong>S</strong>ASS__<stron>J</stron>S__<strong>R</strong>EACT__<strong>A</strong>NGULAR___WEB <strong>DEVELOPER FRONTEND</strong>__<strong>H</strong>TML__ <strong>C</strong>SS__<strong>S</strong>ASS__<stron>J</stron>S__<strong>R</strong>EACT__<strong>A</strong>NGULAR__</p>
+              </div>
+            </div>
 
-      <div className={theme === 'light' ? 'light-theme' : 'dark-theme'}>
-      <LanguageSelector />
-        <button className={theme} onClick={toggleTheme}>
 
-        <i className={theme === 'light' ? 'pi pi-sun' : 'pi pi-moon'}></i>
-        <br/> {theme === 'light' ? 'LIGHT THEME' : 'DARK THEME'}
-        </button>
-        <RoutasPrincipales />
-        
-        <Footer/>
-      </div>
-    </div>
-  
-    </I18nextProvider>
-  
-   </> 
+            <LanguageSelector />
+            <button className={theme} onClick={toggleTheme}>
+
+              <i className={theme === 'light' ? 'pi pi-sun' : 'pi pi-moon'}></i>
+              <br /> {theme === 'light' ? 'LIGHT THEME' : 'DARK THEME'}
+            </button>
+            <RoutasPrincipales />
+
+            <Footer />
+          </div>
+        </div>
+
+      </I18nextProvider>
+
+    </>
   );
 }
 

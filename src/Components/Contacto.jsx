@@ -11,7 +11,12 @@ export const Contacto = () => {
 
 
     <div className="contenedor_principal">
+    <div className="contenedor_información">
+          <h4>Si lo prefieres, puedes contactar conmigo directamente,</h4>
+
+        </div>
       <div className="contenedor_inputs">
+       
 
         <div className="form-inputs">
           <h3>Por deja tu nombre, y tu email, te contactaré lo más rápido posible. O si lo prefieres puedes enviarme un whasapp al 650493930</h3>
