@@ -433,7 +433,8 @@
   animation: AnimationName 6s ease infinite;
 }
 
-.contenedor figure:hover>.capa {
+.contenedor figure:hover>.capa
+{
   opacity: 1;
   visibility: visible;
 }
@@ -666,10 +667,8 @@
 
 
 
-.register-form{
 
-  text-align: center;
-}
+
 
 
 
@@ -680,17 +679,43 @@
   margin-top: 60px;
 }
 
-.form-group input{
- display: block;
-margin: 0 auto;
-margin-top: 10px;
- width: 250px;
- background-color: #efe7f3;
- padding: 10px;
- border-radius: 7px;
+.register-form{
+ 
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #d1c9f9;
+  width: 70vw;
+  height: 49vh;
+ 
 }
 
+.imagen_form{
+ width: 17vw;
+ height: 35vh;
+ padding: 40px;
 
-
+}
+.contenedor_inputs{
+  width: 70vw;
+  height: 43.5vh;
+ display: flex;
+ flex-direction: column;
+  background-color: rgb(174, 174, 245);
+ 
+  padding-top: 10px;
+  margin: 10px;
+}
+label, input{
+  width: 80%;
+  display: block;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 8px;
+  margin-left: 20px;
+  background-color: rgb(246, 238, 253);
+  border: none;
+  border-radius: 5px;
+}
 
 
