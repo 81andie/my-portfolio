@@ -18,7 +18,7 @@ margin: 1px;
 
 .marquee-content {
   display: inline-block;
-  animation: marquee-animation 28s linear infinite;
+  animation: marquee-animation 25s linear infinite;
  
 }
 
