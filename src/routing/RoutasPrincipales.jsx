@@ -33,7 +33,7 @@ export const RoutasPrincipales = () => {
        <Route path= "/certificaciones" element= {<Certificaciones/>}/>
        <Route path= "/proyectos" element= {<Proyectos/>}/>
        <Route path= "/contacto" element= {<Contacto/>}/>
-       <Route path="/*" element={<ErrorPage/>} 
+       <Route path="*" element={<ErrorPage/>} 
       
        
        

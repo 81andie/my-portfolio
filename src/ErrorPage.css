@@ -1,10 +1,9 @@
 .ovni {
     position: absolute;
-    width: 40%;
-    height: auto;
-    transform: translateX(-70%);
-    animation: moveUFO 8s linear infinite;
-    margin-top: 130px;
+ 
+  left: 0;
+    animation: moveUFO  8.5s linear infinite;
+  
     z-index: 40;
   
   }
@@ -12,7 +11,7 @@
   .Error_title{
     position: relative;
     font-size: 2rem;
-    margin-left: 20px;
+  
     margin-top: 70px;
   
 
@@ -30,13 +29,46 @@
   
   .parr_404{
     position: relative;
-   
+    font-size: 1rem;
     margin: 0 auto;
     background: none;
   }
   
   
   
+
+  
+  
+  .title {
+    color: white;
+  }
+  
+  
+  .play {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+ 
+  
+    width: 140px;
+    padding: 7px;
+    background-color: rgb(229, 245, 244);
+    color: rgb(0, 255, 204);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 25px;
+  
+  
+  }
+  
+  .play:hover {
+  
+    -moz-box-shadow: 10px 10px 5px 0px rgba(18, 226, 230, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(112, 247, 238, 0.75);
+  }
+
+
   @keyframes moveUFO {
     0% {
       transform: translateX(20%) rotate(0deg);
@@ -63,19 +95,19 @@
     }
   
     60% {
-      transform: translateZ(100%) rotate(8deg);
+      transform: translateZ(120%) rotate(8deg);
     }
   
     70% {
-      transform: translateX(110%) rotate(40deg) rotateZ(-0.25turn);
+      transform: translateX(170%) rotate(40deg) rotateZ(-0.25turn);
     }
   
     80% {
-      transform: translateX(115%) rotateZ(-0.05turn);
+      transform: translateX(170%) rotateZ(-0.05turn);
     }
   
     85% {
-      transform: translateX(115%) rotateZ(-0.05turn) rotateY(-0.04turn) rotateY(0.13turn);
+      transform: translateX(190%) rotateZ(-0.05turn) rotateY(-0.05turn) rotateY(0.15turn);
     }
   }
   
@@ -91,34 +123,4 @@
       transform: translateX(-50%) rotate(10deg);
       /* Giro medio del ovni */
     }
-  }
-  
-  
-  .title {
-    color: white;
-  }
-  
-  
-  .play {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 20px;
- 
-  
-    width: 140px;
-    padding: 9px;
-    background-color: rgb(229, 245, 244);
-    color: rgb(0, 255, 204);
-    font-size: 1.5rem;
-    font-weight: bolder;
-    border-radius: 25px;
-  
-  
-  }
-  
-  .play:hover {
-  
-    -moz-box-shadow: 10px 10px 5px 0px rgba(18, 226, 230, 0.75);
-    box-shadow: 10px 10px 5px 0px rgba(112, 247, 238, 0.75);
   }
