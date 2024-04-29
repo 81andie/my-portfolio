@@ -105,7 +105,7 @@
             height: 80vh;
         }
 
-        
+         
 }
 
 
@@ -184,8 +184,15 @@
         height: 110vh;
     }
 
+    /*404 error*/
+    .play{
+        margin-top: 200px;
+     }
 
+      
 }
+
+
 
 
 
@@ -219,7 +226,10 @@
         height: 112vh;
     }
 
-
+/*404 error*/
+.play{
+    margin-top: 500px;
+ }
     
 
 

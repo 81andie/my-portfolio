@@ -3,12 +3,12 @@
   overflow: hidden;
   white-space: nowrap;
  background-color: rgb(193, 228, 248);
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: "Saira Condensed", sans-serif;
   font-weight: 200;
   font-style: normal;
   color:rgb(73, 119, 220);
-margin-top: -10px;
+
 margin: 1px;
 
  
@@ -44,7 +44,8 @@ margin: 1px;
 }
 
 .dark-theme {
-  background-color: rgb(31, 31, 35);
+
+  background-color: rgb(5, 5, 40);
   color: hsl(0, 20%, 97%);
   height: 400vh;
 

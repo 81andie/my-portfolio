@@ -1,12 +1,13 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
 
+
 export const Certificaciones = () => {
   const { t } = useTranslation();
 
   return (
     <>
-
+  
       <h1 className="certificaciones_title">{t('header.certifications')}</h1>
       <div className="container_certificaciones">
 

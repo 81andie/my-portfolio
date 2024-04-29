@@ -3,8 +3,8 @@ import React from 'react'
 import { Cabecera } from './Cabecera';
 import { Queofrezco } from './Queofrezco';
 import { Sobremi } from './Sobremi';
-import { Skills } from './Skills';
-import { Certificaciones } from './Certificaciones';
+
+
 
 
 
@@ -12,7 +12,6 @@ import { Certificaciones } from './Certificaciones';
 export const Inicio = () => {
   return (
     <div>
-
       <Cabecera />
       <Sobremi/>
       <Queofrezco/>

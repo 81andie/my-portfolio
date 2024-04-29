@@ -1,0 +1,124 @@
+.ovni {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    transform: translateX(-70%);
+    animation: moveUFO 8s linear infinite;
+    margin-top: 130px;
+    z-index: 40;
+  
+  }
+
+  .Error_title{
+    position: relative;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 70px;
+  
+
+  }
+
+  .title{
+   position: relative;
+   
+    z-index: 40;
+    margin: 0 auto;
+    text-align: center;
+ 
+   
+  }
+  
+  .parr_404{
+    position: relative;
+   
+    margin: 0 auto;
+    background: none;
+  }
+  
+  
+  
+  @keyframes moveUFO {
+    0% {
+      transform: translateX(20%) rotate(0deg);
+    }
+  
+    20% {
+      transform: translateX(50%) rotate(10deg);
+    }
+  
+    25% {
+      transform: translateX(50%) rotate(10deg);
+    }
+  
+    30% {
+      transform: translateX(70%) rotateZ(19deg);
+    }
+  
+    40% {
+      transform: translateX(80%) rotate(25deg);
+    }
+  
+    50% {
+      transform: translateX(90%) rotate(10deg);
+    }
+  
+    60% {
+      transform: translateZ(100%) rotate(8deg);
+    }
+  
+    70% {
+      transform: translateX(110%) rotate(40deg) rotateZ(-0.25turn);
+    }
+  
+    80% {
+      transform: translateX(115%) rotateZ(-0.05turn);
+    }
+  
+    85% {
+      transform: translateX(115%) rotateZ(-0.05turn) rotateY(-0.04turn) rotateY(0.13turn);
+    }
+  }
+  
+  @keyframes swingUFO {
+  
+    0%,
+    100% {
+      transform: translateX(-50%) rotate(0deg);
+      /* Giro inicial/final del ovni */
+    }
+  
+    50% {
+      transform: translateX(-50%) rotate(10deg);
+      /* Giro medio del ovni */
+    }
+  }
+  
+  
+  .title {
+    color: white;
+  }
+  
+  
+  .play {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+ 
+  
+    width: 140px;
+    padding: 9px;
+    background-color: rgb(229, 245, 244);
+    color: rgb(0, 255, 204);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 25px;
+  
+  
+  }
+  
+  .play:hover {
+  
+    -moz-box-shadow: 10px 10px 5px 0px rgba(18, 226, 230, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(112, 247, 238, 0.75);
+  }
