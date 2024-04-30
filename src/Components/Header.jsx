@@ -39,8 +39,6 @@ export const Header = () => {
             </details>
 
 
-
-
             <details>
               <summary className="enlaces_navbar">{t('header.training')}</summary>
               <NavLink to="/skills" className="enlaces">{t('header.skills')}</NavLink>
