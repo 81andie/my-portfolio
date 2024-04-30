@@ -706,31 +706,79 @@ margin: 1px;
 
 
 .contenedor_inputs {
-  width: 50%;
-  height: 70vh;
-  background-color: rgba(181, 208, 241, 0.642);
+  width: 49%;
+  height: 90vh;
+  background-color: rgba(142, 251, 40, 0.642);
   padding-top: 20px;
   margin: 10px;
 }
 
+.btn-Registrate{
+  width: 91%;
+}
+
+
 label,
 h3,
 input {
-  width: 90%;
+  width: 88%;
   display: block;
-
   margin-top: 20px;
   padding: 8px;
   margin-left: 20px;
-  background-color: rgb(246, 238, 253);
+  background-color: rgb(252, 252, 252);
   border: none;
   border-radius: 5px;
 }
 
 .contenedor_principal {
   display: flex;
-  justify-content: left;
+
+margin: 0 auto;
+  width: 80%;
+  height: 90vh;
+  color: rgb(72, 69, 69);
+}
+
+.contenedor_información{
+  background-color: rgb(227, 248, 205);
   width: 50%;
-  height: 80vh;
-  color: gray;
+  height: 93vh;
+  margin-top: 10px;
+}
+
+.contenedorTituloy_Span
+{
+  font-size: 1rem;
+ margin: 20px;
+  margin-top: 40px;
+  background-color:whitesmoke;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+
+
+.span_mobil{
+  display: flex;
+ margin: 0 auto;
+  font-size: 1.7rem;
+  font-weight: bolder;
+ padding: 15px;
+ margin-top: 70px;
+ background-color:whitesmoke;
+ width: 200px;
+ border-radius: 5px;
+ 
+}
+
+
+.contenedor_SpanOrientacion{
+  display: flex;
+  font-size: 1rem;
+ margin: 20px;
+ margin-top: 40px;
+ background-color: whitesmoke;
+ padding: 15px;
+
 }

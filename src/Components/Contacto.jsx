@@ -12,14 +12,18 @@ export const Contacto = () => {
 
     <div className="contenedor_principal">
     <div className="contenedor_información">
-          <h4>Si lo prefieres, puedes contactar conmigo directamente,</h4>
-
+          <h4 className="contenedorTituloy_Span">Si lo prefieres, puedes contactar conmigo directamente, enviame un Whasapp a este número:</h4>
+          <span className="span_mobil"> XXX XX XX XX</span>
+          <br/>
+          <span className="contenedor_SpanOrientacion">También puedes transladarme tus propuestas, las estudiamos y te ofrezco mis orientaciones y presupuestos, puedes escribirme aqui:</span>
+          <br/>
+          <span>andie@hotmail.com</span>
         </div>
       <div className="contenedor_inputs">
        
 
         <div className="form-inputs">
-          <h3>Por deja tu nombre, y tu email, te contactaré lo más rápido posible. O si lo prefieres puedes enviarme un whasapp al 650493930</h3>
+          <h3>Contacto</h3>
           <img src="https://cdn.pixabay.com/photo/2014/08/25/22/53/control-427512_1280.png" className="img-form" />
           <label htmlFor="name">Nombre</label>
           <input type="text" name="name" />
