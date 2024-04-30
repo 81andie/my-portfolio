@@ -17,7 +17,7 @@ export const Contacto = () => {
           <br/>
           <span className="contenedor_SpanOrientacion">También puedes transladarme tus propuestas, las estudiamos y te ofrezco mis orientaciones y presupuestos, puedes escribirme aqui:</span>
           <br/>
-          <span>andie@hotmail.com</span>
+          <span className="span_email">andie@hotmail.com</span>
         </div>
       <div className="contenedor_inputs">
        

@@ -2,16 +2,16 @@
   display: block;
   overflow: hidden;
   white-space: nowrap;
- background-color: rgb(193, 228, 248);
+  background-color: rgb(193, 228, 248);
   font-size: 0.8rem;
   font-family: "Saira Condensed", sans-serif;
   font-weight: 200;
   font-style: normal;
-  color:rgb(73, 119, 220);
+  color: rgb(73, 119, 220);
 
-margin: 1px;
+  margin: 1px;
 
- 
+
 
 
 }
@@ -19,13 +19,14 @@ margin: 1px;
 .marquee-content {
   display: inline-block;
   animation: marquee-animation 25s linear infinite;
- 
+
 }
 
 @keyframes marquee-animation {
   0% {
     top: translateX(100%);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -85,7 +86,7 @@ margin: 1px;
 
 :root {
   --color-general-text: black;
-  --color-background-principal: whitesmoke;
+  --color-background-principal: #f5f5f5;
   --color-background-item: gainsboro;
   --color-secundary: rgba(35, 158, 224, 0.817);
 
@@ -708,12 +709,12 @@ margin: 1px;
 .contenedor_inputs {
   width: 49%;
   height: 90vh;
-  background-color: rgba(142, 251, 40, 0.642);
+  background-color: #239EE0D0;
   padding-top: 20px;
   margin: 10px;
 }
 
-.btn-Registrate{
+.btn-Registrate {
   width: 91%;
 }
 
@@ -734,51 +735,65 @@ input {
 .contenedor_principal {
   display: flex;
 
-margin: 0 auto;
+  margin: 0 auto;
   width: 80%;
   height: 90vh;
   color: rgb(72, 69, 69);
 }
 
-.contenedor_información{
-  background-color: rgb(227, 248, 205);
+.contenedor_información {
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=239ee0d0&c2=f6f5f1&gt=l&gd=dbl
+*/
+background: #239EE0D0;
+background: linear-gradient(45deg, #239EE0D0, #F6F5F1);
   width: 50%;
   height: 93vh;
   margin-top: 10px;
 }
 
-.contenedorTituloy_Span
-{
+.contenedorTituloy_Span {
   font-size: 1rem;
- margin: 20px;
+  margin: 20px;
   margin-top: 40px;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   padding: 15px;
   border-radius: 5px;
 
 }
 
 
-.span_mobil{
+.span_mobil {
   display: flex;
- margin: 0 auto;
+  margin: 0 auto;
   font-size: 1.7rem;
   font-weight: bolder;
- padding: 15px;
- margin-top: 70px;
- background-color:whitesmoke;
- width: 200px;
- border-radius: 5px;
- 
+  padding: 15px;
+  margin-top: 70px;
+  background-color: whitesmoke;
+  width: 200px;
+  border-radius: 5px;
+
 }
 
 
-.contenedor_SpanOrientacion{
+.contenedor_SpanOrientacion {
   display: flex;
   font-size: 1rem;
- margin: 20px;
- margin-top: 40px;
- background-color: whitesmoke;
- padding: 15px;
+  margin: 20px;
+  margin-top: 30px;
+  background-color: whitesmoke;
+  padding: 15px;
 
+}
+
+.span_email {
+  font-size: 1.7rem;
+  display: flex;
+  font-size: bolder;
+  margin: 20px;
+  margin-top: 10px;
+  background-color: #f5f5f5;
+  padding: 15px;
 }
