@@ -717,12 +717,14 @@
   height: auto;
   background-color: #239EE0D0;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  
  
 }
 
 .btn-Registrate {
   width: 86%;
+  margin-top: 50px;
 }
 
 
@@ -731,8 +733,9 @@ h3,
 input {
   width: 84%;
   display: block;
-  margin-top: 20px;
-  padding: 8px;
+ 
+  margin-top: 26px;
+  padding: 10px;
   margin-left: 20px;
   background-color: rgb(252, 252, 252);
   border: none;

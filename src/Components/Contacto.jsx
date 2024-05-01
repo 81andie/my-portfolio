@@ -26,12 +26,12 @@ export const Contacto = () => {
           <h3>Contacto</h3>
       
           <label htmlFor="name">Nombre</label>
-          <input type="text" name="name" />
+          <input type="text" name="name" placeholder='Escribe tu nombre'/>
         </div>
 
         <div className="form-group">
           <label htmlFor="correo">Correo electrónico</label>
-          <input type="email" name="email" />
+          <input type="email" name="email" placeholder='Escribe tu email'/>
         </div>
 
         <input type="submit" value="Registrate" className='btn-Registrate' />

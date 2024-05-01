@@ -18,6 +18,7 @@
         margin-bottom: 70px;
         margin-top: 10px;
     }
+
     /*section 404*/
 
     .ovni {
@@ -70,38 +71,38 @@
         margin-top: 500px;
     }
 
- /*section Contacto*/
+    /*section Contacto*/
 
- .contenedor_principal{
- 
-    flex-direction: column;
- }
+    .contenedor_principal {
 
- .contenedor_información{
-    width: 100%;
-    margin-top: 20px;
- }
+        flex-direction: column;
+    }
 
- .contenedor_inputs{
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
- }
+    .contenedor_información {
+        width: 100%;
+        margin-top: 20px;
+    }
 
- label,
- h3,
- input {
-   width: 82%;
-   display: block;
-   margin-top: 20px;
-   padding: 8px;
-   margin-left: auto;
-   margin-right: auto;
-   background-color: rgb(252, 252, 252);
-   border: none;
-   border-radius: 5px;
- }
-    
+    .contenedor_inputs {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    label,
+    h3,
+    input {
+        width: 82%;
+        display: block;
+        margin-top: 20px;
+        padding: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(252, 252, 252);
+        border: none;
+        border-radius: 5px;
+    }
+
 
 
 
@@ -123,7 +124,7 @@
         margin-top: 20px;
     }
 
-   /*seccion 404*/
+    /*seccion 404*/
 
     .ovni {
         width: 60vw;
@@ -132,16 +133,31 @@
 
     /*seccion contacto*/
 
-    .contenedor_información{
+    .contenedor_información {
         width: 100%;
         margin-top: 20px;
-     }
-    
-     .contenedor_inputs{
+    }
+
+    .contenedor_inputs {
         width: 100%;
         height: auto;
-       
-     }
+
+    }
+
+    label,
+    h3,
+    input {
+        width: 82%;
+        display: block;
+        margin-top: 20px;
+        padding: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(252, 252, 252);
+        border: none;
+        border-radius: 5px;
+    }
+
 
 }
 
@@ -213,7 +229,7 @@
 
     }
 
-   
+
     /*404 error*/
     .play {
         margin-top: 200px;
@@ -226,18 +242,33 @@
 
     /*section contacto*/
 
- .contenedor_información{
+    .contenedor_información {
         width: 100%;
         margin-top: 20px;
         height: auto;
-     }
-    
-     .contenedor_inputs{
+    }
+
+    .contenedor_inputs {
         width: 100%;
         height: auto;
         margin-top: 70px;
-       
-     }
+
+    }
+
+    label,
+    h3,
+    input {
+        width: 82%;
+        display: block;
+        margin-top: 20px;
+        padding: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(252, 252, 252);
+        border: none;
+        border-radius: 5px;
+    }
+
 
 }
 
@@ -266,7 +297,7 @@
         width: 29%;
     }
 
-    
+
 
     /*404 error*/
     .play {
