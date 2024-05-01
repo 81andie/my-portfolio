@@ -704,6 +704,8 @@
   opacity: 1;
 }
 
+/*Section Contacto*/
+
 .img-form {
   width: 30%;
   margin: 0 auto;
@@ -712,21 +714,22 @@
 
 .contenedor_inputs {
   width: 49%;
-  height: 90vh;
+  height: auto;
   background-color: #239EE0D0;
   padding-top: 20px;
-  margin: 10px;
+  padding-bottom: 20px;
+ 
 }
 
 .btn-Registrate {
-  width: 91%;
+  width: 86%;
 }
 
 
 label,
 h3,
 input {
-  width: 88%;
+  width: 84%;
   display: block;
   margin-top: 20px;
   padding: 8px;
@@ -738,7 +741,6 @@ input {
 
 .contenedor_principal {
   display: flex;
-
   margin: 0 auto;
   width: 80%;
   height: 90vh;
@@ -755,6 +757,7 @@ background: linear-gradient(45deg, #239EE0D0, #F6F5F1);
   width: 50%;
   height: 93vh;
   margin-top: 10px;
+  border-radius: 5px;
 }
 
 .contenedorTituloy_Span {
@@ -789,6 +792,7 @@ background: linear-gradient(45deg, #239EE0D0, #F6F5F1);
   margin-top: 30px;
   background-color: whitesmoke;
   padding: 15px;
+  border-radius: 5px;
 
 }
 
@@ -800,4 +804,5 @@ background: linear-gradient(45deg, #239EE0D0, #F6F5F1);
   margin-top: 10px;
   background-color: #f5f5f5;
   padding: 15px;
+  border-radius: 5px;
 }

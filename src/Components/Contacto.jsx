@@ -24,7 +24,7 @@ export const Contacto = () => {
 
         <div className="form-inputs">
           <h3>Contacto</h3>
-          <img src="https://cdn.pixabay.com/photo/2014/08/25/22/53/control-427512_1280.png" className="img-form" />
+      
           <label htmlFor="name">Nombre</label>
           <input type="text" name="name" />
         </div>
