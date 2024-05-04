@@ -706,25 +706,22 @@
 
 /*Section Contacto*/
 
-.img-form {
-  width: 30%;
-  margin: 0 auto;
-}
+
 
 
 .contenedor_inputs {
-  width: 49%;
+  width: 50%;
   height: auto;
-  background-color: #239EE0D0;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  
+  padding: 5px;
+  padding-top: 5px;
+  background-color: #031937;
  
 }
 
 .btn-Registrate {
   width: 86%;
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 
@@ -733,9 +730,9 @@ h3,
 input {
   width: 84%;
   display: block;
- 
-  margin-top: 26px;
-  padding: 10px;
+  height: auto;
+  margin-top: 10px;
+  padding:8px;
   margin-left: 20px;
   background-color: rgb(252, 252, 252);
   border: none;
@@ -743,11 +740,13 @@ input {
 }
 
 .contenedor_principal {
+
   display: flex;
   margin: 0 auto;
   width: 80%;
-  height: 90vh;
+  height: auto;
   color: rgb(72, 69, 69);
+  border: 2px solid  #239EE0D0;
 }
 
 .contenedor_información {
@@ -755,18 +754,18 @@ input {
 * Created with https://www.css-gradient.com
 * Gradient link: https://www.css-gradient.com/?c1=239ee0d0&c2=f6f5f1&gt=l&gd=dbl
 */
-background: #239EE0D0;
-background: linear-gradient(45deg, #239EE0D0, #F6F5F1);
+
   width: 50%;
-  height: 93vh;
-  margin-top: 10px;
+  height: auto;
+  background-image: url("https://img.freepik.com/foto-gratis/concepto-collage-html-css-persona_23-2150061969.jpg?t=st=1714835986~exp=1714839586~hmac=0857874ca0b1821c2fa488a86161a9fd9f5e619c8944183cf2fa0ecd62b606c2&w=826");
   border-radius: 5px;
+  
 }
 
 .contenedorTituloy_Span {
-  font-size: 1rem;
-  margin: 20px;
-  margin-top: 40px;
+  font-size: 0.8rem;
+  margin: 10px;
+  margin-top: 70px;
   background-color: whitesmoke;
   padding: 15px;
   border-radius: 5px;
@@ -777,12 +776,12 @@ background: linear-gradient(45deg, #239EE0D0, #F6F5F1);
 .span_mobil {
   display: flex;
   margin: 0 auto;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: bolder;
-  padding: 15px;
-  margin-top: 70px;
+  padding: 10px;
+  margin-top: 20px;
   background-color: whitesmoke;
-  width: 200px;
+  width: 180px;
   border-radius: 5px;
 
 }
@@ -790,9 +789,9 @@ background: linear-gradient(45deg, #239EE0D0, #F6F5F1);
 
 .contenedor_SpanOrientacion {
   display: flex;
-  font-size: 1rem;
-  margin: 20px;
-  margin-top: 30px;
+  font-size: 0.8rem;
+  margin: 10px;
+  margin-top: 10px;
   background-color: whitesmoke;
   padding: 15px;
   border-radius: 5px;
@@ -800,12 +799,15 @@ background: linear-gradient(45deg, #239EE0D0, #F6F5F1);
 }
 
 .span_email {
-  font-size: 1.7rem;
+  width: 200px;
+  font-size: 1.2rem;
   display: flex;
+  justify-content: center;
   font-size: bolder;
-  margin: 20px;
-  margin-top: 10px;
+  margin: 0 auto;
+  margin-top: 1px;
   background-color: #f5f5f5;
-  padding: 15px;
+  padding: 10px;
   border-radius: 5px;
+
 }

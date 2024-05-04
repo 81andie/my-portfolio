@@ -80,13 +80,13 @@
 
     .contenedor_información {
         width: 100%;
-        margin-top: 20px;
+        
     }
 
     .contenedor_inputs {
         width: 100%;
         height: auto;
-        margin-top: 50px;
+        
     }
 
     label,
@@ -133,16 +133,7 @@
 
     /*seccion contacto*/
 
-    .contenedor_información {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .contenedor_inputs {
-        width: 100%;
-        height: auto;
-
-    }
+  
 
     label,
     h3,
@@ -242,16 +233,25 @@
 
     /*section contacto*/
 
+    .contenedor_principal {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: row;
+        width: 89%;
+       
+        color: rgb(72, 69, 69);
+      }
+
     .contenedor_información {
-        width: 100%;
-        margin-top: 20px;
+        width: 50%;
+       
         height: auto;
     }
 
     .contenedor_inputs {
-        width: 100%;
+        width: 50%;
         height: auto;
-        margin-top: 70px;
+        
 
     }
 
@@ -304,6 +304,27 @@
         margin-top: 500px;
     }
 
+    .contenedor_principal {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: row;
+        width: 96%;
+        height: 70vh;
+        color: rgb(72, 69, 69);
+      }
+
+      .contenedor_información {
+        width: 50%;
+        
+        height: auto;
+    }
+
+    .contenedor_inputs {
+        width: 50%;
+        height: auto;
+        margin-top: 70px;
+
+    }
 
 
 }
