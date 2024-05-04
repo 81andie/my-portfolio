@@ -710,17 +710,17 @@
 
 
 .contenedor_inputs {
-  width: 50%;
+  width: 48%;
   height: auto;
-  padding: 5px;
-  padding-top: 5px;
+  
+
   background-color: #031937;
  
 }
 
 .btn-Registrate {
   width: 86%;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -755,17 +755,18 @@ input {
 * Gradient link: https://www.css-gradient.com/?c1=239ee0d0&c2=f6f5f1&gt=l&gd=dbl
 */
 
-  width: 50%;
+ 
+  width: 52%;
   height: auto;
   background-image: url("https://img.freepik.com/foto-gratis/concepto-collage-html-css-persona_23-2150061969.jpg?t=st=1714835986~exp=1714839586~hmac=0857874ca0b1821c2fa488a86161a9fd9f5e619c8944183cf2fa0ecd62b606c2&w=826");
-  border-radius: 5px;
+
   
 }
 
 .contenedorTituloy_Span {
   font-size: 0.8rem;
   margin: 10px;
-  margin-top: 70px;
+  margin-top: 40px;
   background-color: whitesmoke;
   padding: 15px;
   border-radius: 5px;
@@ -805,9 +806,9 @@ input {
   justify-content: center;
   font-size: bolder;
   margin: 0 auto;
-  margin-top: 1px;
+
   background-color: #f5f5f5;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
 
 }
