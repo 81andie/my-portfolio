@@ -19,7 +19,7 @@ import { Certificaciones } from '../Components/Certificaciones';
 export const RoutasPrincipales = () => {
   return (
 <>
-    <BrowserRouter>
+    <BrowserRouter basename= "/my-portfolio/build/">
  <Header/>
     <Routes>
    
