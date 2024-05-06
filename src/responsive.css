@@ -104,13 +104,13 @@
     }
 
     .footer {
-        margin-top: 170px;
+        margin-top: 270px;
     }
 
     .logo_footer {
-        width: 18%;
-        height: 18%;
-        margin-top: 74px;
+        width: 12%;
+        height: 12%;
+        
         margin-left: 10px;
     }
 
@@ -285,7 +285,7 @@
 
 
 
-@media(min-width: 1024px) {
+@media(min-width: 1025px) {
 
     .logo_header {
         width: 15%;

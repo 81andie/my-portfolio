@@ -560,15 +560,19 @@
   height: auto;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 150px;
+  margin-top: 250px;
   line-height: 19px;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: stretch;
 
 
 }
 
 .logo_footer {
-  width: 16%;
-  height: 16%;
+  width: 10%;
+  height: 10%;
+ 
 
 }
 
@@ -576,8 +580,7 @@
   width: 14%;
   height: 9vh;
   margin-top: 10px;
-  
-
+ 
 }
 
 .pi-instagram,
@@ -592,25 +595,23 @@
   margin-top: 10px;
 }
 
-.pi-envelope {
-  
-  font-size: 16px;
-  background-color: rgba(177, 214, 234, 0.436);
-  padding: 4px;
-  border-radius: 4px;
-  display: block;
- 
+
+
+.dev_nombre{
+ text-align: center;
+ line-height: 20px;
+ font-size: 1rem;
+ color: gray;
+
 }
 
-
-
 .contacto_footer {
-  width: 50%;
+  width: 40%;
   height: 15vh;
-  
+  display: flex;
+  flex-direction: column;
+
  
-
-
 }
 
 
