@@ -360,8 +360,10 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
   margin: 0 auto;
+  margin-bottom: 120px;
+
 
 
 }
@@ -554,25 +556,28 @@
 /*footer*/
 
 .footer {
-  display: block;
-  
-  
-  text-align: center;
-  line-height: 16px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+  line-height: 19px;
 
 
 }
 
 .logo_footer {
-  width: 10%;
-  margin-top: 20px;
+  width: 16%;
+  height: 16%;
+
 }
 
 .icons_social {
+  width: 14%;
+  height: 9vh;
   margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
+  
+
 }
 
 .pi-instagram,
@@ -583,13 +588,29 @@
   padding: 8px;
   background-color: rgba(149, 202, 230, 0.436);
   border-radius: 8px;
+  margin-left: 5px;
+  margin-top: 10px;
 }
 
 .pi-envelope {
+  
   font-size: 16px;
   background-color: rgba(177, 214, 234, 0.436);
   padding: 4px;
   border-radius: 4px;
+  display: block;
+ 
+}
+
+
+
+.contacto_footer {
+  width: 50%;
+  height: 15vh;
+  
+ 
+
+
 }
 
 

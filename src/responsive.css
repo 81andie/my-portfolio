@@ -63,12 +63,9 @@
         gap: 45px;
     }
 
- 
-   
 
-    .logo_footer {
-        margin-top: 100px;
-    }
+
+
 
     /*section Contacto*/
 
@@ -79,13 +76,13 @@
 
     .contenedor_información {
         width: 100%;
-        
+
     }
 
     .contenedor_inputs {
         width: 100%;
         height: auto;
-        
+
     }
 
     label,
@@ -102,10 +99,23 @@
         border-radius: 5px;
     }
 
+    .seccionInformacion {
+        margin-bottom: 150px;
+    }
+
+    .footer {
+        margin-top: 170px;
+    }
+
+    .logo_footer {
+        width: 18%;
+        height: 18%;
+        margin-top: 74px;
+        margin-left: 10px;
+    }
 
 
-
-
+   
 }
 
 
@@ -132,7 +142,7 @@
 
     /*seccion contacto*/
 
-  
+
 
     label,
     h3,
@@ -237,20 +247,20 @@
         margin: 0 auto;
         flex-direction: row;
         width: 89%;
-       
+
         color: rgb(72, 69, 69);
-      }
+    }
 
     .contenedor_información {
         width: 52%;
-       
+
         height: auto;
     }
 
     .contenedor_inputs {
         width: 50%;
         height: auto;
-        
+
 
     }
 
@@ -275,7 +285,7 @@
 
 
 
-@media(min-width: 1025px) {
+@media(min-width: 1024px) {
 
     .logo_header {
         width: 15%;
@@ -287,6 +297,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+
         gap: 20px;
 
 
@@ -310,11 +321,11 @@
         width: 96%;
         height: 70vh;
         color: rgb(72, 69, 69);
-      }
+    }
 
-      .contenedor_información {
+    .contenedor_información {
         width: 50%;
-        
+
         height: auto;
     }
 
@@ -323,6 +334,10 @@
         height: auto;
         margin-top: 70px;
 
+    }
+
+    .footer {
+        margin-top: 150px;
     }
 
 
