@@ -18,20 +18,18 @@ export const Header = () => {
 
   return (
     <>
-   
-
 
 
       <div className="header">
-    
+
         <div className="logo_container">
-       
+
 
           <img src={img} className='logo_header' alt="logo-imagen" />
 
           <div className="navbar">
             <NavLink to="/inicio" className="enlaces_navbar"> {t('header.home')}</NavLink>
-           
+
             <details>
               <summary className="enlaces_navbar">{t('header.KnowMe')}</summary>
               <NavLink to="/sobremi" className="enlaces">{t('header.aboutMe')}</NavLink>
