@@ -9,6 +9,7 @@ export const Cabecera = () => {
     const base_image_url = useHref('/');   
     const { t } = useTranslation();
 
+    let newGit = "/img/mobile (4).gift";
 
     let gift =`${base_image_url}/img/mobile (4).gif`;
     let gift1 = `${base_image_url}/img/mobile (5).gif`;
@@ -45,7 +46,7 @@ export const Cabecera = () => {
 
             <div className="grid_fotos">
                 <div className="item">
-                    <img src={gift} className="imagenes_centradas" loading="lazy"  alt="imagenes-mobil" />
+                    <img src={newGit} className="imagenes_centradas" loading="lazy"  alt="imagenes-mobil" />
                     <div className="card flex flex-wrap gap-2">
                         <Chip label="REACT"
                             className="custom-chip"
