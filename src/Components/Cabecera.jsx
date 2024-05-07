@@ -1,18 +1,18 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
+import { useHref } from 'react-router-dom';
 import { Chip } from 'primereact/chip';
 import { useTranslation } from 'react-i18next';
 
 
-
 export const Cabecera = () => {
-
+    const base_image_url = useHref('/');   
     const { t } = useTranslation();
 
 
-    let gift = "img/mobile (4).gif";
-    let gift1 = "img/mobile (5).gif";
-    let gift2 = "img/mobile (6).gif"
+    let gift =`${base_image_url}/img/mobile (4).gif`;
+    let gift1 = `${base_image_url}/img/mobile (5).gif`;
+    let gift2 = `${base_image_url}/img/mobile (6).gif`;
 
     const [mostrarTexto, setMostrarTexto] = useState(false);
 
