@@ -11,7 +11,7 @@ export const Cabecera = () => {
 
     
 
-    let gift =`${base_image_url}/img/mobile4.gif`;
+    let gift =`${base_image_url}/img/mobile4.webp`;
     let gift1 = `${base_image_url}/img/mobile (5).gif`;
     let gift2 = `${base_image_url}/img/mobile (6).gif`;
 
