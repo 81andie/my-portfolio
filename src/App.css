@@ -2,17 +2,12 @@
   display: block;
   overflow: hidden;
   white-space: nowrap;
-  background-color: rgb(67, 67, 66);
+  background-color: rgb(99, 99, 98);
   font-size: 0.8rem;
   font-family: "Saira Condensed", sans-serif;
   font-weight: 200;
   font-style: normal;
   color: rgb(253, 195, 5);
-
-  margin: 1px;
-
-
-
 
 }
 

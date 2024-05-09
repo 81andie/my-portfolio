@@ -11,6 +11,9 @@ import { Sobremi } from './Sobremi';
 
 
 export const Inicio = () => {
+
+  alert("HOLA");
+
   return (
     <div>
       <Cabecera />
