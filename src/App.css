@@ -2,7 +2,7 @@
   display: block;
   overflow: hidden;
   white-space: nowrap;
-  background-color: rgb(99, 99, 98);
+  background-color: rgba(45, 45, 46, 0.701);
   font-size: 1rem;
   font-family: "Special Elite", system-ui;
   font-weight: 100;
@@ -30,8 +30,8 @@
 
 #favicon {
   /* Tamaño deseado */
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
 }
 
 .light-theme {
@@ -51,8 +51,9 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
 .light {
   font-weight:bold;
   margin-top: 30px;
-  background-color: var(--color-secundary);
-  color: white;
+  background-image: url("https://img.freepik.com/vector-premium/icono-montanas-azules_118813-6945.jpg?w=1060");
+  background-size: cover;
+  color: rgb(250, 250, 248);
   padding: 7.5px;
   margin-right: 5px;
   border-radius: 15px;
@@ -60,12 +61,22 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
   margin-left: 35px;
   font-size: 0.8rem;
   margin-bottom: 20px;
+  opacity: 90%;
+  text-shadow: #000000 1px 0 10px;
 
+}
+
+.pi-moon,
+.pi-sun{
+  font-size: 30px;
+  color:#f8e303;
+  font-weight: bolder;
+  text-shadow: #f4f59c 1px 0 10px;
 }
 
 .light:hover {
   background-color: lightgoldenrodyellow;
-  color: goldenrod
+  color: rgb(78, 255, 252)
 }
 
 .dark {
@@ -78,6 +89,9 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
   border-radius: 15px;
   border: none;
   font-size: 0.8rem;
+  background-image: url("https://img.freepik.com/vector-gratis/cosmic-inspire-impresionante-cartel-cielo-estrellado-montana-estrellas_1017-43477.jpg?t=st=1715441660~exp=1715445260~hmac=a4472ab2bae248d1e7f1c19b9121d7595403e9ba84c4472645228c2d88f8ffbd&w=1060");
+  background-size: cover;
+  font-weight:bold;
   
 }
 
