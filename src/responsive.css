@@ -2,7 +2,7 @@
     /*Header*/
 
     .dark-theme {
-        height: 440vh;
+        height: 490vh;
     }
     
   
@@ -169,7 +169,7 @@
     /*header*/
 
     .dark-theme {
-        height: 150vh;
+        height: 295vh;
     }
 
     .logo_container {
@@ -207,7 +207,6 @@
         margin: 0px 20px;
         -webkit-animation: slide-in-fwd-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-fwd-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-
 
     }
 
@@ -280,6 +279,13 @@
         border-radius: 5px;
     }
 
+    .sobremi,
+    .sobremi1,
+    .sobremi2,
+    .sobremi3{
+        height: 40vh;
+    }
+
 
 }
 
@@ -291,7 +297,7 @@
 
 
     .dark-theme {
-        height: 180vh;
+        height: 330vh;
     }
 
 
