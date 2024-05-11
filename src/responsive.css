@@ -167,7 +167,7 @@
     /*header*/
 
     .dark-theme {
-        height: 450vh;
+        height: 250vh;
     }
 
     .logo_container {
@@ -287,6 +287,12 @@
 
 @media(min-width: 1025px) {
 
+
+    .dark-theme {
+        height: 520vh;
+    }
+
+
     .logo_header {
         width: 15%;
         height: auto;
@@ -337,7 +343,7 @@
     }
 
     .footer {
-        margin-top: 150px;
+        margin-top: 100px;
     }
 
 
