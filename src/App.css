@@ -35,16 +35,17 @@
 }
 
 .light-theme {
-  color: gray;
+  color: rgb(252, 252, 252);
   color: black
 }
 
 .dark-theme {
   width: 100%;
-  background-color: rgb(33, 33, 37);
-  color: hsl(0, 20%, 97%);
-
-
+  /*background-color: #212125;*/
+  /*background: rgb(33,37,35);
+  background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(1,4,49,0.7867939412092962) 100%);*/
+  background: #212125;
+background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100%);
 }
 
 .light {
