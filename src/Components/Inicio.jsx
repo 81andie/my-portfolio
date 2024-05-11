@@ -17,8 +17,7 @@ export const Inicio = () => {
   return (
     <div>
       <Cabecera />
-      <Sobremi/>
-      <Queofrezco/>
+     
       
     
       

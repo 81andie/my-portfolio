@@ -3,9 +3,9 @@
   overflow: hidden;
   white-space: nowrap;
   background-color: rgb(99, 99, 98);
-  font-size: 0.8rem;
-  font-family: "Saira Condensed", sans-serif;
-  font-weight: 200;
+  font-size: 1rem;
+  font-family: "Special Elite", system-ui;
+  font-weight: 100;
   font-style: normal;
   color: rgb(253, 195, 5);
 
@@ -40,22 +40,23 @@
 }
 
 .dark-theme {
-
+  width: 100%;
   background-color: rgb(33, 33, 37);
   color: hsl(0, 20%, 97%);
-  height: 100vh;
+  height: 1000%;
 
 }
 
 .light {
+  font-weight:bold;
   margin-top: 30px;
   background-color: var(--color-secundary);
   color: white;
-  padding: 7px;
+  padding: 7.5px;
   margin-right: 5px;
   border-radius: 15px;
   border: none;
-  margin-left: 25px;
+  margin-left: 35px;
   font-size: 0.8rem;
   margin-bottom: 20px;
 
@@ -68,14 +69,15 @@
 
 .dark {
   margin-top: 20px;
-  margin-left: 25px;
+  margin-left: 35px;
   background-color: #3d3343;
   color: white;
-  padding: 9px;
+  padding: 7.5px;
   margin-right: 5px;
   border-radius: 15px;
   border: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  
 }
 
 
@@ -97,11 +99,11 @@
   margin: 0 auto;
   margin-top: 90px;
   margin-bottom: 30px;
-  font-family: monospace;
+  font-family: "Special Elite", system-ui;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 12ch;
-  animation: typing 2s steps(18), blink .5s infinite step-end alternate;
+  width: 10ch;
+  animation: typing 5s steps(10), blink .5s infinite step-end alternate;
   overflow: hidden;
 }
 
@@ -111,11 +113,11 @@
   display: block;
   margin: 0 auto;
   margin-bottom: 50px;
-  font-family: monospace;
+  font-family: "Special Elite", system-ui;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 32ch;
-  animation: typing 5s steps(16), blink .5s infinite step-end alternate;
+  width: 30ch;
+  animation: typing 5s steps(13), blink .5s infinite step-end alternate;
   overflow: hidden;
 }
 
