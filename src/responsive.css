@@ -2,7 +2,7 @@
     /*Header*/
 
     .dark-theme {
-        height: 400vh;
+        height: 480vh;
     }
     
   
@@ -283,7 +283,7 @@
     .sobremi1,
     .sobremi2,
     .sobremi3{
-        height: 20vh;
+        height: 50vh;
     }
 
 
@@ -319,6 +319,13 @@
 
     .icon_section {
         width: 29%;
+    }
+
+    .sobremi,
+    .sobremi1,
+    .sobremi2,
+    .sobremi3{
+        height: 50vh;
     }
 
 
