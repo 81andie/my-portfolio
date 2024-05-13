@@ -645,7 +645,7 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
  background-color: #f5f5f52c;
   letter-spacing: 10px;
   text-shadow: 2px 2px 4px white;
-  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  -webkit-animation: tracking-in-expand 2.7s cubic-bezier(0.315, 0.610, 0.355, 2.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
          
 
@@ -654,7 +654,7 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
 
 @-webkit-keyframes tracking-in-expand {
   0% {
-    letter-spacing: -1.6em;
+    letter-spacing: -3.6em;
     opacity: 0;
   }
   40% {
