@@ -5,7 +5,7 @@ import React from 'react'
 
 export const Sobremi = () => {
 
-  let gift = "img/beauty-queen.png";
+  let gift = "img/removeGenerated.png";
 
 
 
@@ -13,20 +13,27 @@ export const Sobremi = () => {
     <>
 
 
+      <section className="sobre_mi_quadricula">
+     
+
       <section className="sobremi">
 
-        {/*} <img src={gift} className="img-sobremi"/>*/}
+    
 
-        <div className="parallax">
+
+        <div className="parallax_Avatar">
         <span className="span_quiensoy">Quién Soy</span><br/>
+      </div>
+
+        
           
-          
-          <h2 className="presentación">Soy gerundense apasionada del desarrollo web. Me he formado en esta profesión de manera autodidactica, <br/> en parte y grácias a la ayuda de dos mentores y excelentes profesores <br/>en Inginiera Informática y Desarrollo Web, a ellos les debo todo lo aprendido, han sido mi guia y referente para mejorar en todos los <br/>aspectos necesarios de esta profesión.
+       
+          <h2 className="presentación">Soy gerundense apasionada del desarrollo web. Me he formado en esta profesión de manera autodidactica, en parte y grácias a la ayuda de dos mentores y excelentes profesores en Inginiera Informática y Desarrollo Web, a ellos les debo todo lo aprendido, han sido mi guia y referente para mejorar en todos los aspectos necesarios de esta profesión.
           </h2>
 
 
 
-        </div>
+       
 
 
       </section>
@@ -61,7 +68,7 @@ export const Sobremi = () => {
 
       </section>
 
-
+     </section>
 
 
     </>
