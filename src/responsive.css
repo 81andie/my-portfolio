@@ -116,7 +116,24 @@
         margin-left: 10px;
     }
 
+    .sobremi{
+       
+        display: flex;
+        flex-direction: column;
+       
+    }
 
+    .presentación{
+        width: 90%
+    }
+
+    .parallax_Avatar{
+       
+        display: flex;
+        flex-direction: column;
+       
+        
+      }
    
 }
 
@@ -361,5 +378,11 @@
         margin-top: 100px;
     }
 
+    .sobremi{
+        display: flex;
+       
+        height: 39vh;
+    }
 
+    
 }
