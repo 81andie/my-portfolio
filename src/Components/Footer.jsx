@@ -10,10 +10,10 @@ export const Footer = () => {
 
         <div className="icons_social">
         
-          <i className="pi pi-instagram" style={{ color: 'rgba(35, 158, 224, 0.817)' }}></i>
-          <i className="pi pi-facebook" style={{ color: 'rgba(35, 158, 224, 0.817)' }}></i>
-          <i className="pi pi-github" style={{ color: 'rgba(35, 158, 224, 0.817)' }}></i>
-          <i className="pi pi-telegram" style={{ color: 'rgba(35, 158, 224, 0.817)' }}></i>
+          <i className="pi pi-instagram" style={{ color: '#e040a4' }}></i>
+          <i className="pi pi-facebook" style={{ color: '#e040a4' }}></i>
+          <i className="pi pi-github" style={{ color: '#e040a4' }}></i>
+          <i className="pi pi-telegram" style={{ color: '#e040a4' }}></i>
           </div>
 
         <div className="contacto_footer">
