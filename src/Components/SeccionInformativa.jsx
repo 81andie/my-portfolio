@@ -17,7 +17,7 @@ export const SeccionInformativa = () => {
 
                 <div className='icon_section'>
 
-                    <span><i className="pi pi-thumbs-up" style={{ color: 'rgba(35, 158, 224, 0.63)' }}></i></span>
+                    <span><i className="pi pi-thumbs-up" style={{ color: '#e040a4' }}></i></span>
                     <h1 className="titsec_Informacion">{t('sectionInformation.professionalism.title')}</h1>
                     <p className="parrsec_Informacion">{t('sectionInformation.professionalism.description')}</p>
 
@@ -25,7 +25,7 @@ export const SeccionInformativa = () => {
 
                 <div className='icon_section'>
 
-                    <span><i className="pi pi-question" style={{ color: 'rgba(35, 158, 224, 0.63)' }}></i></span>
+                    <span><i className="pi pi-question" style={{ color: '#e040a4' }}></i></span>
                     <h1 className="titsec_Informacion">{t('sectionInformation.advice.title')}</h1>
                     <p className="parrsec_Informacion">{t('sectionInformation.advice.description')}</p>
 
@@ -33,7 +33,7 @@ export const SeccionInformativa = () => {
 
                 <div className='icon_section'>
 
-                    <span><i className="pi pi-tablet" style={{ color: 'rgba(35, 158, 224, 0.63)' }}></i></span>
+                    <span><i className="pi pi-tablet" style={{ color: '#e040a4' }}></i></span>
                     <h1 className="titsec_Informacion">{t('sectionInformation.devices.title')}</h1>
                     <p className="parrsec_Informacion"> {t('sectionInformation.devices.description')}</p>
                 </div>

@@ -291,7 +291,7 @@ export const Cabecera = () => {
 
             <div className='botones_cabecera'>
 
-                <button className="conoceme">{t('header.contact')}<i className="pi pi-user" style={{ color: 'white' }}></i></button>
+                <button className="conoceme">{t('header.contact')} <i className="pi pi-user" style={{ color: 'white' }}> </i></button>
 
             </div>
 
