@@ -731,18 +731,21 @@
   margin: 0 auto;
   margin-top: 100px;
 
-  justify-items: center;
+  
   margin-top: 50px;
-
+  border-radius: 50%;
 
 }
 
 .span_quiensoy1{
+ 
   font-weight: bolder;
   display: flex;
-  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
   border: 1px solid var(--color-secundary);
-  margin-top: 5px;
+  margin-top: 15px;
   padding: 3px;
   color: var(--color--darkDracula);
   text-transform: uppercase;
@@ -755,6 +758,7 @@
   text-shadow: 2px 2px 4px white;
   -webkit-animation: tracking-in-expand 2.7s cubic-bezier(0.315, 0.610, 0.355, 2.000) both;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  filter: drop-shadow(3px 9px 6px var(--color--blueSky));
 }
 
 
@@ -820,11 +824,13 @@
 
 .yo  {
 
-  width: 100px;
-  height: 200px;
+  width: 200px;
+  height: 190px;
   padding: 10px;
-  margin-top: -100px;
-  filter: drop-shadow(2px 4px 6px var(--color--blueSky))
+  margin-top: -30px;
+  margin-left: -20px;
+
+ 
 }
 
 .presentación {
