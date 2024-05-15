@@ -45,11 +45,11 @@
   /*background: rgb(33,37,35);
   background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(1,4,49,0.7867939412092962) 100%);*/
   background: #212125;
-background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100%);
+  background: linear-gradient(84deg, rgba(33, 37, 35, 1) 0%, rgba(7, 7, 55, 0.86) 100%);
 }
 
 .light {
-  font-weight:bold;
+  font-weight: bold;
   margin-top: 30px;
   background-image: url("https://img.freepik.com/vector-premium/icono-montanas-azules_118813-6945.jpg?w=1060");
   background-size: cover;
@@ -67,9 +67,9 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
 }
 
 .pi-moon,
-.pi-sun{
+.pi-sun {
   font-size: 30px;
-  color:#f8e303;
+  color: #f8e303;
   font-weight: bolder;
   text-shadow: #f4f59c 1px 0 10px;
 }
@@ -91,8 +91,8 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
   font-size: 0.8rem;
   background-image: url("https://img.freepik.com/vector-gratis/cosmic-inspire-impresionante-cartel-cielo-estrellado-montana-estrellas_1017-43477.jpg?t=st=1715441660~exp=1715445260~hmac=a4472ab2bae248d1e7f1c19b9121d7595403e9ba84c4472645228c2d88f8ffbd&w=1060");
   background-size: cover;
-  font-weight:bold;
-  
+  font-weight: bold;
+
 }
 
 
@@ -584,7 +584,7 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
 .logo_footer {
   width: 10%;
   height: 10%;
- 
+
 
 }
 
@@ -592,7 +592,7 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
   width: 14%;
   height: 9vh;
   margin-top: 10px;
- 
+
 }
 
 .pi-instagram,
@@ -609,11 +609,11 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
 
 
 
-.dev_nombre{
- text-align: center;
- line-height: 20px;
- font-size: 1rem;
- color: gray;
+.dev_nombre {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1rem;
+  color: gray;
 
 }
 
@@ -623,7 +623,7 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
   display: flex;
   flex-direction: column;
 
- 
+
 }
 
 
@@ -631,25 +631,25 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
 
 
 
-.span_quiensoy{
+.span_quiensoy {
   font-weight: bolder;
   display: flex;
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid var(--color-secundary);
   margin-top: 5px;
   padding: 3px;
   color: rgb(6, 6, 6);
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: Roboto;
   font-weight: 900;
-  border-right: 4px solid;
- background-color: #f5f5f5cb;
+  border-right: 4px solid rgb(235, 136, 150);
+  background-color: #ebf4f9cb;
   letter-spacing: 10px;
   text-shadow: 2px 2px 4px white;
   -webkit-animation: tracking-in-expand 2.7s cubic-bezier(0.315, 0.610, 0.355, 2.000) both;
-	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-         
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
 
 }
 
@@ -659,41 +659,47 @@ background: linear-gradient(84deg, rgba(33,37,35,1) 0%, rgba(7, 7, 55, 0.86) 100
     letter-spacing: -3.6em;
     opacity: 0;
   }
+
   40% {
     opacity: 0.6;
   }
+
   100% {
     opacity: 1;
-    
+
   }
 }
+
 @keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
     opacity: 0;
   }
+
   40% {
     opacity: 0.6;
   }
+
   100% {
     opacity: 1;
-   
+
   }
 }
 
 
 
-.parallax_Avatar{
+.parallax_Avatar {
   display: flex;
+  
   width: 260px;
   margin-left: 20px;
-margin: 0 auto;
-margin-top: 100px;
- 
+  margin: 0 auto;
+  margin-top: 100px;
+
   justify-items: center;
+  margin-top: 50px;
 
 
-  
 }
 
 
@@ -701,28 +707,28 @@ margin-top: 100px;
 
 
 .sobremi {
- 
 
- 
+
+
   padding: 20px;
   height: 55vh;
   display: flex;
   flex-direction: column;
- justify-content: center;
-   background-image: url("https://img.freepik.com/fotos-premium/sistema-html-concepto-sitio-web_23-2150376748.jpg?w=900");
+  justify-content: center;
+  background-image: url("https://img.freepik.com/fotos-premium/sistema-html-concepto-sitio-web_23-2150376748.jpg?w=900");
 
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   transition: 0.5s ease-in;
-  
+
 }
 
-.presentación{
+.presentación {
   width: 50%;
   font-family: "Special Elite", system-ui;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border: 1px solid black;
   height: auto;
   line-height: 26px;
@@ -745,7 +751,7 @@ margin-top: 100px;
 .presentación3 {
   width: 80%;
   font-family: "Special Elite", system-ui;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border: 1px solid black;
   height: auto;
   line-height: 26px;
@@ -755,21 +761,21 @@ margin-top: 100px;
   padding: 20px;
   margin-top: 10px;
   border-right: 4px solid;
-  
-  
-}
- 
 
-.yo{
+
+}
+
+
+.yo {
 
   width: 100px;
-  height:200px;
+  height: 200px;
   padding: 10px;
   margin-top: -100px;
-  
+
 }
 
-.presentación{
+.presentación {
   width: 30%;
 }
 
@@ -782,10 +788,10 @@ margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   /*background-image: url("https://img.freepik.com/fotos-premium/hombre-mujer-escultura-cabeza-yeso-mira-pantalla-portatil-sobre-fondo-rojo-abstracto-moderno-collage-ilustracion-generativa-ai_92753-15077.jpg?w=900");*/
- 
- background-image:url("https://img.freepik.com/foto-gratis/gafas-cerca-computadora-portatil-reflejan-luz-pantalla-espacio-oscuro-copia_169016-14893.jpg?t=st=1715714036~exp=1715717636~hmac=eb2c0da9767675f664c04ad2c5d737ea0e13531288a4962dff49c0ee69446909&w=900");
+
+  background-image: url("https://img.freepik.com/foto-gratis/gafas-cerca-computadora-portatil-reflejan-luz-pantalla-espacio-oscuro-copia_169016-14893.jpg?t=st=1715714036~exp=1715717636~hmac=eb2c0da9767675f664c04ad2c5d737ea0e13531288a4962dff49c0ee69446909&w=900");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -804,7 +810,7 @@ margin-top: 100px;
   padding: 20px;
   display: flex;
   flex-direction: column;
- 
+
   background-image: url("https://img.freepik.com/fotos-premium/estatua-diosa-afrodita-telefono-movil-fondo-rosa_168171-5705.jpg?w=900");
   background-size: cover;
   background-attachment: fixed;
@@ -822,7 +828,7 @@ margin-top: 100px;
   padding: 20px;
   display: flex;
   flex-direction: column;
- 
+
   background-image: url("https://img.freepik.com/fotos-premium/busto-griego-antigua-musa-griega-junto-viejo-libro-abierto_483949-16891.jpg?w=826");
   background-size: cover;
   background-attachment: fixed;
