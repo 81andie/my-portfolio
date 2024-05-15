@@ -17,7 +17,7 @@ export const Sobremi = () => {
 
       <div className="parallax_Avatar">
        
-       <span className="span_quiensoy">Quién Soy <img src={gift} className="yo" /></span><br/>
+       <span className="span_quiensoy1">Quién Soy <img src={gift} className="yo" /></span><br/>
       </div>
      
 
