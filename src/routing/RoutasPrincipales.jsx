@@ -21,7 +21,8 @@ import { ErrorPage } from './ErrorPage';
 export const RoutasPrincipales = () => {
   return (
     <>
-      <BrowserRouter basename='/my-portfolio'>
+     
+      <BrowserRouter>
         <Header />
 
        
