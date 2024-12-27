@@ -30,10 +30,6 @@
 }
 
 
-
-
-
-
 .marquee-wrapper {
   display: block;
   overflow: hidden;
@@ -135,48 +131,9 @@
 
 
 
-.span_maqEscribir {
-  font-size: 1.9rem;
-  color: var(--color--blueSky);
-  display: block;
-  margin: 0 auto;
-  margin-top: 90px;
-  margin-bottom: 30px;
-  font-family: "Special Elite", system-ui;
-  white-space: nowrap;
-  border-right: 4px solid;
-  width: 10ch;
-  animation: typing 5s steps(10), blink .5s infinite step-end alternate;
-  overflow: hidden;
-}
 
-.span_maqEscribir1 {
-  font-size: 1.2rem;
-  color: var(--color--pumpkinNeon);
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  font-family: "Special Elite", system-ui;
-  white-space: nowrap;
-  border-right: 4px solid;
-  width: 30ch;
-  animation: typing 5s steps(13), blink .5s infinite step-end alternate;
-  overflow: hidden;
-}
 
-@Keyframes typing {
-  from {
-    width: 0
-  }
 
-  ;
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-}
 
 .logo_container {
   display: flex;
@@ -228,9 +185,7 @@
 
 }
 
-.header {
-  margin-top: -10px;
-}
+
 
 
 
@@ -998,7 +953,6 @@ input {
   justify-content: center;
   font-size: bolder;
   margin: 0 auto;
-
   background-color: #f5f5f5;
   padding: 5px;
   border-radius: 5px;

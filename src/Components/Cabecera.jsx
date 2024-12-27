@@ -4,6 +4,8 @@ import { useHref } from 'react-router-dom';
 import { Chip } from 'primereact/chip';
 import { useTranslation } from 'react-i18next';
 
+import './Cabecera.css';
+
 
 export const Cabecera = () => {
 
@@ -36,15 +38,12 @@ export const Cabecera = () => {
 
         <>
 
-
-
-            <div className="header">
-                {mostrarTexto && <span className="span_maqEscribir">{t('header.helloWorld')}<br></br>
+            <div className="flex flex-col justify-center items-center">
+                {mostrarTexto && <span className="span_maqEscribir overflow-hidden border-r-2 border-blue-400">{t('header.helloWorld')}<br></br>
                 </span>}
 
-                {mostrarTexto && <span className="span_maqEscribir1">{t('header.Im')}<br></br>
+                {mostrarTexto && <span className="span_maqEscribir1 overflow-hidden border-r-2 border-orange-400">{t('header.Im')}<br></br>
                 </span>}
-
 
             </div>
 

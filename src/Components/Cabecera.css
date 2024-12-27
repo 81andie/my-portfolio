@@ -1,0 +1,37 @@
+
+.span_maqEscribir {
+    font-size: 1.8rem;
+    color: var(--color--blueSky);
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-family: "Special Elite", system-ui;
+    white-space: nowrap;
+    width: 176px;
+    animation: typing 5s steps(10), blink .5s infinite step-end alternate;
+   
+  }
+
+  .span_maqEscribir1 {
+    font-size: 1rem;
+    color: var(--color--pumpkinNeon);
+    margin-bottom: 40px;
+    font-family: "Special Elite", system-ui;
+    white-space: nowrap;
+    width: 290px;
+    animation: typing 5s steps(13), blink .5s infinite step-end alternate;
+   
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  
+    ;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
