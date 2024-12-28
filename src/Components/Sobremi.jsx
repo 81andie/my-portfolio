@@ -14,6 +14,19 @@ export const Sobremi = () => {
     let command = argsIndex !== -1 ? text.substring(0, argsIndex) : text;
 
     switch (command) {
+
+      case 'init':
+        response = `
+  /\\_/\\                                         
+ ( o.o )   Hello!!!                              
+  > ^ <    Bienvenido a mi terminal!!
+  
+
+
+`;
+    break;
+
+        break;
       case 'date':
         response = 'Today is ' + new Date().toDateString();
         break;
@@ -44,31 +57,35 @@ export const Sobremi = () => {
 
       case 'help':
         response = (
-        <ul style={{ listStyleType: 'none', padding: 0 }}>
-        <li>
-          <strong style={{ color: '#4caf50' }}>date:</strong> Muestra la fecha actual.
-        </li>
-        <li>
-          <strong style={{ color: '#4caf50' }}>bienvenida:</strong> Un saludo inicial y guía.
-        </li>
-        <li>
-          <strong style={{ color: '#4caf50' }}>quienSoy:</strong> Información sobre mí.
-        </li>
-        <li>
-          <strong style={{ color: '#4caf50' }}>unMundoDescubierto:</strong> Mi introducción al desarrollo.
-        </li>
-        <li>
-          <strong style={{ color: '#4caf50' }}>viajeLenguajes:</strong> Tecnologías y proyectos.
-        </li>
-        <li>
-          <strong style={{ color: '#4caf50' }}>gracias:</strong> Mensaje de agradecimiento.
-        </li>
-        <li>
-          <strong style={{ color: '#4caf50' }}>clear:</strong> Limpia la terminal.
-        </li>
-      </ul>
-    );
-  
+          <ul style={{ listStyleType: 'none', padding: 0 }}>
+            <li>
+              <strong style={{ color: '#4caf50' }}>init:</strong> Inicializa la terminal.
+            </li>
+
+            <li>
+              <strong style={{ color: '#4caf50' }}>date:</strong> Muestra la fecha actual.
+            </li>
+            <li>
+              <strong style={{ color: '#4caf50' }}>bienvenida:</strong> Un saludo inicial y guía.
+            </li>
+            <li>
+              <strong style={{ color: '#4caf50' }}>quienSoy:</strong> Información sobre mí.
+            </li>
+            <li>
+              <strong style={{ color: '#4caf50' }}>unMundoDescubierto:</strong> Mi introducción al desarrollo.
+            </li>
+            <li>
+              <strong style={{ color: '#4caf50' }}>viajeLenguajes:</strong> Tecnologías y proyectos.
+            </li>
+            <li>
+              <strong style={{ color: '#4caf50' }}>gracias:</strong> Mensaje de agradecimiento.
+            </li>
+            <li>
+              <strong style={{ color: '#4caf50' }}>clear:</strong> Limpia la terminal.
+            </li>
+          </ul>
+        );
+
         break;
 
       default:
@@ -97,7 +114,7 @@ export const Sobremi = () => {
   return (
     <>
 
-      <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono text-zinc-600">
+      <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono text-zinc-600 mt-10">
         <div className="grid grid-cols-1 md:grid-rows-2 text-center md:text-left lg-text-left  mr-5">
           <div>
             <p className="text-xl font-bold">Instrucciones</p>
@@ -110,14 +127,15 @@ export const Sobremi = () => {
         <div className="flex flex-col text-center md:text-left">
           <ol>
             <p className="text-xl font-bold">Propmts</p>
-            <li><strong>bienvenida {'{0}'}</strong></li>
-            <li><strong>date{'{1}'}</strong></li>
-            <li><strong>quienSoy{'{2}'}</strong></li>
-            <li><strong>unMundoDescubierto{'{3}'}</strong></li>
-            <li><strong>viajeLenguajes{'{4}'}</strong></li>
-            <li><strong>gracias{'{5}'}</strong></li>
-            <li><strong>clear{'{6}'}</strong></li>
-            <li><strong>help{'{7}'}</strong></li>
+            <li><strong>init{'{0}'}</strong></li>
+            <li><strong>bienvenida {'{1}'}</strong></li>
+            <li><strong>date{'{2}'}</strong></li>
+            <li><strong>quienSoy{'{3}'}</strong></li>
+            <li><strong>unMundoDescubierto{'{4}'}</strong></li>
+            <li><strong>viajeLenguajes{'{5}'}</strong></li>
+            <li><strong>gracias{'{6}'}</strong></li>
+            <li><strong>clear{'{7}'}</strong></li>
+            <li><strong>help{'{8}'}</strong></li>
 
           </ol>
 
@@ -129,7 +147,7 @@ export const Sobremi = () => {
       </div>
 
       <div>
-        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="terminal-portfolio$" className="mt-5"/>
+        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="terminal-portfolio$:" className="mt-5 whitespace-pre-wrap " />
       </div>
 
 
