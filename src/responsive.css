@@ -87,16 +87,7 @@
         margin-bottom: 150px;
     }
 
-    .footer {
-        margin-top: 50px;
-    }
-
-    .logo_footer {
-        width: 12%;
-        height: 12%;
-        
-        margin-left: 10px;
-    }
+   
 
     .sobremi{
        
@@ -157,9 +148,7 @@
 
     /*header*/
 
-    .dark-theme {
-        height: 190vh;
-    }
+    
 
    
 
@@ -274,22 +263,11 @@
 
 @media(min-width: 1025px) {
 
-
-    .dark-theme {
-        height: 385vh;
-    }
-
-
-    
-
     .seccionInformacion {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-
         gap: 20px;
-
-
     }
 
     .icon_section {
@@ -332,10 +310,7 @@
 
     }
 
-    .footer {
-        margin-top: 100px;
-    }
-
+   
     .sobremi{
         display: flex;
        

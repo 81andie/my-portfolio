@@ -18,10 +18,6 @@ export const Inicio = () => {
     <div>
       <Cabecera />
      
-      
-    
-      
-    
     </div>
   )
 }
