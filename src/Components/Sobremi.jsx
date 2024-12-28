@@ -1,50 +1,105 @@
 import React from 'react'
 import './SobreMi.css';
+import { useEffect } from 'react';
+import { Terminal } from 'primereact/terminal';
+import { TerminalService } from 'primereact/terminalservice';
 
 export const Sobremi = () => {
 
   let gift = "img/yo.png";
 
+  const commandHandler = (text) => {
+    let response;
+    let argsIndex = text.indexOf(' ');
+    let command = argsIndex !== -1 ? text.substring(0, argsIndex) : text;
+
+    switch (command) {
+      case 'date':
+        response = 'Today is ' + new Date().toDateString();
+        break;
+
+      case 'bienvenida':
+        response = 'Hola puedes guiarte con los diferentes comandos, ...' + text.substring(argsIndex + 1) + '!';
+        break;
+
+      case 'quienSoy':
+        response = 'Me llamo Andrea, y soy una gerundense que hace más de un año medio desarrollando webs en el sector del Frontend, mis frameworks favoritos son Angular y React';
+        break;
+
+      case 'unMundoDescubierto':
+          response = 'Desde que descubrí este mundo, hace aproximadamente un año, me he sumergido en este viaje emocionante de aprendizaje constante  y crecimiento personal,en él he aprendido que no hay nada imposible de conseguir si trabajas duro y con disciplina. Con el paso de los meses, la curiosidad y el afán de aprender, han sido el motor incansable que me ha llevado hasta este camino.';
+          break;
+
+      case 'viajeLenguajes':
+         response = 'Durante este viaje, he adquirido experiencia en el desarrollo Web Frontend y mis pinitos en el Backend, utilizando las tecnologias más demandadas de esta carrera, HTML, CSS, Javascript, React, Node, MongoDb. Además he podido enfrentarme al desafio  de trabajar en proyectos reales que me han permitido mejorar todas mis habilidades y enfrentarme a situaciones en el mundo real. Me he adentrado en el mundo de las librerias de mapas interactivos, como Leaflet, MapLibre, OpenLayers y Mapbox, generando de cada librería un proyecto de cada uno de características distintas';
+        break;
+
+        case 'gracias':
+          response = 'Durante este viaje, he adquirido experiencia en el desarrollo Web Frontend y mis pinitos en el Backend, utilizando las tecnologias más demandadas de esta carrera, HTML, CSS, Javascript, React, Node, MongoDb. Además he podido enfrentarme al desafio  de trabajar en proyectos reales que me han permitido mejorar todas mis habilidades y enfrentarme a situaciones en el mundo real. Me he adentrado en el mundo de las librerias de mapas interactivos, como Leaflet, MapLibre, OpenLayers y Mapbox, generando de cada librería un proyecto de cada uno de características distintas';
+         break;
+
+      case 'clear':
+        response = null;
+        break;
+
+      default:
+        response = 'Unknown command: ' + command;
+        break;
+    }
+
+    if (response)
+      TerminalService.emit('response', response);
+    else
+      TerminalService.emit('clear');
+  };
+
+  useEffect(() => {
+    TerminalService.on('command', commandHandler);
+
+    return () => {
+      TerminalService.off('command', commandHandler);
+    };
+  }, []);
+
+
+
 
 
   return (
     <>
-      <section className="flex flex-col justify-center  md:flex-row lg:flex-row ml-1">
-      <div className="flex flex-row justify-center rounded-sm p-4 bg-gray-200">
-       <span className="font-mono text-2xl">Quién Soy</span>
-        <img src={gift} className="w-16 h-16 object-contain bg-slate-950 rounded-full ml-2" />
-      <div className="flex flex-col justify-center ml-2">
-      <h1 className="font-bold text-2xl">FRONTEND STACK</h1>
-      <h1 className="font-mono"> + de <span class="text-2xl">1</span> año desarrollando webs</h1>
-      <h1 className="font-bold text-xl">React</h1>
-      <h1 className="font-bold text-xl">Angular</h1>
-      </div>
-      </div>
-     
     
-    
+      <div className="terminal-demo flex justify-center mt-16 gap-14 font-mono">
+        <div className="grid grid-rows-2 text-left">
+         <div>
+          <p className="text-xl font-bold">Instrucciones</p>
+         <p>Entre "<strong>date</strong>" la terminal le mostrará la fecha.</p>
+         <p>Si quiere limpiar la terminal utilice el prompt <strong>"clear"</strong></p>
+        </div>
+         </div>
+       
+      
+        <ol>
+        <p className="text-xl font-bold">Propmts</p>
+          <li><strong>bienvenida {'{0}'}</strong></li>
+          <li><strong>date{'{1}'}</strong></li>
+          <li><strong>quienSoy{'{2}'}</strong></li>
+          <li><strong>unMundoDescubierto{'{3}'}</strong></li>
+          <li><strong>viajeLenguajes{'{4}'}</strong></li>
+          <li><strong>gracias{'{5}'}</strong></li>
+          <li><strong>clear{'{6}'}</strong></li>
+         
+          </ol>
 
-      </section>
-
-      <div className="mt-3 ml-2">
-      <span className="font-mono text-2xl text-white bg-slate-950">Un mundo descubierto</span><br/>
-        <h2 className=""> Desde que descubrí este mundo, hace aproximadamente un año, me he sumergido
-          en este viaje emocionante de aprendizaje constante  y crecimiento personal,en él he aprendido que no hay nada imposible
-          de conseguir si trabajas duro y con disciplina. Con el paso de los meses, la curiosidad y el afán de aprender, han sido el motor incansable que me ha llevado hasta este camino. </h2>
+      
+      
       </div>
 
+      <Terminal welcomeMessage="Welcome to my Portfolio" prompt="terminal-portfolio$" />
 
 
-      <section className="">
-      <span className="">Viaje entre lenguages</span><br/>
-        <h2 className=""> Durante este viaje, he adquirido experiendia en el desarrollo Web Frontend y mis pinitos en el Backend, utilizando las tecnologias más demandadas de esta carrera, HTML, CSS, Javascript, React, Node, MongoDb. Además he podido enfrentarme al desafio  de trabajar en proyectos reales que me han permitido mejorar todas mis habilidades y enfrentarme a situaciones en el mundo real. </h2>
-      </section>
 
-      <section className="">
-      <span className="">Grácias por tu visita</span><br/>
-        <h2 className=""> Y antes de que te vayas, quiero expresarte mi más sincero agradecimiento por visitar mi portfolio. Cada "click" y cada minuto que pasas aquí es una muestra de confianza y aprecio hacia mi trabajo. Prometo seguir en esta línea, comprometida arduamente para ofrecer contenido de calidad y experiencias únicas.Grácias por formar parte de ello y por creer en mi visión.</h2>
-      </section>
-     
+    
+
 
     </>
   )
