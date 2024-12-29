@@ -147,7 +147,7 @@ export const Sobremi = () => {
       </div>
 
       <div>
-        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="terminal-portfolio$:" className="mt-5 whitespace-pre-wrap " />
+        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="terminal-portfolio$:" className="mt-5 whitespace-pre-wrap h-90" />
       </div>
 
 

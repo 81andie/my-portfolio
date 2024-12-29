@@ -11,6 +11,7 @@ import { Queofrezco } from '../Components/Queofrezco';
 import { Certificaciones } from '../Components/Certificaciones';
 import { Header } from '../Components/Header';
 import { ErrorPage } from './ErrorPage';
+import { Footer } from '../Components/Footer';
 
 
 
@@ -24,9 +25,6 @@ export const RoutasPrincipales = () => {
      
       <BrowserRouter>
         <Header />
-
-       
-       
         <Routes>
 
           <Route path="/" element={<Inicio />} />
@@ -41,15 +39,11 @@ export const RoutasPrincipales = () => {
           <Route path="/contacto" element={<Contacto />} />
           <Route path="*" element={<ErrorPage />}
 
-          
-
           />
-
-         
 
         </Routes>
 
-       
+      <Footer/>
 
       </BrowserRouter>
 

@@ -6,8 +6,8 @@ export const Footer = () => {
   let img = "img/logo2.png";
   return (
     <>
-      <div className="footer">
-      <img src={img} className='logo_footer' alt="logo-imagen" />
+      <div className="flex justify-center md:flex-row ">
+      <img src={img} className='w-20 h-20' alt="logo-imagen" />
 
         <div className="icons_social">
         

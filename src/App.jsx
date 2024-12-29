@@ -9,7 +9,7 @@ import { RoutasPrincipales } from './routing/RoutasPrincipales';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './Configuracion/i18n'; 
 import LanguageSelector from './Components/LanguageSelector';
-import {Footer} from  './Components/Footer';
+
 
 
 
@@ -21,17 +21,13 @@ function App() {
   };
 
 
-
-
-
   return (
 
 
     <>
       <I18nextProvider i18n={i18n}>
-     
+      <div className= {theme === 'light' ? 'light-theme' : 'dark-theme' }>
           <div className="App">
-          <div className= {theme === 'light' ? 'light-theme' : 'dark-theme' }>
             <div className="marquee-wrapper">
               <div className="marquee-content">
                 <p>_WEB <strong>DEVELOPER FRONTEND</strong>__<strong>H</strong>TML__ <strong>C</strong>SS__<strong>S</strong>ASS__<strong>J</strong>S__<strong>R</strong>EACT__<strong>A</strong>NGULAR___WEB <strong>DEVELOPER FRONTEND</strong>__<strong>H</strong>TML__ <strong>C</strong>SS__<strong>S</strong>ASS__<strong>J</strong>S__<strong>R</strong>EACT__<strong>A</strong>NGULAR__</p>
@@ -45,7 +41,7 @@ function App() {
             </button>
 
             <RoutasPrincipales/>
-            <Footer/>
+           
            
           </div>
         </div>

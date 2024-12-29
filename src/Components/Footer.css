@@ -1,25 +1,7 @@
 /*footer*/
 
-.footer {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 200px;
-    line-height: 19px;
-    flex-wrap: wrap;
-    align-content: stretch;
-    align-items: stretch;
+
   
-  
-  }
-  
-  .logo_footer {
-    width: 10%;
-    height: 10%;
-  
-  
-  }
   
   .icons_social {
     width: 14%;
