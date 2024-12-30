@@ -3,8 +3,8 @@ import { useState, useEffect } from 'react';
 import { useHref } from 'react-router-dom';
 import { Chip } from 'primereact/chip';
 import { useTranslation } from 'react-i18next';
-
 import './Cabecera.css';
+
 
 
 export const Cabecera = () => {
@@ -37,7 +37,7 @@ export const Cabecera = () => {
     return (
 
         <>
-
+ 
             <div className="flex flex-col justify-center items-center">
                 {mostrarTexto && <span className="span_maqEscribir overflow-hidden border-r-2 border-blue-400">{t('header.helloWorld')}<br></br>
                 </span>}

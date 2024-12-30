@@ -16,6 +16,7 @@ export const Inicio = () => {
 
   return (
     <div>
+      
       <Cabecera />
      
     </div>

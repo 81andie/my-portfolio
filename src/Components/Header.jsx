@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import './Header.css';
 
 
+
 export const Header = () => {
 
   let img = "img/logo2.png";
@@ -11,7 +12,7 @@ export const Header = () => {
 
   return (
     <>
-    
+   
       <div className="header flex flex-col justify-center items-center">
         <div className="flex mb-2 justify-start">
           <img src={img} className='h-auto mb-12 mt-5 w-28 md:' alt="logo-imagen" />
