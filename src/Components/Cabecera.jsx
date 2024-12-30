@@ -47,246 +47,56 @@ export const Cabecera = () => {
 
             </div>
 
-            <div className="grid_fotos">
-                <div className="item">
-                    <img src={gift} className="imagenes_centradas" loading="lazy" alt="imagenes-mobil" />
-                    <div className="card flex flex-wrap gap-2">
-                        <Chip label="REACT"
-                            className="custom-chip"
-                            image="/logo192.png"
-                            style={{
-                                backgroundColor: '#CCF9FB',
-                                fontWeight: 'bolder',
-                                width: '84px',
-                                color: '#418C90',
-                                borderRadius: '23px',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px',
-                                marginLeft: '6px'
-                            }} />
 
-                        <Chip label="HTML"
-                            className="custom-chip"
-                            image="img/5352-html5_102567.png"
-                            style={{
-                                backgroundColor: '#FDEACE',
-                                width: '82px',
-                                color: 'orange',
-                                fontWeight: 'bolder',
-                                borderRadius: '23px',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px'
-                            }} />
+            <div className="h-auto mb-40">
+                
 
-                        <Chip label="CSS"
-                            className="custom-chip"
-                            image="/img/file_type_css_icon_130661.png"
-                            style={{
-                                backgroundColor: '#7ABCFA',
-                                width: '66px',
-                                color: '#155A9A',
-                                borderRadius: '23px',
-                                fontWeight: 'bolder',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px'
-                            }} />
-
-                    </div>
-
-
-
-                </div>
-
-                <div className="item">
-                    <img src={gift2} className="imagenes_centradas" loading="lazy" alt="imagenes-mobil1" />
-
-                    <div className="card flex flex-wrap gap-2">
-
-
-                        <Chip label="HTML"
-                            className="custom-chip"
-                            image="img/5352-html5_102567.png"
-                            style={{
-                                backgroundColor: '#FDEACE',
-                                width: '82px',
-                                color: 'orange',
-                                fontWeight: 'bolder',
-                                borderRadius: '23px',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px'
-                            }} />
-
-                        <Chip label="CSS"
-                            className="custom-chip"
-                            image="/img/file_type_css_icon_130661.png"
-                            style={{
-                                backgroundColor: '#7ABCFA',
-                                width: '66px',
-                                color: '#155A9A',
-                                borderRadius: '23px',
-                                fontWeight: 'bolder',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px'
-                            }} />
-
-                    </div>
-
-                </div>
-
-                <div className="item">
-                    <img src={gift1} className="imagenes_centradas" loading="lazy" alt="imagenes-mobil" />
-
-                    <div className="card flex flex-wrap gap-2">
-
-
-                        <Chip label="HTML"
-                            className="custom-chip"
-                            image="img/5352-html5_102567.png"
-                            style={{
-                                backgroundColor: '#FDEACE',
-                                width: '82px',
-                                color: 'orange',
-                                fontWeight: 'bolder',
-                                borderRadius: '23px',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px'
-                            }} />
-
-                        <Chip label="CSS"
-                            className="custom-chip"
-                            image="/img/file_type_css_icon_130661.png"
-                            style={{
-                                backgroundColor: '#7ABCFA',
-                                width: '66px',
-                                color: '#155A9A',
-                                borderRadius: '23px',
-                                fontWeight: 'bolder',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px'
-                            }} />
-
-                    </div>
-
-                </div>
-
-
-            </div>
-
-            <div className="grid_fotos1">
-                <div className="item">
-                    <img src={gift2} loading="lazy" className="imagenes_centradas" alt="imagenes-mobil1" />
-                    <div className="card flex flex-wrap gap-2">
-
-
-                        <Chip label="HTML"
-                            className="custom-chip"
-                            image="img/5352-html5_102567.png"
-                            style={{
-                                backgroundColor: '#FDEACE',
-                                width: '82px',
-                                color: 'orange',
-                                fontWeight: 'bolder',
-                                borderRadius: '23px',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px'
-                            }} />
-
-                        <Chip label="CSS"
-                            className="custom-chip"
-                            image="/img/file_type_css_icon_130661.png"
-                            style={{
-                                backgroundColor: '#7ABCFA',
-                                width: '66px',
-                                color: '#155A9A',
-                                borderRadius: '23px',
-                                fontWeight: 'bolder',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px'
-                            }} />
-
-                    </div>
-                </div>
-
-                <div className="item">
-                    <img src={gift} className="imagenes_centradas" loading="lazy" alt="imagenes-mobil" />
-                    <div className="card flex flex-wrap gap-2">
-
-
-                        <Chip label="HTML"
-                            className="custom-chip"
-                            image="img/5352-html5_102567.png"
-                            style={{
-                                backgroundColor: '#FDEACE',
-                                width: '82px',
-                                color: 'orange',
-                                fontWeight: 'bolder',
-                                borderRadius: '23px',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px'
-                            }} />
-
-                        <Chip label="CSS"
-                            className="custom-chip"
-                            image="/img/file_type_css_icon_130661.png"
-                            style={{
-                                backgroundColor: '#7ABCFA',
-                                width: '66px',
-                                color: '#155A9A',
-                                borderRadius: '23px',
-                                fontWeight: 'bolder',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px'
-                            }} />
-
-                    </div>
-                </div>
-
-                <div className="item">
-                    <img src={gift2} className="imagenes_centradas" loading="lazy" alt="imagenes-mobil1" />
-                    <div className="card flex flex-wrap gap-1">
-
-
-                        <Chip label="HTML"
-                            className="custom-chip"
-                            image="img/5352-html5_102567.png"
-                            style={{
-                                backgroundColor: '#FDEACE',
-                                width: '82px',
-                                color: 'orange',
-                                fontWeight: 'bolder',
-                                borderRadius: '23px',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px'
-                            }} />
-
-                        <Chip label="CSS"
-                            className="custom-chip"
-                            image="/img/file_type_css_icon_130661.png"
-                            style={{
-                                backgroundColor: '#7ABCFA',
-                                width: '66px',
-                                color: '#155A9A',
-                                borderRadius: '23px',
-                                fontWeight: 'bolder',
-                                padding: '0.1rem',
-                                marginRight: '15px',
-                                marginBottom: '12px'
-                            }} />
-
-                    </div>
-                </div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 ml-10 mr-10">
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg bg-zinc-200" src="img/iPhone 15 Mockup, Perspective.png" alt=""/>
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="img/mockDrop_Thunderbolt display on a table.jpg" alt=""/>
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="public\img\mockDrop_Apple Pencil close by (5).jpg" alt=""/>
+        </div>
+    </div>
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt=""/>
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt=""/>
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt=""/>
+        </div>
+    </div>
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt=""/>
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt=""/>
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt=""/>
+        </div>
+    </div>
+    <div class="grid gap-4">
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt=""/>
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt=""/>
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt=""/>
+        </div>
+    </div>
+</div>
 
             </div>
 
