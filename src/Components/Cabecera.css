@@ -11,6 +11,13 @@
    
   }
 
+  .span_maqEscribir2{
+  
+    white-space: nowrap;
+    font-family: "Special Elite", system-ui;
+    animation: typing 5s steps(36), blink .5s infinite step-end alternate;
+  }
+
   .span_maqEscribir1 {
     font-size: 1rem;
     color: var(--color--pumpkinNeon);
