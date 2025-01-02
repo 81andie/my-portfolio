@@ -53,23 +53,30 @@ export const Cabecera = () => {
 
 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 ml-10 mr-10">
     <div class="grid gap-4">
-        <div>
+        <figure class="max-w-full relative">
             <img class="h-auto max-w-full rounded-lg bg-zinc-200" src="img/iPhone 15 Mockup, Perspective.png" alt=""/>
-        </div>
-        <div>
+            <figcaption class="bottom-0 w-full z-90 absolute text-center  text-white font-semibold bg-black/50 px-5 py-2 text-xs">SpairAirTracker</figcaption>
+        </figure>
+        
+        <figure class="max-w-full relative"> 
             <img class="h-auto max-w-full rounded-lg" src="img/mockDrop_Thunderbolt display on a table.jpg" alt=""/>
-        </div>
-        <div>
+            <figcaption class="bottom-0 w-full z-90 absolute text-center  text-white font-semibold bg-black/50 px-5 py-2 text-xs">Cleopatra Cosmétics</figcaption>
+        
+        </figure>
+        <figure class="max-w-full relative">
             <img class="h-auto max-w-full rounded-lg" src="public\img\mockDrop_Apple Pencil close by (5).jpg" alt=""/>
-        </div>
+            <figcaption class="bottom-0 w-full z-90 absolute text-center  text-white font-semibold bg-black/50 px-5 py-2 text-xs">Harry Potter App</figcaption>
+        </figure>
     </div>
     <div class="grid gap-4">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt=""/>
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt=""/>
-        </div>
+        <figure class="max-w-full relative">
+            <iframe class="h-auto max-w-full rounded-lg" src="public\img\macbook-subtle-turn.mp4" allow="autoplay; fullscreen; picture-in-picture" alt=""/>
+            <figcaption class="bottom-0 lg:bottom-7 md:bottom-2 w-full z-90 absolute text-center  text-white font-semibold bg-black/50 px-5 py-2 text-xs">Claustrum Aqvae</figcaption>
+        </figure>
+        <figure class="max-w-full relative">
+            <img class="h-auto max-w-full rounded-lg bg-zinc-200" src="public/img/Iphone 15 Screens Mockup.png" alt=""/>
+            <figcaption class="bottom-0 lg:bottom-14 md:bottom-2 w-full z-90 absolute text-center  text-white font-semibold bg-black/50 px-5 py-2 text-xs">Claustrum Aqvae</figcaption>
+        </figure>
         <div>
             <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt=""/>
         </div>
