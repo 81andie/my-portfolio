@@ -78,7 +78,7 @@ export const Cabecera = () => {
             <figcaption class="bottom-5  w-full z-90 absolute text-center  text-white font-semibold bg-black/50 px-5 py-2 text-xs">Claustrum Aqvae</figcaption>
         </figure>
         <figure class="max-w-full relative">
-            <img class="h-56 object-cover max-w-full rounded-lg" src="public/img/Mobile App Screen Mockup, Mosaic.png" alt=""/>
+            <img class="h-52 object-cover max-w-full rounded-lg" src="public/img/Mobile App Screen Mockup, Mosaic.png" alt=""/>
             <figcaption class="bottom-5  w-full z-90 absolute text-center  text-white font-semibold bg-black/50 px-5 py-2 text-xs">The HolyWine</figcaption>
         </figure>
     </div>
