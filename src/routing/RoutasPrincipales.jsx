@@ -23,7 +23,7 @@ export const RoutasPrincipales = () => {
   return (
     <>
      
-      <BrowserRouter>
+      <BrowserRouter basename='/my-portfolio'>
         <Header />
         <Routes>
 
