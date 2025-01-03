@@ -15,101 +15,15 @@
     }
 
 
-    /*Cabecera*/
-
-    .grid_fotos {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: start;
-        column-gap: 20px;
-        margin: 0px 60px;
-    }
-
-    .item {
-        display: block;
-        background-color: gainsboro;
-        width: 82%;
-        margin-top: 10px;
-    }
-
-    .imagenes_centradas {
-        display: block;
-        margin: 0 auto;
-        width: 82%;
-        padding: 15px;
-    }
-
-    .grid_fotos1 {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: start;
-        column-gap: 30px;
-        margin: 40px 60px;
-        gap: 45px;
-    }
-
-
-
-
-
-    /*section Contacto*/
-
-    .contenedor_principal {
-
-        flex-direction: column;
-    }
-
-    .contenedor_información {
-        width: 100%;
-
-    }
-
-    .contenedor_inputs {
-        width: 100%;
-        height: auto;
-
-    }
-
-    label,
-    h3,
-    input {
-        width: 82%;
-        display: block;
-        margin-top: 20px;
-        padding: 12px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: rgb(252, 252, 252);
-        border: none;
-        border-radius: 5px;
-    }
-
+  /*section informacion*/
     .seccionInformacion {
         margin-bottom: 150px;
+        margin-top: 100px;
     }
 
    
 
-    .sobremi{
-       
-        display: flex;
-        flex-direction: column;
-       
-    }
-
-    .presentación{
-        width: 90%
-    }
-
-    .parallax_Avatar{
-       
-        display: flex;
-        flex-direction: column;
-       
-        
-      }
+    
    
 }
 
@@ -125,23 +39,7 @@
         height: auto;
     }
 
-    /*seccion contacto*/
-
-
-
-    label,
-    h3,
-    input {
-        width: 82%;
-        display: block;
-        margin-top: 20px;
-        padding: 12px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: rgb(252, 252, 252);
-        border: none;
-        border-radius: 5px;
-    }
+    
 
 
 }
@@ -149,57 +47,9 @@
 
 @media(min-width: 641px) {
 
-    /*header*/
-
     
 
    
-
-   
-
-   
-
-    .item {
-        display: block;
-        margin: 0 auto;
-        width: 29%;
-        background-color: gainsboro;
-
-    }
-
-    .grid_fotos {
-
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        align-content: center;
-        row-gap: 20px;
-        margin: 0px 20px;
-        -webkit-animation: slide-in-fwd-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-fwd-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-
-    }
-
-
-    .imagenes_centradas {
-        display: block;
-        margin: 0 auto;
-        width: 60.9%;
-        padding: 15px;
-
-    }
-
-    .grid_fotos1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-end;
-        align-content: center;
-        column-gap: 10px;
-        margin: -10px 25px;
-
-    }
 
 
     /*404 error*/

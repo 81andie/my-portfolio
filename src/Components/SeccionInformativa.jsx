@@ -32,7 +32,6 @@ export const SeccionInformativa = () => {
                 </div>
 
                 <div className='icon_section'>
-
                     <span><i className="pi pi-tablet" style={{ color: '#e040a4' }}></i></span>
                     <h1 className="titsec_Informacion">{t('sectionInformation.devices.title')}</h1>
                     <p className="parrsec_Informacion"> {t('sectionInformation.devices.description')}</p>
