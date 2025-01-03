@@ -58,7 +58,7 @@ export const Cabecera = () => {
                         </figure>
 
                         <figure class="max-w-full relative">
-                            <img class="h-48 object-cover max-w-full  opacity-60 hover:opacity-100 rounded-lg" src="public/img/mockDrop_Thunderbolt display on a table.jpg" alt="" />
+                            <img class="h-48 object-cover max-w-full  opacity-60 hover:opacity-100 rounded-lg" src="public/img/cleopatraCosmetics.jpg" alt="" />
                             <figcaption class="span_maqEscribir2 overflow-hidden rounded-md bottom-2  w-full z-90 absolute bg-gradient-to-r from-zinc-50  text-zinc-700 font-semibold  px-5 py-2 text-xs">Cleopatra Cosmétics</figcaption>
                         </figure>
                         <figure class="max-w-full relative">
