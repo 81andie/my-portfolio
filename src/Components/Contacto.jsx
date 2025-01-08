@@ -16,8 +16,8 @@ export const Contacto = () => {
           </div>
 
           <div class="w-4/5 h-96">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-zinc-700 font-mono">Contacto</h2>
-          <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Quieres accesoramiento, consejo o quieres transmitirme tu idea para tu web, ponte en contacto conmigo</p>
+          <h2 class="mb-4 text-2xl tracking-tight font-extrabold text-center text-zinc-700 font-mono">Contacto</h2>
+          <p class="mb-8 lg:mb-10 font-light text-center text-gray-500 dark:text-gray-400 sm:text-base">Quieres accesoramiento, consejo o quieres transmitirme tu idea para tu web, ponte en contacto conmigo</p>
           <div class="flex flex-row ">
           <div class="flex flex-col w-full">
               <label for="email" class="block mb-1 text-xs font-medium text-gray-900 ">Your email</label>
@@ -29,6 +29,8 @@ export const Contacto = () => {
           </div>
 
           </div>
+
+          <textarea id="message" rows="4" class="mt-4 ml-7 block p-2 w-11/12 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500   dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
           
          
          
