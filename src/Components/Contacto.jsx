@@ -29,7 +29,6 @@ export const Contacto = () => {
           </div>
 
           </div>
-
           <textarea id="message" rows="4" class="mt-4 ml-7 block p-2 w-11/12 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500   dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
           
          
