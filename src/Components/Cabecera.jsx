@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { useHref } from 'react-router-dom';
+import { NavLink, useHref } from 'react-router-dom';
 import { Chip } from 'primereact/chip';
 import { useTranslation } from 'react-i18next';
 import './Cabecera.css';
@@ -10,7 +10,7 @@ import './Cabecera.css';
 export const Cabecera = () => {
 
     const { t } = useTranslation();
-   
+
 
     const [mostrarTexto, setMostrarTexto] = useState(false);
 
@@ -23,6 +23,25 @@ export const Cabecera = () => {
 
         return () => clearTimeout(timer)
     }, []);
+
+    const imageData = [
+        [
+            { src: "img/iPhone 15 Mockup, Perspective.png", title: "SpaceAirTracker", heightClass: "h-auto" },
+            { src: "img/cleopatraCosmetics.jpg", title: "Cleopatra Cosmétics", heightClass: "h-48" }
+        ],
+        [
+            { src: "img/macbook-subtle-turn.mp4", title: "Claustrum Aquae", isVideo: true, heightClass: "h-52" },
+            { src: "img/mockupHp.png", title: "Harry Potter App", heightClass: "h-auto" }
+        ],
+        [
+            { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-auto" },
+            { src: "img/Mobile App Screen Mockup, Mosaic.png", title: "The Holy Wine", heightClass: "h-48" }
+        ],
+        [
+            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-52" },
+            { src: "img/mockupHp.png", title: "Harry Potter App", heightClass: "h-auto" }
+        ]
+    ];
 
 
     return (
@@ -38,69 +57,43 @@ export const Cabecera = () => {
             </div>
 
 
-            <div className="h-auto mb-20">
+            <div className="h-auto mb-20 lg:mb-12">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 ml-10 mr-10">
+                    {imageData.map((column, colIndex) => (
+                        <div key={colIndex} className="grid gap-4">
+                            {column.map((item, itemIndex) => (
+                                <figure key={itemIndex} className="max-w-full relative">
+                                    {item.isVideo ? (
+                                        <iframe
+                                            className={`object-cover max-w-full rounded-lg opacity-60 hover:opacity-100 transition-opacity duration-300 ${item.heightClass}`}
+                                            src={item.src}
+                                            allow="autoplay; fullscreen; picture-in-picture"
+                                            title={item.title}
+                                        />
+                                    ) : (
+                                        <img
+                                            className={`object-cover max-w-full rounded-lg opacity-70 hover:opacity-100 transition-opacity duration-300 ${item.heightClass}`}
+                                            src={item.src}
+                                            alt={item.title}
+                                        />
+                                    )}
+                                    <figcaption className="span_maqEscribir2 overflow-hidden rounded-md top-1 w-full z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold px-5 py-2 text-xs">
+                                        {item.title}
+                                    </figcaption>
+                                </figure>
+                            ))}
+                        </div>
+                    ))}
 
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 ml-10 mr-10">
-                    <div class="grid gap-4">
-                        <figure class="max-w-full relative">
-                            <img class="h-auto max-w-full rounded-lg opacity-70  hover:opacity-100 transition-opacity duration-300 bg-zinc-200" src="img/iPhone 15 Mockup, Perspective.png" alt="" />
-                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-1 w-full z-90 absolute bg-gradient-to-r from-zinc-50  text-zinc-700 font-semibold  px-5 py-2 text-xs ">SpaceAirTracker</figcaption>
-                        </figure>
-
-                        <figure class="max-w-full relative">
-                            <img class="h-48 object-cover max-w-full  opacity-60 hover:opacity-100 rounded-lg" src="img/cleopatraCosmetics.jpg" alt="" />
-                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-0  w-full z-90 absolute bg-gradient-to-r from-zinc-50  text-zinc-700 font-semibold  px-5 py-2 text-xs">Cleopatra Cosmétics</figcaption>
-                        </figure>
-                       
-                    </div>
-                    <div class="grid gap-4">
-                        <figure class="max-w-full relative">
-                            <iframe class="h-52 object-cover max-w-full rounded-lg  opacity-60  hover:opacity-100 transition-opacity duration-300" src="img/macbook-subtle-turn.mp4" allow="autoplay; fullscreen; picture-in-picture" alt="" />
-                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-1  w-full z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold  px-5 py-2 text-xs">Claustrum Aquae</figcaption>
-                        </figure>
-                      
-
-                        <figure class="max-w-full relative">
-                            <img class="h-auto max-w-full rounded-lg opacity-60 bg-zinc-200 hover:opacity-100 transition-opacity duration-300" src="img/mockupHp.png" alt="" />
-                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-0  w-full z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold  px-5 py-2 text-xs">Harry Potter App</figcaption>
-                        </figure>
-                       
-                       
-                    </div>
-                    <div class="grid gap-4">
-                    <figure class="max-w-full relative">
-                            <img class="h-auto max-w-full rounded-lg opacity-60  hover:opacity-100 transition-opacity duration-300" src="img/mockupMex1.png" alt="" />
-                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-0 w-full z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold  px-5 py-2 text-xs">México Guide</figcaption>
-                        </figure>
-                   
-                        <figure class="max-w-full relative">
-                            <img class="h-48 object-cover bg-zinc-200 opacity-50  hover:opacity-100 transition-opacity duration-300 max-w-full rounded-lg" src="img/Mobile App Screen Mockup, Mosaic.png" alt="" />
-                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-1  w-full left-0 z-90 absolute bg-gradient-to-r from-zinc-50  text-zinc-700 font-semibold  px-5 py-2 text-xs">The Holy Wine</figcaption>
-                        </figure>
-
-                      
-                    </div>
-                    <div class="grid gap-4">
-                    <figure class="max-w-full relative">
-                            <img class="h-52 object-cover max-w-full rounded-lg opacity-70  hover:opacity-100 transition-opacity duration-300 bg-zinc-200" src="img/mockuptrafic.png" alt="" />
-                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-1 w-full z-90 absolute bg-gradient-to-r from-zinc-50  text-zinc-700 font-semibold  px-5 py-2 text-xs ">Traffic Valencia</figcaption>
-                        </figure>
-                        <figure class="max-w-full relative">
-                            <img class="h-auto max-w-full rounded-lg opacity-60 bg-zinc-200 hover:opacity-100 transition-opacity duration-300" src="img/mockupHp.png" alt="" />
-                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-0  w-full z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold  px-5 py-2 text-xs">Harry Potter App</figcaption>
-                        </figure>
-                      
-                       
-                    </div>
                 </div>
 
             </div>
 
 
 
-            <div className='botones_cabecera'>
+            <div className='flex justify-center mb-20'>
 
-                <button className="conoceme">{t('header.contact')} <i className="pi pi-user" style={{ color: 'white' }}> </i></button>
+                <NavLink to="/contacto" className="conoceme">{t('header.contact')} <i className="pi pi-user" style={{ color: 'white' }}> </i></NavLink>
 
             </div>
 

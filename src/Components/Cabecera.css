@@ -42,3 +42,22 @@
       border-color: transparent
     }
   }
+
+  
+.conoceme {
+  width: 110px;
+  padding: 8px;
+  margin-top: 60px;
+  border-radius: 15px;
+  border: none;
+  background-color: var(--color-green-studioCode);
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 500;
+
+}
+
+.pi-user{
+  margin-left: 5px;
+}
