@@ -114,8 +114,8 @@ export const Sobremi = () => {
   return (
     <>
 
-      <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono text-zinc-600 mt-48">
-        <div className="grid grid-cols-1 md:grid-rows-2 text-center md:text-left lg-text-left  mr-5">
+      <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono text-zinc-600 mt-32 md:mt-36 lg:mt-48">
+        <div className="grid grid-cols-1 md:grid-rows-2 text-center md:text-left lg-text-left md:mr-5">
           <div>
             <p className="text-xl font-bold">Instrucciones</p>
             <p>Entre "<strong>date</strong>" la terminal <br></br>le mostrará la fecha.</p>
