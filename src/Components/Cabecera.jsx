@@ -37,8 +37,7 @@ export const Cabecera = () => {
     return (
 
         <>
-
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center mt-10">
                 {mostrarTexto && <span className="span_maqEscribir overflow-hidden border-r-2 border-blue-400">{t('header.helloWorld')}<br></br>
                 </span>}
 
@@ -48,7 +47,7 @@ export const Cabecera = () => {
             </div>
 
 
-            <div className="h-auto mb-40">
+            <div className="h-auto mb-20">
 
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 ml-10 mr-10">
                     <div class="grid gap-4">
@@ -59,48 +58,48 @@ export const Cabecera = () => {
 
                         <figure class="max-w-full relative">
                             <img class="h-48 object-cover max-w-full  opacity-60 hover:opacity-100 rounded-lg" src="img/cleopatraCosmetics.jpg" alt="" />
-                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md bottom-2  w-full z-90 absolute bg-gradient-to-r from-zinc-50  text-zinc-700 font-semibold  px-5 py-2 text-xs">Cleopatra Cosmétics</figcaption>
+                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-0  w-full z-90 absolute bg-gradient-to-r from-zinc-50  text-zinc-700 font-semibold  px-5 py-2 text-xs">Cleopatra Cosmétics</figcaption>
                         </figure>
-                        <figure class="max-w-full relative">
-                            <img class="h-auto max-w-full rounded-lg opacity-60  hover:opacity-100 transition-opacity duration-300" src="img/mockDrop_Apple Pencil close by (5).jpg" alt="" />
-                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md bottom-2  w-full z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold  px-5 py-2 text-xs">Harry Potter App</figcaption>
-                        </figure>
+                       
                     </div>
                     <div class="grid gap-4">
                         <figure class="max-w-full relative">
-                            <iframe class="h-52 object-cover max-w-full rounded-lg  opacity-60  hover:opacity-100 transition-opacity duration-300 " src="img/macbook-subtle-turn.mp4" allow="autoplay; fullscreen; picture-in-picture" alt="" />
+                            <iframe class="h-52 object-cover max-w-full rounded-lg  opacity-60  hover:opacity-100 transition-opacity duration-300" src="img/macbook-subtle-turn.mp4" allow="autoplay; fullscreen; picture-in-picture" alt="" />
                             <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-1  w-full z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold  px-5 py-2 text-xs">Claustrum Aquae</figcaption>
                         </figure>
+                      
+
                         <figure class="max-w-full relative">
-                            <img class="h-auto max-w-full rounded-lg bg-zinc-200 opacity-70  hover:opacity-100 transition-opacity duration-300 " src="img/Iphone 15 Screens Mockup.png" alt="" />
-                            <figcaption class="span_maqEscribir2 overflow-hidden top-1 rounded-md w-full left-0 z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold  px-5 py-2 text-xs">Claustrum Aqvae</figcaption>
+                            <img class="h-auto max-w-full rounded-lg opacity-60 bg-zinc-200 hover:opacity-100 transition-opacity duration-300" src="img/mockupHp.png" alt="" />
+                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-0  w-full z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold  px-5 py-2 text-xs">Harry Potter App</figcaption>
                         </figure>
+                       
+                       
+                    </div>
+                    <div class="grid gap-4">
+                    <figure class="max-w-full relative">
+                            <img class="h-auto max-w-full rounded-lg opacity-60  hover:opacity-100 transition-opacity duration-300" src="img/mockupMex1.png" alt="" />
+                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-0 w-full z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold  px-5 py-2 text-xs">México Guide</figcaption>
+                        </figure>
+                   
                         <figure class="max-w-full relative">
-                            <img class="h-56 object-cover bg-zinc-200 opacity-50  hover:opacity-100 transition-opacity duration-300 max-w-full rounded-lg" src="img/Mobile App Screen Mockup, Mosaic.png" alt="" />
+                            <img class="h-48 object-cover bg-zinc-200 opacity-50  hover:opacity-100 transition-opacity duration-300 max-w-full rounded-lg" src="img/Mobile App Screen Mockup, Mosaic.png" alt="" />
                             <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-1  w-full left-0 z-90 absolute bg-gradient-to-r from-zinc-50  text-zinc-700 font-semibold  px-5 py-2 text-xs">The Holy Wine</figcaption>
                         </figure>
+
+                      
                     </div>
                     <div class="grid gap-4">
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div class="grid gap-4">
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="" />
-                        </div>
+                    <figure class="max-w-full relative">
+                            <img class="h-52 object-cover max-w-full rounded-lg opacity-70  hover:opacity-100 transition-opacity duration-300 bg-zinc-200" src="img/mockuptrafic.png" alt="" />
+                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-1 w-full z-90 absolute bg-gradient-to-r from-zinc-50  text-zinc-700 font-semibold  px-5 py-2 text-xs ">Traffic Valencia</figcaption>
+                        </figure>
+                        <figure class="max-w-full relative">
+                            <img class="h-auto max-w-full rounded-lg opacity-60 bg-zinc-200 hover:opacity-100 transition-opacity duration-300" src="img/mockupHp.png" alt="" />
+                            <figcaption class="span_maqEscribir2 overflow-hidden rounded-md top-0  w-full z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold  px-5 py-2 text-xs">Harry Potter App</figcaption>
+                        </figure>
+                      
+                       
                     </div>
                 </div>
 
