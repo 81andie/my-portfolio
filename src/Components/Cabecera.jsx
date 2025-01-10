@@ -10,16 +10,7 @@ import './Cabecera.css';
 export const Cabecera = () => {
 
     const { t } = useTranslation();
-    /* const base_image_url = useHref('/');   
    
-
-    let gift =`${base_image_url}/img/mobile4.webp`;
-    let gift1 = `${base_image_url}/img/mobile (5).gif`;
-    let gift2 = `${base_image_url}/img/mobile (6).gif`;*/
-
-    let gift = "/img/mobile4.webp";
-    let gift1 = "/img/mobile (5).gif";
-    let gift2 = "/img/mobile (6).gif";
 
     const [mostrarTexto, setMostrarTexto] = useState(false);
 
