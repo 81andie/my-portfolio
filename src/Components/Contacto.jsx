@@ -13,7 +13,7 @@ export const Contacto = () => {
             <img src="https://images.pexels.com/photos/4792728/pexels-photo-4792728.jpeg?auto=compress&cs=tinysrgb&w=600" class="h-96 w-full object-cover rounded-lg"></img>
           </div>
 
-          <div class="md:w-4/5 lg:w-4/5 h-96 md:ml-4 lg:ml-10">
+          <div class="md:w-4/5 lg:w-4/5 h-96 md:ml-4 lg:ml-8 lg:mr-8">
           <h2 class="mb-4 text-2xl tracking-tight font-extrabold text-center text-zinc-700 font-mono">Contacto</h2>
           <p class="mb-8 lg:mb-10 font-light text-center text-gray-500 dark:text-gray-400 sm:text-base">Quieres accesoramiento, consejo o quieres transmitirme tu idea para tu web, ponte en contacto conmigo</p>
           <div class="flex flex-row gap-2">
