@@ -6,9 +6,10 @@ import { TerminalService } from 'primereact/terminalservice';
 
 export const Sobremi = () => {
 
-  let gift = "img/yo.png";
+ 
 
   const commandHandler = (text) => {
+    console.log('Comando recibido:', text);
     let response;
     let argsIndex = text.indexOf(' ');
     let command = argsIndex !== -1 ? text.substring(0, argsIndex) : text;
@@ -145,7 +146,15 @@ export const Sobremi = () => {
       </div>
 
       <div>
-        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="terminal-portfolio$:" className="mt-5 mb-16 whitespace-pre-wrap " />
+        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="terminal-portfolio$:" className="mt-5 mb-16 whitespace-pre-wrap p-terminal " 
+         onKeyDown={(e) => {
+          if (e.key === 'Enter') {
+              // Ejecuta el comando
+              commandHandler(e.target.value);
+              e.target.value = ''; // Limpiar el input
+          }
+      }}
+        />
       </div>
 
 
