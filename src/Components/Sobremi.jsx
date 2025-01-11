@@ -146,9 +146,8 @@ export const Sobremi = () => {
       </div>
 
       <div className="mt-10">
-        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="terminal-portfolio$:" className="mt-10 whitespace-pre-wrap p-terminal" 
+        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="primereact $" className="mt-10 whitespace-pre-wrap p-terminal" 
        
-      
         />
       </div>
 
