@@ -145,15 +145,10 @@ export const Sobremi = () => {
 
       </div>
 
-      <div>
-        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="terminal-portfolio$:" className="" 
-         onKeyDown={(e) => {
-          if (e.key === 'Enter') {
-              // Ejecuta el comando
-              commandHandler(e.target.value);
-              e.target.value = ''; // Limpiar el input
-          }
-      }}
+      <div className="mt-10">
+        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="terminal-portfolio$:" className="mt-10 whitespace-pre-wrap p-terminal" 
+       
+      
         />
       </div>
 
