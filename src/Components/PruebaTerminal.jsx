@@ -1,12 +1,10 @@
-import React from 'react'
-import './SobreMi.css';
-import { useEffect } from 'react';
+
+import React, { useEffect } from 'react';
 import { Terminal } from 'primereact/terminal';
 import { TerminalService } from 'primereact/terminalservice';
 
-export const Sobremi = () => {
 
- 
+export const PruebaTerminal = () => {
 
   const commandHandler = (text) => {
     console.log('Comando recibido:', text);
@@ -110,54 +108,22 @@ export const Sobremi = () => {
 
 
 
+    
   return (
-    <>
-
-      <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono text-zinc-600 card terminal-demo">
-        <div className="grid grid-cols-1 md:grid-rows-2 text-center md:text-left lg-text-left md:mr-5">
-          <div>
-            <p className="text-xl font-bold">Instrucciones</p>
-            <p>Entre "<strong>date</strong>" la terminal <br></br>le mostrará la fecha.</p>
-            <p>Si quiere limpiar la terminal <br></br>utilice el prompt <strong>"clear"</strong></p>
-          </div>
+    <div className="card terminal-demo">
+            <p>
+                Enter "<strong>date</strong>" to display the current date, "<strong>greet {'{0}'}</strong>" for a message, "<strong>random</strong>" to get a random number and "<strong>clear</strong>" to clear all commands.
+            </p>
+            <Terminal 
+                welcomeMessage="Welcome to PrimeReact" 
+                prompt="primereact $" 
+                pt={{
+                    root: 'bg-gray-900 text-white border-round',
+                    prompt: 'text-gray-400 mr-2',
+                    command: 'text-primary-300',
+                    response: 'text-primary-300'
+                }} 
+            />
         </div>
-
-
-        <div className="flex flex-col text-center md:text-left">
-          <ol>
-            <p className="text-xl font-bold">Propmts</p>
-            <li><strong>init{'{0}'}</strong></li>
-            <li><strong>bienvenida {'{1}'}</strong></li>
-            <li><strong>date{'{2}'}</strong></li>
-            <li><strong>quienSoy{'{3}'}</strong></li>
-            <li><strong>unMundoDescubierto{'{4}'}</strong></li>
-            <li><strong>viajeLenguajes{'{5}'}</strong></li>
-            <li><strong>gracias{'{6}'}</strong></li>
-            <li><strong>clear{'{7}'}</strong></li>
-            <li><strong>help{'{8}'}</strong></li>
-
-          </ol>
-
-        </div>
-
-
-
-
-      </div>
-
-      <div className="mt-10">
-        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="primereact $" className="whitespace-pre-wrap " 
-       
-        />
-      </div>
-
-
-
-
-
-
-
-
-    </>
   )
 }
