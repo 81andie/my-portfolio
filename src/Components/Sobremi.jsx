@@ -69,7 +69,7 @@ useEffect(()=>{
           return;
 
         case 'help':
-          newOutPut += `Comandos disponibles:
+          newOutPut += `Prompts:
           - init: Inicializa la terminal.
           - date: Muestra la fecha actual.
           - bienvenida: Un saludo inicial y guía.
@@ -139,17 +139,19 @@ useEffect(()=>{
 
         </div>
 
-        <div className=" ">
+        <div className="w-full">
+         
           <input type="text"
             className="border-none outline-none m-0 p-0 bg-transparent text-green-500 mt-20 font-mono"
-           ref={inputRef}
+            placeholder="Escribe un prompt..."
+            ref={inputRef}
             value={input}
             onChange={onChangeInput}
             onKeyDown={onKeyDownEnter}
 
           />
-          <div className="terminal font-mono">
-            {output}
+          <div className="terminal font-mono mb-2 mt-2">
+           <p class="p-1">{output}</p> 
           </div>
         </div>
 
