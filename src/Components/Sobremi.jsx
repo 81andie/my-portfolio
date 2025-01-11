@@ -26,7 +26,7 @@ export const Sobremi = () => {
 `;
     break;
 
-        break;
+       
       case 'date':
         response = 'Today is ' + new Date().toDateString();
         break;
