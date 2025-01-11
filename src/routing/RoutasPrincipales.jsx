@@ -12,7 +12,7 @@ import { Certificaciones } from '../Components/Certificaciones';
 import { Header } from '../Components/Header';
 import { ErrorPage } from './ErrorPage';
 import { Footer } from '../Components/Footer';
-import { PruebaTerminal } from '../Components/PruebaTerminal';
+
 
 
 
@@ -33,7 +33,7 @@ export const RoutasPrincipales = () => {
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/sobremi" element={<Sobremi />} />
           <Route path="/queofrezco" element={<Queofrezco />} />
-          <Route path="/pruebaTerminal" element={<PruebaTerminal />} />
+         
 
           <Route path="/skills" element={<Skills />} />
           <Route path="/certificaciones" element={<Certificaciones />} />

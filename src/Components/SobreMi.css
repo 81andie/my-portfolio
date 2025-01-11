@@ -34,44 +34,16 @@ https://img.freepik.com/fotos-premium/estatua-diosa-afrodita-telefono-movil-fond
     --color--darkMarine3 :#041c34;
     
   }
+  .terminal {
 
- /*.p-terminal{
-    color: var(--color-green-studioCode);
-    padding: 15px;
-  
-    font-family: monospace;
- }
-  
+    /* Fondo negro */
+    color:var(--color-green-studioCode); /* Texto blanco */
+    padding: 1rem; /* Espaciado interno */
+    min-height: 100vh; /* Asegura que siempre ocupe todo el espacio disponible */
+    overflow-y: auto;
+    white-space: pre-wrap; /* Conserva los saltos de línea del texto */
+  }
 
-.p-terminal-response{
-    color: var(--color--pinkCode );
-    padding: 5px;
-    font-family: monospace;
-    font-size: 1rem;
-    margin: 0 auto;
-   
-}
-
-.p-terminal-input{
-   
-    font-family: monospace;
-    font-size: 1rem;
-    margin: 0 auto;
-    color:#049d40;
-    background-color: transparent;
-    border: 2px solid #049d40
-}
-
-
-.p-terminal-prompt-container{
-    width: 90%;
-    max-width: 90%; 
-    margin: 0 auto;
-    padding: 1px;
-}
-*/
-
-  
 
   
 
