@@ -21,8 +21,6 @@ export const Sobremi = () => {
  ( o.o )   Hello!!!                              
   > ^ <    Bienvenido a mi terminal!!
   
-
-
 `;
     break;
 
