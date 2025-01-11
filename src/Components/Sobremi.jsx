@@ -146,7 +146,7 @@ export const Sobremi = () => {
       </div>
 
       <div>
-        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="terminal-portfolio$:" className="mt-5 mb-16 whitespace-pre-wrap p-terminal " 
+        <Terminal welcomeMessage="Welcome to my Portfolio" prompt="terminal-portfolio$:" className="" 
          onKeyDown={(e) => {
           if (e.key === 'Enter') {
               // Ejecuta el comando
