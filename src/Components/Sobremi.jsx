@@ -65,6 +65,7 @@ useEffect(()=>{
 
         case 'clear':
           setOutput("")
+          setInput("")
           return;
 
         case 'help':
@@ -102,7 +103,9 @@ useEffect(()=>{
   return (
 
     <>
-      <div className="container-terminal bg-zinc-50 mb-20 p-4">
+      <div className="container-terminal bg-zinc-50 md:mb-20 lg:mb-20  p-4 overflow-auto"
+      onClick={e=> inputRef.current.focus()}
+      >
 
         <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono text-zinc-800 card terminal-demo h-80">
           <div className="grid grid-cols-1 md:grid-rows-2 text-center md:text-left lg-text-left md:mr-5">
@@ -138,7 +141,7 @@ useEffect(()=>{
 
         <div className=" ">
           <input type="text"
-            className="border-none outline-none m-0 p-0 bg-transparent text-zinc-200"
+            className="border-none outline-none m-0 p-0 bg-transparent text-green-500 mt-20 font-mono"
            ref={inputRef}
             value={input}
             onChange={onChangeInput}
@@ -146,7 +149,6 @@ useEffect(()=>{
 
           />
           <div className="terminal font-mono">
-
             {output}
           </div>
         </div>
