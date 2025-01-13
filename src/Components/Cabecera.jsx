@@ -72,7 +72,7 @@ export const Cabecera = () => {
                                         />
                                     ) : (
                                         <img
-                                            className={`object-cover max-w-full rounded-lg opacity-70 hover:opacity-100 transition-opacity duration-300 ${item.heightClass}`}
+                                            className={`object-contain w-full bg-zinc-200 rounded-lg opacity-70 hover:opacity-100 transition-opacity duration-300 ${item.heightClass}`}
                                             src={item.src}
                                             alt={item.title}
                                         />
