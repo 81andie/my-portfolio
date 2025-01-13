@@ -103,11 +103,11 @@ useEffect(()=>{
   return (
 
     <>
-      <div className="container-terminal bg-zinc-50 md:mb-20 lg:mb-20  p-4 overflow-auto"
+      <div className="container-terminal  md:mb-20 lg:mb-20 mt-20 p-4 overflow-auto "
       onClick={e=> inputRef.current.focus()}
       >
 
-        <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono text-zinc-800 card terminal-demo h-80">
+        <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono dark:text-zinc-600 card terminal-demo h-80">
           <div className="grid grid-cols-1 md:grid-rows-2 text-center md:text-left lg-text-left md:mr-5">
             <div>
               <p className="text-xl font-bold">Instrucciones</p>
