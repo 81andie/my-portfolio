@@ -12,7 +12,7 @@ export const SeccionInformativa = () => {
 
         <>
 
-            <div className="ml-2 mr-2 seccionInformacion w-full justify-center flex flex-col md:flex-row lg:flex-row h-auto mt-10 mb-20 gap-4 font-mono">
+            <div className="ml-2 mr-2 seccionInformacion justify-center flex flex-col md:flex-row lg:flex-row h-auto mt-20 mb-20 gap-4 font-mono">
 
                 <div className='icon_section text-center text-sm'>
 
