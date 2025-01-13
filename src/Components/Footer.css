@@ -1,41 +1,11 @@
 /*footer*/
 
-
-  
-  
   .icons_social {
     width: 14%;
     height: 9vh;
     margin-top: 10px;
-  
   }
   
-  .pi-instagram,
-  .pi-facebook,
-  .pi-github,
-  .pi-telegram {
-    font-size: 16px;
-    padding: 8px;
-    background-color:var(--color-graymoreLight);
-    border-radius: 8px;
-    margin-left: 5px;
-    margin-top: 10px;
-  }
+
   
-  
-  
-  .dev_nombre {
-    text-align: center;
-    line-height: 20px;
-    font-size: 1rem;
-    color: gray;
-  
-  }
-  
-  .contacto_footer {
-    width: 40%;
-    height: 15vh;
-    display: flex;
-    flex-direction: column;
-  }
   
