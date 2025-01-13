@@ -47,7 +47,7 @@ export const Cabecera = () => {
     return (
 
         <>
-            <div className="flex flex-col justify-center items-center mt-10">
+            <div className="flex flex-col justify-center items-center mt-10 ">
                 {mostrarTexto && <span className="span_maqEscribir overflow-hidden border-r-2 border-blue-400">{t('header.helloWorld')}<br></br>
                 </span>}
 

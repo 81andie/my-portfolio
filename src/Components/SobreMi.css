@@ -43,6 +43,9 @@ https://img.freepik.com/fotos-premium/estatua-diosa-afrodita-telefono-movil-fond
     overflow-y: auto;
     white-space: pre-wrap; /* Conserva los saltos de línea del texto */
   }
+  .container-terminal{
+    z-index: 0;
+  }
 
 
   

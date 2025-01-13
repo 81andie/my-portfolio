@@ -13,7 +13,7 @@ export const Header = () => {
   return (
     <>
    
-      <div className="header flex flex-col justify-center items-center mb-16">
+      <div className="header flex flex-col justify-center items-center mt-5 bg-transparent">
         <div className="flex mb-2 justify-start">
           <img src={img} className='h-auto mb-12 mt-5 w-28 md:' alt="logo-imagen" />
           <div className="flex flex-col p-1 h-8 no-underline list-none ml-0 font-light not-italic">
