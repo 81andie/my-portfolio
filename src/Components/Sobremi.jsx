@@ -103,7 +103,7 @@ useEffect(()=>{
   return (
 
     <>
-      <div className="container-terminal  md:mb-20 lg:mb-20 mt-20 p-4 overflow-auto "
+      <div className="container-terminal md:mb-20 lg:mb-20 mt-20 p-4 overflow-auto "
       onClick={e=> inputRef.current.focus()}
       >
 
