@@ -1,7 +1,5 @@
 @media (min-width:320px) {
   
-   
- 
     /*section 404*/
 
     .ovni {
@@ -10,14 +8,10 @@
         margin-top: 200px;
     }
 
-
-
 }
 
 
 @media (min-width:481px) {
-
-
 
     /*seccion 404*/
 
@@ -26,15 +20,10 @@
         height: auto;
     }
 
-    
-
-
 }
 
 
 @media(min-width: 641px) {
-
-    
 
     /*404 error*/
     .play {
@@ -46,24 +35,15 @@
         height: auto;
     }
 
-   
-
-
 }
-
-
-
 
 
 @media(min-width: 1025px) {
 
-   
+
     .icon_section {
         width: 29%;
     }
-
-   
-
 
 
     /*404 error*/
@@ -91,10 +71,5 @@
         height: auto;
         margin-top: 70px;
 
-    }
-
-   
-  
-
-    
+    } 
 }
