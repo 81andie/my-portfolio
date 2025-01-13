@@ -11,8 +11,8 @@ export const Footer = () => {
 
         <div className="icons_social flex flex-row text-3xl justify-center">
     
-          <i className="pi pi-github mr-1" style={{ color: '#e040a4' }}></i>
-          <i className="pi pi-linkedin" style={{ color: '#e040a4' }}></i>
+         <a href="https://github.com/81andie" target="_blank" rel="noopener noreferrer"><i className="pi pi-github mr-1" style={{ color: '#e040a4' }}></i></a>
+         <a href="https://www.linkedin.com/in/andrea-hern%C3%A0ndez-abbab9288/" target="_blank" rel="noopener noreferrer"><i className="pi pi-linkedin" style={{ color: '#e040a4' }}></i></a>   
           </div>
 
         <div className="text-center mb-2">
