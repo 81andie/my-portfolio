@@ -1,8 +1,12 @@
 .ovni {
   position: absolute;
   left: 0;
+  top:55;
   animation: moveUFO 8.5s linear infinite;
   z-index: 40;
+  width: 50%;
+  height:auto;
+
 
 }
 
@@ -44,7 +48,7 @@
   padding: 7px;
   background-color: rgb(229, 245, 244);
   color: rgb(0, 255, 204);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bolder;
   border-radius: 25px;
 
@@ -64,39 +68,39 @@
   }
 
   20% {
-    transform: translateX(50%) rotate(10deg);
+    transform: translateX(40%) rotate(10deg);
   }
 
   25% {
-    transform: translateX(50%) rotate(10deg);
+    transform: translateX(40%) rotate(10deg);
   }
 
   30% {
-    transform: translateX(70%) rotateZ(19deg);
+    transform: translateX(50%) rotateZ(19deg);
   }
 
   40% {
-    transform: translateX(80%) rotate(25deg);
+    transform: translateX(60%) rotate(25deg);
   }
 
   50% {
-    transform: translateX(90%) rotate(10deg);
+    transform: translateX(70%) rotate(10deg);
   }
 
   60% {
-    transform: translateZ(120%) rotate(8deg);
+    transform: translateZ(100%) rotate(8deg);
   }
 
   70% {
-    transform: translateX(170%) rotate(40deg) rotateZ(-0.25turn);
+    transform: translateX(100%) rotate(40deg) rotateZ(-0.25turn);
   }
 
   80% {
-    transform: translateX(170%) rotateZ(-0.05turn);
+    transform: translateX(100%) rotateZ(-0.05turn);
   }
 
   85% {
-    transform: translateX(190%) rotateZ(-0.05turn) rotateY(-0.05turn) rotateY(0.15turn);
+    transform: translateX(100%) rotateZ(-0.05turn) rotateY(-0.05turn) rotateY(0.15turn);
   }
 }
 

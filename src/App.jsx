@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './index.css';
 import './Certificaciones.css';
-import './responsive.css';
+
 import './ErrorPage.css';
 import { useState, useEffect } from 'react';
 import { RoutasPrincipales } from './routing/RoutasPrincipales';
