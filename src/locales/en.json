@@ -34,7 +34,14 @@
         "bootstrapKnowledge": "Good knowledge of Bootstrap, I often use it in various projects.",
         "dailyUsage": "In my daily life, I cannot do without Git, it has accompanied me throughout this adventure, 100% of my time.",
         "gitExperience": "Like Github, Git has always been in my learning course, studying has been daily.",
-        "tailwindExperience": "I have worked diligently with Tailwind, which has provided me with a deep and balanced mastery of this framework."
+        "tailwindExperience": "I have worked diligently with Tailwind, which has provided me with a deep and balanced mastery of this framework.",
+        "angularExperience": "My experience with Angular has led me to explore the latest versions, creating projects in Angular 17 and 18. I stay up to date with the new features in Angular 19.",
+        "leafletExperience": "With Leaflet, I have learned to integrate interactive maps in React and Angular applications. I have worked with features like custom markers, layers, and real-time video streaming. This experience has allowed me to dive deeper into the integration of lightweight maps with dynamic data, enhancing user interaction and experience.",
+        "maplibreExperience": "With Maplibre, I have gained skills to visualize large datasets on dynamic vector maps. I have learned to work with clusters to group points by categories, customize map styles, and manage complex open-source data. This experience has helped me better understand how to organize and present geospatial information effectively and attractively.",
+        "openlayersExperience": "With OpenLayers, I have learned to implement advanced features for managing geospatial data. I have developed tools to add points with descriptions, draw lines, polygons, and circles, and enable search by descriptions. I have also gained knowledge to generate, export, and import GeoJSON files, deepening my understanding of data manipulation and its interoperability in GIS applications.",
+        "mapboxExperience": "With Mapbox, I have learned to develop interactive map visualizers to display dynamic geospatial data. I have gained skills in integrating custom maps, managing data by date and location, and visualizing the water levels of the dams in Catalonia through dynamic layers, improving user interaction with geospatial information.",
+        "primeNgExperience": "I have worked with PrimeNG to integrate rich and interactive UI components into my applications. I have used several components such as tables, forms, menus, and search bars to improve user experience and development efficiency.",
+        "primeReactExperience": "I have worked with PrimeReact to integrate advanced UI components into my React applications. I have used several components like tables, forms, calendars, and charts to improve functionality and user experience, facilitating the development of modern and efficient interfaces."
     },
     "certificationsGoogle": {
         "june": "June 2023",
@@ -42,14 +49,13 @@
         "coursetitle": "to Web Development: HTML and CSS (I)",
         "summary": "Summary",
         "topics": {
-        "history": "History of the Web",
-        "functioning": "How the Web Works",
-        "writing": "Writing for the Web",
-        "publication": "Publishing a Website",
-        "page": "Creating a Web Page"
+            "history": "History of the Web",
+            "functioning": "How the Web Works",
+            "writing": "Writing for the Web",
+            "publication": "Publishing a Website",
+            "page": "Creating a Web Page"
         }
-        },
-
+    },
     "certificationsGoogle1": {
         "july": "July 2023",
         "course": "Introduction",

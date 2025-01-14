@@ -20,7 +20,7 @@
   
   .contenedor figure {
     position: relative;
-    height: 180px;
+    height: 190px;
     width: 295px;
     overflow: hidden;
     border-radius: 6px;
@@ -69,16 +69,16 @@
     font-weight: 800;
     margin-top: 20px;
     transition: all 500ms ease-out;
-    font-size: 2rem;
+    
   }
   
   .contenedor figure .capa p {
     color: white;
-    font-size: 14px;
-    line-height: 1.5;
+   text-align: left;
+    line-height: 1;
     font-weight: bolder;
     width: 100%;
-    max-width: 220px;
+    max-width: 270px;
     margin: auto;
   
   }

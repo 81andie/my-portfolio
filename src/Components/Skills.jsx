@@ -9,48 +9,88 @@ export const Skills = () => {
   const skills = [
     {
       img: "imgSkills/html.png",
-      level: "100%",
+      level: "HTML",
       description: t('skills.markupLanguage'),
     },
     {
       img: "imgSkills/css.jpeg",
-      level: "100%",
+      level: "CSS",
       description: t('skills.webInterfaceDesign'),
     },
     {
       img: "imgSkills/js.jpg",
-      level: "70%",
+      level: "JS",
       description: t('skills.javascriptKnowledge'),
     },
     {
       img: "imgSkills/react.webp",
-      level: "70%",
+      level: "REACT.JS",
       description: t('skills.reactExperience'),
     },
     {
       img: "imgSkills/MongoDB.jpg",
-      level: "50%",
+      level: "MONGODB",
       description: t('skills.databaseExperience'),
     },
     {
       img: "imgSkills/boostrap.png",
-      level: "100%",
+      level: "BOOTSTRAP",
       description: t('skills.bootstrapKnowledge'),
     },
     {
       img: "imgSkills/github.jpg",
-      level: "90%",
+      level: "GITHUB",
       description: t('skills.dailyUsage'),
     },
     {
       img: "imgSkills/git.jpg",
-      level: "90%",
+      level: "GIT",
       description: t('skills.gitExperience'),
     },
     {
       img: "imgSkills/tailwind.jpg",
-      level: "80%",
-      description: t('skills.tailwindExperience'),
+      level: "TAILWIND",
+      description: t('skills.tailwindExperience'),    
+    },
+
+    {
+      img: "imgSkills/angular.webp",
+      level: "ANGULAR 17,18,19",
+      description: t('skills.angularExperience'),    
+    },
+
+    {
+      img: "imgSkills/leaflet.jpeg",
+      level: "LEAFLEAT",
+      description: t('skills.leafletExperience'),    
+    },
+    {
+      img: "imgSkills/mapbox.png",
+      level: "MAPBOX",
+      description: t('skills.mapboxExperience'),    
+    },
+    {
+      img: "imgSkills/mapLibre.jpg",
+      level: "MAPLIBRE",
+      description: t('skills.maplibreExperience'),    
+    },
+
+    {
+      img: "imgSkills/openlayers.png",
+      level: "OPENLAYERS",
+      description: t('skills.openlayersExperience'),    
+    },
+
+    {
+      img: "imgSkills/primeng.jpeg",
+      level: "OPENLAYERS",
+      description: t('skills.openlayersExperience'),    
+    },
+
+    {
+      img: "imgSkills/primeReact-min.jpg",
+      level: "PRIMEREACT",
+      description: t('skills.primeReactExperience'),    
     },
   ];
 
@@ -61,10 +101,10 @@ export const Skills = () => {
       <div className="contenedor gap-2 opacity-70 hover:opacity-100 transition-opacity duration-300">
         {skills.map((skill, index) => (
           <figure key={index}>
-            <img src={skill.img} alt={`skill-${index}`}/>
+            <img src={skill.img} alt={`skill-${index}`} className="object-contain "/>
             <div className="capa">
               <h2 class="bg-gradient-to-r from-zinc-50">{skill.level}</h2>
-              <p>{skill.description}</p>
+              <p class="text-xs font-mono">{skill.description}</p>
 
             </div>
 

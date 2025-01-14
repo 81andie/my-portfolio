@@ -9,7 +9,7 @@
     "certifications": "Certificaciones",
     "contact": "Contacto",
     "helloWorld": "Hola mundo!",
-    "Im":"soy Andrea, una programadora Web"
+    "Im": "soy Andrea, una programadora Web"
   },
   "sectionInformation": {
     "professionalism": {
@@ -34,24 +34,29 @@
     "bootstrapKnowledge": "Buen conocimiento de Bootstrap, suelo utilizarlo en varios proyectos.",
     "dailyUsage": "En mi día a día, no puedo prescindir de Git, me ha acompañado en toda esta aventura, el 100% de mi tiempo.",
     "gitExperience": "Al igual que Github, Git siempre ha estado en mi curso de aprendizaje, el estudio ha sido diario.",
-    "tailwindExperience": "He trabajado asiduamente con Tailwind, lo que me ha proporcionado un dominio profundo y equilibrado de este framework."
+    "tailwindExperience": "He trabajado asiduamente con Tailwind, lo que me ha proporcionado un dominio profundo y equilibrado de este framework.",
+    "angularExperience": "Mi experiencia con Angular me ha llevado a explorar las últimas versiones, creando proyectos en Angular 17 y 18. Estoy al día con las novedades de Angular 19.",
+    "leafletExperience": "Con Leaflet, he aprendido a integrar mapas interactivos en aplicaciones React y Angular. He trabajado con funcionalidades como marcadores personalizados, capas y la visualización de flujos de vídeo en tiempo real. Esta experiencia me ha permitido profundizar en la integración de mapas ligeros con datos dinámicos, mejorando la interacción y la experiencia de usuario.",
+    "maplibreExperience": "Con Maplibre, he adquirido habilidades para visualizar grandes conjuntos de datos en mapas vectoriales dinámicos. He aprendido a trabajar con clusters para agrupar puntos según categorías, personalizar estilos de mapas y gestionar datos complejos de fuentes abiertas. Esta experiencia me ha ayudado a comprender mejor cómo organizar y presentar información geoespacial de manera efectiva y atractiva.",
+    "openlayersExperience": "Con OpenLayers, he aprendido a implementar funcionalidades avanzadas para gestionar datos geoespaciales. He desarrollado herramientas para agregar puntos con descripciones, dibujar líneas, polígonos y círculos, y habilitar la búsqueda basada en descripciones. También he adquirido conocimientos para generar, exportar e importar archivos GeoJSON, profundizando en la manipulación de datos y su interoperabilidad en aplicaciones GIS.",
+    "mapboxExperience": "Con Mapbox, he aprendido a desarrollar visualizadores interactivos con mapa para mostrar datos geoespaciales dinámicos. He adquirido habilidades para integrar mapas personalizados, gestionar datos por fecha y ubicación, y visualizar el estado hídrico de los pantanos de Cataluña mediante capas dinámicas, mejorando la interacción del usuario con la información geoespacial.",
+    "primeNgExperience": "He trabajado con PrimeNG para integrar componentes de interfaz de usuario ricos e interactivos en mis aplicaciones. He utilizado varios componentes como tablas, formularios, menús y buscadores para mejorar la experiencia de usuario y la eficiencia en el desarrollo.",
+    "primeReactExperience": "He trabajado con PrimeReact para integrar componentes de interfaz de usuario avanzados en mis aplicaciones React. He utilizado varios componentes como tablas, formularios, calendarios y gráficos para mejorar la funcionalidad y la experiencia de usuario, facilitando el desarrollo de interfaces modernas y eficientes."
   },
-
+  
   "certificationsGoogle": {
     "june": "Junio de 2023",
     "course": "Curso de introducción",
     "coursetitle": "al desarrollo web: HTML y CSS (I)",
     "summary": "Resumen",
     "topics": {
-    "history": "Historia de la Web",
-    "functioning": "Cómo funciona la Web",
-    "writing": "Escritura para la Web",
-    "publication": "Publicación de un sitio web",
-    "page": "Creación de una página web"
+      "history": "Historia de la Web",
+      "functioning": "Cómo funciona la Web",
+      "writing": "Escritura para la Web",
+      "publication": "Publicación de un sitio web",
+      "page": "Creación de una página web"
     }
-    },
-
-
+  },
   "certificationsGoogle1": {
     "july": "Julio 2023",
     "course": "Curso de introducción",
@@ -76,7 +81,6 @@
       "projects": "Proyectos"
     }
   },
-
   "certificationsFreeCodeCamp": {
     "certification_info": {
       "title": "Setiembre 2023",
@@ -92,8 +96,7 @@
         ]
       }
     }
-},
-
+  },
   "footer": {
     "text": "Diseñadora de páginas web y desarrolladora web:",
     "contactUs": "Contáctenos",

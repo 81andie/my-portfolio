@@ -9,7 +9,7 @@
     "certifications": "Certificacions",
     "contact": "Contacte",
     "helloWorld": "Hola món!",
-    "Im":"sóc Andrea, una programadora web"
+    "Im": "sóc Andrea, una programadora web"
   },
   "sectionInformation": {
     "professionalism": {
@@ -34,7 +34,16 @@
     "bootstrapKnowledge": "Bon coneixement de Bootstrap, solc utilitzar-lo en diversos projectes.",
     "dailyUsage": "En el meu dia a dia, no puc prescindir de Git, m'ha acompanyat en tota aquesta aventura, el 100% del meu temps.",
     "gitExperience": "Al igual que Github, Git sempre ha estat en el meu curs d'aprenentatge, l'estudi ha estat diari.",
-    "tailwindExperience": "He treballat assíduament amb Tailwind, el que m'ha proporcionat un domini profund i equilibrat d'aquest framework."
+    "tailwindExperience": "He treballat assíduament amb Tailwind, el que m'ha proporcionat un domini profund i equilibrat d'aquest framework.",
+    "angularExperience": "La meva experiencia amb Angular, m'ha portat a explorar les últimes versions, creant proyectes en Angular 17, 18. Estic al dia amb les novetats de Angular 19",
+    "leafletExperience": "Amb Leaflet, he après a integrar mapes interactius en aplicacions React i Angular. He treballat amb funcionalitats com marcadors personalitzats, capes i la visualització de fluxos de vídeo en temps real. Aquesta experiència m'ha permès aprofundir en la integració de mapes lleugers amb dades dinàmiques, millorant la interacció i l'experiència d'usuari.",
+    "maplibreExperience": "Amb Maplibre, he adquirit habilitats per visualitzar grans conjunts de dades en mapes vectorials dinàmics. He après a treballar amb clusters per agrupar punts segons categories, a personalitzar estils de mapes i a gestionar dades complexes de fonts obertes. Aquesta experiència m'ha ajudat a comprendre millor com organitzar i presentar informació geoespacial de manera efectiva i atractiva.",
+    "openlayersExperience": "Amb OpenLayers, he après a implementar funcionalitats avançades per gestionar dades geoespacials. He desenvolupat eines per afegir punts amb descripcions, dibuixar línies, polígons i cercles, i habilitar la cerca basada en descripcions. També he adquirit coneixements per generar, exportar i importar arxius GeoJSON, aprofundint en la manipulació de dades i la seva interoperabilitat en aplicacions GIS.",
+    "mapboxExperience": "Amb Mapbox, he après a desenvolupar visualitzadors interactius amb mapa per mostrar dades geoespacials dinàmiques. He adquirit habilitats per integrar mapes personalitzats, gestionar dades per data i per ubicació, i visualitzar l'estat hídrico dels pantans de Catalunya mitjançant capes dinàmiques, millorant la interacció de l'usuari amb la informació geoespacial.",
+    "primeNgExperience":  "He treballat amb PrimeNG per integrar components d'interfície d'usuari rics i interactius en les meves aplicacions. He utilitzat diversos components com (taules, formularis, menus,cercadors)per millorar l'experiència d'usuari i l'eficiència del desenvolupament.",
+    "primeReactExperience":"He treballat amb PrimeReact per integrar components d'interfície d'usuari avançats en les meves aplicacions React. He utilitzat diversos components com taules, formularis, calendari i gràfics per millorar la funcionalitat i l'experiència d'usuari, facilitant el desenvolupament de interfaces modernes i eficients."
+
+  
   },
   "certificationsGoogle": {
     "june": "Juny de 2023",
@@ -42,13 +51,13 @@
     "coursetitle": "al desenvolupament web: HTML i CSS (I)",
     "summary": "Resum",
     "topics": {
-    "history": "Història de la Web",
-    "functioning": "Com funciona la Web",
-    "writing": "Com s'escriu per a la Web",
-    "publication": "Publicació d'un lloc web",
-    "page": "Creació d'una pàgina web"
+      "history": "Història de la Web",
+      "functioning": "Com funciona la Web",
+      "writing": "Com s'escriu per a la Web",
+      "publication": "Publicació d'un lloc web",
+      "page": "Creació d'una pàgina web"
     }
-    },
+  },
   "certificationsGoogle1": {
     "july": "Juliol 2023",
     "course": "Curs d'introducció ",
@@ -89,10 +98,7 @@
       }
     }
   },
-
   "footer": {
-
-   
     "text": "Dissenyadora de pàgines web i programadora web",
     "contactUs": "Contacteu-nos",
     "privacyPolicy": "Política de privacitat"
