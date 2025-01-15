@@ -1,37 +1,43 @@
-/*.ovni {
+.ovni {
   position: absolute;
-  left: 0;
-  top:55;
+  right: 200px;
+  top: 300px;
   animation: moveUFO 8.5s linear infinite;
-  z-index: 40;
-  width: 40%;
-  height:auto;
+  
 
+
+}
+
+.sky{
+  background-image: url('https://www.pixel4k.com/wp-content/uploads/2018/10/starry-sky-night-stars-forest-nebula-4k_1540575372.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-position: top;
 }
 
 @keyframes moveUFO {
   0% {
-    transform: translateX(20%) rotate(0deg);
+    transform: translateX(60%) rotate(0deg);
   }
 
   20% {
-    transform: translateX(40%) rotate(10deg);
+    transform: translateX(30%) rotate(10deg);
   }
 
   25% {
-    transform: translateX(40%) rotate(10deg);
+    transform: translateX(50%) rotate(10deg);
   }
 
   30% {
-    transform: translateX(50%) rotateZ(19deg);
+    transform: translateX(70%) rotateZ(19deg);
   }
 
   40% {
-    transform: translateX(60%) rotate(25deg);
+    transform: translateX(80%) rotate(25deg);
   }
 
   50% {
-    transform: translateX(70%) rotate(10deg);
+    transform: translateX(90%) rotate(10deg);
   }
 
   60% {
@@ -39,16 +45,15 @@
   }
 
   70% {
-    transform: translateX(100%) rotate(40deg) rotateZ(-0.25turn);
+    transform: translateX(100%) rotate(40deg) rotateZ(-0.20turn);
   }
 
   80% {
-    transform: translateX(100%) rotateZ(-0.05turn);
+    transform: translateX(110%) rotate(40deg) rotateZ(-0.19turn);
+    
   }
 
-  85% {
-    transform: translateX(100%) rotateZ(-0.05turn) rotateY(-0.05turn) rotateY(0.15turn);
-  }
+ 
 }
 
 @keyframes swingUFO {
@@ -64,4 +69,4 @@
     
   }
 }
-*/
+
