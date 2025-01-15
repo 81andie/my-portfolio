@@ -1,66 +1,13 @@
-.ovni {
+/*.ovni {
   position: absolute;
   left: 0;
   top:55;
   animation: moveUFO 8.5s linear infinite;
   z-index: 40;
-  width: 50%;
+  width: 40%;
   height:auto;
 
-
 }
-
-.Error_title {
-  position: relative;
-  font-size: 2rem;
-  margin-top: 70px;
-
-}
-
-.title {
-  position: relative;
-  z-index: 40;
-  margin: 0 auto;
-  text-align: center;
-
-
-}
-
-.parr_404 {
-  position: relative;
-  font-size: 1rem;
-  margin: 0 auto;
-  background: none;
-}
-
-
-.title {
-  color: white;
-}
-
-
-.play {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 20px;
-  width: 140px;
-  padding: 7px;
-  background-color: rgb(229, 245, 244);
-  color: rgb(0, 255, 204);
-  font-size: 1rem;
-  font-weight: bolder;
-  border-radius: 25px;
-
-
-}
-
-.play:hover {
-
-  -moz-box-shadow: 10px 10px 5px 0px rgba(18, 226, 230, 0.75);
-  box-shadow: 10px 10px 5px 0px rgba(112, 247, 238, 0.75);
-}
-
 
 @keyframes moveUFO {
   0% {
@@ -109,11 +56,12 @@
   0%,
   100% {
     transform: translateX(-50%) rotate(0deg);
-    /* Giro inicial/final del ovni */
+   
   }
 
   50% {
     transform: translateX(-50%) rotate(10deg);
-    /* Giro medio del ovni */
+    
   }
 }
+*/

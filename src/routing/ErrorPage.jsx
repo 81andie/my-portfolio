@@ -1,116 +1,110 @@
-import React from 'react'
-import { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-
+import { FontLoader } from 'three/examples/jsm/loaders/FontLoader';
+import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry';
 
 export const ErrorPage = () => {
-    const canvasContainerRef = useRef(null);
-    const sphereRef = useRef(null);
+  const canvasContainerRef = useRef(null);
 
-    useEffect(() => {
-        // Creamos una escena, una cámara y un renderer
-        const scene = new THREE.Scene();
-        // scene.background = new THREE.Color(0xffffff); // Cambiamos el color de fondo de la escena a blanco
+  useEffect(() => {
+    // Crear la escena
+    const scene = new THREE.Scene();
 
-        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.3, 2000);
-        const renderer = new THREE.WebGLRenderer({ alpha: true }); // Habilitamos el fondo transparente
-        renderer.setSize(window.innerWidth, window.innerHeight);
+    // Crear la cámara
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.z = 5;
 
-        // Agregamos una luz ambiente intensa para iluminar mejor la esfera
-        const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
-        scene.add(ambientLight);
+ 
 
-        // Creamos una geometría para la esfera
-        const geometry = new THREE.SphereGeometry(2.5, 25, 25); // Aumentamos el radio para hacer la esfera más grande
+    // Crear el renderer
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.autoClear = false;
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    canvasContainerRef.current.appendChild(renderer.domElement);
 
-        // Cargamos la textura de imagen desde la carpeta public
-        const texture = new THREE.TextureLoader().load('./img/01.jpg');
+    // Añadir luz
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
+    scene.add(ambientLight);
 
-        // Creamos un material básico con la textura cargada
-        const material = new THREE.MeshBasicMaterial({ map: texture });
+    const pointLight = new THREE.PointLight(0xffffff, 1);
+    pointLight.position.set(10, 10, 10);
+    scene.add(pointLight);
 
-        // Creamos la esfera y le asignamos la geometría y el material
-        const sphere = new THREE.Mesh(geometry, material);
-        scene.add(sphere);
-        sphereRef.current = sphere;
+    // Crear geometría de la esfera
+    const sphereGeometry = new THREE.SphereGeometry(2.5, 32, 32);
+    const texture = new THREE.TextureLoader().load('./img/01.jpg'); // Asegúrate de que esta ruta sea válida
+    const sphereMaterial = new THREE.MeshStandardMaterial({ map: texture });
+    const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+    scene.add(sphere);
 
-        // Posicionamos la cámara
-        camera.position.z = 10;
+    // Cargar fuente y añadir texto 3D
+    const fontLoader = new FontLoader();
+    fontLoader.load(
+      './fonts/helvetiker_bold.typeface.json', // Asegúrate de que esta ruta sea válida
+      (font) => {
+        const textGeometry = new TextGeometry('Error 404', {
+          font: font,
+          size: 0.5,
+          depth: 0.2,
+          curveSegments: 12,
+          bevelEnabled: true,
+          bevelThickness: 0.03,
+          bevelSize: 0.02,
+          bevelSegments: 5,
+        });
+        const textMaterial = new THREE.MeshStandardMaterial({ color: 0xff0000 });
+        const textMesh = new THREE.Mesh(textGeometry, textMaterial);
 
-        // Creamos controles de órbita para permitir al usuario mover la cámara alrededor de la esfera
-        const controls = new OrbitControls(camera, renderer.domElement);
-        controls.enableDamping = false;
-        controls.dampingFactor = 0.25;
-        controls.rotateSpeed = 0.10;
+        // Posicionar el texto
+        textMesh.position.set(-2, 3, 0); // Ajusta las coordenadas según prefieras
+        scene.add(textMesh);
+      },
+      undefined,
+      (error) => {
+        console.error('Error al cargar la fuente:', error);
+      }
+    );
 
+    // Añadir controles de órbita
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.05;
 
+    // Animación
+    const animate = () => {
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+      controls.update();
+    };
+    animate();
 
+    // Manejo del redimensionamiento
+    const handleResize = () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    };
+    window.addEventListener('resize', handleResize);
 
-        // Función para animar la escena
-        const animate = () => {
-            const deltaTime = Date.now() * 0.001;
-            requestAnimationFrame(animate);
-            // Rotamos la esfera sobre su eje vertical (Y)
-            sphereRef.current.rotateY(0.005);
-            // Modificamos la posición de la esfera para simular el efecto de flotar
-            sphereRef.current.position.y = Math.sin(deltaTime) * 0.5;
-            renderer.render(scene, camera);
-            controls.update(); // Actualizamos los controles en cada fotograma de animación
-        };
-        animate();
+    // Cleanup
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      controls.dispose();
+    };
+  }, []);
 
-        // Añadimos el renderer al contenedor en el DOM
-        canvasContainerRef.current.appendChild(renderer.domElement);
-
-        // Manejamos el evento resize para actualizar el tamaño del renderer
-        const handleResize = () => {
-            camera.aspect = window.innerWidth / window.innerHeight;
-            camera.updateProjectionMatrix();
-            renderer.setSize(window.innerWidth, window.innerHeight);
-        };
-        window.addEventListener('resize', handleResize);
-
-        // Limpiamos los listeners en el cleanup de useEffect
-        return () => {
-            window.removeEventListener('resize', handleResize);
-            controls.dispose(); // Liberamos los recursos de los controles de órbita al salir
-        };
-    }, []);
-    return (
-
-
-        <>
-
-
-            <div
-
-                ref={canvasContainerRef}
-                style={{
-                    width: '100%',
-                    position: 'absolute',
-                    className: 'canvasimg',
-                    backgroundSize: 'cover',
-                    left: 0,
-                    marginTop: '20px',
-                    zIndex: 1, // Aseguramos que el fondo esté detrás de la escena WebGL
-                    backgroundImage: 'url(./img/espacio1.avif)', // Establecemos la imagen de fondo
-
-
-                }}
-            />
-
-            <div className="title">
-                <h1 className='Error_title'>Error 404</h1>
-
-                <h3 className="parr_404">Houston lo sentimos pero ha ocurrido algo desconocido,<br /> la página que intentas acceder parece ser que no existe, por favor vuelve a inicio, pero si quieres<br /> puedes jugar un rato mientras solucionamos este problema</h3>
-
-                <button className="play">Volver a Inicio</button>
-
-                <img src="img/Ovni retro.png" className="ovni" />
-            </div>
-
-
-        </>
-    )
-}
+  return (
+    <div
+      ref={canvasContainerRef}
+      style={{
+        width: '100%',
+        height: '100vh', // Ajusta este valor según tu diseño
+        position: 'relative',
+        backgroundImage: 'url(./img/espacio1.avif)', // Asegúrate de que esta ruta sea válida
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    ></div>
+  );
+};
