@@ -12,7 +12,7 @@ export const ErrorPage = () => {
     const scene = new THREE.Scene();
 
     // Crear la cámara
-    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    const camera = new THREE.PerspectiveCamera(85, window.innerWidth / window.innerHeight, 0.1, 1000);
     camera.position.z = 5;
 
  
@@ -32,7 +32,7 @@ export const ErrorPage = () => {
     scene.add(pointLight);
 
     // Crear geometría de la esfera
-    const sphereGeometry = new THREE.SphereGeometry(2.5, 32, 32);
+    const sphereGeometry = new THREE.SphereGeometry(2.5, 42, 42);
     const texture = new THREE.TextureLoader().load('./img/01.jpg'); // Asegúrate de que esta ruta sea válida
     const sphereMaterial = new THREE.MeshStandardMaterial({ map: texture });
     const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
