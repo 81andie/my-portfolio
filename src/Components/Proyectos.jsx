@@ -5,9 +5,7 @@ export const Proyectos = () => {
 
 
   return (
-
     <>
-
       <div className="flex flex-col justify-center ml-1 mr-1 px-1">
         {projects.map((project, index) => (
           <div
@@ -68,15 +66,10 @@ export const Proyectos = () => {
 
                 )}
               </div>
-
-
-
             </div>
           </div>
         ))}
       </div>
-
-
     </>
   )
 }
