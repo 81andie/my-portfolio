@@ -25,6 +25,14 @@ export const projects = [
           icon: "https://www.primetek.com.tr/img/primeng.jpg",
         },
       ],
+
+      url:[
+        "https://github.com/81andie/hpApp"
+      ],
+
+      url1:[
+        "https://81andie.github.io/hpApp/"
+      ]
     },
 
     {
@@ -55,6 +63,16 @@ export const projects = [
           },
          
         ],
+
+        url:[
+          "https://github.com/81andie/TurismoMexico"
+        ],
+
+        url1:[
+          "https://81andie.github.io/TurismoMexico/home.html"
+        ]
+
+
       }
 
   ];

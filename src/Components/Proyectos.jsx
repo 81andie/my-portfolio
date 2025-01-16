@@ -8,11 +8,11 @@ export const Proyectos = () => {
 
     <>
 
-      <div className="flex flex-col justify-center ">
+      <div className="flex flex-col justify-center ml-1 mr-1 px-1">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row lg:flex-row justify-center rounded-lg "
+            className="flex flex-col md:flex-row lg:flex-row justify-center rounded-lg mb-10"
           >
             <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-2 p-3">
               {project.images.map((image, i) => (
@@ -24,7 +24,7 @@ export const Proyectos = () => {
                 />
               ))}
             </div>
-            <div className="flex flex-col p-1 ">
+            <div className="flex flex-col p-2 ">
               <p className="text-xl font-mono">Titulo:</p>
               <p className="text-3xl p-1 mt-2 mb-2">{project.title}</p>
               <p className="text-xl font-mono">Lenguajes y frameworks:</p>
@@ -40,6 +40,37 @@ export const Proyectos = () => {
                 ))}
               </div>
               <p className="text-md">{project.description}</p>
+              <div className="flex gap-2">
+                {project.url && (
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-24 text-xs bg-gray-200 p-1.5 rounded-md text-center flex items-center justify-center mt-2"
+                  >
+                    <i className="pi pi-github mr-1" style={{ color: '#e040a4' }}></i>
+                    Ver Código
+                  </a>
+
+                )}
+
+                {project.url1 && (
+                  <a
+                    href={project.url1}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-24 text-xs bg-gray-200 p-1.5 rounded-md text-center flex items-center justify-center mt-2"
+                  >
+                    <i className="pi pi-eye mr-1" style={{ color: '#e040a4' }}></i>
+                    Ver proyecto
+                  </a>
+
+
+                )}
+              </div>
+
+
+
             </div>
           </div>
         ))}
