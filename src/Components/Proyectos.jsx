@@ -10,7 +10,7 @@ export const Proyectos = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row lg:flex-row justify-center rounded-lg mb-10"
+            className="flex flex-col md:flex-row lg:flex-row justify-center rounded-lg "
           >
             <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-2 p-3">
               {project.images.map((image, i) => (
