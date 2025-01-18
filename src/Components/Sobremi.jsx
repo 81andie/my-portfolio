@@ -151,7 +151,7 @@ useEffect(()=>{
 
           />
           <div className="terminal font-mono mb-2 mt-2">
-           <p class="p-1">{output}</p> 
+           <p className="p-1">{output}</p> 
           </div>
         </div>
 
