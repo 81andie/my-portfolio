@@ -234,7 +234,7 @@ export const projects = [
       ],
 
       url1:[
-        "https://81andie.github.io/SpaceAir/map"
+        "https://81andie.github.io/SpaceAir/"
       ]
     },
 
