@@ -23,17 +23,21 @@ export const projects = [
     ],
     technologies: [
       {
+        name: "html",
+        icon: "./imgtec/html.jpg",
+      },
+      {
         name: "JavaScript",
-        icon: "https://th.bing.com/th/id/R.63cf9c6f8153aef1e884b7ae2815e06d?rik=CfiMB1gBwpe79Q&pid=ImgRaw&r=0",
+        icon: "./imgtec/js.jpg",
       },
       {
         name: "Tailwind CSS",
-        icon: "https://picperf.io/https://laravelnews.s3.amazonaws.com/images/tailwindcss-1633184775.jpg",
+        icon: "./imgtec/tailwind.avif",
       },
 
       {
         name: "Leaflet",
-        icon: "https://www.marefa.org/w/images/thumb/1/13/Leaflet_logo.svg/800px-Leaflet_logo.svg.png?20231123133844",
+        icon: "./imgtec/leaflet.jpg",
       },
      
     ],
@@ -69,23 +73,31 @@ export const projects = [
 
     ],
     technologies: [
+
       {
-        name: "JavaScript",
-        icon: "https://th.bing.com/th/id/R.63cf9c6f8153aef1e884b7ae2815e06d?rik=CfiMB1gBwpe79Q&pid=ImgRaw&r=0",
-      },
-      {
-        name: "Tailwind CSS",
-        icon: "https://picperf.io/https://laravelnews.s3.amazonaws.com/images/tailwindcss-1633184775.jpg",
+        name: "Html",
+        icon: "./imgtec/html.jpg",
       },
 
       {
+        name: "JavaScript",
+        icon: "./imgtec/js.jpg",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: "./imgtec/tailwind.avif",
+      },
+     
+     
+
+      {
         name: "MapLibre",
-        icon: "https://jquery-plugins.net/image/plugin/maplibre-gl-open-source-mapping-libraries-for-web-and-mobile-applications.png",
+        icon: "./imgtec/maplibre.jpg",
       },
 
       {
         name: "Google APIs",
-        icon: "https://logodix.com/logo/874775.jpg",
+        icon: "./imgtec/googleApi.jpg",
       },
      
     ],
@@ -114,24 +126,24 @@ export const projects = [
     technologies: [
       {
         name: "React",
-        icon: "https://codersnack.com/assets/images/logo-reactjs.png",
+        icon: "./imgtec/reactjs.jpg",
       },
       {
         name: "i18next",
-        icon: "https://cdn.icon-icons.com/icons2/2699/PNG/512/inext_logo_icon_170003.png",
+        icon: "./imgtec/inext.jpg",
       },
       {
         name: "PrimeReact",
-        icon: "https://miro.medium.com/max/1200/1*aT7oVaUntkAQpWXTfkuKyA.png",
+        icon: "./imgtec/primereact.jpg",
       },
 
       {
         name: "PrimeFlex",
-        icon: "https://www.primefaces.org/cdn/primeflex/images/PrimeFlexLogo.svg",
+        icon: "./imgtec/PrimeFlexLogo.jpg",
       },
       {
         name: "React Leaflet",
-        icon: "https://th.bing.com/th/id/OIP.JIk36kLp-ncr2hiTvdsYOgAAAA?rs=1&pid=ImgDetMain",
+        icon: "./imgtec/reactLeaflet.jpg",
       },
     ],
 
@@ -159,16 +171,22 @@ export const projects = [
       ],
       technologies: [
         {
-          name: "JavaScript",
-          icon: "https://miro.medium.com/v2/resize:fit:1200/1*lhfGTouqSQ-fx7PRXaFI-Q.png",
+          name: "Angular",
+          icon: "./imgtec/angular.jpg",
         },
         {
           name: "Tailwind CSS",
-          icon: "https://picperf.io/https://laravelnews.s3.amazonaws.com/images/tailwindcss-1633184775.jpg",
+          icon: "./imgtec/tailwind.avif",
         },
+        
         {
           name: "PrimeNG",
-          icon: "https://www.primetek.com.tr/img/primeng.jpg",
+          icon: "./imgtec/primeng.jpg",
+        },
+
+        {
+          name: "Transloco",
+          icon: "./imgtec/transloco.svg",
         },
       ],
 
