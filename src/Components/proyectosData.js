@@ -199,6 +199,45 @@ export const projects = [
       ]
     },
 
+
+    {
+      title: "SpaceAirTracker",
+      description:
+        "SpaceAirTracker es un rastreador de vuelos nacionales e internacionales, que permite, geolocalizar el vuelo, y de cada uno, poder saber su velocidad, ICAO, latitud y país de origen, permite tambien rastrear los vuelos a partir de su ciudad de origen",
+      images: [
+        "./imgProjects/Space1.jpg",
+        "./imgProjects/space2.jpg",
+        "./imgProjects/space3.jpg",
+        "./imgProjects/space4.jpg",
+        "./imgProjects/space5.jpg",
+        "./imgProjects/space6.jpg",
+        
+      ],
+      technologies: [
+        {
+          name: "Angular",
+          icon: "./imgtec/angular.jpg",
+        },
+        {
+          name: "Boostrap",
+          icon: "./imgtec/boostraap.jpg",
+        },
+        
+        {
+          name: "Transloco",
+          icon: "./imgtec/transloco.svg",
+        },
+      ],
+
+      url:[
+        "https://github.com/81andie/SpaceAir"
+      ],
+
+      url1:[
+        "https://81andie.github.io/SpaceAir/map"
+      ]
+    },
+
    
 
   ];
