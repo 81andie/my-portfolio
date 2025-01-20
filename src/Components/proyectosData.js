@@ -206,11 +206,12 @@ export const projects = [
         "SpaceAirTracker es un rastreador de vuelos nacionales e internacionales, que permite, geolocalizar el vuelo, y de cada uno, poder saber su velocidad, ICAO, latitud y país de origen, permite tambien rastrear los vuelos a partir de su ciudad de origen",
       images: [
         "./imgProjects/Space1.jpg",
+        "./imgProjects/space6.jpg",
         "./imgProjects/space2.jpg",
         "./imgProjects/space3.jpg",
         "./imgProjects/space4.jpg",
         "./imgProjects/space5.jpg",
-        "./imgProjects/space6.jpg",
+       
         
       ],
       technologies: [
@@ -248,9 +249,14 @@ export const projects = [
         images: [
         "./imgProjects/aqvae1.webp",
         "./imgProjects/aqvae2.webp",
+        "./imgProjects/aqvae8.jpg",
+        "./imgProjects/aqvae3.jpg",
         "./imgProjects/aqvae4.webp",
-        "./imgProjects/aqvae5.webp",
-       
+        "./imgProjects/aqvae5.webp"
+
+
+        
+    
         
       ],
       technologies: [
@@ -265,7 +271,7 @@ export const projects = [
         
         
         {
-          name: "Ngs-translate/core",
+          name: "Ngx-translate/core",
           icon: "./imgtec/translate.jpg",
         },
       ],
@@ -278,6 +284,56 @@ export const projects = [
         "https://81andie.github.io/Aqvae/"
       ]
     },
+
+    {
+      title: "The Holy Wine",
+      description:
+        "The Holy Wine, està desarrollada con la última versión de Angular, Angular 19, utilizando todas las novedades en las nuevas directivas del framework, para el estilo he utilizado la libreria Angular Material y para el diseño he utilizado Tailwind.",
+        
+        description1:"Se puede hacer busquedas por vino, lugar, tiene más de 10000 entradas. Tiene una sección explicando las diferentes variedades de uvas de la base de datos y es posible conocer los catadores de algunos vinos más exclusivos, escaneando el código qr que se adjunta en las cards.",
+     
+     
+        images: [
+     
+        "./imgProjects/holy6.jpg",
+        "./imgProjects/holy4.jpg",
+        "./imgProjects/holy3.jpg",
+        "./imgProjects/holy5.jpg",
+        "./imgProjects/holyWine8.jpg",
+        "./imgProjects/holy1.jpg",
+      
+      
+        
+       
+     
+       
+        
+      ],
+      technologies: [
+        {
+          name: "Angular",
+          icon: "./imgtec/angular.jpg",
+        },
+        {
+          name: "Tailwind CSS",
+          icon: "./imgtec/tailwind.avif",
+        },
+        {
+          name: "Angular Material",
+          icon: "./imgtec/angularMaterial.jpeg",
+        },
+        
+     
+      ],
+
+      url:[
+        "https://github.com/81andie/holyWine"
+      ],
+
+      url1:[
+        "https://81andie.github.io/holyWine/"
+      ]
+    }
 
    
 

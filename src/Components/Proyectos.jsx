@@ -6,7 +6,7 @@ export const Proyectos = () => {
 
   return (
     <>
-      <div className="flex flex-col justify-center ml-2 mr-2  px-1 dark:text-slate-200">
+      <div className="flex flex-col justify-center ml-2 mr-2 mt-28 px-1 dark:text-slate-200">
         {projects.map((project, index) => (
 
           
