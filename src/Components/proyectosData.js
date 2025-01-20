@@ -238,6 +238,47 @@ export const projects = [
       ]
     },
 
+
+    {
+      title: "Claustrum Aqvae",
+      description:
+        "Claustrum Aqvae, està desarrollada en Angular 17  es una web que mide el estado de los pantanos de Cataluña. Para el mapa interactivo e animaciones, he utilizado la libraria de Mapbox, combinada con la api Mapbox Places, para solventar la geolocalización de todos los pantanos de la Comunidad de Cataluña. Permite una busqueda por dia, de cualquier pantano, emitiendo los datos de medición del embalse consultado.",
+     
+      description1: "Para el estilo he utilizado la libreria Tailwind. Para mostrar los datos he utilizado el portal 'Dades Obertes de Catalunya'",
+        images: [
+        "./imgProjects/aqvae1.webp",
+        "./imgProjects/aqvae2.webp",
+        "./imgProjects/aqvae4.webp",
+        "./imgProjects/aqvae5.webp",
+       
+        
+      ],
+      technologies: [
+        {
+          name: "Angular",
+          icon: "./imgtec/angular.jpg",
+        },
+        {
+          name: "Tailwind CSS",
+          icon: "./imgtec/tailwind.avif",
+        },
+        
+        
+        {
+          name: "Ngs-translate/core",
+          icon: "./imgtec/translate.jpg",
+        },
+      ],
+
+      url:[
+        "https://github.com/81andie/Aqvae"
+      ],
+
+      url1:[
+        "https://81andie.github.io/Aqvae/"
+      ]
+    },
+
    
 
   ];
