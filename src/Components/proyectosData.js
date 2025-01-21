@@ -286,7 +286,7 @@ export const projects = [
     },
 
     {
-      title: "The Holy Wine",
+      title: "The Holy Winesprueba",
       description:
         "The Holy Wine, està desarrollada con la última versión de Angular, Angular 19, utilizando todas las novedades en las nuevas directivas del framework, para el estilo he utilizado la libreria Angular Material y para el diseño he utilizado Tailwind.",
         
