@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { Inicio } from '../Components/Inicio';
 import { Skills } from '../Components/Skills';
 
-import { Proyectos } from '../Components/Proyectos';
+
 import { Contacto } from '../Components/Contacto';
 
 import { Sobremi } from '../Components/Sobremi';
@@ -12,6 +12,8 @@ import { Certificaciones } from '../Components/Certificaciones';
 import { Header } from '../Components/Header';
 import { ErrorPage } from './ErrorPage';
 import { Footer } from '../Components/Footer';
+import { ProjectDetails } from '../Components/ProjectDetails';
+
 
 
 
@@ -37,7 +39,8 @@ export const RoutasPrincipales = () => {
 
           <Route path="/skills" element={<Skills />} />
           <Route path="/certificaciones" element={<Certificaciones />} />
-          <Route path="/proyectos" element={<Proyectos />} />
+      
+          <Route path="/proyectos/:id" element={<ProjectDetails/>}/>
           <Route path="/contacto" element={<Contacto />} />
           <Route path="*" element={<ErrorPage />}
 

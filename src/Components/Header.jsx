@@ -24,7 +24,7 @@ export const Header = () => {
               <NavLink to="/queofrezco" className="enlaces"> {t('header.whatdoIoffer')}</NavLink>
            
             </details>
-            <NavLink to="/proyectos" className="enlaces_navbar">{t('header.projects')}</NavLink>
+        
 
             <details>
               <summary className="enlaces_navbar">{t('header.training')}</summary>
