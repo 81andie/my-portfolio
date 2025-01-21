@@ -307,15 +307,15 @@ export const projects = [
     technologies: [
       {
         name: "Angular",
-        icon: "./imgtec/angular.jpg",
+        icon: "../imgtec/angular.jpg",
       },
       {
         name: "Tailwind CSS",
-        icon: "./imgtec/tailwind.avif",
+        icon: "../imgtec/tailwind.avif",
       },
       {
         name: "Angular Material",
-        icon: "./imgtec/angularMaterial.jpeg",
+        icon: "../imgtec/angularMaterial.jpeg",
       },
 
 
@@ -343,12 +343,12 @@ export const projects = [
 
     images: [
 
-      "./imgProjects/holy6.jpg",
-      "./imgProjects/holy4.jpg",
-      "./imgProjects/holy3.jpg",
-      "./imgProjects/holy5.jpg",
-      "./imgProjects/holyWine8.jpg",
-      "./imgProjects/holy1.jpg",
+      "../imgProjects/holy6.jpg",
+      "../imgProjects/holy4.jpg",
+      "../imgProjects/holy3.jpg",
+      "../imgProjects/holy5.jpg",
+      "../imgProjects/holyWine8.jpg",
+      "../imgProjects/holy1.jpg",
 
 
 
