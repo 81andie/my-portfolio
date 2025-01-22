@@ -3,6 +3,8 @@ import { Canvas,useLoader} from '@react-three/fiber';
 import { OrbitControls } from './OrbitControls';
 import { TextureLoader } from 'three';
 
+
+
 export const ErrorPage = () => {
 
   const texture = useLoader(TextureLoader, './img/moon02.jpg'); // Cambia el path con la ruta de tu imagen
@@ -18,8 +20,11 @@ export const ErrorPage = () => {
           <sphereGeometry args={[2, 80, 80]} />
           <meshBasicMaterial map={texture} />
         </mesh>
+
+      
      
         <OrbitControls/>
+        <ambientLight intensity={0.5} />
         <directionalLight position={[4, 2, 3]} />
       </Canvas>
     </div>
