@@ -20,14 +20,14 @@ export const ProjectDetails = () => {
 
 <div className="flex flex-col justify-center ml-2 mr-2 mt-28 px-1 dark:text-slate-200">
       {/* Contenedor principal */}
-      <div className="flex flex-col md:flex-row lg:flex-row justify-center rounded-lg mb-10">
+      <div className="flex flex-col md:flex-row lg:flex-row  rounded-lg mb-10">
         
         {/* Grid de imágenes */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-1 mt-5 p-1">
+        <div className=" grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-1 mt-5 p-1">
           {buscarProjecto.images && buscarProjecto.images.map((image, i) => (
             <img
               key={i}
-              className="h-auto object-cover max-w-full md:w-52 lg:w-52 rounded-lg"
+              className="h-auto object-cover max-w-full md:w-52 lg:w-52 rounded-lg transition duration-200 "
               src={image}
               alt={`Project ${buscarProjecto.title} - Image ${i + 1}`}
             />
@@ -35,16 +35,16 @@ export const ProjectDetails = () => {
         </div>
 
         {/* Detalles del proyecto */}
-        <div className="flex flex-col p-1 mt-5 md:w-80 lg:w-80 w-full">
+        <div className="flex flex-col justify-center p-1 mt-2 md:w-8/12 lg:w-8/12">
           <p className="text-xl font-mono">Título:</p>
-          <p className="text-3xl p-1 mt-2 mb-2">{buscarProjecto.title}</p>
+          <p className="text-3xl p-1 mt-2 mb-2 animate-pulse ">{buscarProjecto.title}</p>
           
           <p className="text-xl font-mono p-1">Lenguajes y frameworks:</p>
-          <div className="flex flex-row flex-wrap gap-1 p-1 rounded-sm">
+          <div className="flex flex-row flex-wrap gap-1 p-1 rounded-sm w-8/12 ">
             {buscarProjecto.technologies && buscarProjecto.technologies.map((tech, i) => (
               <img
                 key={i}
-                className="h-10 w-auto p-1 bg-blue-200 rounded-sm"
+                className="h-10 w-auto p-1 bg-blue-200 rounded-sm inset-0 "
                 src={tech.icon}
                 alt={tech.name}
                 title={tech.name}
@@ -53,8 +53,8 @@ export const ProjectDetails = () => {
           </div>
 
           {/* Descripción */}
-          <p className="text-md mt-4 text-justify">{buscarProjecto.description}</p>
-          <p className="text-md mt-4 text-justify">{buscarProjecto.description1}</p>
+          <p className="text-md mt-2 ml-1 mr-1 text-justify font-mono">{buscarProjecto.description}</p>
+          <p className="text-md mt-4 ml-1 mr-1 text-justify font-mono">{buscarProjecto.description1}</p>
 
           {/* Links del proyecto */}
           <div className="flex gap-2 dark:text-slate-900 p-1">

@@ -3,9 +3,9 @@ export const projects = [
     id: 1,
     title: "Traffic Valéncia",
     description:
-      "Traffic Valencia se ha desarrollado con JS, geocaliza todas las cámaras de tráfico de la área metropolitana de Valéncia, pudiendo ver a tiempo real lo que graban las cámaras.",
+      "Traffic Valencia es una página web desarrollada con JS que  geocaliza todas las cámaras de tráfico de la área metropolitana de Valéncia. Los usuarios pueden consultar a tiempo real transmisiones de las cámaras, proporcionando una herramienta práctica y visual para monitorizar el estado del tráfico en la ciudad",
 
-    description1: "Los datos para la geolocalización de las cámaras, los aporta el portal de datos abiertos del Ayuntamiento de Valéncia. Contiene también una pequeña libreria 'leaflet-control-geocoder', para poder geolocalizar algún destino en concreto",
+    description1: "Traffic Valencia utiliza los datos proporcionados por el portal de datos abiertos del Ayuntamiento de Valéncia. Además incorpora una libreria ligera 'leaflet-control-geocoder', permitiendo que los usuarios puedan  geolocalizar destinos específicos de manera sencilla e intuitiva. Está diseñada con Tailwind CSS, lo que nos asegura un estilo moderno, añadiendo una experiencia visual atractiva, aportándole un óptimo enfoque en el mobile-first",
 
     images: [
       "../imgProjects/traffic.jpg",
@@ -53,9 +53,9 @@ export const projects = [
     id: 2,
     title: "México Guide",
     description:
-      "México Guide, es una guia interactiva con la geolocalización aportados por el Instituto de Geografía de la Unam(México), aprovechando la plataforma IDEA lleva la renderización por capas, de diferentes metadatos.",
+      "México Guide, es una página web desarrollada con JS, siendo una guia interactiva que permite la geolocalización de los destinos turísticos más importantes de México, tesoros Mayas, yacimientos arqueológicos y ubicaciones de Patrimonio de la Unesco, todo mostrado por la geolocalización de diferentes marcadores(clusters de colores), para añadir una claridad en la experiencia del usuario.",
 
-    description1: "La renderización por capas, diferencia, los destinos turísticos más emblemáticos, yacimientos Mayas,Tesoros Arqueológicos y Patrimonio de la Unesco, aportando una descripción y fotos de los lugares a partir de la utilización de la Api de Google",
+    description1: "Cada geolocalización, incluye una descripción y una pequeña galería de fotos del lugar, que ha sido desarrollada con Google Apis. Los datos aportados para la geolocalización són del Instituto de Geografía de la Unam(México), de la plataforma IDEA.",
 
     images: [
       "../imgProjects/mex1.jpg",
@@ -111,7 +111,7 @@ export const projects = [
     id: 3,
     title: "Cleopatra Cosmétics",
     description:
-      "Cleopatra Cosmétics, es un e-comerce especializado en productos cosméticos de lujo, el diseño limpio y senzillo, permite ver de forma muy clara sus principales funcionalidades, guiando al cliente por sus diferentes procesos de compra, la pasarela de compra esta lista para poder conectarla a una base de datos, a parte que se geolocaliza la tienda física utilizando React Leaflet",
+      "Cleopatra Cosmétics, es un e-comerce desarrollado con React especializado en productos cosméticos de lujo, el diseño limpio y senzillo, permite ver de forma muy clara sus principales funcionalidades, guiando al cliente por sus diferentes procesos de compra, la pasarela de compra esta lista para poder conectarla a una base de datos, a parte que se geolocaliza la tienda física utilizando React Leaflet",
     images: [
       "../imgProjects/cleo1.jpg",
       "../imgProjects/cleo2.jpg",
@@ -158,7 +158,7 @@ export const projects = [
     id: 4,
     title: "Harry Potter App",
     description:
-      "Harry Potter es una web, dónde encontrarás toda la información sobre Harry Potter, los datos están recogidos de la Api, HP-API, permitiendo la renderización de los principales personajes, profesores, estudiantes y todos los hechizos relacionados con el Universo Potter",
+      "Harry Potter es una web desarrollada con Angular17, dónde encontrarás toda la información sobre Harry Potter, los datos están recogidos de la Api, HP-API, permitiendo la renderización de los principales personajes, profesores, estudiantes y todos los hechizos relacionados con el Universo Potter",
     images: [
       "../imgProjects/hp1.jpg",
       "../imgProjects/hp3.jpg",
@@ -201,7 +201,7 @@ export const projects = [
     id: 5,
     title: "SpaceAirTracker",
     description:
-      "SpaceAirTracker es un rastreador de vuelos nacionales e internacionales, que permite, geolocalizar el vuelo, y de cada uno, poder saber su velocidad, ICAO, latitud y país de origen, permite tambien rastrear los vuelos a partir de su ciudad de origen",
+      "SpaceAirTracker es una web desarrollada con Angular17 y la libreria OpenLayers es un rastreador de vuelos nacionales e internacionales, que permite, geolocalizar el vuelo, y de cada uno, poder saber su velocidad, ICAO, latitud y país de origen, permite tambien rastrear los vuelos a partir de su ciudad de origen. Su estilo claro y funcional está diseñado con Boostrap",
     images: [
       "../imgProjects/Space1.jpg",
       "../imgProjects/space6.jpg",
@@ -281,7 +281,7 @@ export const projects = [
 
   {
     id: 7,
-    title: "The Holy Winesprueba",
+    title: "The Holy Wine",
     description:
       "The Holy Wine, està desarrollada con la última versión de Angular, Angular 19, utilizando todas las novedades en las nuevas directivas del framework, para el estilo he utilizado la libreria Angular Material y para el diseño he utilizado Tailwind.",
 
@@ -334,7 +334,7 @@ export const projects = [
 
   {
     id: 8,
-    title: "The Holy Winesprueba",
+    title: "The Holy Wine",
     description:
       "The Holy Wine, està desarrollada con la última versión de Angular, Angular 19, utilizando todas las novedades en las nuevas directivas del framework, para el estilo he utilizado la libreria Angular Material y para el diseño he utilizado Tailwind.",
 
