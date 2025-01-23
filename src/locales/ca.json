@@ -71,18 +71,7 @@
       "webLayout": "Com maquetar una pàgina web"
     }
   },
-  "certificationsUdemy": {
-    "august": "Agost 2023",
-    "course": "Construcció de llocs web responsius del món real amb HTML i CSS (Udemy)",
-    "summary": "Resum",
-    "topics": {
-      "htmlFundamentals": "Fonaments d'HTML",
-      "cssFundamentals": "Fonaments de CSS",
-      "layouts": "Disposicions",
-      "components": "Components",
-      "projects": "Projectes"
-    }
-  },
+ 
   "certificationsFreeCodeCamp": {
     "certification_info": {
       "title": "Setembre 2023",
@@ -99,6 +88,22 @@
       }
     }
   },
+
+  
+  "certificationsUdemy": {
+    "august": "Agost 2023",
+    "course": "Construcció de llocs web responsius del món real amb HTML i CSS (Udemy)",
+    "summary": "Resum",
+    "topics": {
+      "htmlFundamentals": "Fonaments d'HTML",
+      "cssFundamentals": "Fonaments de CSS",
+      "layouts": "Disposicions",
+      "components": "Components",
+      "projects": "Projectes"
+    }
+  },
+
+
   "footer": {
     "text": "Dissenyadora de pàgines web i programadora web",
     "contactUs": "Contacteu-nos",
