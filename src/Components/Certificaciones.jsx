@@ -16,11 +16,10 @@ export const Certificaciones = () => {
   return (
     <>
 
-      <h1 className="certificaciones_title">{t('header.certifications')}</h1>
       <div className="container_certificaciones">
 
         {certifications.map((cer, index) => (
-          <div className="card_google" key={index}
+          <div className="card_google font-mono" key={index}
             style={{
               backgroundImage: `url(${cer.backgroundImage})`,
 
@@ -46,7 +45,7 @@ export const Certificaciones = () => {
             <img
               src={cer.image}
 
-              className="logo_google"
+              className="w-32 h-10 object-contain"
               alt="Certificación"
             />
             <details>
