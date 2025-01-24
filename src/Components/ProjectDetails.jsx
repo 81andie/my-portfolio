@@ -38,8 +38,11 @@ export const ProjectDetails = () => {
   const spring = {
     type: "spring",
     damping: 20,
-    stiffness: 100,
+    stiffness: 200,
   }
+
+ 
+
 
 
 
@@ -57,13 +60,13 @@ export const ProjectDetails = () => {
         <div className="flex flex-col md:flex-row lg:flex-row  rounded-lg mb-10">
 
           {/* Grid de imágenes */}
-          <div className=" grid-flow-dense grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-1 mt-5 p-1">
+          <div className="grid-flow-dense grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-1 mt-5 p-1">
 
 
             {order.map((image, i) => (
               <motion.img
                 key={image}
-                className="h-auto object-cover max-w-full md:w-52 lg:w-52 rounded-lg "
+                className="h-auto object-center object-contain max-w-full md:w-52 lg:w-52 rounded-r-full rounded-t-sm rounded-l-full rounded-se-full rounded-br-full"
                 src={image}
                 alt={`Project ${buscarProjecto.title} - Image ${i + 1}`}
                 layout
