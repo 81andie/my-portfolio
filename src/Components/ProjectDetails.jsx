@@ -5,6 +5,7 @@ import * as motion from "motion/react-client"
 import { projects } from './ProyectosData';
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from 'react';
+import {MotionGlobalConfig} from 'framer-motion'
 
 export const ProjectDetails = () => {
 
@@ -32,7 +33,12 @@ export const ProjectDetails = () => {
   }, [order]);
 
 
-
+ /* const disableAnimationsOnMobile = () => {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      MotionGlobalConfig.skipAnimations = true;
+    }
+  };*/
 
 
   const spring = {
@@ -43,15 +49,6 @@ export const ProjectDetails = () => {
 
  
 
-
-
-
-
-
-
-
-
-
   return (
     <>
 
@@ -60,13 +57,13 @@ export const ProjectDetails = () => {
         <div className="flex flex-col md:flex-row lg:flex-row  rounded-lg mb-10">
 
           {/* Grid de imágenes */}
-          <div className="grid-flow-dense grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-1 mt-5 p-1">
+          <div className="grid-flow-dense grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-1 mt-5 p-1">
 
 
             {order.map((image, i) => (
               <motion.img
                 key={image}
-                className="h-auto object-center object-contain max-w-full md:w-52 lg:w-52 rounded-r-full rounded-t-sm rounded-l-full rounded-se-full rounded-br-full"
+                className="h-52 w-52 object-cover object-center lg:h-52 lg:object-cover lg:object-center md:h-52 md:object-cover md:object-center  md:w-52 lg:w-52 "
                 src={image}
                 alt={`Project ${buscarProjecto.title} - Image ${i + 1}`}
                 layout
