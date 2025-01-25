@@ -1,17 +1,14 @@
 import React from 'react'
+
 import { useTranslation } from 'react-i18next';
 import { certifications } from './certifications';
+import './Certificaciones.css';
 
 
 
 export const Certificaciones = () => {
 
-
-
-
   const { t } = useTranslation();
-
-
 
   return (
     <>
