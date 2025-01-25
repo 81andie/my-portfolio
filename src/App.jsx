@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './index.css';
-import './Certificaciones.css';
+
 
 import './ErrorPage.css';
 import { useState, useEffect } from 'react';
@@ -87,7 +87,7 @@ function App() {
 
             <div className="flex justify-end items-center">
 
-             <button className="w-8 h-8 text-yellow-300 bg-blue-200 dark:bg-zinc-700 dark:text-white flex justify-center items-center mt-2 rounded-full"
+             <button className="w-8 h-8 text-yellow-300 bg-blue-50 dark:bg-zinc-700 dark:text-white flex justify-center items-center mt-2 rounded-full"
                 onClick={handleClick}
                 aria-label={`Toggle ${isDarkMode ? "light" : "dark"} mode`}
 
