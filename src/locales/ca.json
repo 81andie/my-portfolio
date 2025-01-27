@@ -8,6 +8,7 @@
     "skills": "Competències",
     "projects": "Projectes",
     "certifications": "Certificacions",
+    "courses": "Cursos",
     "contact": "Contacte",
     "helloWorld": "Hola món!",
     "Im": "sóc Andrea, una programadora web"
@@ -41,10 +42,8 @@
     "maplibreExperience": "Amb Maplibre, he adquirit habilitats per visualitzar grans conjunts de dades en mapes vectorials dinàmics. He après a treballar amb clusters per agrupar punts segons categories, a personalitzar estils de mapes i a gestionar dades complexes de fonts obertes. Aquesta experiència m'ha ajudat a comprendre millor com organitzar i presentar informació geoespacial de manera efectiva i atractiva.",
     "openlayersExperience": "Amb OpenLayers, he après a implementar funcionalitats avançades per gestionar dades geoespacials. He desenvolupat eines per afegir punts amb descripcions, dibuixar línies, polígons i cercles, i habilitar la cerca basada en descripcions. També he adquirit coneixements per generar, exportar i importar arxius GeoJSON, aprofundint en la manipulació de dades i la seva interoperabilitat en aplicacions GIS.",
     "mapboxExperience": "Amb Mapbox, he après a desenvolupar visualitzadors interactius amb mapa per mostrar dades geoespacials dinàmiques. He adquirit habilitats per integrar mapes personalitzats, gestionar dades per data i per ubicació, i visualitzar l'estat hídrico dels pantans de Catalunya mitjançant capes dinàmiques, millorant la interacció de l'usuari amb la informació geoespacial.",
-    "primeNgExperience":  "He treballat amb PrimeNG per integrar components d'interfície d'usuari rics i interactius en les meves aplicacions. He utilitzat diversos components com (taules, formularis, menus,cercadors)per millorar l'experiència d'usuari i l'eficiència del desenvolupament.",
-    "primeReactExperience":"He treballat amb PrimeReact per integrar components d'interfície d'usuari avançats en les meves aplicacions React. He utilitzat diversos components com taules, formularis, calendari i gràfics per millorar la funcionalitat i l'experiència d'usuari, facilitant el desenvolupament de interfaces modernes i eficients."
-
-  
+    "primeNgExperience": "He treballat amb PrimeNG per integrar components d'interfície d'usuari rics i interactius en les meves aplicacions. He utilitzat diversos components com (taules, formularis, menus,cercadors)per millorar l'experiència d'usuari i l'eficiència del desenvolupament.",
+    "primeReactExperience": "He treballat amb PrimeReact per integrar components d'interfície d'usuari avançats en les meves aplicacions React. He utilitzat diversos components com taules, formularis, calendari i gràfics per millorar la funcionalitat i l'experiència d'usuari, facilitant el desenvolupament de interfaces modernes i eficients."
   },
   "certificationsGoogle": {
     "june": "Juny de 2023",
@@ -71,7 +70,6 @@
       "webLayout": "Com maquetar una pàgina web"
     }
   },
- 
   "certificationsFreeCodeCamp": {
     "certification_info": {
       "title": "Setembre 2023",
@@ -88,8 +86,6 @@
       }
     }
   },
-
-  
   "certificationsUdemy": {
     "august": "Agost 2023",
     "course": "Construcció de llocs web responsius del món real amb HTML i CSS (Udemy)",
@@ -104,6 +100,158 @@
   },
 
 
+  "courses": [{
+    "id": 1,
+    "month": "2023",
+    "course": "Crea llocs web responsius del món real amb HTML i CSS",
+    "institution": "Udemy",
+    "instructor": "Jonas Schmedtmann",
+    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900",
+    "summary": "Projectes",
+    "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
+    "topics": [
+      "HTML5 modern, semàntic i accessible",
+      "Conceptes CSS importants com el model de caixa, esquemes de posicionament, herència, resolució de conflictes de selectors, etc.",
+      "Dissenya i crea un projecte impactant per al teu portafoli des de zero",
+      "Projecte Omnifood Web"
+    ]
+  },
+  {
+    "id": 2,
+    "month": "2023",
+    "course": "Programa els teus propis jocs HTML5 amb CSS",
+    "institution": "Udemy",
+    "instructor": "Javier Muñiz",
+    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2148996213.jpg?t=st=1712941497~exp=1712945097~hmac=d92a0f0d76ed68e8d2da654fe6bc67fb7cddb5dad5a8d8c2a73d012060773d8c&w=900",
+    "summary": "Resum del curs",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+    "topics": [
+      "Crea un Tetris",
+      "La Mazmorra"
+    ]
+  },
+  {
+    "id": 3,
+    "month": "2024",
+    "course": "Algoritmes i estructures de dades en JavaScript",
+    "institution": "Udemy",
+    "instructor": "Juan Pablo de la Torre",
+    "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+    "summary": "Resum del curs",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+    "topics": [
+      "JavaScript Bàsic",
+      "ES6",
+      "Expressions Regulars",
+      "Depuració",
+      "Estructures de dades bàsiques",
+      "Programació d'algoritmes bàsics",
+      "Programació orientada a objectes",
+      "Programació funcional",
+      "Programació d'algoritmes intermedis",
+      "Algoritmes de JavaScript i projectes"
+    ]
+  },
+  {
+    "id": 4,
+    "month": "2024",
+    "course": "The Git & Github BootCamp",
+    "institution": "Udemy",
+    "instructor": "Colt Steele",
+    "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+    "summary": "Resum del curs",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+    "topics": [
+      "Domina el flux de treball essencial de Git: afegir i confirmar canvis",
+      "Realitza fusions de Git i resol conflictes de fusió",
+      "Utilitza Git diff per revelar canvis al llarg del temps",
+      "Domina l'emmagatzematge temporal de Git (stashing)",
+      "Desfés canvis utilitzant git restore, git revert i git reset",
+      "Treballa amb repositoris locals i remots",
+      "Domina els fluxos de col·laboració: sol·licituds d'extracció (pull requests)",
+      "Bifurca i clona repositoris",
+      "Netega, compacta i reescriu la història utilitzant el rebase interactiu",
+      "Recupera treball 'perdut' utilitzant git reflogs",
+      "Escriu àlies personalitzats i potents per a Git",
+      "Marca versions i llançaments utilitzant etiquetes de Git",
+      "Allotja llocs web estàtics utilitzant Github Pages",
+      "Crea fitxers README en format markdown",
+      "Comparteix codi i fragments utilitzant Github Gists"
+    ]
+  },
+  {
+    "id": 5,
+    "month": "2024",
+    "course": "The Modern React BootCamp",
+    "institution": "Udemy",
+    "instructor": "Colt Steele",
+    "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+    "summary": "Resum del curs",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+    "topics": [
+      "Els conceptes bàsics de React (props, state, etc)",
+      "Construeix molts projectes, cadascun amb una interfície bonica",
+      "Formularis i validacions complexes en React",
+      "React Hooks!",
+      "Integra React amb APIs",
+      "Next"
+    ]
+  },
+  {
+    "id": 6,
+    "month": "2024",
+    "course": "Master en React: Aprender REactJs, Hooks, MERN NodeJs, JWT+",
+    "institution": "Udemy",
+    "instructor": "Victor Robles",
+    "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+    "summary": "Resum del curs",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+    "topics": [
+      "Dominar React",
+      "Aprendre React amb Hooks",
+      "Aprendre React Router DOM",
+      "Treballar amb el React Router més modern",
+      "Aprendre Context API",
+      "Aprendre el MERN Stack",
+      "Aprendre Vite",
+      "Crear aplicacions web amb React",
+      "Desenvolupar serveis i APIs RESTful amb NodeJS, Express i MongoDB",
+      "Reductors, Context i controladors d'estat",
+      "Crear un portafoli complet amb React",
+      "Crear un blog complet amb ReactJS",
+      "Crear una xarxa social completa amb React JS",
+      "Desenvolupar aplicacions web amb el MERN Stack",
+      "Desenvolupar aplicacions web SPA",
+      "Millorar la capacitat d'adaptació a altres frameworks JavaScript"
+    ]
+  },
+  {
+    "id": 7,
+    "month": "2024/2025",
+    "course": "Angular de Zero a expert",
+    "institution": "Udemy",
+    "instructor": "Fernando Herrera",
+    "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+    "summary": "Resum del curs",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+    "topics": [
+      "Angular profundament",
+      "Desenvolupa les teves pròpies aplicacions utilitzant Angular",
+      "Segueix estàndards i bones pràctiques del framework",
+      "Aprèn Angular basat en TypeScript",
+      "Utilitza llibreries de tercers",
+      "Aprèn altres temes relacionats en el desenvolupament d'aplicacions amb Angular"
+    ]
+  }
+
+],
   "footer": {
     "text": "Dissenyadora de pàgines web i programadora web",
     "contactUs": "Contacteu-nos",

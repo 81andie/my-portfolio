@@ -18,11 +18,11 @@ export const Contacto = () => {
           <p className="mb-8 lg:mb-10 font-light text-center text-gray-500 dark:text-gray-400 sm:text-base">Quieres accesoramiento, consejo o quieres transmitirme tu idea para tu web, ponte en contacto conmigo</p>
           <div className="flex flex-row gap-2">
           <div className="flex flex-col w-full ">
-              <label for="email" className="block mb-1 text-xs font-medium text-gray-900 ">Your email</label>
+              <label htmlFor="email" className="block mb-1 text-xs font-medium text-gray-900 ">Your email</label>
               <input type="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block  p-2.5 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light " placeholder="example@gmail.com" required/>
           </div>
           <div className="flex flex-col w-full">
-          <label for="name" className="block mb-1 text-xs font-medium text-gray-900 ">Tu nombre</label>
+          <label htmlFor="name" className="block mb-1 text-xs font-medium text-gray-900 ">Tu nombre</label>
           <input type="text" id="text" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block  p-2.5 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light " placeholder="tu nombre y apellidos" required/>
           </div>
 

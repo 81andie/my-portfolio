@@ -17,7 +17,7 @@ export const ProjectDetails = () => {
     .find(item => item.id === parseInt(id));
 
     const shuffle = (arr) => {
-      return arr.sort(() => Math.random() - 0.4)
+      return arr.sort(() => Math.random() - 0.5)
     }
 
   const [order, setOrder] = useState(shuffle([...buscarProjecto.images]));

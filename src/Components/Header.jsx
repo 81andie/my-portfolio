@@ -30,6 +30,8 @@ export const Header = () => {
               <summary className="enlaces_navbar">{t('header.training')}</summary>
               <NavLink to="/skills" className="enlaces">{t('header.skills')}</NavLink>
               <NavLink to="/certificaciones" className="enlaces"> {t('header.certifications')}</NavLink>
+              <NavLink to="/cursos" className="enlaces"> {t('header.courses')}</NavLink>
+            
             </details>
 
             <NavLink to="/contacto" className="enlaces_navbar">{t('header.contact')}</NavLink>

@@ -8,6 +8,7 @@
         "skills": "Skills",
         "projects":"Projects",
         "certifications": "Certifications",
+        "courses":"Courses",
         "contact": "Contact",
         "helloWorld": "Hello World,",
         "Im": "I'm Andrea, a Web Developer"
@@ -97,6 +98,167 @@
             }
         }
     },
+
+"courses": [
+    {
+      "id": 1,
+      "month": "2023",
+      "course": "Create real-world responsive websites with HTML and CSS",
+      "institution": "Udemy",
+      "instructor": "Jonas Schmedtmann",
+      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900",
+      "summary": "Projects",
+      "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
+      "topics": [
+        "Modern, semantic, and accessible HTML5",
+        "Important CSS concepts like the box model, positioning schemes, inheritance, selector conflict resolution, etc.",
+        "Design and build an impactful project for your portfolio from scratch",
+        "Omnifood Web Project"
+      ]
+    },
+    {
+      "id": 2,
+      "month": "2023",
+      "course": "Program your own HTML5 games with CSS",
+      "institution": "Udemy",
+      "instructor": "Javier Muñiz",
+      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2148996213.jpg?t=st=1712941497~exp=1712945097~hmac=d92a0f0d76ed68e8d2da654fe6bc67fb7cddb5dad5a8d8c2a73d012060773d8c&w=900",
+      "summary": "Course summary",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+      "topics": [
+        "Create a Tetris",
+        "The Dungeon"
+      ]
+    },
+    {
+      "id": 3,
+      "month": "2024",
+      "course": "Algorithms and data structures in JavaScript",
+      "institution": "Udemy",
+      "instructor": "Juan Pablo de la Torre",
+      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+      "summary": "Course summary",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+      "topics": [
+        "Basic JavaScript",
+        "ES6",
+        "Regular Expressions",
+        "Debugging",
+        "Basic data structures",
+        "Basic algorithm programming",
+        "Object-oriented programming",
+        "Functional programming",
+        "Intermediate algorithm programming",
+        "JavaScript algorithms and projects"
+      ]
+    },
+    {
+      "id": 4,
+      "month": "2024",
+      "course": "The Git & Github BootCamp",
+      "institution": "Udemy",
+      "instructor": "Colt Steele",
+      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+      "summary": "Course summary",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+      "topics": [
+        "Master the essential Git workflow: adding and committing changes",
+        "Perform Git merges and resolve merge conflicts",
+        "Use Git diff to reveal changes over time",
+        "Master Git stashing",
+        "Undo changes using git restore, git revert, and git reset",
+        "Work with local and remote repositories",
+        "Master collaboration workflows: pull requests",
+        "Fork and clone repositories",
+        "Clean up, compact, and rewrite history using interactive rebase",
+        "Recover 'lost' work using git reflogs",
+        "Write custom and powerful Git aliases",
+        "Tag versions and releases using Git tags",
+        "Host static websites using Github Pages",
+        "Create README files in markdown format",
+        "Share code and snippets using Github Gists"
+      ]
+    },
+    {
+      "id": 5,
+      "month": "2024",
+      "course": "The Modern React BootCamp",
+      "institution": "Udemy",
+      "instructor": "Colt Steele",
+      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+      "summary": "Course summary",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+      "topics": [
+        "The basics of React (props, state, etc)",
+        "Build many projects, each with a beautiful interface",
+        "Complex forms and validations in React",
+        "React Hooks!",
+        "Integrate React with APIs",
+        "Next"
+      ]
+    },
+    {
+      "id": 6,
+      "month": "2024",
+      "course": "Master in React: Learn ReactJs, Hooks, MERN NodeJs, JWT+",
+      "institution": "Udemy",
+      "instructor": "Victor Robles",
+      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+      "summary": "Course summary",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+      "topics": [
+        "Master React",
+        "Learn React with Hooks",
+        "Learn React Router DOM",
+        "Work with the most modern React Router",
+        "Learn Context API",
+        "Learn the MERN Stack",
+        "Learn Vite",
+        "Create web applications with React",
+        "Develop services and RESTful APIs with NodeJS, Express, and MongoDB",
+        "Reducers, Context, and state controllers",
+        "Create a complete portfolio with React",
+        "Create a complete blog with ReactJS",
+        "Create a complete social network with React JS",
+        "Develop web applications with the MERN Stack",
+        "Develop SPA web applications",
+        "Improve adaptability to other JavaScript frameworks"
+      ]
+    },
+    {
+      "id": 7,
+      "month": "2024/2025",
+      "course": "Angular from Zero to Expert",
+      "institution": "Udemy",
+      "instructor": "Fernando Herrera",
+      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+      "summary": "Course summary",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+      "topics": [
+        "Angular in depth",
+        "Develop your own applications using Angular",
+        "Follow framework standards and best practices",
+        "Learn TypeScript-based Angular",
+        "Use third-party libraries",
+        "Learn other related topics in Angular application development"
+      ]
+    }
+  ],
+   
+
+   
+
+
+
+
+    
     "footer": {
         "contactUs": "Contact Us",
         "privacyPolicy": "Privacy Policy"
