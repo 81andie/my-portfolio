@@ -45,61 +45,43 @@
     "primeNgExperience": "He trabajado con PrimeNG para integrar componentes de interfaz de usuario ricos e interactivos en mis aplicaciones. He utilizado varios componentes como tablas, formularios, menús y buscadores para mejorar la experiencia de usuario y la eficiencia en el desarrollo.",
     "primeReactExperience": "He trabajado con PrimeReact para integrar componentes de interfaz de usuario avanzados en mis aplicaciones React. He utilizado varios componentes como tablas, formularios, calendarios y gráficos para mejorar la funcionalidad y la experiencia de usuario, facilitando el desarrollo de interfaces modernas y eficientes."
   },
-  
-  "certificationsGoogle": {
-    "june": "Junio de 2023",
-    "course": "Curso de introducción",
-    "coursetitle": "al desarrollo web: HTML y CSS (I)",
-    "summary": "Resumen",
-    "topics": {
-      "history": "Historia de la Web",
-      "functioning": "Cómo funciona la Web",
-      "writing": "Escritura para la Web",
-      "publication": "Publicación de un sitio web",
-      "page": "Creación de una página web"
-    }
-  },
-  "certificationsGoogle1": {
-    "july": "Julio 2023",
-    "course": "Curso de introducción",
-    "coursetitle": "al desarrollo web: HTML and CSS (II)",
-    "summary": "Sumario",
-    "topics": {
-      "presentationDefinition": "Cómo se define la presentación de una página web",
-      "elementsPresentationDefinition": "Cómo se define la presentación de los elementos de una página web",
-      "webSuccessAchievement": "Cómo se logra que una página web tenga éxito",
-      "webLayout": "Cómo se maqueta una página web"
-    }
-  },
-  "certificationsUdemy": {
-    "august": "Agosto 2023",
-    "course": "Construcción de sitios web responsivos del mundo real con HTML y CSS (Udemy)",
-    "summary": "Sumario",
-    "topics": {
-      "htmlFundamentals": "Fundamentos de HTML",
-      "cssFundamentals": "Fundamentos de CSS",
-      "layouts": "Diseños",
-      "components": "Componentes",
-      "projects": "Proyectos"
-    }
-  },
-  "certificationsFreeCodeCamp": {
-    "certification_info": {
-      "title": "Setiembre 2023",
-      "subtitle": "Certificación de Diseño Web Responsivo i Deserrollo",
-      "image_source": "https://www.arnoldgelacio.com/images/skills/logo-freecodecamp.png",
-      "summary": {
-        "title": "Resumen 300h",
-        "details": [
-          "Construeix un formulari d'enquesta",
-          "Construeix una pàgina de tribut",
-          "Construeix una pàgina de documentació tècnica",
-          "Construeix una pàgina de cartera personal"
-        ]
-      }
-    }
+
+  "certifications1": [{
+    "id": 1,
+    "month": "2023",
+    "course": "Crea llocs web responsius del món real amb HTML i CSS",
+    "institution": "Udemy",
+    "instructor": "Jonas Schmedtmann",
+    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900",
+    "summary": "Projectes",
+    "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
+    "topics": [
+      "HTML5 modern, semàntic i accessible",
+      "Conceptes CSS importants com el model de caixa, esquemes de posicionament, herència, resolució de conflictes de selectors, etc.",
+      "Dissenya i crea un projecte impactant per al teu portafoli des de zero",
+      "Projecte Omnifood Web"
+    ]
   },
 
+  {
+    "id": 2,
+    "month": "2023",
+    "course": "Programa els teus propis jocs HTML5 amb CSS",
+    "institution": "Udemy",
+    "instructor": "Javier Muñiz",
+    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2148996213.jpg?t=st=1712941497~exp=1712945097~hmac=d92a0f0d76ed68e8d2da654fe6bc67fb7cddb5dad5a8d8c2a73d012060773d8c&w=900",
+    "summary": "Resum del curs",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+    "topics": [
+      "Crea un Tetris",
+      "La Mazmorra"
+    ]
+  }
+],
+
+  
   "courses": [
     {
       "id": 1,

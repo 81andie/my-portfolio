@@ -45,59 +45,45 @@
         "primeNgExperience": "I have worked with PrimeNG to integrate rich and interactive UI components into my applications. I have used several components such as tables, forms, menus, and search bars to improve user experience and development efficiency.",
         "primeReactExperience": "I have worked with PrimeReact to integrate advanced UI components into my React applications. I have used several components like tables, forms, calendars, and charts to improve functionality and user experience, facilitating the development of modern and efficient interfaces."
     },
-    "certificationsGoogle": {
-        "june": "June 2023",
-        "course": "Introduction Course",
-        "coursetitle": "to Web Development: HTML and CSS (I)",
-        "summary": "Summary",
-        "topics": {
-            "history": "History of the Web",
-            "functioning": "How the Web Works",
-            "writing": "Writing for the Web",
-            "publication": "Publishing a Website",
-            "page": "Creating a Web Page"
-        }
+
+    "certifications1": [{
+      "id": 1,
+      "month": "2023",
+      "course": "Crea llosdfsdfddfsdfsdfsdfcs web responsius del món real amb HTML i CSS",
+      "institution": "Udemy",
+      "instructor": "Jonas Schmedtmann",
+      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900",
+      "summary": "Projectes",
+      "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
+      "topics": [
+        "HTML5 modern, semàntic i accessible",
+        "Conceptes CSS importants com el model de caixa, esquemes de posicionament, herència, resolució de conflictes de selectors, etc.",
+        "Dissenya i crea un projecte impactant per al teu portafoli des de zero",
+        "Projecte Omnifood Web"
+      ]
     },
-    "certificationsGoogle1": {
-        "july": "July 2023",
-        "course": "Introduction",
-        "coursetitle": "to Web Development: HTML and CSS (II)",
-        "summary": "Summary",
-        "topics": {
-            "presentationDefinition": "How the presentation of a web page is defined",
-            "elementsPresentationDefinition": "How the presentation of the elements of a web page is defined",
-            "webSuccessAchievement": "How to achieve success for a web page",
-            "webLayout": "How to layout a web page"
-        }
-    },
-    "certificationsUdemy": {
-        "august": "August 2023",
-        "course": "Build Responsive Real World Websites with HTML AND CSS (Udemy)",
-        "summary": "Summary",
-        "topics": {
-            "htmlFundamentals": "HTML Fundamentals",
-            "cssFundamentals": "CSS Fundamentals",
-            "layouts": "Layouts",
-            "components": "Components",
-            "projects": "Projects"
-        }
-    },
-    "certificationsFreeCodeCamp": {
-        "certification_info": {
-            "title": "September 2023",
-            "subtitle": "Responsive Web Design Developer Certification",
-            "image_source": "https://www.arnoldgelacio.com/images/skills/logo-freecodecamp.png",
-            "summary": {
-                "title": "Summary 300h",
-                "details": [
-                    "Build a Survey Form",
-                    "Build a tribute page",
-                    "Build a Technical Documentation Page",
-                    "Build a Personal Portfolio Page"
-                ]
-            }
-        }
-    },
+  
+    {
+      "id": 2,
+      "month": "2023",
+      "course": "Programa els teus propis jocs HTML5 amb CSS",
+      "institution": "Udemy",
+      "instructor": "Javier Muñiz",
+      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2148996213.jpg?t=st=1712941497~exp=1712945097~hmac=d92a0f0d76ed68e8d2da654fe6bc67fb7cddb5dad5a8d8c2a73d012060773d8c&w=900",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+      "topics": [
+        "Crea un Tetris",
+        "La Mazmorra"
+      ]
+    }
+  ],
+
+
+    
+
 
 "courses": [
     {
@@ -117,6 +103,9 @@
         "Omnifood Web Project"
       ]
     },
+
+
+
     {
       "id": 2,
       "month": "2023",

@@ -25,7 +25,7 @@ export const Cursos = () => {
          
           <div className="card_google font-mono" key={index}
             style={{
-              backgroundImage: `{url(${curso.backgroundImage})`,
+              backgroundImage: `{url(${curso.backgroundImage})}`,
 
             }}
 
