@@ -46,41 +46,89 @@
         "primeReactExperience": "I have worked with PrimeReact to integrate advanced UI components into my React applications. I have used several components like tables, forms, calendars, and charts to improve functionality and user experience, facilitating the development of modern and efficient interfaces."
     },
 
-    "certifications1": [{
-      "id": 1,
-      "month": "2023",
-      "course": "Crea llosdfsdfddfsdfsdfsdfcs web responsius del món real amb HTML i CSS",
-      "institution": "Udemy",
-      "instructor": "Jonas Schmedtmann",
-      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900",
-      "summary": "Projectes",
-      "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
-      "topics": [
-        "HTML5 modern, semàntic i accessible",
-        "Conceptes CSS importants com el model de caixa, esquemes de posicionament, herència, resolució de conflictes de selectors, etc.",
-        "Dissenya i crea un projecte impactant per al teu portafoli des de zero",
-        "Projecte Omnifood Web"
-      ]
-    },
-  
-    {
-      "id": 2,
-      "month": "2023",
-      "course": "Programa els teus propis jocs HTML5 amb CSS",
-      "institution": "Udemy",
-      "instructor": "Javier Muñiz",
-      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2148996213.jpg?t=st=1712941497~exp=1712945097~hmac=d92a0f0d76ed68e8d2da654fe6bc67fb7cddb5dad5a8d8c2a73d012060773d8c&w=900",
-      "summary": "Resum del curs",
-      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
-      "topics": [
-        "Crea un Tetris",
-        "La Mazmorra"
-      ]
-    }
-  ],
-
+"certifications1": [
+  {
+    "id": 1,
+    "month": "2024",
+    "course": "Introduction to Web Development Course",
+    "institution": "Google Activate",
+    "instructor": "University of Alicante",
+    "image": "./imgtec/google.jpg",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
+    "summary": "Summary",
+    "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
+    "topics": [
+      "History of the Web",
+      "How the Web works",
+      "How to write a web page",
+      "How to publish a website",
+      "How to write a well-structured web page"
+    ]
+  },
+  {
+    "id": 2,
+    "month": "2023",
+    "course": "Introduction to Web Development Course: HTML and CSS",
+    "institution": "Google Activate",
+    "instructor": "University of Alicante",
+    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
+    "summary": "Course summary",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+    "topics": [
+      "How to define the presentation of a web page",
+      "How to define the presentation of web page elements",
+      "How to layout a web page",
+      "How to make a website successful"
+    ]
+  },
+  {
+    "id": 3,
+    "month": "2023",
+    "course": "Responsive Web Design, Developer Certification",
+    "institution": "FreeCodeCamp",
+    "instructor": "",
+    "image": "https://th.bing.com/th/id/OIP.oqGWRSjVvq--EULjpyw6ZQHaA5?rs=1&pid=ImgDetMain",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
+    "summary": "Course summary",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+    "topics": [
+      "Tribute Page",
+      "Technical documentation page (certification project)",
+      "Product landing page (certification project)",
+      "JavaScript algorithms and projects",
+      "Create your own portfolio"
+    ]
+  },
+  {
+    "id": 4,
+    "month": "2023",
+    "course": "Algorithms and Data Structures in JavaScript",
+    "institution": "FreeCodeCamp",
+    "instructor": "",
+    "image": "https://th.bing.com/th/id/OIP.oqGWRSjVvq--EULjpyw6ZQHaA5?rs=1&pid=ImgDetMain",
+    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
+    "summary": "Course summary",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+    "topics": [
+      "Basic JavaScript",
+      "ES6",
+      "Regular expressions",
+      "Debugging",
+      "Basic data structures",
+      "Basic algorithm scripting",
+      "Object-oriented programming",
+      "Functional programming",
+      "Intermediate algorithm scripting",
+      "JavaScript algorithms and data structures projects",
+      "Palindrome checker",
+      "Roman numeral converter",
+      "Caesar cipher",
+      "Phone number validator",
+      "Cash register"
+    ]
+  }
+],
 
     
 
@@ -93,7 +141,7 @@
       "institution": "Udemy",
       "instructor": "Jonas Schmedtmann",
       "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900",
+     
       "summary": "Projects",
       "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
       "topics": [
@@ -113,7 +161,7 @@
       "institution": "Udemy",
       "instructor": "Javier Muñiz",
       "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2148996213.jpg?t=st=1712941497~exp=1712945097~hmac=d92a0f0d76ed68e8d2da654fe6bc67fb7cddb5dad5a8d8c2a73d012060773d8c&w=900",
+     
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
       "topics": [
@@ -128,7 +176,7 @@
       "institution": "Udemy",
       "instructor": "Juan Pablo de la Torre",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+     
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -151,7 +199,7 @@
       "institution": "Udemy",
       "instructor": "Colt Steele",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+     
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -179,7 +227,7 @@
       "institution": "Udemy",
       "instructor": "Colt Steele",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+    
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -198,7 +246,7 @@
       "institution": "Udemy",
       "instructor": "Victor Robles",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+     
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -227,7 +275,7 @@
       "institution": "Udemy",
       "instructor": "Fernando Herrera",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+     
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [

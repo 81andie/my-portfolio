@@ -48,38 +48,95 @@
 
   "certifications1": [{
     "id": 1,
-    "month": "2023",
-    "course": "Crea llocs web responsius del món real amb HTML i CSS",
-    "institution": "Udemy",
-    "instructor": "Jonas Schmedtmann",
-    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900",
-    "summary": "Projectes",
+    "month": "2024",
+    "course": "Curso de Introducción al Desarrollo Web",
+    "institution": "Goggle Activate",
+    "instructor": "Universidad de Alicante",
+    "image": "./imgtec/google.jpg",
+    
     "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
     "topics": [
-      "HTML5 modern, semàntic i accessible",
-      "Conceptes CSS importants com el model de caixa, esquemes de posicionament, herència, resolució de conflictes de selectors, etc.",
-      "Dissenya i crea un projecte impactant per al teu portafoli des de zero",
-      "Projecte Omnifood Web"
+      "Historia de la Web",
+      "Como funciona la Web",
+      "Cómo se escribe una página web",
+      "Cómo se publica un sitio web",
+      "Cómo se escribe una página web bien estructurada"
     ]
   },
 
   {
     "id": 2,
     "month": "2023",
-    "course": "Programa els teus propis jocs HTML5 amb CSS",
-    "institution": "Udemy",
-    "instructor": "Javier Muñiz",
+    "course": "Curso de Introducción al Desarrollo Web: Html y CSS",
+    "institution": "Google Actívate",
+    "instructor": "Universidad de Alicante",
     "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2148996213.jpg?t=st=1712941497~exp=1712945097~hmac=d92a0f0d76ed68e8d2da654fe6bc67fb7cddb5dad5a8d8c2a73d012060773d8c&w=900",
+  
     "summary": "Resum del curs",
     "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
     "topics": [
-      "Crea un Tetris",
-      "La Mazmorra"
+      "Cómo se define la presentación de una página web",
+      "Cómo se define la presentación de los elementos de una página web",
+      "Cómo se maqueta una página web",
+      "Cómo se logra que una página web tenga éxito"
+    ]
+  },
+
+  {
+    "id": 3,
+    "month": "2023",
+    "course": "Responsive Web Design, developer Certification",
+    "institution": "FreeCodeCamp",
+    "instructor": "",
+    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+   
+    "summary": "Resum del curs",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+    "topics": [
+      "Página Tribute Page",
+      "Página de documentació técnica (projecto certificación)",
+      "Landing Page del producto (projecto certificación)",
+      "Algoritmos de JavaScript y proyectos",
+      "Crea tu propio portfolio"
+
+    ]
+  },
+
+  {
+    "id": 4,
+    "month": "2023",
+    "course": "Algoritmos y estructuras de datos en JavaScript",
+    "institution": "FreeCodeCamp",
+    "instructor": "",
+    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+   
+    "summary": "Resum del curs",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+    "topics": [
+      "JavaScript Básico",
+      "ES6",
+      "Expresiones Regulares",
+      "Depuración",
+      "Estructuras de datos básicas",
+      "Programación de algoritmos básicos",
+      "Programación orientada a objetos",
+      "Programación funcional",
+      "Programación de algoritmos intermedios",
+      "Algoritmos de JavaScript y proyectos de estructuras de datos",
+      "Comprobador de palíndromos",
+      "Conversor de números romanos",
+      "Cifrado César",
+      "Validador de números telefónicos",
+      "Caja registradora"
+
+
     ]
   }
 ],
+
+
+
+
 
   
   "courses": [
@@ -90,7 +147,7 @@
       "institution": "Udemy",
       "instructor": "Jonas Schmedtmann",
       "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900",
+      
       "summary": "Proyectos",
       "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
       "topics": [
@@ -107,7 +164,7 @@
       "institution": "Udemy",
       "instructor": "Javier Muñiz",
       "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2148996213.jpg?t=st=1712941497~exp=1712945097~hmac=d92a0f0d76ed68e8d2da654fe6bc67fb7cddb5dad5a8d8c2a73d012060773d8c&w=900",
+     
       "summary": "Resumen del curso",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
       "topics": [
@@ -122,7 +179,7 @@
       "institution": "Udemy",
       "instructor": "Juan Pablo de la Torre",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+     
       "summary": "Resumen del curso",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -145,7 +202,7 @@
       "institution": "Udemy",
       "instructor": "Colt Steele",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+    
       "summary": "Resumen del curso",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -173,7 +230,7 @@
       "institution": "Udemy",
       "instructor": "Colt Steele",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+     
       "summary": "Resumen del curso",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -192,7 +249,7 @@
       "institution": "Udemy",
       "instructor": "Victor Robles",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+     
       "summary": "Resumen del curso",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -221,7 +278,7 @@
       "institution": "Udemy",
       "instructor": "Fernando Herrera",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+     
       "summary": "Resumen del curso",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [

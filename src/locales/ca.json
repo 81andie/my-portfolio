@@ -45,43 +45,89 @@
     "primeNgExperience": "He treballat amb PrimeNG per integrar components d'interfície d'usuari rics i interactius en les meves aplicacions. He utilitzat diversos components com (taules, formularis, menus,cercadors)per millorar l'experiència d'usuari i l'eficiència del desenvolupament.",
     "primeReactExperience": "He treballat amb PrimeReact per integrar components d'interfície d'usuari avançats en les meves aplicacions React. He utilitzat diversos components com taules, formularis, calendari i gràfics per millorar la funcionalitat i l'experiència d'usuari, facilitant el desenvolupament de interfaces modernes i eficients."
   },
-
-  "certifications1": [{
+  
+  "certifications1": [
+  {
     "id": 1,
-    "month": "2023",
-    "course": "Crea llocs web responsius del món real amb HTML i CSS",
-    "institution": "Udemy",
-    "instructor": "Jonas Schmedtmann",
-    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900",
-    "summary": "Projectes",
+    "month": "2024",
+    "course": "Curs d'Introducció al Desenvolupament Web",
+    "institution": "Google Actívate",
+    "instructor": "Universitat d'Alacant",
+    "image": "./imgtec/google.jpg",
+   
+    "summary": "Resum",
     "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
     "topics": [
-      "HTML5 modern, semàntic i accessible",
-      "Conceptes CSS importants com el model de caixa, esquemes de posicionament, herència, resolució de conflictes de selectors, etc.",
-      "Dissenya i crea un projecte impactant per al teu portafoli des de zero",
-      "Projecte Omnifood Web"
+      "Història del Web",
+      "Com funciona el Web",
+      "Com s'escriu una pàgina web",
+      "Com es publica un lloc web",
+      "Com s'escriu una pàgina web ben estructurada"
     ]
   },
-
   {
     "id": 2,
     "month": "2023",
-    "course": "Programa els teus propis jocs HTML5 amb CSS",
-    "institution": "Udemy",
-    "instructor": "Javier Muñiz",
+    "course": "Curs d'Introducció al Desenvolupament Web: HTML i CSS",
+    "institution": "Google Actívate",
+    "instructor": "Universitat d'Alacant",
     "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2148996213.jpg?t=st=1712941497~exp=1712945097~hmac=d92a0f0d76ed68e8d2da654fe6bc67fb7cddb5dad5a8d8c2a73d012060773d8c&w=900",
+ 
     "summary": "Resum del curs",
     "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
     "topics": [
-      "Crea un Tetris",
-      "La Mazmorra"
+      "Com es defineix la presentació d'una pàgina web",
+      "Com es defineix la presentació dels elements d'una pàgina web",
+      "Com es maqueta una pàgina web",
+      "Com es fa perquè una pàgina web tingui èxit"
+    ]
+  },
+  {
+    "id": 3,
+    "month": "2023",
+    "course": "Disseny Web Responsive, Certificació de Desenvolupador",
+    "institution": "FreeCodeCamp",
+    "instructor": "",
+    "image": "https://th.bing.com/th/id/OIP.oqGWRSjVvq--EULjpyw6ZQHaA5?rs=1&pid=ImgDetMain",
+   
+    "summary": "Resum del curs",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+    "topics": [
+      "Pàgina de tribut",
+      "Pàgina de documentació tècnica (projecte de certificació)",
+      "Pàgina de destinació del producte (projecte de certificació)",
+      "Algorismes de JavaScript i projectes",
+      "Crea el teu propi portafolis"
+    ]
+  },
+  {
+    "id": 4,
+    "month": "2023",
+    "course": "Algorismes i estructures de dades en JavaScript",
+    "institution": "FreeCodeCamp",
+    "instructor": "",
+    "image": "https://th.bing.com/th/id/OIP.oqGWRSjVvq--EULjpyw6ZQHaA5?rs=1&pid=ImgDetMain",
+    
+    "summary": "Resum del curs",
+    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+    "topics": [
+      "JavaScript bàsic",
+      "ES6",
+      "Expressions regulars",
+      "Depuració",
+      "Estructures de dades bàsiques",
+      "Programació d'algorismes bàsics",
+      "Programació orientada a objectes",
+      "Programació funcional",
+      "Programació d'algorismes intermedis",
+      "Algorismes de JavaScript i projectes d'estructures de dades",
+      "Comprovador de palíndroms",
+      "Convertidor de nombres romans",
+      "Xifratge Cèsar",
+      "Validació de números de telèfon",
+      "Caixa registradora"
     ]
   }
-
-
-
 ],
  
   
@@ -93,7 +139,7 @@
     "institution": "Udemy",
     "instructor": "Jonas Schmedtmann",
     "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900",
+   
     "summary": "Projectes",
     "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
     "topics": [
@@ -110,7 +156,7 @@
     "institution": "Udemy",
     "instructor": "Javier Muñiz",
     "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2148996213.jpg?t=st=1712941497~exp=1712945097~hmac=d92a0f0d76ed68e8d2da654fe6bc67fb7cddb5dad5a8d8c2a73d012060773d8c&w=900",
+   
     "summary": "Resum del curs",
     "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
     "topics": [
@@ -125,7 +171,7 @@
     "institution": "Udemy",
     "instructor": "Juan Pablo de la Torre",
     "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+    
     "summary": "Resum del curs",
     "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
     "topics": [
@@ -148,7 +194,7 @@
     "institution": "Udemy",
     "instructor": "Colt Steele",
     "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+   
     "summary": "Resum del curs",
     "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
     "topics": [
@@ -176,7 +222,7 @@
     "institution": "Udemy",
     "instructor": "Colt Steele",
     "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+   
     "summary": "Resum del curs",
     "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
     "topics": [
@@ -195,7 +241,7 @@
     "institution": "Udemy",
     "instructor": "Victor Robles",
     "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+  
     "summary": "Resum del curs",
     "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
     "topics": [
@@ -224,7 +270,7 @@
     "institution": "Udemy",
     "instructor": "Fernando Herrera",
     "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_23-2149016321.jpg?t=st=1737651811~exp=1737655411~hmac=75a996331f98a6455eeea8adf1f3b00d919689d2277a12479ea4656c7dbd5a95&w=826",
+   
     "summary": "Resum del curs",
     "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
     "topics": [

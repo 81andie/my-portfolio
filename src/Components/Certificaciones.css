@@ -14,9 +14,8 @@
   position: relative;
   width: 320px;
   height: auto;
-  
   margin-bottom: 50px;
-  background-image: url("https://img.freepik.com/vector-gratis/estilo-fondo-monocromatico-blanco_23-2148995968.jpg?t=st=1712941753~exp=1712945353~hmac=df34bde36b9ebc7f85b636baeef4df2de28282f61fb1d61457828075cf0c7a4d&w=900");
+  background-image: url("https://img.freepik.com/foto-gratis/fondo-3d-cubos-blancos_23-2150472998.jpg?t=st=1738173694~exp=1738177294~hmac=7dd1ebfb40a1420e3b33da69010cfa314b17f7e4a1b174774721ff178c910886&w=740");
   padding: 20px;
   background-attachment: fixed;
   background-position: center;
@@ -24,6 +23,8 @@
   background-size: cover;
   border-radius: 6px;
 }
+
+
 
 
 

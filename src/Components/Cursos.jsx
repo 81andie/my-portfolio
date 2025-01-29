@@ -19,19 +19,16 @@ export const Cursos = () => {
   return (
     <>
 
-      <div className="container_certificaciones">
+      <div className="container_certificaciones mt-20">
 
         {t('courses', { returnObjects: true }).map((curso, index) => (
          
           <div className="card_google font-mono" key={index}
-            style={{
-              backgroundImage: `{url(${curso.backgroundImage})}`,
-
-            }}
+          
 
           >
 
-            <div
+<div
               style={{
                 content: '""',
                 opacity: 0.6,
@@ -44,6 +41,8 @@ export const Cursos = () => {
                 pointerEvents: 'none'
               }}
             ></div>
+
+            
 
             <h2>{curso.course}</h2>
             <img
