@@ -1,7 +1,10 @@
 import React from 'react'
 import './Footer.css';
+import { useTranslation } from 'react-i18next';
 
 export const Footer = () => {
+
+  const { t } = useTranslation();
 
   let img = "img/logo2.png";
   return (
@@ -15,7 +18,7 @@ export const Footer = () => {
         </div>
 
         <div className="text-center mb-2">
-          <h3 className="text-slate-500"> Diseñadora página web y desarrollor Web:<br /> Andrea Hernández <br />©2024 Andrea Hernández | All Rights Reserved </h3>
+          <h3 className="text-slate-500"> {t('footer.text')}:<br /> Andrea Hernández <br />©2024 Andrea Hernández | {t('footer.AllReserve')} </h3>
         </div>
       </div>
     </>

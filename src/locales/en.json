@@ -289,15 +289,24 @@
     }
   ],
    
+"Contact": {
 
-   
-
+    "contact": "Contact",
+    "you wants": "Do you want advice, guidance, or do you want to share your idea for your website? Get in touch with me.",
+    "name": "Name",
+    "email": "Email",
+    "NameEmail": "Full Name",
+    "you want": "What would you like to ask me?",
+    "Submit": "Send"
+  },
+  
+  "footer": {
+    "text": "Web designer and web developer:",
+    "AllReserve": "All rights reserved"
+  }
 
 
 
     
-    "footer": {
-        "contactUs": "Contact Us",
-        "privacyPolicy": "Privacy Policy"
-    }
+    
 }

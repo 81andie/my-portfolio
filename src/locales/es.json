@@ -292,17 +292,18 @@
     }
   ],
   
-
-
-
-
-
-
-
-
+  "Contact":{
+    "contacto":"Contacto",
+    "you wants": "Quieres accesoramiento, consejo o quieres transmitirme tu idea para tu web, ponte en contacto conmigo",
+    "name":"Nombre",
+    "email": "Correo Electrónico",
+    "NameEmail": "Nombre y Apellidos",
+    "you want": "Que quieres consultarme...",
+    "Submit":"Enviar"
+  },
   "footer": {
     "text": "Diseñadora de páginas web y desarrolladora web:",
-    "contactUs": "Contáctenos",
-    "privacyPolicy": "Política de privacidad"
+     "AllReserve": "Todos los derechos reservados"
+  
   }
 }

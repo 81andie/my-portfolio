@@ -284,9 +284,22 @@
   }
 
 ],
-  "footer": {
-    "text": "Dissenyadora de pàgines web i programadora web",
-    "contactUs": "Contacteu-nos",
-    "privacyPolicy": "Política de privacitat"
-  }
+ 
+"Contact": {
+  "contact": "Contacte",
+  "you wants": "Vols assessorament, consell o vols compartir la teva idea per a la teva web? Posa't en contacte amb mi.",
+  "name": "Nom",
+  "email": "Correu electrònic",
+  "NameEmail": "Nom i Cognoms",
+  "you want": "Què vols consultar-me?",
+  "Submit": "Enviar"
+},
+"footer": {
+  "text": "Dissenyadora de pàgines web i desenvolupadora web:",
+  "AllReserve": "Tots els drets reservats"
+}
+
+
+
+
 }

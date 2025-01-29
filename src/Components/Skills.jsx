@@ -97,7 +97,7 @@ export const Skills = () => {
   return (
     <>
 
-      <h1 className="skills ">{t('header.skills')}</h1>
+      <h1 className="skills mt-22">{t('header.skills')}</h1>
       <div className="contenedor gap-2 opacity-70 hover:opacity-100 transition-opacity duration-300">
         {skills.map((skill, index) => (
           <figure key={index}>
