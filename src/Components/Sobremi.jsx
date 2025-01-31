@@ -1,18 +1,25 @@
 import React from 'react'
 import './SobreMi.css';
 import { useEffect, useState,useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 
 export const Sobremi = () => {
 
+ 
+
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
+ 
   const inputRef=useRef()
+  const {t} = useTranslation();
+
 
 useEffect(()=>{
   inputRef.current.focus()
 
-})
+
+},[output])
 
 
   const onChangeInput = (e) => {
@@ -32,35 +39,35 @@ useEffect(()=>{
         case 'init':
           newOutPut += `
   /\\_/\\                                         
- ( o.o )   Hello!!!                              
-  > ^ <    Bienvenido a mi terminal!!
-  
+ ( o.o )  ${t('sobreMi.ini')}                     
+  > ^ <   ${t('sobreMi.bienvenida')}
+           
 `;
           break;
 
 
         case 'date':
-          newOutPut += 'Today is ' + new Date().toDateString();
+          newOutPut += `${t('sobreMi.fecha')} ${new Date().toDateString()}`
           break;
 
         case 'bienvenida':
-          newOutPut += 'Hola puedes guiarte con los diferentes comandos, ...';
+          newOutPut += `${t('sobreMi.bienvenida')}`;
           break;
 
         case 'quienSoy':
-          newOutPut += 'Me llamo Andrea, y soy una gerundense que hace más de un año medio desarrollando webs en el sector del Frontend, mis frameworks favoritos son Angular y React';
+          newOutPut += `${t('sobreMi.quienSoy')}`;
           break;
 
         case 'unMundoDescubierto':
-          newOutPut += 'Desde que descubrí este mundo, hace aproximadamente un año, me he sumergido en este viaje emocionante de aprendizaje constante  y crecimiento personal,en él he aprendido que no hay nada imposible de conseguir si trabajas duro y con disciplina. Con el paso de los meses, la curiosidad y el afán de aprender, han sido el motor incansable que me ha llevado hasta este camino.';
+          newOutPut += `${t('sobreMi.unMundoDescubierto')}`;
           break;
 
         case 'viajeLenguajes':
-          newOutPut += 'Durante este viaje, he adquirido experiencia en el desarrollo Web Frontend y mis pinitos en el Backend, utilizando las tecnologias más demandadas de esta carrera, HTML, CSS, Javascript, React, Node, MongoDb. Además he podido enfrentarme al desafio  de trabajar en proyectos reales que me han permitido mejorar todas mis habilidades y enfrentarme a situaciones en el mundo real. Me he adentrado en el mundo de las librerias de mapas interactivos, como Leaflet, MapLibre, OpenLayers y Mapbox, generando de cada librería un proyecto de cada uno de características distintas';
+          newOutPut += `${t('sobreMi.viajeLenguajes')}`;
           break;
 
         case 'gracias':
-          newOutPut += 'Si has llegado hasta aqui, queria agradecerte que hayas dedicado tu tiempo a conocerme un poco más, si tienes alguna pregunta o quieres saber más sobre mi, no dudes en contactar conmigo. ¡Gracias!';
+          newOutPut += `${t('sobreMi.gracias')}`;
           break;
 
         case 'clear':
@@ -70,25 +77,25 @@ useEffect(()=>{
 
         case 'help':
           newOutPut += `Prompts:
-          - init: Inicializa la terminal.
-          - date: Muestra la fecha actual.
-          - bienvenida: Un saludo inicial y guía.
-          - quienSoy: Información sobre mí.
-          - unMundoDescubierto: Mi introducción al desarrollo.
-          - viajeLenguajes: Tecnologías y proyectos.
-          - gracias: Mensaje de agradecimiento.
-          - clear: Limpia la terminal.
-          - help: Muestra esta lista de comandos.
+          - init: ${t('sobreMi.commands.init')}
+          - date: ${t('sobreMi.commands.date')}
+          - bienvenida: ${t('sobreMi.commands.bienvenida')}
+          - quienSoy: ${t('sobreMi.commands.quienSoy')}.
+          - unMundoDescubierto:${t('sobreMi.commands.unMundoDescubierto')}
+          - viajeLenguajes: ${t('sobreMi.commands.viajeLenguajes')}
+          - gracias: ${t('sobreMi.commands.gracias')}
+          - clear: ${t('sobreMi.commands.clear')}
+          - help: ${t('sobreMi.commands.help')}.
                   `
           break;
 
         default:
-          newOutPut += 'Unknown command: ' + input;
+          newOutPut += `${t('sobreMi.unknownCommand')}: ${input}`;
           break;
 
 
       }
-
+     
       setOutput(newOutPut)
       setInput("")
 
@@ -110,7 +117,7 @@ useEffect(()=>{
         <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono dark:text-zinc-600 card terminal-demo h-80">
           <div className="grid grid-cols-1 md:grid-rows-2 text-center md:text-left lg-text-left md:mr-5">
             <div>
-              <p className="text-xl font-bold">Instrucciones</p>
+              <p className="text-xl font-bold">{t('sobreMi.instructions')}</p>
               <p>Entre "<strong>date</strong>" la terminal <br></br>le mostrará la fecha.</p>
               <p>Si quiere limpiar la terminal <br></br>utilice el prompt <strong>"clear"</strong></p>
             </div>
@@ -119,6 +126,7 @@ useEffect(()=>{
 
           <div className="flex flex-col text-center md:text-left">
             <ol>
+              <pre>
               <p className="text-xl font-bold">Propmts</p>
               <li><strong>init{'{0}'}</strong></li>
               <li><strong>bienvenida {'{1}'}</strong></li>
@@ -129,6 +137,9 @@ useEffect(()=>{
               <li><strong>gracias{'{6}'}</strong></li>
               <li><strong>clear{'{7}'}</strong></li>
               <li><strong>help{'{8}'}</strong></li>
+
+              </pre>
+             
 
             </ol>
 
@@ -151,12 +162,18 @@ useEffect(()=>{
 
           />
           <div className="terminal font-mono mb-2 mt-2">
+           
            <p className="p-1">{output}</p> 
           </div>
         </div>
 
-
+        <div>
+        
+        </div>
    </div>
+
+  
+   
 
 
 

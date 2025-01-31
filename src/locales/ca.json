@@ -284,6 +284,34 @@
   }
 
 ],
+
+"sobreMi":{
+
+  "ini": "hola!!",
+  "bienvenida": "Benvingut a la meva terminal!",
+   "instructions": "Instruccions",
+  "fecha": "Avui és",
+  "quienSoy": "Em dic Andrea, sóc una gerundenca que fa més d'un any i mig desenvolupant webs al sector del Frontend, els meus frameworks preferits són Angular i React.",
+  "unMundoDescubierto": "Des que vaig descobrir aquest món, fa aproximadament un any, m'he submergit en aquest viatge emocionant d'aprenentatge constant i creixement personal, i he après que no hi ha res impossible d'aconseguir si treballes dur i amb disciplina.",
+  "viajeLenguajes": "Durant aquest viatge, he adquirit experiència en el desenvolupament Web Frontend i els meus primers passos al Backend, utilitzant les tecnologies més demandades d'aquesta carrera, HTML, CSS, Javascript, React, Node, MongoDb.",
+  "gracias": "Si has arribat fins aquí, volia agrair-te que hagis dedicat el teu temps a conèixer-me una mica més. Si tens alguna pregunta o vols saber més sobre mi, no dubtis a contactar amb mi. Gràcies!",
+  "help": "Comandes disponibles:",
+  "commands": {
+    "init": "Inicialitza la terminal.",
+    "date": "Mostra la data actual.",
+    "bienvenida": "Un salut inicial i guia.",
+    "quienSoy": "Informació sobre mi.",
+    "unMundoDescubierto": "La meva introducció al desenvolupament.",
+    "viajeLenguajes": "Tecnologies i projectes.",
+    "gracias": "Missatge d'agraïment.",
+    "clear": "Neteja la terminal.",
+    "help": "Mostra aquesta llista de comandes."
+  },
+  "unknownCommand": "Comanda desconeguda",
+  "placeholder": "Introdueix un comandament"
+ 
+
+},
  
 "Contact": {
   "contact": "Contacte",

@@ -1,139 +1,134 @@
 {
-    "header": {
-        "home": "Home",
-        "KnowMe": "Know Me More",
-        "aboutMe": "About Me",
-        "whatdoIoffer": "What Do I Offer?",
-        "training": "Training",
-        "skills": "Skills",
-        "projects":"Projects",
-        "certifications": "Certifications",
-        "courses":"Courses",
-        "contact": "Contact",
-        "helloWorld": "Hello World,",
-        "Im": "I'm Andrea, a Web Developer"
-    },
-    "sectionInformation": {
-        "professionalism": {
-            "title": "100% professionalism",
-            "description": "I am committed to offering you a service of quality and exceptional professionalism, in the creation of your website. I am here to provide you with a web design and functionality experience, fast, precise, and adapted to all your needs."
-        },
-        "advice": {
-            "title": "I advise you to choose the best option for your company",
-            "description": "I am here to help you find the best solution for your project. If you need guidance on the best available options, I will be happy to offer you my best option for you and your work, the same if you already have a website and want to adapt a new design or functionality."
-        },
-        "devices": {
-            "title": "Your website on any device",
-            "description": "I work diligently to ensure that each element of your website is perfectly optimized and adaptable to different screen sizes. Nowadays, we navigate everything towards mobile devices, so it is important to dedicate a part of the development to responsive design."
-        }
-    },
-    "skills": {
-        "markupLanguage": "Deep domain of markup language, allowing me to create and structure content clearly and concisely.",
-        "webInterfaceDesign": "I create and design web interfaces with style and elegance, without forgetting responsiveness on all devices.",
-        "javascriptKnowledge": "Solid knowledge of the main functionalities of Javascript, and I continue to learn continuously.",
-        "reactExperience": "I have been perfecting my skills in React for several months now, this very page is built in React.",
-        "databaseExperience": "My experience covers fundamental aspects such as creating databases and collections, designing basic queries, and document manipulation.",
-        "bootstrapKnowledge": "Good knowledge of Bootstrap, I often use it in various projects.",
-        "dailyUsage": "In my daily life, I cannot do without Git, it has accompanied me throughout this adventure, 100% of my time.",
-        "gitExperience": "Like Github, Git has always been in my learning course, studying has been daily.",
-        "tailwindExperience": "I have worked diligently with Tailwind, which has provided me with a deep and balanced mastery of this framework.",
-        "angularExperience": "My experience with Angular has led me to explore the latest versions, creating projects in Angular 17 and 18. I stay up to date with the new features in Angular 19.",
-        "leafletExperience": "With Leaflet, I have learned to integrate interactive maps in React and Angular applications. I have worked with features like custom markers, layers, and real-time video streaming. This experience has allowed me to dive deeper into the integration of lightweight maps with dynamic data, enhancing user interaction and experience.",
-        "maplibreExperience": "With Maplibre, I have gained skills to visualize large datasets on dynamic vector maps. I have learned to work with clusters to group points by categories, customize map styles, and manage complex open-source data. This experience has helped me better understand how to organize and present geospatial information effectively and attractively.",
-        "openlayersExperience": "With OpenLayers, I have learned to implement advanced features for managing geospatial data. I have developed tools to add points with descriptions, draw lines, polygons, and circles, and enable search by descriptions. I have also gained knowledge to generate, export, and import GeoJSON files, deepening my understanding of data manipulation and its interoperability in GIS applications.",
-        "mapboxExperience": "With Mapbox, I have learned to develop interactive map visualizers to display dynamic geospatial data. I have gained skills in integrating custom maps, managing data by date and location, and visualizing the water levels of the dams in Catalonia through dynamic layers, improving user interaction with geospatial information.",
-        "primeNgExperience": "I have worked with PrimeNG to integrate rich and interactive UI components into my applications. I have used several components such as tables, forms, menus, and search bars to improve user experience and development efficiency.",
-        "primeReactExperience": "I have worked with PrimeReact to integrate advanced UI components into my React applications. I have used several components like tables, forms, calendars, and charts to improve functionality and user experience, facilitating the development of modern and efficient interfaces."
-    },
-
-"certifications1": [
-  {
-    "id": 1,
-    "month": "2024",
-    "course": "Introduction to Web Development Course",
-    "institution": "Google Activate",
-    "instructor": "University of Alicante",
-    "image": "./imgtec/google.jpg",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
-    "summary": "Summary",
-    "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
-    "topics": [
-      "History of the Web",
-      "How the Web works",
-      "How to write a web page",
-      "How to publish a website",
-      "How to write a well-structured web page"
-    ]
+  "header": {
+    "home": "Home",
+    "KnowMe": "Know Me More",
+    "aboutMe": "About Me",
+    "whatdoIoffer": "What Do I Offer?",
+    "training": "Training",
+    "skills": "Skills",
+    "projects": "Projects",
+    "certifications": "Certifications",
+    "courses": "Courses",
+    "contact": "Contact",
+    "helloWorld": "Hello World,",
+    "Im": "I'm Andrea, a Web Developer"
   },
-  {
-    "id": 2,
-    "month": "2023",
-    "course": "Introduction to Web Development Course: HTML and CSS",
-    "institution": "Google Activate",
-    "instructor": "University of Alicante",
-    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
-    "summary": "Course summary",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
-    "topics": [
-      "How to define the presentation of a web page",
-      "How to define the presentation of web page elements",
-      "How to layout a web page",
-      "How to make a website successful"
-    ]
+  "sectionInformation": {
+    "professionalism": {
+      "title": "100% professionalism",
+      "description": "I am committed to offering you a service of quality and exceptional professionalism, in the creation of your website. I am here to provide you with a web design and functionality experience, fast, precise, and adapted to all your needs."
+    },
+    "advice": {
+      "title": "I advise you to choose the best option for your company",
+      "description": "I am here to help you find the best solution for your project. If you need guidance on the best available options, I will be happy to offer you my best option for you and your work, the same if you already have a website and want to adapt a new design or functionality."
+    },
+    "devices": {
+      "title": "Your website on any device",
+      "description": "I work diligently to ensure that each element of your website is perfectly optimized and adaptable to different screen sizes. Nowadays, we navigate everything towards mobile devices, so it is important to dedicate a part of the development to responsive design."
+    }
   },
-  {
-    "id": 3,
-    "month": "2023",
-    "course": "Responsive Web Design, Developer Certification",
-    "institution": "FreeCodeCamp",
-    "instructor": "",
-    "image": "https://th.bing.com/th/id/OIP.oqGWRSjVvq--EULjpyw6ZQHaA5?rs=1&pid=ImgDetMain",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
-    "summary": "Course summary",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
-    "topics": [
-      "Tribute Page",
-      "Technical documentation page (certification project)",
-      "Product landing page (certification project)",
-      "JavaScript algorithms and projects",
-      "Create your own portfolio"
-    ]
+  "skills": {
+    "markupLanguage": "Deep domain of markup language, allowing me to create and structure content clearly and concisely.",
+    "webInterfaceDesign": "I create and design web interfaces with style and elegance, without forgetting responsiveness on all devices.",
+    "javascriptKnowledge": "Solid knowledge of the main functionalities of Javascript, and I continue to learn continuously.",
+    "reactExperience": "I have been perfecting my skills in React for several months now, this very page is built in React.",
+    "databaseExperience": "My experience covers fundamental aspects such as creating databases and collections, designing basic queries, and document manipulation.",
+    "bootstrapKnowledge": "Good knowledge of Bootstrap, I often use it in various projects.",
+    "dailyUsage": "In my daily life, I cannot do without Git, it has accompanied me throughout this adventure, 100% of my time.",
+    "gitExperience": "Like Github, Git has always been in my learning course, studying has been daily.",
+    "tailwindExperience": "I have worked diligently with Tailwind, which has provided me with a deep and balanced mastery of this framework.",
+    "angularExperience": "My experience with Angular has led me to explore the latest versions, creating projects in Angular 17 and 18. I stay up to date with the new features in Angular 19.",
+    "leafletExperience": "With Leaflet, I have learned to integrate interactive maps in React and Angular applications. I have worked with features like custom markers, layers, and real-time video streaming. This experience has allowed me to dive deeper into the integration of lightweight maps with dynamic data, enhancing user interaction and experience.",
+    "maplibreExperience": "With Maplibre, I have gained skills to visualize large datasets on dynamic vector maps. I have learned to work with clusters to group points by categories, customize map styles, and manage complex open-source data. This experience has helped me better understand how to organize and present geospatial information effectively and attractively.",
+    "openlayersExperience": "With OpenLayers, I have learned to implement advanced features for managing geospatial data. I have developed tools to add points with descriptions, draw lines, polygons, and circles, and enable search by descriptions. I have also gained knowledge to generate, export, and import GeoJSON files, deepening my understanding of data manipulation and its interoperability in GIS applications.",
+    "mapboxExperience": "With Mapbox, I have learned to develop interactive map visualizers to display dynamic geospatial data. I have gained skills in integrating custom maps, managing data by date and location, and visualizing the water levels of the dams in Catalonia through dynamic layers, improving user interaction with geospatial information.",
+    "primeNgExperience": "I have worked with PrimeNG to integrate rich and interactive UI components into my applications. I have used several components such as tables, forms, menus, and search bars to improve user experience and development efficiency.",
+    "primeReactExperience": "I have worked with PrimeReact to integrate advanced UI components into my React applications. I have used several components like tables, forms, calendars, and charts to improve functionality and user experience, facilitating the development of modern and efficient interfaces."
   },
-  {
-    "id": 4,
-    "month": "2023",
-    "course": "Algorithms and Data Structures in JavaScript",
-    "institution": "FreeCodeCamp",
-    "instructor": "",
-    "image": "https://th.bing.com/th/id/OIP.oqGWRSjVvq--EULjpyw6ZQHaA5?rs=1&pid=ImgDetMain",
-    "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
-    "summary": "Course summary",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
-    "topics": [
-      "Basic JavaScript",
-      "ES6",
-      "Regular expressions",
-      "Debugging",
-      "Basic data structures",
-      "Basic algorithm scripting",
-      "Object-oriented programming",
-      "Functional programming",
-      "Intermediate algorithm scripting",
-      "JavaScript algorithms and data structures projects",
-      "Palindrome checker",
-      "Roman numeral converter",
-      "Caesar cipher",
-      "Phone number validator",
-      "Cash register"
-    ]
-  }
-],
-
-    
-
-
-"courses": [
+  "certifications1": [
+    {
+      "id": 1,
+      "month": "2024",
+      "course": "Introduction to Web Development Course",
+      "institution": "Google Activate",
+      "instructor": "University of Alicante",
+      "image": "./imgtec/google.jpg",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
+      "summary": "Summary",
+      "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
+      "topics": [
+        "History of the Web",
+        "How the Web works",
+        "How to write a web page",
+        "How to publish a website",
+        "How to write a well-structured web page"
+      ]
+    },
+    {
+      "id": 2,
+      "month": "2023",
+      "course": "Introduction to Web Development Course: HTML and CSS",
+      "institution": "Google Activate",
+      "instructor": "University of Alicante",
+      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
+      "summary": "Course summary",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+      "topics": [
+        "How to define the presentation of a web page",
+        "How to define the presentation of web page elements",
+        "How to layout a web page",
+        "How to make a website successful"
+      ]
+    },
+    {
+      "id": 3,
+      "month": "2023",
+      "course": "Responsive Web Design, Developer Certification",
+      "institution": "FreeCodeCamp",
+      "instructor": "",
+      "image": "https://th.bing.com/th/id/OIP.oqGWRSjVvq--EULjpyw6ZQHaA5?rs=1&pid=ImgDetMain",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
+      "summary": "Course summary",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+      "topics": [
+        "Tribute Page",
+        "Technical documentation page (certification project)",
+        "Product landing page (certification project)",
+        "JavaScript algorithms and projects",
+        "Create your own portfolio"
+      ]
+    },
+    {
+      "id": 4,
+      "month": "2023",
+      "course": "Algorithms and Data Structures in JavaScript",
+      "institution": "FreeCodeCamp",
+      "instructor": "",
+      "image": "https://th.bing.com/th/id/OIP.oqGWRSjVvq--EULjpyw6ZQHaA5?rs=1&pid=ImgDetMain",
+      "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
+      "summary": "Course summary",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+      "topics": [
+        "Basic JavaScript",
+        "ES6",
+        "Regular expressions",
+        "Debugging",
+        "Basic data structures",
+        "Basic algorithm scripting",
+        "Object-oriented programming",
+        "Functional programming",
+        "Intermediate algorithm scripting",
+        "JavaScript algorithms and data structures projects",
+        "Palindrome checker",
+        "Roman numeral converter",
+        "Caesar cipher",
+        "Phone number validator",
+        "Cash register"
+      ]
+    }
+  ],
+  "courses": [
     {
       "id": 1,
       "month": "2023",
@@ -141,7 +136,6 @@
       "institution": "Udemy",
       "instructor": "Jonas Schmedtmann",
       "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-     
       "summary": "Projects",
       "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
       "topics": [
@@ -151,9 +145,6 @@
         "Omnifood Web Project"
       ]
     },
-
-
-
     {
       "id": 2,
       "month": "2023",
@@ -161,7 +152,6 @@
       "institution": "Udemy",
       "instructor": "Javier Muñiz",
       "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-     
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
       "topics": [
@@ -176,7 +166,6 @@
       "institution": "Udemy",
       "instructor": "Juan Pablo de la Torre",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-     
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -199,7 +188,6 @@
       "institution": "Udemy",
       "instructor": "Colt Steele",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-     
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -227,7 +215,6 @@
       "institution": "Udemy",
       "instructor": "Colt Steele",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-    
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -246,7 +233,6 @@
       "institution": "Udemy",
       "instructor": "Victor Robles",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-     
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -275,7 +261,6 @@
       "institution": "Udemy",
       "instructor": "Fernando Herrera",
       "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-     
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -288,9 +273,34 @@
       ]
     }
   ],
-   
-"Contact": {
+  "sobreMi": {
+   "ini": "hello!!",
+   "instructions": "instructions",
+  "bienvenida": "Welcome to my terminal!!",
+  "fecha": "Today is",
+  "quienSoy": "My name is Andrea, and I am from Girona. I’ve been developing websites for over a year and a half in the Frontend sector. My favorite frameworks are Angular and React.",
+  "unMundoDescubierto": "Since I discovered this world, about a year ago, I’ve dived into this exciting journey of constant learning and personal growth, and I’ve learned that nothing is impossible to achieve if you work hard and with discipline.",
+  "viajeLenguajes": "During this journey, I’ve gained experience in Frontend Web development and my first steps in Backend, using the most in-demand technologies in this career: HTML, CSS, Javascript, React, Node, MongoDb.",
+  "gracias": "If you've come this far, I wanted to thank you for taking your time to get to know me a little more. If you have any questions or want to know more about me, don't hesitate to contact me. Thank you!",
+  "help": "Available commands:",
+  "commands": {
+    "init": "Initializes the terminal.",
+    "date": "Shows the current date.",
+    "bienvenida": "An initial greeting and guide.",
+    "quienSoy": "Information about me.",
+    "unMundoDescubierto": "My introduction to development.",
+    "viajeLenguajes": "Technologies and projects.",
+    "gracias": "Thank you message.",
+    "clear": "Clears the terminal.",
+    "help": "Shows this list of commands."
+  },
+  "unknownCommand": "Unknown command",
+  "placeholder": "Enter a command"
 
+
+  },
+  
+  "Contact": {
     "contact": "Contact",
     "you wants": "Do you want advice, guidance, or do you want to share your idea for your website? Get in touch with me.",
     "name": "Name",
@@ -299,14 +309,8 @@
     "you want": "What would you like to ask me?",
     "Submit": "Send"
   },
-  
   "footer": {
     "text": "Web designer and web developer:",
     "AllReserve": "All rights reserved"
   }
-
-
-
-    
-    
 }

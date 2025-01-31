@@ -291,6 +291,36 @@
       ]
     }
   ],
+
+  "sobreMi":{
+    "ini": "¡Hola!",
+  "bienvenida": "¡Bienvenido a mi terminal!",
+   "instructions":"Instrucciones",
+  "fecha": "Hoy es",
+  "quienSoy": "Me llamo Andrea, y soy una gerundense que hace más de un año medio desarrollando webs en el sector del Frontend, mis frameworks favoritos son Angular y React.",
+  "unMundoDescubierto": "Desde que descubrí este mundo, hace aproximadamente un año, me he sumergido en este viaje emocionante de aprendizaje constante y crecimiento personal, y he aprendido que no hay nada imposible de conseguir si trabajas duro y con disciplina.",
+  "viajeLenguajes": "Durante este viaje, he adquirido experiencia en el desarrollo Web Frontend y mis pinitos en el Backend, utilizando las tecnologías más demandadas de esta carrera, HTML, CSS, Javascript, React, Node, MongoDb.",
+  "gracias": "Si has llegado hasta aquí, quería agradecerte que hayas dedicado tu tiempo a conocerme un poco más. Si tienes alguna pregunta o quieres saber más sobre mi, no dudes en contactar conmigo. ¡Gracias!",
+  "help": "Comandos disponibles:",
+  "commands": {
+    "init": "Inicializa la terminal.",
+    "date": "Muestra la fecha actual.",
+    "bienvenida": "Un saludo inicial y guía.",
+    "quienSoy": "Información sobre mí.",
+    "unMundoDescubierto": "Mi introducción al desarrollo.",
+    "viajeLenguajes": "Tecnologías y proyectos.",
+    "gracias": "Mensaje de agradecimiento.",
+    "clear": "Limpia la terminal.",
+    "help": "Muestra esta lista de comandos."
+  },
+  "unknownCommand": "Comando desconocido",
+  "placeholder": "Introduce un comando"
+
+  },
+
+
+
+  
   
   "Contact":{
     "contacto":"Contacto",
