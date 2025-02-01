@@ -276,6 +276,7 @@
   "sobreMi": {
    "ini": "hello!!",
    "instructions": "instructions",
+   "intro": "Enter prompts, to view the message via the terminal",
   "bienvenida": "Welcome to my terminal!!",
   "fecha": "Today is",
   "quienSoy": "My name is Andrea, and I am from Girona. I’ve been developing websites for over a year and a half in the Frontend sector. My favorite frameworks are Angular and React.",

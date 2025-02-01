@@ -6,7 +6,6 @@ import { useTranslation } from 'react-i18next';
 
 export const Sobremi = () => {
 
- 
 
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
@@ -19,7 +18,7 @@ useEffect(()=>{
   inputRef.current.focus()
 
 
-},[output])
+},[output, input])
 
 
   const onChangeInput = (e) => {
@@ -118,8 +117,7 @@ useEffect(()=>{
           <div className="grid grid-cols-1 md:grid-rows-2 text-center md:text-left lg-text-left md:mr-5">
             <div>
               <p className="text-xl font-bold">{t('sobreMi.instructions')}</p>
-              <p>Entre "<strong>date</strong>" la terminal <br></br>le mostrará la fecha.</p>
-              <p>Si quiere limpiar la terminal <br></br>utilice el prompt <strong>"clear"</strong></p>
+             <p>{t('sobreMi.intro')}</p>
             </div>
           </div>
 
@@ -162,15 +160,24 @@ useEffect(()=>{
 
           />
           <div className="terminal font-mono mb-2 mt-2">
-           
            <p className="p-1">{output}</p> 
           </div>
         </div>
 
-        <div>
-        
+      
+
         </div>
-   </div>
+
+     
+
+  
+      
+
+
+
+
+
+   
 
   
    

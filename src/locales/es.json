@@ -294,6 +294,7 @@
 
   "sobreMi":{
     "ini": "¡Hola!",
+    "intro": "Entre los prompts, para ver el mensaje por la terminal",
   "bienvenida": "¡Bienvenido a mi terminal!",
    "instructions":"Instrucciones",
   "fecha": "Hoy es",
