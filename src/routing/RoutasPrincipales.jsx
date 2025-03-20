@@ -14,7 +14,7 @@ import { ErrorPage } from './ErrorPage';
 import { Footer } from '../Components/Footer';
 import { ProjectDetails } from '../Components/ProjectDetails';
 import {Cursos} from '../Components/Cursos.jsx';
-import { Juego } from '../Components/juego.jsx';
+
 
 
 
@@ -38,8 +38,7 @@ export const RoutasPrincipales = () => {
       
           <Route path="/proyectos/:id" element={<ProjectDetails/>}/>
           <Route path="/contacto" element={<Contacto />} />
-          <Route path="/juego" element={<Juego />} />
-
+  
           <Route path="*" element={<ErrorPage />}
 
           />
