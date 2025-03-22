@@ -177,14 +177,11 @@ export const projects = [
       },
 
       {
-        name: "PrimeNG",
-        icon: "../imgtec/primeng.jpg",
+        name: "JS",
+        icon: "../imgtec/js.jpg",
       },
 
-      {
-        name: "Transloco",
-        icon: "../imgtec/transloco.svg",
-      },
+     
     ],
 
     url: [
@@ -334,52 +331,49 @@ export const projects = [
 
   {
     id: 8,
-    title: "The Holy Wine",
+    title: "ThunderAI",
     description:
-      "The Holy Wine, està desarrollada con la última versión de Angular, Angular 19, utilizando todas las novedades en las nuevas directivas del framework, para el estilo he utilizado la libreria Angular Material y para el diseño he utilizado Tailwind.",
+      "ThunderAI, esta desarrollada con JS, vite y tailwind. Aprovechando los modelos de inteligencia Artificial que ofrece la plataforma Hugging Face, he utilizado el último modelo de DeepSeek R3",
 
-    description1: "Se puede hacer busquedas por vino, lugar, tiene más de 10000 entradas. Tiene una sección explicando las diferentes variedades de uvas de la base de datos y es posible conocer los catadores de algunos vinos más exclusivos, escaneando el código qr que se adjunta en las cards.",
+    description1: "Le puedes preguntar lo que quieras en cualquier idioma, o complejidad. La interfaz es muy limpia y moderna",
 
 
     images: [
 
-      "../imgProjects/holy6.jpg",
-      "../imgProjects/holy4.jpg",
-      "../imgProjects/holy3.jpg",
-      "../imgProjects/holy5.jpg",
-      "../imgProjects/holyWine8.jpg",
-      "../imgProjects/holy1.jpg",
-
-
-
-
-
-
+      "../imgProjects/thunder1.jpg",
+      "../imgProjects/thunder2.jpg",
+      "../imgProjects/thunder3.jpg",
+      "../imgProjects/thunder4.jpg",
+     
 
     ],
     technologies: [
       {
-        name: "Angular",
-        icon: "./imgtec/angular.jpg",
+        name: "html",
+        icon: "../imgtec/html.jpg",
       },
       {
         name: "Tailwind CSS",
-        icon: "./imgtec/tailwind.avif",
+        icon: "../imgtec/tailwind.avif",
       },
       {
-        name: "Angular Material",
-        icon: "./imgtec/angularMaterial.jpeg",
+        name: "JS",
+        icon: "../imgtec/js.jpg",
+      },
+      {
+        name: "Hugging Face",
+        icon: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
       },
 
 
     ],
 
     url: [
-      "https://github.com/81andie/holyWine"
+      "https://github.com/81andie/thunderIA"
     ],
 
     url1: [
-      "https://81andie.github.io/holyWine/"
+      "https://81andie.github.io/thunderIA/"
     ]
 
 

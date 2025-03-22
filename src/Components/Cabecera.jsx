@@ -46,8 +46,8 @@ export const Cabecera = () => {
             { src: "img/Mobile App Screen Mockup, Mosaic.png", title: "The Holy Wine", heightClass: "h-48", id: 7 }
         ],
         [
-            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-52", id: 1 },
-            { src: "img/mockupHp.png", title: "angbitacora", heightClass: "h-auto", id: 8 }
+            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-64", id: 1 },
+            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "h-92", id: 8 }
         ]
     ];
 
