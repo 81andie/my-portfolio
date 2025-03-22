@@ -6,13 +6,10 @@ import { useTranslation } from 'react-i18next';
 
 export const Sobremi = () => {
 
-
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
- 
   const inputRef=useRef()
   const {t, i18n} = useTranslation();
-
 
 useEffect(()=>{
   inputRef.current.focus()
@@ -26,7 +23,6 @@ useEffect(() => {
 
   const onChangeInput = (e) => {
     setInput(e.target.value)
-
   }
 
   const onKeyDownEnter = (e) => {
@@ -34,8 +30,6 @@ useEffect(() => {
 
       let newOutPut = "";
       newOutPut = output + "\n" + "$ " + input + "\n";
-     
-
       switch (input) {
 
         case 'init':
@@ -102,15 +96,11 @@ useEffect(() => {
       setInput("")
 
     }
-
-
-
   }
 
 
 
   return (
-
     <>
       <div className="container-terminal md:mb-20 lg:mb-20 mt-20 p-4 overflow-auto "
       onClick={e=> inputRef.current.focus()}
