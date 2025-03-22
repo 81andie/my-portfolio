@@ -128,6 +128,59 @@
       ]
     }
   ],
+
+  
+    "projects": [
+      {
+        "id": 1,
+        "title": "Traffic Valéncia",
+        "description": "Traffic Valéncia is a website developed with JS that geolocates all the traffic cameras in the metropolitan area of Valencia. Users can check live streams from the cameras, providing a practical and visual tool to monitor traffic conditions in the city.",
+        "description1": "Traffic Valéncia uses data provided by the open data portal of the City Council of Valencia. It also incorporates a lightweight library 'leaflet-control-geocoder', allowing users to geolocate specific destinations in a simple and intuitive way. It is designed with Tailwind CSS, ensuring a modern style with an attractive visual experience, focusing on mobile-first."
+      },
+      {
+        "id": 2,
+        "title": "Mexico Guide",
+        "description": "Mexico Guide is a website developed with JS, an interactive guide that allows geolocation of Mexico's most important tourist destinations, Maya treasures, archaeological sites, and UNESCO World Heritage locations, all displayed with geolocation markers (colored clusters) for a clear user experience.",
+        "description1": "Each geolocation includes a description and a small gallery of photos of the place, developed with Google APIs. The geolocation data is provided by the Institute of Geography of UNAM (Mexico), from the IDEA platform."
+      },
+      {
+        "id": 3,
+        "title": "Cleopatra Cosmétics",
+        "description": "Cleopatra Cosmétics is an e-commerce website developed with React, specializing in luxury cosmetic products. The clean and simple design allows users to clearly view the main features, guiding customers through the different purchase processes. The checkout process is ready to be connected to a database, and the physical store is geolocated using React Leaflet."
+      },
+      {
+        "id": 4,
+        "title": "Harry Potter App",
+        "description": "Harry Potter is a website developed with Angular 17, where you can find all the information about Harry Potter. The data is collected from the HP-API, allowing the rendering of the main characters, professors, students, and all spells related to the Harry Potter Universe."
+      },
+      {
+        "id": 5,
+        "title": "SpaceAirTracker",
+        "description": "SpaceAirTracker is a website developed with Angular 17 and the OpenLayers library. It is a tracker for national and international flights, allowing users to geolocate the flight and know its speed, ICAO, latitude, and country of origin. It also allows tracking flights based on the city of origin. Its clean and functional style is designed with Bootstrap."
+      },
+      {
+        "id": 6,
+        "title": "Claustrum Aqvae",
+        "description": "Claustrum Aqvae is developed with Angular 17. It is a website that measures the status of the dams in Catalonia. For the interactive map and animations, I have used the Mapbox library combined with the Mapbox Places API to geolocate all the dams in the Catalonia region. It allows searching by day for any dam and provides the measurement data of the selected dam.",
+        "description1": "For the design, I have used the Tailwind library. To display the data, I have used the 'Dades Obertes de Catalunya' portal."
+      },
+      {
+        "id": 7,
+        "title": "The Holy Wine",
+        "description": "The Holy Wine is developed with the latest version of Angular, Angular 19, utilizing the latest features in the framework's directives. For the design, I have used Angular Material and Tailwind CSS.",
+        "description1": "You can search by wine or location, with over 10,000 entries. It includes a section explaining different grape varieties in the database and allows users to learn about some of the exclusive wine tasters by scanning the QR code attached to the cards."
+      },
+      {
+        "id": 8,
+        "title": "ThunderAI",
+        "description": "ThunderAI is developed with JS, Vite, and Tailwind. Using the artificial intelligence models provided by the Hugging Face platform, I have utilized the latest DeepSeek R3 model.",
+        "description1": "You can ask it anything in any language or complexity. The interface is clean and modern."
+      }
+    ],
+  
+  
+
+
   "courses": [
     {
       "id": 1,

@@ -1,12 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: "Traffic Valéncia",
-    description:
-      "Traffic Valencia es una página web desarrollada con JS que  geocaliza todas las cámaras de tráfico de la área metropolitana de Valéncia. Los usuarios pueden consultar a tiempo real transmisiones de las cámaras, proporcionando una herramienta práctica y visual para monitorizar el estado del tráfico en la ciudad",
-
-    description1: "Traffic Valencia utiliza los datos proporcionados por el portal de datos abiertos del Ayuntamiento de Valéncia. Además incorpora una libreria ligera 'leaflet-control-geocoder', permitiendo que los usuarios puedan  geolocalizar destinos específicos de manera sencilla e intuitiva. Está diseñada con Tailwind CSS, lo que nos asegura un estilo moderno, añadiendo una experiencia visual atractiva, aportándole un óptimo enfoque en el mobile-first",
-
+  
     images: [
       "../imgProjects/traffic.jpg",
       "../imgProjects/traffic6.jpg",
@@ -51,11 +46,7 @@ export const projects = [
 
   {
     id: 2,
-    title: "México Guide",
-    description:
-      "México Guide, es una página web desarrollada con JS, siendo una guia interactiva que permite la geolocalización de los destinos turísticos más importantes de México, tesoros Mayas, yacimientos arqueológicos y ubicaciones de Patrimonio de la Unesco, todo mostrado por la geolocalización de diferentes marcadores(clusters de colores), para añadir una claridad en la experiencia del usuario.",
-
-    description1: "Cada geolocalización, incluye una descripción y una pequeña galería de fotos del lugar, que ha sido desarrollada con Google Apis. Los datos aportados para la geolocalización són del Instituto de Geografía de la Unam(México), de la plataforma IDEA.",
+    
 
     images: [
       "../imgProjects/mex1.jpg",
@@ -109,9 +100,7 @@ export const projects = [
 
   {
     id: 3,
-    title: "Cleopatra Cosmétics",
-    description:
-      "Cleopatra Cosmétics, es un e-comerce desarrollado con React especializado en productos cosméticos de lujo, el diseño limpio y senzillo, permite ver de forma muy clara sus principales funcionalidades, guiando al cliente por sus diferentes procesos de compra, la pasarela de compra esta lista para poder conectarla a una base de datos, a parte que se geolocaliza la tienda física utilizando React Leaflet",
+   
     images: [
       "../imgProjects/cleo1.jpg",
       "../imgProjects/cleo2.jpg",
@@ -156,9 +145,7 @@ export const projects = [
 
   {
     id: 4,
-    title: "Harry Potter App",
-    description:
-      "Harry Potter es una web desarrollada con Angular17, dónde encontrarás toda la información sobre Harry Potter, los datos están recogidos de la Api, HP-API, permitiendo la renderización de los principales personajes, profesores, estudiantes y todos los hechizos relacionados con el Universo Potter",
+   
     images: [
       "../imgProjects/hp1.jpg",
       "../imgProjects/hp3.jpg",
@@ -196,9 +183,7 @@ export const projects = [
 
   {
     id: 5,
-    title: "SpaceAirTracker",
-    description:
-      "SpaceAirTracker es una web desarrollada con Angular17 y la libreria OpenLayers es un rastreador de vuelos nacionales e internacionales, que permite, geolocalizar el vuelo, y de cada uno, poder saber su velocidad, ICAO, latitud y país de origen, permite tambien rastrear los vuelos a partir de su ciudad de origen. Su estilo claro y funcional está diseñado con Boostrap",
+   
     images: [
       "../imgProjects/Space1.jpg",
       "../imgProjects/space6.jpg",
@@ -237,11 +222,9 @@ export const projects = [
 
   {
     id: 6,
-    title: "Claustrum Aqvae",
-    description:
-      "Claustrum Aqvae, està desarrollada en Angular 17  es una web que mide el estado de los pantanos de Cataluña. Para el mapa interactivo e animaciones, he utilizado la libraria de Mapbox, combinada con la api Mapbox Places, para solventar la geolocalización de todos los pantanos de la Comunidad de Cataluña. Permite una busqueda por dia, de cualquier pantano, emitiendo los datos de medición del embalse consultado.",
+    
 
-    description1: "Para el estilo he utilizado la libreria Tailwind. Para mostrar los datos he utilizado el portal 'Dades Obertes de Catalunya'",
+   
     images: [
       "../imgProjects/aqvae1.webp",
       "../imgProjects/aqvae2.webp",
@@ -278,13 +261,6 @@ export const projects = [
 
   {
     id: 7,
-    title: "The Holy Wine",
-    description:
-      "The Holy Wine, està desarrollada con la última versión de Angular, Angular 19, utilizando todas las novedades en las nuevas directivas del framework, para el estilo he utilizado la libreria Angular Material y para el diseño he utilizado Tailwind.",
-
-    description1: "Se puede hacer busquedas por vino, lugar, tiene más de 10000 entradas. Tiene una sección explicando las diferentes variedades de uvas de la base de datos y es posible conocer los catadores de algunos vinos más exclusivos, escaneando el código qr que se adjunta en las cards.",
-
-
     images: [
 
       "../imgProjects/holy6.jpg",
@@ -293,12 +269,6 @@ export const projects = [
       "../imgProjects/holy5.jpg",
       "../imgProjects/holyWine8.jpg",
       "../imgProjects/holy1.jpg",
-
-
-
-
-
-
 
     ],
     technologies: [
@@ -331,13 +301,7 @@ export const projects = [
 
   {
     id: 8,
-    title: "ThunderAI",
-    description:
-      "ThunderAI, esta desarrollada con JS, vite y tailwind. Aprovechando los modelos de inteligencia Artificial que ofrece la plataforma Hugging Face, he utilizado el último modelo de DeepSeek R3",
-
-    description1: "Le puedes preguntar lo que quieras en cualquier idioma, o complejidad. La interfaz es muy limpia y moderna",
-
-
+    
     images: [
 
       "../imgProjects/thunder1.jpg",
@@ -378,8 +342,5 @@ export const projects = [
 
 
   }
-
-
-
 
 ];

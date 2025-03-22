@@ -45,292 +45,316 @@
     "primeNgExperience": "He treballat amb PrimeNG per integrar components d'interfície d'usuari rics i interactius en les meves aplicacions. He utilitzat diversos components com (taules, formularis, menus,cercadors)per millorar l'experiència d'usuari i l'eficiència del desenvolupament.",
     "primeReactExperience": "He treballat amb PrimeReact per integrar components d'interfície d'usuari avançats en les meves aplicacions React. He utilitzat diversos components com taules, formularis, calendari i gràfics per millorar la funcionalitat i l'experiència d'usuari, facilitant el desenvolupament de interfaces modernes i eficients."
   },
-  
   "certifications1": [
-  {
-    "id": 1,
-    "month": "2024",
-    "course": "Curs d'Introducció al Desenvolupament Web",
-    "institution": "Google Actívate",
-    "instructor": "Universitat d'Alacant",
-    "image": "./imgtec/google.jpg",
-   
-    "summary": "Resum",
-    "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
-    "topics": [
-      "Història del Web",
-      "Com funciona el Web",
-      "Com s'escriu una pàgina web",
-      "Com es publica un lloc web",
-      "Com s'escriu una pàgina web ben estructurada"
-    ]
-  },
-  {
-    "id": 2,
-    "month": "2023",
-    "course": "Curs d'Introducció al Desenvolupament Web: HTML i CSS",
-    "institution": "Google Actívate",
-    "instructor": "Universitat d'Alacant",
-    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
- 
-    "summary": "Resum del curs",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
-    "topics": [
-      "Com es defineix la presentació d'una pàgina web",
-      "Com es defineix la presentació dels elements d'una pàgina web",
-      "Com es maqueta una pàgina web",
-      "Com es fa perquè una pàgina web tingui èxit"
-    ]
-  },
-  {
-    "id": 3,
-    "month": "2023",
-    "course": "Disseny Web Responsive, Certificació de Desenvolupador",
-    "institution": "FreeCodeCamp",
-    "instructor": "",
-    "image": "https://th.bing.com/th/id/OIP.oqGWRSjVvq--EULjpyw6ZQHaA5?rs=1&pid=ImgDetMain",
-   
-    "summary": "Resum del curs",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
-    "topics": [
-      "Pàgina de tribut",
-      "Pàgina de documentació tècnica (projecte de certificació)",
-      "Pàgina de destinació del producte (projecte de certificació)",
-      "Algorismes de JavaScript i projectes",
-      "Crea el teu propi portafolis"
-    ]
-  },
-  {
-    "id": 4,
-    "month": "2023",
-    "course": "Algorismes i estructures de dades en JavaScript",
-    "institution": "FreeCodeCamp",
-    "instructor": "",
-    "image": "https://th.bing.com/th/id/OIP.oqGWRSjVvq--EULjpyw6ZQHaA5?rs=1&pid=ImgDetMain",
-    
-    "summary": "Resum del curs",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
-    "topics": [
-      "JavaScript bàsic",
-      "ES6",
-      "Expressions regulars",
-      "Depuració",
-      "Estructures de dades bàsiques",
-      "Programació d'algorismes bàsics",
-      "Programació orientada a objectes",
-      "Programació funcional",
-      "Programació d'algorismes intermedis",
-      "Algorismes de JavaScript i projectes d'estructures de dades",
-      "Comprovador de palíndroms",
-      "Convertidor de nombres romans",
-      "Xifratge Cèsar",
-      "Validació de números de telèfon",
-      "Caixa registradora"
-    ]
-  }
-],
-
-
- 
+    {
+      "id": 1,
+      "month": "2024",
+      "course": "Curs d'Introducció al Desenvolupament Web",
+      "institution": "Google Actívate",
+      "instructor": "Universitat d'Alacant",
+      "image": "./imgtec/google.jpg",
+      "summary": "Resum",
+      "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
+      "topics": [
+        "Història del Web",
+        "Com funciona el Web",
+        "Com s'escriu una pàgina web",
+        "Com es publica un lloc web",
+        "Com s'escriu una pàgina web ben estructurada"
+      ]
+    },
+    {
+      "id": 2,
+      "month": "2023",
+      "course": "Curs d'Introducció al Desenvolupament Web: HTML i CSS",
+      "institution": "Google Actívate",
+      "instructor": "Universitat d'Alacant",
+      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+      "topics": [
+        "Com es defineix la presentació d'una pàgina web",
+        "Com es defineix la presentació dels elements d'una pàgina web",
+        "Com es maqueta una pàgina web",
+        "Com es fa perquè una pàgina web tingui èxit"
+      ]
+    },
+    {
+      "id": 3,
+      "month": "2023",
+      "course": "Disseny Web Responsive, Certificació de Desenvolupador",
+      "institution": "FreeCodeCamp",
+      "instructor": "",
+      "image": "https://th.bing.com/th/id/OIP.oqGWRSjVvq--EULjpyw6ZQHaA5?rs=1&pid=ImgDetMain",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+      "topics": [
+        "Pàgina de tribut",
+        "Pàgina de documentació tècnica (projecte de certificació)",
+        "Pàgina de destinació del producte (projecte de certificació)",
+        "Algorismes de JavaScript i projectes",
+        "Crea el teu propi portafolis"
+      ]
+    },
+    {
+      "id": 4,
+      "month": "2023",
+      "course": "Algorismes i estructures de dades en JavaScript",
+      "institution": "FreeCodeCamp",
+      "instructor": "",
+      "image": "https://th.bing.com/th/id/OIP.oqGWRSjVvq--EULjpyw6ZQHaA5?rs=1&pid=ImgDetMain",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+      "topics": [
+        "JavaScript bàsic",
+        "ES6",
+        "Expressions regulars",
+        "Depuració",
+        "Estructures de dades bàsiques",
+        "Programació d'algorismes bàsics",
+        "Programació orientada a objectes",
+        "Programació funcional",
+        "Programació d'algorismes intermedis",
+        "Algorismes de JavaScript i projectes d'estructures de dades",
+        "Comprovador de palíndroms",
+        "Convertidor de nombres romans",
+        "Xifratge Cèsar",
+        "Validació de números de telèfon",
+        "Caixa registradora"
+      ]
+    }
+  ],
   
-
-  "courses": [{
-    "id": 1,
-    "month": "2023",
-    "course": "Crea llocs web responsius del món real amb HTML i CSS",
-    "institution": "Udemy",
-    "instructor": "Jonas Schmedtmann",
-    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-   
-    "summary": "Projectes",
-    "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
-    "topics": [
-      "HTML5 modern, semàntic i accessible",
-      "Conceptes CSS importants com el model de caixa, esquemes de posicionament, herència, resolució de conflictes de selectors, etc.",
-      "Dissenya i crea un projecte impactant per al teu portafoli des de zero",
-      "Projecte Omnifood Web"
-    ]
-  },
-  {
-    "id": 2,
-    "month": "2023",
-    "course": "Programa els teus propis jocs HTML5 amb CSS",
-    "institution": "Udemy",
-    "instructor": "Javier Muñiz",
-    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-   
-    "summary": "Resum del curs",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
-    "topics": [
-      "Crea un Tetris",
-      "La Mazmorra"
-    ]
-  },
-  {
-    "id": 3,
-    "month": "2024",
-    "course": "Algoritmes i estructures de dades en JavaScript",
-    "institution": "Udemy",
-    "instructor": "Juan Pablo de la Torre",
-    "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-    
-    "summary": "Resum del curs",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
-    "topics": [
-      "JavaScript Bàsic",
-      "ES6",
-      "Expressions Regulars",
-      "Depuració",
-      "Estructures de dades bàsiques",
-      "Programació d'algoritmes bàsics",
-      "Programació orientada a objectes",
-      "Programació funcional",
-      "Programació d'algoritmes intermedis",
-      "Algoritmes de JavaScript i projectes"
-    ]
-  },
-  {
-    "id": 4,
-    "month": "2024",
-    "course": "The Git & Github BootCamp",
-    "institution": "Udemy",
-    "instructor": "Colt Steele",
-    "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-   
-    "summary": "Resum del curs",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
-    "topics": [
-      "Domina el flux de treball essencial de Git: afegir i confirmar canvis",
-      "Realitza fusions de Git i resol conflictes de fusió",
-      "Utilitza Git diff per revelar canvis al llarg del temps",
-      "Domina l'emmagatzematge temporal de Git (stashing)",
-      "Desfés canvis utilitzant git restore, git revert i git reset",
-      "Treballa amb repositoris locals i remots",
-      "Domina els fluxos de col·laboració: sol·licituds d'extracció (pull requests)",
-      "Bifurca i clona repositoris",
-      "Netega, compacta i reescriu la història utilitzant el rebase interactiu",
-      "Recupera treball 'perdut' utilitzant git reflogs",
-      "Escriu àlies personalitzats i potents per a Git",
-      "Marca versions i llançaments utilitzant etiquetes de Git",
-      "Allotja llocs web estàtics utilitzant Github Pages",
-      "Crea fitxers README en format markdown",
-      "Comparteix codi i fragments utilitzant Github Gists"
-    ]
-  },
-  {
-    "id": 5,
-    "month": "2024",
-    "course": "The Modern React BootCamp",
-    "institution": "Udemy",
-    "instructor": "Colt Steele",
-    "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-   
-    "summary": "Resum del curs",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
-    "topics": [
-      "Els conceptes bàsics de React (props, state, etc)",
-      "Construeix molts projectes, cadascun amb una interfície bonica",
-      "Formularis i validacions complexes en React",
-      "React Hooks!",
-      "Integra React amb APIs",
-      "Next"
-    ]
-  },
-  {
-    "id": 6,
-    "month": "2024",
-    "course": "Master en React: Aprender REactJs, Hooks, MERN NodeJs, JWT+",
-    "institution": "Udemy",
-    "instructor": "Victor Robles",
-    "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
   
-    "summary": "Resum del curs",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
-    "topics": [
-      "Dominar React",
-      "Aprendre React amb Hooks",
-      "Aprendre React Router DOM",
-      "Treballar amb el React Router més modern",
-      "Aprendre Context API",
-      "Aprendre el MERN Stack",
-      "Aprendre Vite",
-      "Crear aplicacions web amb React",
-      "Desenvolupar serveis i APIs RESTful amb NodeJS, Express i MongoDB",
-      "Reductors, Context i controladors d'estat",
-      "Crear un portafoli complet amb React",
-      "Crear un blog complet amb ReactJS",
-      "Crear una xarxa social completa amb React JS",
-      "Desenvolupar aplicacions web amb el MERN Stack",
-      "Desenvolupar aplicacions web SPA",
-      "Millorar la capacitat d'adaptació a altres frameworks JavaScript"
-    ]
+    "projects": [
+      {
+        "id": 1,
+        "title": "Traffic València",
+        "description": "Traffic València és una pàgina web desenvolupada amb JS que geolocalitza totes les càmeres de trànsit de l'àrea metropolitana de València. Els usuaris poden consultar en temps real les transmissions de les càmeres, proporcionant una eina pràctica i visual per monitoritzar l'estat del trànsit a la ciutat.",
+        "description1": "Traffic València utilitza les dades proporcionades pel portal de dades obertes de l'Ajuntament de València. A més, incorpora una biblioteca lleugera 'leaflet-control-geocoder', permetent als usuaris geolocalitzar destinacions específiques de manera senzilla i intuïtiva. Està dissenyada amb Tailwind CSS, el que ens assegura un estil modern, afegint una experiència visual atractiva, amb un enfocament òptim en el mobile-first."
+      },
+      {
+        "id": 2,
+        "title": "Guia de Mèxic",
+        "description": "Guia de Mèxic, és una pàgina web desenvolupada amb JS, sent una guia interactiva que permet la geolocalització dels destins turístics més importants de Mèxic, tresors maies, jaciments arqueològics i ubicacions del Patrimoni de la Unesco, tot mostrat per la geolocalització de diferents marcadors (clusters de colors), per afegir claredat a l'experiència de l'usuari.",
+        "description1": "Cada geolocalització inclou una descripció i una petita galeria de fotos del lloc, que ha estat desenvolupada amb Google Apis. Les dades aportades per la geolocalització són de l'Institut de Geografia de la Unam (Mèxic), de la plataforma IDEA."
+      },
+      {
+        "id": 3,
+        "title": "Cleopatra Cosmètics",
+        "description": "Cleopatra Cosmètics, és un e-commerce desenvolupat amb React especialitzat en productes cosmètics de luxe, el disseny net i senzill, permet veure de forma molt clara les seves principals funcionalitats, guiando al client per els diferents processos de compra, la passarel·la de compra està llesta per poder connectar-la a una base de dades, a part que es geolocalitza la botiga física utilitzant React Leaflet."
+      },
+      {
+        "id": 4,
+        "title": "Harry Potter App",
+        "description": "Harry Potter és una web desenvolupada amb Angular17, on trobaràs tota la informació sobre Harry Potter, les dades estan recollides de l'API HP-API, permetent la renderització dels principals personatges, professors, estudiants i tots els encanteris relacionats amb l'Univers Potter."
+      },
+      {
+        "id": 5,
+        "title": "SpaceAirTracker",
+        "description": "SpaceAirTracker és una web desenvolupada amb Angular17 i la biblioteca OpenLayers, és un rastrejador de vols nacionals i internacionals, que permet geolocalitzar el vol, i per cada un, poder saber la seva velocitat, ICAO, latitud i país d'origen, permet també rastrejar els vols a partir de la ciutat d'origen. El seu estil clar i funcional està dissenyat amb Bootstrap."
+      },
+      {
+        "id": 6,
+        "title": "Claustrum Aqvae",
+        "description": "Claustrum Aqvae, està desenvolupada en Angular 17, és una web que mesura l'estat dels pantans de Catalunya. Per al mapa interactiu i animacions, he utilitzat la biblioteca de Mapbox, combinada amb l'API Mapbox Places, per resoldre la geolocalització de tots els pantans de la Comunitat de Catalunya. Permet una cerca per dia de qualsevol pantà, emetent les dades de mesura del embassament consultat.",
+        "description1": "Per l'estil he utilitzat la biblioteca Tailwind. Per mostrar les dades he utilitzat el portal 'Dades Obertes de Catalunya'."
+      },
+      {
+        "id": 7,
+        "title": "The Holy Wine",
+        "description": "The Holy Wine, està desenvolupada amb l'última versió d'Angular, Angular 19, utilitzant totes les novetats en les noves directrius del framework, per l'estil he utilitzat la biblioteca Angular Material i per al disseny he utilitzat Tailwind.",
+        "description1": "Es poden fer cerques per vi, lloc, té més de 10000 entrades. Té una secció explicant les diferents varietats de raïm de la base de dades i és possible conèixer els tastadors d'alguns vins més exclusius, escanejant el codi qr que s'adjunta a les cards."
+      },
+      {
+        "id": 8,
+        "title": "ThunderAI",
+        "description": "ThunderAI, està desenvolupada amb JS, vite i tailwind. Aprofitant els models d'intel·ligència artificial que ofereix la plataforma Hugging Face, he utilitzat l'últim model de DeepSeek R3.",
+        "description1": "Li pots preguntar el que vulguis en qualsevol idioma, o complexitat. La interfície és molt neta i moderna."
+      }
+    ],
+  
+  "courses": [
+    {
+      "id": 1,
+      "month": "2023",
+      "course": "Crea llocs web responsius del món real amb HTML i CSS",
+      "institution": "Udemy",
+      "instructor": "Jonas Schmedtmann",
+      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "summary": "Projectes",
+      "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
+      "topics": [
+        "HTML5 modern, semàntic i accessible",
+        "Conceptes CSS importants com el model de caixa, esquemes de posicionament, herència, resolució de conflictes de selectors, etc.",
+        "Dissenya i crea un projecte impactant per al teu portafoli des de zero",
+        "Projecte Omnifood Web"
+      ]
+    },
+    {
+      "id": 2,
+      "month": "2023",
+      "course": "Programa els teus propis jocs HTML5 amb CSS",
+      "institution": "Udemy",
+      "instructor": "Javier Muñiz",
+      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+      "topics": [
+        "Crea un Tetris",
+        "La Mazmorra"
+      ]
+    },
+    {
+      "id": 3,
+      "month": "2024",
+      "course": "Algoritmes i estructures de dades en JavaScript",
+      "institution": "Udemy",
+      "instructor": "Juan Pablo de la Torre",
+      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+      "topics": [
+        "JavaScript Bàsic",
+        "ES6",
+        "Expressions Regulars",
+        "Depuració",
+        "Estructures de dades bàsiques",
+        "Programació d'algoritmes bàsics",
+        "Programació orientada a objectes",
+        "Programació funcional",
+        "Programació d'algoritmes intermedis",
+        "Algoritmes de JavaScript i projectes"
+      ]
+    },
+    {
+      "id": 4,
+      "month": "2024",
+      "course": "The Git & Github BootCamp",
+      "institution": "Udemy",
+      "instructor": "Colt Steele",
+      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+      "topics": [
+        "Domina el flux de treball essencial de Git: afegir i confirmar canvis",
+        "Realitza fusions de Git i resol conflictes de fusió",
+        "Utilitza Git diff per revelar canvis al llarg del temps",
+        "Domina l'emmagatzematge temporal de Git (stashing)",
+        "Desfés canvis utilitzant git restore, git revert i git reset",
+        "Treballa amb repositoris locals i remots",
+        "Domina els fluxos de col·laboració: sol·licituds d'extracció (pull requests)",
+        "Bifurca i clona repositoris",
+        "Netega, compacta i reescriu la història utilitzant el rebase interactiu",
+        "Recupera treball 'perdut' utilitzant git reflogs",
+        "Escriu àlies personalitzats i potents per a Git",
+        "Marca versions i llançaments utilitzant etiquetes de Git",
+        "Allotja llocs web estàtics utilitzant Github Pages",
+        "Crea fitxers README en format markdown",
+        "Comparteix codi i fragments utilitzant Github Gists"
+      ]
+    },
+    {
+      "id": 5,
+      "month": "2024",
+      "course": "The Modern React BootCamp",
+      "institution": "Udemy",
+      "instructor": "Colt Steele",
+      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+      "topics": [
+        "Els conceptes bàsics de React (props, state, etc)",
+        "Construeix molts projectes, cadascun amb una interfície bonica",
+        "Formularis i validacions complexes en React",
+        "React Hooks!",
+        "Integra React amb APIs",
+        "Next"
+      ]
+    },
+    {
+      "id": 6,
+      "month": "2024",
+      "course": "Master en React: Aprender REactJs, Hooks, MERN NodeJs, JWT+",
+      "institution": "Udemy",
+      "instructor": "Victor Robles",
+      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+      "topics": [
+        "Dominar React",
+        "Aprendre React amb Hooks",
+        "Aprendre React Router DOM",
+        "Treballar amb el React Router més modern",
+        "Aprendre Context API",
+        "Aprendre el MERN Stack",
+        "Aprendre Vite",
+        "Crear aplicacions web amb React",
+        "Desenvolupar serveis i APIs RESTful amb NodeJS, Express i MongoDB",
+        "Reductors, Context i controladors d'estat",
+        "Crear un portafoli complet amb React",
+        "Crear un blog complet amb ReactJS",
+        "Crear una xarxa social completa amb React JS",
+        "Desenvolupar aplicacions web amb el MERN Stack",
+        "Desenvolupar aplicacions web SPA",
+        "Millorar la capacitat d'adaptació a altres frameworks JavaScript"
+      ]
+    },
+    {
+      "id": 7,
+      "month": "2024/2025",
+      "course": "Angular de Zero a expert",
+      "institution": "Udemy",
+      "instructor": "Fernando Herrera",
+      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
+      "topics": [
+        "Angular profundament",
+        "Desenvolupa les teves pròpies aplicacions utilitzant Angular",
+        "Segueix estàndards i bones pràctiques del framework",
+        "Aprèn Angular basat en TypeScript",
+        "Utilitza llibreries de tercers",
+        "Aprèn altres temes relacionats en el desenvolupament d'aplicacions amb Angular"
+      ]
+    }
+  ],
+  "sobreMi": {
+    "ini": "hola!!",
+    "bienvenida": "Benvingut a la meva terminal!",
+    "intro": "Entri els prompts per veure el missatge per la terminal",
+    "instructions": "Instruccions",
+    "fecha": "Avui és",
+    "quienSoy": "Em dic Andrea, sóc una gerundenca que fa més d'un any i mig desenvolupant webs al sector del Frontend, els meus frameworks preferits són Angular i React.",
+    "unMundoDescubierto": "Des que vaig descobrir aquest món, fa aproximadament un any, m'he submergit en aquest viatge emocionant d'aprenentatge constant i creixement personal, i he après que no hi ha res impossible d'aconseguir si treballes dur i amb disciplina.",
+    "viajeLenguajes": "Durant aquest viatge, he adquirit experiència en el desenvolupament Web Frontend i els meus primers passos al Backend, utilitzant les tecnologies més demandades d'aquesta carrera, HTML, CSS, Javascript, React, Node, MongoDb.",
+    "gracias": "Si has arribat fins aquí, volia agrair-te que hagis dedicat el teu temps a conèixer-me una mica més. Si tens alguna pregunta o vols saber més sobre mi, no dubtis a contactar amb mi. Gràcies!",
+    "help": "Comandes disponibles:",
+    "commands": {
+      "init": "Inicialitza la terminal.",
+      "date": "Mostra la data actual.",
+      "bienvenida": "Un salut inicial i guia.",
+      "quienSoy": "Informació sobre mi.",
+      "unMundoDescubierto": "La meva introducció al desenvolupament.",
+      "viajeLenguajes": "Tecnologies i projectes.",
+      "gracias": "Missatge d'agraïment.",
+      "clear": "Neteja la terminal.",
+      "help": "Mostra aquesta llista de comandes."
+    },
+    "unknownCommand": "Comanda desconeguda",
+    "placeholder": "Introdueix un comandament"
   },
-  {
-    "id": 7,
-    "month": "2024/2025",
-    "course": "Angular de Zero a expert",
-    "institution": "Udemy",
-    "instructor": "Fernando Herrera",
-    "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
-   
-    "summary": "Resum del curs",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
-    "topics": [
-      "Angular profundament",
-      "Desenvolupa les teves pròpies aplicacions utilitzant Angular",
-      "Segueix estàndards i bones pràctiques del framework",
-      "Aprèn Angular basat en TypeScript",
-      "Utilitza llibreries de tercers",
-      "Aprèn altres temes relacionats en el desenvolupament d'aplicacions amb Angular"
-    ]
+  "Contact": {
+    "contact": "Contacte",
+    "you wants": "Vols assessorament, consell o vols compartir la teva idea per a la teva web? Posa't en contacte amb mi.",
+    "name": "Nom",
+    "email": "Correu electrònic",
+    "NameEmail": "Nom i Cognoms",
+    "you want": "Què vols consultar-me?",
+    "Submit": "Enviar"
+  },
+  "footer": {
+    "text": "Dissenyadora de pàgines web i desenvolupadora web:",
+    "AllReserve": "Tots els drets reservats"
   }
-
-],
-
-"sobreMi":{
-
-  "ini": "hola!!",
-  "bienvenida": "Benvingut a la meva terminal!",
-  "intro": "Entri els prompts per veure el missatge per la terminal",
-   "instructions": "Instruccions",
-  "fecha": "Avui és",
-  "quienSoy": "Em dic Andrea, sóc una gerundenca que fa més d'un any i mig desenvolupant webs al sector del Frontend, els meus frameworks preferits són Angular i React.",
-  "unMundoDescubierto": "Des que vaig descobrir aquest món, fa aproximadament un any, m'he submergit en aquest viatge emocionant d'aprenentatge constant i creixement personal, i he après que no hi ha res impossible d'aconseguir si treballes dur i amb disciplina.",
-  "viajeLenguajes": "Durant aquest viatge, he adquirit experiència en el desenvolupament Web Frontend i els meus primers passos al Backend, utilitzant les tecnologies més demandades d'aquesta carrera, HTML, CSS, Javascript, React, Node, MongoDb.",
-  "gracias": "Si has arribat fins aquí, volia agrair-te que hagis dedicat el teu temps a conèixer-me una mica més. Si tens alguna pregunta o vols saber més sobre mi, no dubtis a contactar amb mi. Gràcies!",
-  "help": "Comandes disponibles:",
-  "commands": {
-    "init": "Inicialitza la terminal.",
-    "date": "Mostra la data actual.",
-    "bienvenida": "Un salut inicial i guia.",
-    "quienSoy": "Informació sobre mi.",
-    "unMundoDescubierto": "La meva introducció al desenvolupament.",
-    "viajeLenguajes": "Tecnologies i projectes.",
-    "gracias": "Missatge d'agraïment.",
-    "clear": "Neteja la terminal.",
-    "help": "Mostra aquesta llista de comandes."
-  },
-  "unknownCommand": "Comanda desconeguda",
-  "placeholder": "Introdueix un comandament"
- 
-
-},
- 
-"Contact": {
-  "contact": "Contacte",
-  "you wants": "Vols assessorament, consell o vols compartir la teva idea per a la teva web? Posa't en contacte amb mi.",
-  "name": "Nom",
-  "email": "Correu electrònic",
-  "NameEmail": "Nom i Cognoms",
-  "you want": "Què vols consultar-me?",
-  "Submit": "Enviar"
-},
-"footer": {
-  "text": "Dissenyadora de pàgines web i desenvolupadora web:",
-  "AllReserve": "Tots els drets reservats"
-}
-
-
-
-
 }

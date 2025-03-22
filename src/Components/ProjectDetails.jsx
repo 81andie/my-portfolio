@@ -2,19 +2,19 @@ import React from 'react'
 
 
 import * as motion from "motion/react-client"
-import { projects } from './ProyectosData';
+import { projects } from './proyectosData';
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import {MotionGlobalConfig} from 'framer-motion'
+import { useTranslation } from 'react-i18next';
 
 export const ProjectDetails = () => {
 
   const { id } = useParams();
-
-  const buscarProjecto = projects
-
-
-    .find(item => item.id === parseInt(id));
+  const { t } = useTranslation(); 
+     
+  const buscarProjecto = projects.find(item => item.id === parseInt(id));
+  const projectTranslation = t("projects", { returnObjects: true }).find(p => p.id === parseInt(id));
 
     const shuffle = (arr) => {
       return arr.sort(() => Math.random() - 0.5)
@@ -25,20 +25,13 @@ export const ProjectDetails = () => {
   useEffect(() => {
 
     const timeout = setTimeout(() => {
-      setOrder((prevOrder) => shuffle([...prevOrder])); // Copiar el array antes de modificarlo
-    }, 5000); // Tiempo de espera ajustado para ver la animación
+      setOrder((prevOrder) => shuffle([...prevOrder])); 
+    }, 10000); 
 
     return () => clearTimeout(timeout);
 
   }, [order]);
 
-
- /* const disableAnimationsOnMobile = () => {
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    if (isMobile) {
-      MotionGlobalConfig.skipAnimations = true;
-    }
-  };*/
 
 
   const spring = {
@@ -75,7 +68,7 @@ export const ProjectDetails = () => {
           {/* Detalles del proyecto */}
           <div className="flex flex-col justify-center p-1 mt-2 md:w-8/12 lg:w-8/12">
             <p className="text-xl font-mono">Título:</p>
-            <p className="text-3xl p-1 mt-2 mb-2 animate-pulse ">{buscarProjecto.title}</p>
+            <p className="text-3xl p-1 mt-2 mb-2 animate-pulse ">{projectTranslation.title}</p>
 
             <p className="text-xl font-mono p-1">Lenguajes y frameworks:</p>
             <div className="flex flex-row flex-wrap gap-1 p-1 rounded-sm w-8/12 ">
@@ -91,8 +84,8 @@ export const ProjectDetails = () => {
             </div>
 
             {/* Descripción */}
-            <p className="text-md mt-2 ml-1 mr-1 text-justify font-mono">{buscarProjecto.description}</p>
-            <p className="text-md mt-4 ml-1 mr-1 text-justify font-mono">{buscarProjecto.description1}</p>
+            <p className="text-md mt-2 ml-1 mr-1 text-justify font-mono">{projectTranslation.description}</p>
+            <p className="text-md mt-4 ml-1 mr-1 text-justify font-mono">{projectTranslation.description1}</p>
 
             {/* Links del proyecto */}
             <div className="flex gap-2 dark:text-slate-900 p-1">

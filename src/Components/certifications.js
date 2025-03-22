@@ -47,7 +47,7 @@ export const certifications = [
           "HTML",
           "CSS",
           "FlexBox",
-          "Diseny Responsiu",
+          "Disseny Responsiu",
         
         ]
       },

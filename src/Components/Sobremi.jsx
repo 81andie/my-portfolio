@@ -11,14 +11,17 @@ export const Sobremi = () => {
   const [output, setOutput] = useState("");
  
   const inputRef=useRef()
-  const {t} = useTranslation();
+  const {t, i18n} = useTranslation();
 
 
 useEffect(()=>{
   inputRef.current.focus()
+},[output, input]);
 
-
-},[output, input])
+useEffect(() => {
+  
+  setOutput(""); 
+}, [i18n.language])
 
 
   const onChangeInput = (e) => {
@@ -135,17 +138,10 @@ useEffect(()=>{
               <li><strong>gracias{'{6}'}</strong></li>
               <li><strong>clear{'{7}'}</strong></li>
               <li><strong>help{'{8}'}</strong></li>
-
               </pre>
-             
-
             </ol>
 
           </div>
-
-
-
-
         </div>
 
         <div className="w-full">
@@ -163,35 +159,7 @@ useEffect(()=>{
            <p className="p-1">{output}</p> 
           </div>
         </div>
-
-      
-
         </div>
-
-     
-
-  
-      
-
-
-
-
-
-   
-
-  
-   
-
-
-
-
-
-
-
-
-
-
-
     </>
   )
 }
