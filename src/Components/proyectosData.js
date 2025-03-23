@@ -163,10 +163,7 @@ export const projects = [
         icon: "../imgtec/tailwind.avif",
       },
 
-      {
-        name: "JS",
-        icon: "../imgtec/js.jpg",
-      },
+      
 
      
     ],
@@ -198,6 +195,11 @@ export const projects = [
       {
         name: "Angular",
         icon: "../imgtec/angular.jpg",
+      },
+
+      {
+        name: "OpenLayers",
+        icon: "../imgtec/openlayers.jpg",
       },
       {
         name: "Boostrap",
@@ -241,6 +243,11 @@ export const projects = [
       {
         name: "Tailwind CSS",
         icon: "../imgtec/tailwind.avif",
+      },
+
+      {
+        name: "MapBox",
+        icon: "../imgtec/mapbox.jpg",
       },
 
 
@@ -339,8 +346,48 @@ export const projects = [
     url1: [
       "https://81andie.github.io/thunderIA/"
     ]
+  }, 
+  {
+    id: 9,
+    
+    images: [
 
+      "../imgProjects/angBitacora1.jpg",
+      "../imgProjects/angBitacora2.jpg",
+      "../imgProjects/angBitacora3.jpg",
+      "../imgProjects/angBitagora4.jpg",
+     
 
+    ],
+    technologies: [
+
+      {
+        name: "Angular",
+        icon: "../imgtec/angular.jpg",
+      },
+     
+     
+      {
+        name: "Boostrap",
+        icon: "../imgtec/boostraap.jpg",
+      },
+
+      {
+        name: "OpenLayers",
+        icon: "../imgtec/openlayers.png",
+      },
+      
+    ],
+
+    url: [
+      "https://github.com/81andie/AngBitacoraMap"
+    ],
+
+    url1: [
+      "https://81andie.github.io/AngBitacoraMap/"
+    ]
   }
+
+
 
 ];

@@ -209,7 +209,15 @@
       "ThunderAI, esta desarrollada con JS, vite y tailwind. Aprovechando los modelos de inteligencia Artificial que ofrece la plataforma Hugging Face, he utilizado el último modelo de DeepSeek R3",
     "description1": "Le puedes preguntar lo que quieras en cualquier idioma, o complejidad. La interfaz es muy limpia y moderna"
 
+  },
+
+  {
+    "id": 9,
+    "title": "Bitácora Map",
+    "description": "Bitácora Map está desarrollada con Angular 17, OpenLayers y Bootstrap. Es la herramienta ideal para complementar tus viajes y compartir información con quien quieras. Permite añadir marcadores, dibujar polígonos y líneas, añadir comentarios y editarlos fácilmente. Además, los datos se pueden guardar en LocalStorage para acceder a ellos en cualquier momento.",
+    "description1": "Ofrece la posibilidad de descargar y cargar archivos GeoJSON."
   }
+  
 
 ],
 
