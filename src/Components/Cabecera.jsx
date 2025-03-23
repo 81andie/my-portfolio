@@ -35,7 +35,7 @@ export const Cabecera = () => {
     const imageData = [
         [
             { src: "img/iPhone 15 Mockup, Perspective.png", title: "SpaceAirTracker", heightClass: "h-auto", id: 5 },
-            { src: "img/cleopatraCosmetics.jpg", title: "Cleopatra Cosmétics", heightClass: "h-48", id: 3 }
+            { src: "img/cleopatraCosmetics.jpg", title: "Cleopatra Cosmétics", heightClass: "h-52", id: 3 }
         ],
         [
             { src: "img/macbook-subtle-turn.mp4", title: "Claustrum Aquae", isVideo: true, heightClass: "h-52", id: 6 },
@@ -43,11 +43,12 @@ export const Cabecera = () => {
         ],
         [
             { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-auto", id: 2 },
-            { src: "img/Mobile App Screen Mockup, Mosaic.png", title: "The Holy Wine", heightClass: "h-48", id: 7 }
+            { src: "img/Mobile App Screen Mockup, Mosaic.png", title: "The Holy Wine", heightClass: "h-44", id: 7 }
         ],
         [
-            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-64", id: 1 },
-            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "h-92", id: 8 }
+            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-44", id: 1 },
+            { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-44", id: 2 },
+            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "h-48", id: 8 }
         ]
     ];
 
@@ -57,11 +58,6 @@ export const Cabecera = () => {
     return (
 
         <>
-
-   
-        
-
-     
 
             <div className="flex flex-col justify-center items-center mt-5">
                 {mostrarTexto && <span className="span_maqEscribir overflow-hidden border-r-2 border-blue-400">{t('header.helloWorld')}<br></br>
@@ -74,7 +70,7 @@ export const Cabecera = () => {
 
 
             <div className="h-auto mb-20 lg:mb-12">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 ml-10 mr-10">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 ml-10 mr-10">
                     {imageData.map((column, colIndex) => (
                         <div key={colIndex} className="grid gap-4">
                             {column.map((item, itemIndex) => (

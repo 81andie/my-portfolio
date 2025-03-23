@@ -105,7 +105,7 @@ export const cursos = [
   {
     id: 6,
     month: "2024",
-    course: "Master en React: Aprender REactJs, Hooks, MERN NodeJs, JWT+",
+    course: "Master en React: Aprender ReactJs, Hooks, MERN NodeJs, JWT+",
     institution: "Udemy",
     instructor: "Victor Robles",
     image: "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
