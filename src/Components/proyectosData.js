@@ -26,7 +26,7 @@ export const projects = [
 
       {
         name: "Leaflet",
-        icon: "../imgtec/leaflet.jpg",
+        icon: "../imgtec/leaflet.png",
       },
 
     ],
@@ -115,7 +115,7 @@ export const projects = [
       },
       {
         name: "i18next",
-        icon: "../imgtec/inext.jpg",
+        icon: "../imgtec/inext.avif",
       },
       {
         name: "PrimeReact",
@@ -124,7 +124,7 @@ export const projects = [
 
       {
         name: "PrimeFlex",
-        icon: "../imgtec/PrimeFlexLogo.jpg",
+        icon: "../imgtec/PrimeFlexLogo.svg",
       },
       {
         name: "React Leaflet",
@@ -163,7 +163,10 @@ export const projects = [
         icon: "../imgtec/tailwind.avif",
       },
 
-      
+      {
+        name: "Transloco",
+        icon: "../imgtec/transloco.svg",
+      }
 
      
     ],
@@ -199,7 +202,7 @@ export const projects = [
 
       {
         name: "OpenLayers",
-        icon: "../imgtec/openlayers.jpg",
+        icon: "../imgtec/openlayers.png",
       },
       {
         name: "Boostrap",
@@ -247,13 +250,13 @@ export const projects = [
 
       {
         name: "MapBox",
-        icon: "../imgtec/mapbox.jpg",
+        icon: "../imgtec/mapbox.png",
       },
 
 
       {
         name: "Ngx-translate/core",
-        icon: "../imgtec/translate.jpg",
+        icon: "../imgtec/translate.png",
       },
     ],
 

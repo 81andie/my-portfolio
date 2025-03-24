@@ -75,7 +75,7 @@ export const ProjectDetails = () => {
               {buscarProjecto.technologies && buscarProjecto.technologies.map((tech, i) => (
                 <img
                   key={i}
-                  className="h-10 w-auto p-1 rounded-md inset-0 "
+                  className="h-10 w-auto p-1 rounded-md inset-0 bg-blue-50"
                   src={tech.icon}
                   alt={tech.name}
                   title={tech.name}
