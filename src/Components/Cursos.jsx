@@ -49,7 +49,7 @@ export const Cursos = () => {
               src={curso.image}
 
               className="w-32 h-10 object-contain"
-              alt="Certificación"
+              alt="Cursos"
             />
             <details>
               <summary>{curso.summary}</summary>

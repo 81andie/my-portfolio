@@ -70,7 +70,7 @@
       "course": "Introduction to Web Development Course: HTML and CSS",
       "institution": "Google Activate",
       "instructor": "University of Alicante",
-      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "image": "./imgtec/google.jpg",
       "backgroundImage": "https://img.freepik.com/vector-gratis/fondo-textura-elegante-blanco_23-2148429089.jpg?t=st=1738169611~exp=1738173211~hmac=8c71a8ec896a9f5ccfd84171a3f94fefca2c863dfe80c1e78c4b9e3ef7fbc40e&w=826",
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
@@ -195,7 +195,7 @@
       "course": "Create real-world responsive websites with HTML and CSS",
       "institution": "Udemy",
       "instructor": "Jonas Schmedtmann",
-      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "image": "./imgtec/Udemy.png",
       "summary": "Projects",
       "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
       "topics": [
@@ -211,7 +211,7 @@
       "course": "Program your own HTML5 games with CSS",
       "institution": "Udemy",
       "instructor": "Javier Muñiz",
-      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "image": "./imgtec/Udemy.png",
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
       "topics": [
@@ -225,7 +225,7 @@
       "course": "Algorithms and data structures in JavaScript",
       "institution": "Udemy",
       "instructor": "Juan Pablo de la Torre",
-      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "image": "./imgtec/Udemy.png",
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -247,7 +247,7 @@
       "course": "The Git & Github BootCamp",
       "institution": "Udemy",
       "instructor": "Colt Steele",
-      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "image": "./imgtec/Udemy.png",
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -274,7 +274,7 @@
       "course": "The Modern React BootCamp",
       "institution": "Udemy",
       "instructor": "Colt Steele",
-      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "image": "./imgtec/Udemy.png",
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -292,7 +292,7 @@
       "course": "Master in React: Learn ReactJs, Hooks, MERN NodeJs, JWT+",
       "institution": "Udemy",
       "instructor": "Victor Robles",
-      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "image": "./imgtec/Udemy.png",
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -320,7 +320,7 @@
       "course": "Angular from Zero to Expert",
       "institution": "Udemy",
       "instructor": "Fernando Herrera",
-      "image": "https://th.bing.com/th/id/OIP.DjzcfrlwLev0VKX5KpppDgHaHa?rs=1&pid=ImgDetMain",
+      "image": "./imgtec/Udemy.png",
       "summary": "Course summary",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
