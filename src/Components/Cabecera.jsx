@@ -48,9 +48,9 @@ export const Cabecera = () => {
            
         ],
         [
-            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-44", id: 1 },
-            { src: "img/Mobile App Screen Mockup, Mosaic.png", title: "The Holy Wine", heightClass: "h-44", id: 7 },
-            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "h-44", id: 8 }
+            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-48 lg:h-auto", id: 1 },
+            { src: "img/Mobile App Screen Mockup, Mosaic.png", title: "The Holy Wine", heightClass: "h-auto lg:h-40", id: 7 },
+            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "h-48 md:h-40 lg:58", id: 8 }
         ]
     ];
 
@@ -62,7 +62,7 @@ export const Cabecera = () => {
         <>
 
             <div className="flex flex-col justify-center items-center mt-5">
-                {mostrarTexto && <span className="span_maqEscribir overflow-hidden border-r-2 border-blue-400">{t('header.helloWorld')}<br></br>
+                {mostrarTexto && <span className="span_maqEscribir overflow-hidden border-r-2  border-blue-400">{t('header.helloWorld')}<br></br>
                 </span>}
 
                 {mostrarTexto && <span className="span_maqEscribir1 overflow-hidden border-r-2 border-orange-400">{t('header.Im')}<br></br>
