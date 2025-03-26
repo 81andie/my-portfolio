@@ -42,15 +42,15 @@ export const Cabecera = () => {
             { src: "img/mockupHp.png", title: "Harry Potter App", heightClass: "h-auto", id: 4 }
         ],
         [
-            { src: "imgProjects/angBitacora1.jpg", title: "Bitácora Map", heightClass: "h-auto", id: 9 },
-            { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-64", id: 2 },
-            
+          
+            { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-auto", id: 2 },
+            { src: "imgProjects/angBitacora1.jpg", title: "Bitácora Map", heightClass: "h-44", id: 9 },
            
         ],
         [
-            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-48 lg:h-auto", id: 1 },
-            { src: "img/Mobile App Screen Mockup, Mosaic.png", title: "The Holy Wine", heightClass: "h-auto lg:h-40", id: 7 },
-            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "h-48 md:h-40 lg:58", id: 8 }
+            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-auto", id: 1 },
+            { src: "img/Mobile App Screen Mockup, Mosaic.png", title: "The Holy Wine", heightClass: "h-auto", id: 7 },
+            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "h-40", id: 8 }
         ]
     ];
 
