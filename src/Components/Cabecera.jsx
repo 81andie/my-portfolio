@@ -35,24 +35,24 @@ export const Cabecera = () => {
     const imageData = [
         [
             { src: "img/iPhone 15 Mockup, Perspective.png", title: "SpaceAirTracker", heightClass: "h-auto", id: 5 },
-            { src: "img/cleopatraCosmetics.jpg", title: "Cleopatra Cosmétics", heightClass: "h-40", id: 3 }
+            { src: "img/cleopatraCosmetics.jpg", title: "Cleopatra Cosmétics", heightClass: "h-44", id: 3 }
         ],
         [
             /*{ src: "img/macbook-subtle-turn.mp4", title: "Claustrum Aquae", isVideo: true, heightClass: "h-52", id: 6 },*/
             
-            { src: "img/Mobile App Screen Mockup, Mosaic.png", title: "The Holy Wine", heightClass: "h-auto", id: 7 },
+            { src: "img/Mobile App Screen Mockup, Mosaic.png", title: "The Holy Wine", heightClass: "h-44", id: 7 },
             { src: "img/mockupHp.png", title: "Harry Potter App", heightClass: "h-auto", id: 4 }
         ],
         [
           
-            { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-56", id: 2 },
+            { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-auto", id: 2 },
            
-            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "h-auto", id: 8 }
+            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "h-36", id: 8 }
         ],
         [
            
-            { src: "imgProjects/angBitacora1.jpg", title: "Bitácora Map", heightClass: "h-62", id: 9 },
-            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-56", id: 1 },
+            { src: "imgProjects/angBitacora1.jpg", title: "Bitácora Map", heightClass: "h-auto", id: 9 },
+            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-56 md:h-52 lg:h-60", id: 1 },
         
         ]
     ];
