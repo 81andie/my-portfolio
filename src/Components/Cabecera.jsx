@@ -45,14 +45,14 @@ export const Cabecera = () => {
         ],
         [
           
-            { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-auto", id: 2 },
-           
-            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "h-36", id: 8 }
+            { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-44 md:h-50 lg:h-44", id: 2 },
+            { src: "img/macbook-subtle-turn.mp4", title: "Claustrum Aquae", isVideo: true, heightClass: "h-auto", id: 6 },
+            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "md:h-28 lg:h-60", id: 8 }
         ],
         [
            
             { src: "imgProjects/angBitacora1.jpg", title: "Bitácora Map", heightClass: "h-auto", id: 9 },
-            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-56 md:h-52 lg:h-60", id: 1 },
+            { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-56 md:h-52 lg:h-64", id: 1 },
         
         ]
     ];
