@@ -45,9 +45,9 @@ export const Cabecera = () => {
         ],
         [
           
-            { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-44 md:h-50 lg:h-44", id: 2 },
+            { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-44 md:h-50 lg:h-52", id: 2 },
             { src: "img/macbook-subtle-turn.mp4", title: "Claustrum Aquae", isVideo: true, heightClass: "h-auto", id: 6 },
-            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "md:h-28 lg:h-60", id: 8 }
+            { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "md:h-28 lg:h-52", id: 8 }
         ],
         [
            
