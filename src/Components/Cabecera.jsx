@@ -45,7 +45,7 @@ export const Cabecera = () => {
         ],
         [
           
-            { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-44 md:h-50 lg:h-52", id: 2 },
+            { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-44 md:h-36 lg:h-72", id: 2 },
             { src: "img/macbook-subtle-turn.mp4", title: "Claustrum Aquae", isVideo: true, heightClass: "h-auto", id: 6 },
             { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "md:h-28 lg:h-52", id: 8 }
         ],
@@ -86,7 +86,7 @@ export const Cabecera = () => {
                                         {item.isVideo ? (
                                             <div className="relative">
                                                 <iframe
-                                                    className={`object-cover max-w-full rounded-lg opacity-60 hover:opacity-100 transition-opacity duration-300 ${item.heightClass}`}
+                                                    className={`object-cover w-full rounded-lg opacity-60 hover:opacity-100 transition-opacity duration-300 ${item.heightClass}`}
                                                     src={item.src}
                                                     allow="autoplay; fullscreen; picture-in-picture"
                                                     title={item.title}
