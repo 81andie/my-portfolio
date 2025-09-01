@@ -5,28 +5,28 @@ import * as motion from "motion/react-client"
 import { projects } from './proyectosData';
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from 'react';
-import {MotionGlobalConfig} from 'framer-motion'
+import { MotionGlobalConfig } from 'framer-motion'
 import { useTranslation } from 'react-i18next';
 
 export const ProjectDetails = () => {
 
   const { id } = useParams();
-  const { t } = useTranslation(); 
-     
+  const { t } = useTranslation();
+
   const buscarProjecto = projects.find(item => item.id === parseInt(id));
   const projectTranslation = t("projects", { returnObjects: true }).find(p => p.id === parseInt(id));
 
-    const shuffle = (arr) => {
-      return arr.sort(() => Math.random() - 0.5)
-    }
+  const shuffle = (arr) => {
+    return arr.sort(() => Math.random() - 0.5)
+  }
 
   const [order, setOrder] = useState(shuffle([...buscarProjecto.images]));
 
   useEffect(() => {
 
     const timeout = setTimeout(() => {
-      setOrder((prevOrder) => shuffle([...prevOrder])); 
-    }, 10000); 
+      setOrder((prevOrder) => shuffle([...prevOrder]));
+    }, 10000);
 
     return () => clearTimeout(timeout);
 
@@ -40,7 +40,7 @@ export const ProjectDetails = () => {
     stiffness: 200,
   }
 
- 
+
 
   return (
     <>
@@ -67,10 +67,17 @@ export const ProjectDetails = () => {
 
           {/* Detalles del proyecto */}
           <div className="flex flex-col justify-center p-1 mt-2 md:w-8/12 lg:w-8/12">
-            <p className="text-xl font-mono">Título:</p>
-            <p className="text-3xl p-1 mt-2 mb-2 animate-pulse ">{projectTranslation.title}</p>
 
+
+            <p className="text-xl font-mono">Título:</p>
+
+
+            <p className="text-3xl p-1 mt-2 mb-3 animate-pulse ">{projectTranslation.title}</p>
+            <span className="text-xs">Necessita Key (HuggingFace)</span>
+            <span className="text-xs">Helps Key (HuggingFace)</span>
+            <span className="text-xs">Necesita Key (HuggingFace)</span>
             <p className="text-xl font-mono p-1">Lenguajes y frameworks:</p>
+
             <div className="flex flex-row flex-wrap gap-1 p-1 rounded-sm w-8/12 ">
               {buscarProjecto.technologies && buscarProjecto.technologies.map((tech, i) => (
                 <img
@@ -112,10 +119,15 @@ export const ProjectDetails = () => {
                   Ver Proyecto
                 </a>
               )}
+
             </div>
           </div>
         </div>
       </div>
+
+
+
+
 
 
     </>
