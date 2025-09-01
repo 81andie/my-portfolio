@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { projects } from './ProyectosData';
+
 import { useTranslation } from 'react-i18next';
 
 
