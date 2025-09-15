@@ -43,12 +43,17 @@ export const ProjectDetails = () => {
 
 
   return (
+
+    
     <>
 
+    
       <div className="flex flex-col justify-center ml-2 mr-2 mt-28 px-1 dark:text-slate-200">
         {/* Contenedor principal */}
-        <div className="flex flex-col md:flex-row lg:flex-row  rounded-lg mb-10">
+     
 
+        <div className="flex flex-col md:flex-row lg:flex-row  rounded-lg mb-10">
+          
           {/* Grid de imágenes */}
           <div className="grid-flow-dense grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-1 mt-5 p-1">
 
@@ -73,9 +78,7 @@ export const ProjectDetails = () => {
 
 
             <p className="text-3xl p-1 mt-2 mb-3 animate-pulse ">{projectTranslation.title}</p>
-            <span className="text-xs">Necessita Key (HuggingFace)</span>
-            <span className="text-xs">Helps Key (HuggingFace)</span>
-            <span className="text-xs">Necesita Key (HuggingFace)</span>
+
             <p className="text-xl font-mono p-1">Lenguajes y frameworks:</p>
 
             <div className="flex flex-row flex-wrap gap-1 p-1 rounded-sm w-8/12 ">

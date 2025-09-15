@@ -172,7 +172,7 @@
       },
       {
         "id": 8,
-        "title": "ThunderAI",
+        "title": "ThunderAI (Helps Key (HuggingFace)",
         "description": "ThunderAI is developed with JS, Vite, and Tailwind. Using the artificial intelligence models provided by the Hugging Face platform, I have utilized the latest DeepSeek R3 model.",
         "description1": "You can ask it anything in any language or complexity. The interface is clean and modern."
       },

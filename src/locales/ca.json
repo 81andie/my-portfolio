@@ -168,7 +168,7 @@
       },
       {
         "id": 8,
-        "title": "ThunderAI",
+        "title": "ThunderAI ( Necessita Key (HuggingFace)",
         "description": "ThunderAI, està desenvolupada amb JS, vite i tailwind. Aprofitant els models d'intel·ligència artificial que ofereix la plataforma Hugging Face, he utilitzat l'últim model de DeepSeek R3.",
         "description1": "Li pots preguntar el que vulguis en qualsevol idioma, o complexitat. La interfície és molt neta i moderna."
       },
