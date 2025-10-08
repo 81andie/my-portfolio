@@ -151,7 +151,7 @@
       {
         "id": 4,
         "title": "Harry Potter App",
-        "description": "Harry Potter is a website developed with Angular 17, where you can find all the information about Harry Potter. The data is collected from the HP-API, allowing the rendering of the main characters, professors, students, and all spells related to the Harry Potter Universe."
+        "description": "Harry Potter is a website developed with Angular 20, where you can find all the information about Harry Potter. The data is collected from the HP-API, allowing the rendering of the main characters, professors, students, and all spells related to the Harry Potter Universe."
       },
       {
         "id": 5,
