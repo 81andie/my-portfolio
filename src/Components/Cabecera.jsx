@@ -41,7 +41,7 @@ export const Cabecera = () => {
             /*{ src: "img/macbook-subtle-turn.mp4", title: "Claustrum Aquae", isVideo: true, heightClass: "h-52", id: 6 },*/
             
             { src: "img/Mobile App Screen Mockup, Mosaic.png", title: "The Holy Wine", heightClass: "h-44", id: 7 },
-            { src: "img/mockupHp.png", title: "Harry Potter App", heightClass: "h-auto", id: 4 }
+            { src: "imgProjects/harry3.png", title: "Harry Potter App", heightClass: "h-92", id: 4 }
         ],
         [
           
@@ -56,7 +56,7 @@ export const Cabecera = () => {
         
         ]
     ];
-
+2
 
 
 

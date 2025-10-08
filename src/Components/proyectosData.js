@@ -147,15 +147,15 @@ export const projects = [
     id: 4,
    
     images: [
-      "../imgProjects/hp1.jpg",
-      "../imgProjects/hp3.jpg",
-      "../imgProjects/hp5.jpg",
-      "../imgProjects/hp2.jpg",
+      "../imgProjects/harry1.png",
+      "../imgProjects/harry2.png",
+      "../imgProjects/harry3.png",
+      "../imgProjects/harry4.png",
 
     ],
     technologies: [
       {
-        name: "Angular",
+        name: "Angular20",
         icon: "../imgtec/angular.jpg",
       },
       {
@@ -163,20 +163,17 @@ export const projects = [
         icon: "../imgtec/tailwind.avif",
       },
 
-      {
-        name: "Transloco",
-        icon: "../imgtec/transloco.svg",
-      }
+      
 
      
     ],
 
     url: [
-      "https://github.com/81andie/hpApp"
+      "https://github.com/81andie/potterApp"
     ],
 
     url1: [
-      "https://81andie.github.io/hpApp/"
+      "https://potter-app-three.vercel.app/#/inicio"
     ]
   },
 
