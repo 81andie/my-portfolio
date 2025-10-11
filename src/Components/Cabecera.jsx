@@ -118,7 +118,7 @@ export const Cabecera = () => {
 
             <div className='flex justify-center mb-20'>
 
-                <NavLink to="/contacto" className="conoceme">{t('header.contact')} <i className="pi pi-user" style={{ color: 'white' }}> </i></NavLink>
+                <a href="https://fiori-tvv1.vercel.app/#/inicio" className="conoceme">Visita mi Blog </a>
 
             </div>
 
