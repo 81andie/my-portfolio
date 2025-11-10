@@ -29,7 +29,7 @@ export const ErrorPage = () => {
         </Canvas>
       </div>
       <div className=" flex justify-center mt-5 ">
-        <h1 className="text-2xl text-cyan-800 font-light text-center mb-20">{t('errorPage.text')}<br></br><NavLink to="/inicio" className="enlaces_navbar"> <NavLink to="/inicio" className="enlaces_navbar"> {t('header.home')}</NavLink></NavLink></h1>
+        <h1 className="text-xl p-1 text-cyan-800 font-light text-center mb-20">{t('errorPage.text')}<br></br><NavLink to="/inicio" className="enlaces_navbar"> <NavLink to="/inicio" className="enlaces_navbar"> {t('header.home')}</NavLink></NavLink></h1>
         <img src="./img/Ovni retro.png" className="w-48 h-48 ovni " />
 
       </div>
