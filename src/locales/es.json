@@ -424,5 +424,10 @@
     "text": "Diseñadora de páginas web y desarrolladora web:",
      "AllReserve": "Todos los derechos reservados"
   
+  },
+
+   "errorPage": {
+    "text": "Lo sentimos, no encontramos la página, te has perdido...Vuelve a"
+    
   }
 }

@@ -363,5 +363,10 @@
   "footer": {
     "text": "Dissenyadora de pàgines web i desenvolupadora web:",
     "AllReserve": "Tots els drets reservats"
+  },
+
+  "errorPage": {
+    "text": "Ho sentim, no hem pogut trobar la pàgina. T'has perdut. Torna a"
+    
   }
 }
