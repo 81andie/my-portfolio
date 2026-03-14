@@ -22,7 +22,6 @@ export const Cabecera = () => {
 
     const [mostrarTexto, setMostrarTexto] = useState(false);
 
-
     useEffect(() => {
         const timer =
             setTimeout(() => {
@@ -34,8 +33,10 @@ export const Cabecera = () => {
 
     const imageData = [
         [
-            { src: "img/iPhone 15 Mockup, Perspective.png", title: "SpaceAirTracker", heightClass: "h-auto", id: 5 },
+            { href:"https://github.com/81andie/SpaceAir" , href2:"https://81andie.github.io/SpaceAir/map",src: "img/iPhone 15 Mockup, Perspective.png", title: "SpaceAirTracker", heightClass: "h-auto", id: 5 },
             { src: "img/cleopatraCosmetics.jpg", title: "Cleopatra Cosmétics", heightClass: "h-44", id: 3 }
+           
+        
         ],
         [
             /*{ src: "img/macbook-subtle-turn.mp4", title: "Claustrum Aquae", isVideo: true, heightClass: "h-52", id: 6 },*/
@@ -75,6 +76,7 @@ export const Cabecera = () => {
 
 
             <div className="h-auto mb-20 lg:mb-12">
+                
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4 ml-10 mr-10">
                     {imageData.map((column, colIndex) => (
                         <div key={colIndex} className="grid gap-4">
@@ -91,20 +93,34 @@ export const Cabecera = () => {
                                                     allow="autoplay; fullscreen; picture-in-picture"
                                                     title={item.title}
                                                 />
-                                                <div className="absolute inset-0 z-10"></div>
+                                                <div className="absolute inset-0 z-10 h-auto">
+                                                    
+                                                </div>
+                                              
                                             </div>
 
                                         ) : (
                                             <img
-                                                className={`object-contain w-full bg-zinc-200 rounded-lg opacity-70 hover:opacity-100 transition-opacity duration-300 ${item.heightClass}`}
+                                                className={`object-contain w-full bg-zinc-200 rounded-t opacity-70 hover:opacity-100 transition-opacity duration-300 ${item.heightClass}`}
                                                 src={item.src}
                                                 alt={item.title}
-                                            />
+                                            />   
                                         )}
+
                                     </NavLink>
+
+                                    <div className='relative h-8 mt-2 bg-zinc-100'>
+                                        <button class="w-20 bg-orange-300"><a href={item.href} target="_blank" rel="noopener noreferrer"><i className="pi pi-github mr-1" style={{ color: '#e040a4' }}></i></a></button>
+                                        <button class="w-20 bg-violet-500"><a href={item.href2} target="_blank" rel="noopener noreferrer"><i className="pi pi-github mr-1" style={{ color: '#e040a4' }}></i></a></button>
+                                         <NavLink to={`/proyectos/${item.id}`} class="bg-lime-400 w-full">INFO</NavLink>
+                                       </div>
+                                    
                                     <figcaption className="span_maqEscribir2 overflow-hidden rounded-md top-1 w-full z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold px-5 py-2 text-xs">
                                         {item.title}
+                                             
                                     </figcaption>
+
+                                 
                                 </figure>
                             ))}
                         </div>
