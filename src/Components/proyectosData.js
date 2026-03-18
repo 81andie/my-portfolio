@@ -31,8 +31,11 @@ export const projects = [
 
     ],
 
+    hrefDemo:"https://github.com/81andie/SpaceAir/deployments/github-pages",
+    hrefGithub:"https://github.com/81andie/SpaceAir",
+ 
     url: [
-      "https://github.com/81andie/TraficoValencia"
+      "https://github.com/81andie/TraficoValencia/Index.html"
     ],
 
     url1: [
@@ -42,12 +45,8 @@ export const projects = [
   },
 
 
-
-
   {
     id: 2,
-    
-
     images: [
       "../imgProjects/mex1.jpg",
       "../imgProjects/mex2.jpg",
@@ -73,8 +72,6 @@ export const projects = [
         name: "Tailwind CSS",
         icon: "../imgtec/tailwind.avif",
       },
-
-
 
       {
         name: "MapLibre",
@@ -164,8 +161,6 @@ export const projects = [
       },
 
       
-
-     
     ],
 
     url: [
@@ -213,7 +208,7 @@ export const projects = [
     ],
 
     url: [
-      "https://github.com/81andie/SpaceAir"
+      "https://81andie.github.io/SpaceAir/map"
     ],
 
     url1: [
@@ -224,9 +219,6 @@ export const projects = [
 
   {
     id: 6,
-    
-
-   
     images: [
       "../imgProjects/aqvae1.webp",
       "../imgProjects/aqvae2.webp",

@@ -1,24 +1,12 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-
 import { useTranslation } from 'react-i18next';
-
-
-
-
-
-
-
 import './Cabecera.css';
-
-
 
 export const Cabecera = () => {
 
-   
     const { t } = useTranslation();
-
 
     const [mostrarTexto, setMostrarTexto] = useState(false);
 
@@ -33,31 +21,30 @@ export const Cabecera = () => {
 
     const imageData = [
         [
-            { href:"https://github.com/81andie/SpaceAir" , href2:"https://81andie.github.io/SpaceAir/map",src: "img/iPhone 15 Mockup, Perspective.png", title: "SpaceAirTracker", heightClass: "h-auto", id: 5 },
-            { src: "img/cleopatraCosmetics.jpg", title: "Cleopatra Cosmétics", heightClass: "h-44", id: 3 }
-           
-        
+            { hrefDemo: "https:/github.com/81andie/SpaceAir/map", href2Github: "https://81andie.github.io/SpaceAir/map", hrefInfo:"" ,src: "img/iPhone 15 Mockup, Perspective.png", title: "SpaceAirTracker", heightClass: "h-auto", id: 5},
+            { src: "img/cleopatraCosmetics.jpg", title: "Cleopatra Cosmétics", heightClass: "h-44", id: 3 },
+
         ],
         [
             /*{ src: "img/macbook-subtle-turn.mp4", title: "Claustrum Aquae", isVideo: true, heightClass: "h-52", id: 6 },*/
-            
+
             { src: "img/Mobile App Screen Mockup, Mosaic.png", title: "The Holy Wine", heightClass: "h-44", id: 7 },
             { src: "imgProjects/harry3.png", title: "Harry Potter App", heightClass: "h-92", id: 4 }
         ],
         [
-          
+
             { src: "img/mockupMex1.png", title: "México Guide", heightClass: "h-44 md:h-36 lg:h-46 2xl:h-72", id: 2 },
             { src: "img/macbook-subtle-turn.mp4", title: "Claustrum Aquae", isVideo: true, heightClass: "h-auto 2xl:h-96", id: 6 },
             { src: "imgProjects/thunder1.jpg", title: "ThunderAI", heightClass: "md:h-28 lg:h-52 2xl:h-96", id: 8 }
         ],
         [
-           
+
             { src: "imgProjects/angBitacora1.jpg", title: "Bitácora Map", heightClass: "h-auto", id: 9 },
             { src: "img/mockuptrafic.png", title: "Traffic Valencia", heightClass: "h-56 md:h-52 lg:h-64 2xl:h-96", id: 1 },
-        
+
         ]
     ];
-2
+    2
 
 
 
@@ -74,9 +61,7 @@ export const Cabecera = () => {
 
             </div>
 
-
-            <div className="h-auto mb-20 lg:mb-12">
-                
+            <div className="h-auto mb-20 lg:mb-12 pointer-events-auto">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4 ml-10 mr-10">
                     {imageData.map((column, colIndex) => (
                         <div key={colIndex} className="grid gap-4">
@@ -94,9 +79,9 @@ export const Cabecera = () => {
                                                     title={item.title}
                                                 />
                                                 <div className="absolute inset-0 z-10 h-auto">
-                                                    
+
                                                 </div>
-                                              
+
                                             </div>
 
                                         ) : (
@@ -104,25 +89,35 @@ export const Cabecera = () => {
                                                 className={`object-contain w-full bg-zinc-200 rounded-t opacity-70 hover:opacity-100 transition-opacity duration-300 ${item.heightClass}`}
                                                 src={item.src}
                                                 alt={item.title}
-                                            />   
+                                            />
+     
                                         )}
+              {/* 👇 BOTONES OVERLAY */}
+                                    <div className="absolute inset-0 flex items-end mb-4 z-20">
+                                        <button className="w-2/4 bg-zinc-300/30  text-xs p-1 hover:bg-stone-50/80 transition">
+                                            <i className="pi pi-eye" style={{ color: 'fuchsia',fontSize: '1.5rem' }}></i>
+                                        </button>
+                                        <button className="w-2/4 bg-zinc-400/40 text-white text-xs p-1 hover:bg-blue-400 transition">
+                                            <i className="pi pi-github" style={{ color: 'fuchsia', fontSize: '1.5rem'}}></i>
+                                        </button>
+                                        <button className="w-2/4 bg-zinc-500/50 text-white text-xs p-1 hover:bg-orange-100 transition">
+                                             <i className="pi pi-info" style={{ color: 'fuchsia', fontSize: '1.5rem' }}></i>
+                                        </button>
+                                    </div>
+
+
 
                                     </NavLink>
 
-                                    <div className='relative h-8 mt-2 bg-zinc-100'>
-                                        <button class="w-20 bg-orange-300"><a href={item.href} target="_blank" rel="noopener noreferrer"><i className="pi pi-github mr-1" style={{ color: '#e040a4' }}></i></a></button>
-                                        <button class="w-20 bg-violet-500"><a href={item.href2} target="_blank" rel="noopener noreferrer"><i className="pi pi-github mr-1" style={{ color: '#e040a4' }}></i></a></button>
-                                         <NavLink to={`/proyectos/${item.id}`} class="bg-lime-400 w-full">INFO</NavLink>
-                                       </div>
-                                    
+                                 
                                     <figcaption className="span_maqEscribir2 overflow-hidden rounded-md top-1 w-full z-90 absolute bg-gradient-to-r from-zinc-50 text-zinc-700 font-semibold px-5 py-2 text-xs">
                                         {item.title}
-                                             
                                     </figcaption>
 
-                                 
                                 </figure>
+
                             ))}
+
                         </div>
                     ))}
 

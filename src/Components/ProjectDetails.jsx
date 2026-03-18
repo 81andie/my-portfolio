@@ -113,7 +113,7 @@ export const ProjectDetails = () => {
 
               {buscarProjecto.url1 && (
                 <a
-                  href={buscarProjecto.url1}
+                  href={buscarProjecto.hrefDemo}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-24 text-xs bg-gray-200 p-1.5 rounded-md text-center flex items-center justify-center mt-2"
