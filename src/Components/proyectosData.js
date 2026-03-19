@@ -54,9 +54,9 @@ export const projects = [
       "../imgProjects/mex7.jpg",
       "../imgProjects/mex9.jpg",
       "../imgProjects/mex8.jpg",
-
-
     ],
+
+
     technologies: [
 
       {
@@ -85,6 +85,9 @@ export const projects = [
 
     ],
 
+    hrefDemo:"https://81andie.github.io/TurismoMexico/Index.html#gsc.tab=0",
+    hrefGithub:"https://github.com/81andie/TurismoMexico",
+
     url: [
       "https://github.com/81andie/TurismoMexico"
     ],
@@ -96,7 +99,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
    
     images: [
       "../imgProjects/cleo1.jpg",
@@ -128,6 +131,9 @@ export const projects = [
         icon: "../imgtec/reactLeaflet.jpg",
       },
     ],
+
+    hrefDemo:"https://81andie.github.io/cosmetics/",
+    hrefGithub:"https://github.com/81andie/cosmetics",
 
     url: [
       "https://github.com/81andie/cosmetics"
@@ -162,6 +168,9 @@ export const projects = [
 
       
     ],
+
+    hrefDemo:"https://potter-app-three.vercel.app/#/inicio",
+    hrefGithub:"https://github.com/81andie/potterApp",
 
     url: [
       "https://github.com/81andie/potterApp"
@@ -206,6 +215,11 @@ export const projects = [
         icon: "../imgtec/transloco.svg",
       },
     ],
+    
+    
+    hrefDemo:"https://github.com/81andie/SpaceAir",
+    hrefGithub:"https://81andie.github.io/SpaceAir/map",
+
 
     url: [
       "https://81andie.github.io/SpaceAir/map"
@@ -249,6 +263,9 @@ export const projects = [
       },
     ],
 
+    hrefDemo:"https://potter-app-three.vercel.app/#/inicio",
+    hrefGithub:"https://github.com/81andie/potterApp",
+
     url: [
       "https://github.com/81andie/Aqvae"
     ],
@@ -287,6 +304,9 @@ export const projects = [
 
     ],
 
+    hrefDemo:"https://github.com/81andie/holyWine/deployments/github-pages",
+    hrefGithub:"https://81andie.github.io/holyWine/inicio",
+
     url: [
       "https://github.com/81andie/holyWine"
     ],
@@ -307,8 +327,7 @@ export const projects = [
       "../imgProjects/thunder2.jpg",
       "../imgProjects/thunder3.jpg",
       "../imgProjects/thunder4.jpg",
-     
-
+    
     ],
     technologies: [
       {
@@ -330,6 +349,10 @@ export const projects = [
 
 
     ],
+
+    
+    hrefDemo:"https://81andie.github.io/thunderIA/",
+    hrefGithub:"https://github.com/81andie/thunderIA",
 
     url: [
       "https://github.com/81andie/thunderIA"
@@ -370,6 +393,9 @@ export const projects = [
       },
       
     ],
+
+    hrefDemo:"https://github.com/81andie/AngBitacoraMap/deployments/github-pages",
+    hrefGithub:"https://github.com/81andie/AngBitacoraMap",
 
     url: [
       "https://github.com/81andie/AngBitacoraMap"
