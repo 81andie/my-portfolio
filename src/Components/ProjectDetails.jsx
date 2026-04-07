@@ -111,22 +111,14 @@ export const ProjectDetails = () => {
                 </a>
               )}
 
-              {buscarProjecto.url1 && (
-                <a
-                  href={buscarProjecto.hrefDemo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-24 text-xs bg-gray-200 p-1.5 rounded-md text-center flex items-center justify-center mt-2"
-                >
-                  <i className="pi pi-eye mr-1" style={{ color: '#e040a4' }}></i>
-                  Ver Proyecto
-                </a>
-              )}
+                 
 
             </div>
           </div>
         </div>
       </div>
+
+      
 
 
 
