@@ -31,7 +31,7 @@ export const projects = [
 
     ],
 
-    hrefDemo:"https://github.com/81andie/SpaceAir/deployments/github-pages",
+    hrefDemo:"https://81andie.github.io/SpaceAir/map",
     hrefGithub:"https://github.com/81andie/SpaceAir",
  
     url: [
@@ -99,7 +99,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 3,
    
     images: [
       "../imgProjects/cleo1.jpg",
@@ -140,7 +140,7 @@ export const projects = [
     ],
 
     url1: [
-      "https://81andie.github.io/cosmetics/"
+      "https://81andie.github.io/cosmetics"
     ]
   },
 
@@ -217,8 +217,8 @@ export const projects = [
     ],
     
     
-    hrefDemo:"https://github.com/81andie/SpaceAir",
-    hrefGithub:"https://81andie.github.io/SpaceAir/map",
+    hrefDemo:"https://81andie.github.io/SpaceAir/map",
+    hrefGithub:"https://81andie.github.io/SpaceAir",
 
 
     url: [

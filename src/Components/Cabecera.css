@@ -1,49 +1,33 @@
+.span_maqEscribir2 {
+  white-space: nowrap;
+  font-family: "Special Elite", system-ui;
+  animation: typing 5s steps(36), blink .5s infinite step-end alternate;
+}
 
-.span_maqEscribir {
-    font-size: 1.8rem;
-    color: var(--color--blueSky);
-    margin-top: 45px;
-    margin-bottom: 30px;
-    font-family: "Special Elite", system-ui;
-    white-space: nowrap;
-    width: 176px;
-    animation: typing 5s steps(10), blink .5s infinite step-end alternate;
-   
-  }
+.title {
+  font-family: "Special Elite", system-ui;
+  color: var(--color--blueSky);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
 
-  .span_maqEscribir2{
-  
-    white-space: nowrap;
-    font-family: "Special Elite", system-ui;
-    animation: typing 5s steps(36), blink .5s infinite step-end alternate;
-  }
 
-  .span_maqEscribir1 {
-    font-size: 1rem;
-    color: var(--color--pumpkinNeon);
-    margin-bottom: 40px;
-    font-family: "Special Elite", system-ui;
-    white-space: nowrap;
-    width: 290px;
-    animation: typing 5s steps(13), blink .5s infinite step-end alternate;
-   
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  
-    ;
-  }
-  
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
+
+@keyframes typing {
+  from {
+    width: 0
   }
 
-  
+  ;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
 .conoceme {
   width: 110px;
   padding: 8px;
@@ -58,6 +42,6 @@
 
 }
 
-.pi-user{
+.pi-user {
   margin-left: 5px;
 }

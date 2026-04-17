@@ -85,9 +85,9 @@ function App() {
               </div>
             </div>
 
-            <div className="flex justify-end items-center">
+            <div className="flex justify-end items-center ">
 
-             <button className="w-8 h-8 text-yellow-300 bg-blue-50 dark:bg-zinc-700 dark:text-white flex justify-center items-center mt-2 rounded-full"
+             <button className="w-8 h-8 text-yellow-300 bg-blue-50 dark:bg-zinc-900 dark:text-white flex justify-center items-center mt-2 rounded-full"
                 onClick={handleClick}
                 aria-label={`Toggle ${isDarkMode ? "light" : "dark"} mode`}
 

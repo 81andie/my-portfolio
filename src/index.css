@@ -8,8 +8,20 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto;
+   position: relative;
+  background-size: cover;
+}
 
-  
+
+body::before {
+  content: "";
+  position: fixed; /* 👈 mejor que absolute para cubrir toda la pantalla */
+  inset: 0;
+  background-image: url("/img/business.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1; /* 👈 ajusta aquí */
+  z-index: -1;
 }
 
 code {

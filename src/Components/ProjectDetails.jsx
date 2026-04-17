@@ -40,28 +40,21 @@ export const ProjectDetails = () => {
     stiffness: 200,
   }
 
-
-
   return (
-
-    
     <>
 
-    
       <div className="flex flex-col justify-center ml-2 mr-2 mt-28 px-1 dark:text-slate-200">
         {/* Contenedor principal */}
      
-
         <div className="flex flex-col md:flex-row lg:flex-row  rounded-lg mb-10">
           
           {/* Grid de imágenes */}
           <div className="grid-flow-dense grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-1 mt-5 p-1">
 
-
             {order.map((image, i) => (
               <motion.img
                 key={image}
-                className="h-52 w-52 object-cover object-center lg:h-52 lg:object-cover lg:object-center md:h-52 md:object-cover md:object-center  md:w-52 lg:w-52 "
+                className="h-52 w-52 object-cover object-center lg:h-64 lg:object-cover lg:object-center md:h-52 md:object-cover md:object-center  md:w-52 lg:w-52 "
                 src={image}
                 alt={`Project ${buscarProjecto.title} - Image ${i + 1}`}
                 layout
@@ -72,11 +65,7 @@ export const ProjectDetails = () => {
 
           {/* Detalles del proyecto */}
           <div className="flex flex-col justify-center p-1 mt-2 md:w-8/12 lg:w-8/12">
-
-
             <p className="text-xl font-mono">Título:</p>
-
-
             <p className="text-3xl p-1 mt-2 mb-3 animate-pulse ">{projectTranslation.title}</p>
 
             <p className="text-xl font-mono p-1">Lenguajes y frameworks:</p>
@@ -99,9 +88,10 @@ export const ProjectDetails = () => {
 
             {/* Links del proyecto */}
             <div className="flex gap-2 dark:text-slate-900 p-1">
-              {buscarProjecto.url && (
-                <a
-                  href={buscarProjecto.url}
+              {buscarProjecto.hrefDemo && (
+               
+ <a
+                  href={buscarProjecto.hrefDemo}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-24 text-xs bg-gray-200 p-1.5 rounded-md text-center flex items-center justify-center mt-2"
@@ -111,20 +101,23 @@ export const ProjectDetails = () => {
                 </a>
               )}
 
-                 
+              {buscarProjecto.hrefGithub && (
+                <a
+                  href={buscarProjecto.hrefGithub}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-24 text-xs bg-gray-200 p-1.5 rounded-md text-center flex items-center justify-center mt-2"
+                >
+                  <i className="pi pi-eye mr-1" style={{ color: '#e040a4' }}></i>
+                  Ver Proyecto
+                </a>
+              )}
+           
 
             </div>
           </div>
         </div>
       </div>
-
-      
-
-
-
-
-
-
     </>
   )
 
