@@ -222,11 +222,11 @@ export const projects = [
 
 
     url: [
-      "https://81andie.github.io/SpaceAir/map"
+      "https://github.com/81andie/SpaceAir"
     ],
 
     url1: [
-      "https://81andie.github.io/SpaceAir/"
+      "https://81andie.github.io/SpaceAir/map"
     ]
   },
 
@@ -305,7 +305,7 @@ export const projects = [
     ],
 
     hrefDemo:"https://github.com/81andie/holyWine/deployments/github-pages",
-    hrefGithub:"https://81andie.github.io/holyWine/inicio",
+    hrefGithub:"https://81andie.github.io/holyWine",
 
     url: [
       "https://github.com/81andie/holyWine"

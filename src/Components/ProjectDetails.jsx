@@ -88,10 +88,10 @@ export const ProjectDetails = () => {
 
             {/* Links del proyecto */}
             <div className="flex gap-2 dark:text-slate-900 p-1">
-              {buscarProjecto.hrefDemo && (
+              {buscarProjecto.url && (
                
  <a
-                  href={buscarProjecto.hrefDemo}
+                  href={buscarProjecto.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-24 text-xs bg-gray-200 p-1.5 rounded-md text-center flex items-center justify-center mt-2"
@@ -101,9 +101,9 @@ export const ProjectDetails = () => {
                 </a>
               )}
 
-              {buscarProjecto.hrefGithub && (
+              {buscarProjecto.url1 && (
                 <a
-                  href={buscarProjecto.hrefGithub}
+                  href={buscarProjecto.url1}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-24 text-xs bg-gray-200 p-1.5 rounded-md text-center flex items-center justify-center mt-2"
