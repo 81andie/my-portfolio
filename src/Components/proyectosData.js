@@ -216,10 +216,9 @@ export const projects = [
       },
     ],
     
-    
+  
     hrefDemo:"https://81andie.github.io/SpaceAir/map",
     hrefGithub:"https://81andie.github.io/SpaceAir",
-
 
     url: [
       "https://github.com/81andie/SpaceAir"

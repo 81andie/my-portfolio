@@ -116,20 +116,20 @@ export const Cabecera = () => {
                                         <div className="pointer-events-auto w-full flex justify-center">
                                             {item.hrefDemo && (
                                                 <a href={item.hrefDemo} target="_blank" rel="noopener noreferrer" className="w-1/3 p-2 bg-zinc-300/30 text-center">
-                                                    👁
+                                                  <i className="pi pi-eye text-fuchsia-500" style={{ fontSize: '1rem' }}></i>  
                                                 </a>
                                             )}
 
                                             {item.href2Github && (
                                                 <a href={item.href2Github} target="_blank" rel="noopener noreferrer" className="w-1/3 p-2 bg-zinc-400/40 text-center">
-                                                    💻
+                                                      <i className="pi pi-github text-fuchsia-500" style={{ fontSize: '1rem' }}></i> 
                                                 </a>
                                             )}
 
 
 
-                                            <NavLink to={`/proyectos/${item.id}`} className="w-1/3 p-2 bg-zinc-500/50 text-center">
-                                                ℹ️
+                                            <NavLink to={`/proyectos/${item.id}`} className="w-1/3 p-2 bg-zinc-300/50 text-center">
+                                                <i className="pi pi-info text-fuchsia-500" style={{ fontSize: '1rem' }}></i> 
                                             </NavLink>
 
                                         </div>
