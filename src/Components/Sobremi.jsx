@@ -106,7 +106,7 @@ useEffect(() => {
       onClick={e=> inputRef.current.focus()}
       >
 
-        <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono dark:text-zinc-600 card terminal-demo h-80">
+        <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono dark:text-zinc-100 card terminal-demo h-80">
           <div className="grid grid-cols-1 md:grid-rows-2 text-center md:text-left lg-text-left md:mr-5">
             <div>
               <p className="text-xl font-bold">{t('sobreMi.instructions')}</p>

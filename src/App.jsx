@@ -41,7 +41,7 @@ const Sun = () => (
 
 function App() {
 
- const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     const theme = localStorage.getItem("theme");
@@ -66,17 +66,11 @@ function App() {
 
 
 
-
-
-
-
-
-
   return (
 
     <>
       <I18nextProvider i18n={i18n}>
-        <div className=" dark:bg-zinc-800 ">
+        <div className="dark:bg-stone-950/85 dark:bg-[url(/img/business.jpg)] light:bg-center sm:dark:bg-center dark:bg-cover  dark:bg-blend-overlay  dark:text-white ">
           <div>
 
             <div className="marquee-wrapper">
@@ -87,7 +81,7 @@ function App() {
 
             <div className="flex justify-end items-center ">
 
-             <button className="w-8 h-8 text-yellow-300 bg-blue-50 dark:bg-zinc-900 dark:text-white flex justify-center items-center mt-2 rounded-full"
+              <button className="w-8 h-8 text-yellow-300 dark:bg-zinc-700/10 dark:text-white flex justify-center items-center mt-2 rounded-full"
                 onClick={handleClick}
                 aria-label={`Toggle ${isDarkMode ? "light" : "dark"} mode`}
 
