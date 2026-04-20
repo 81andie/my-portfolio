@@ -68,6 +68,12 @@
   height: 70px;
 }
 
+@media (max-width: 320px) {
+  .backgroundBusiness::before {
+    background-position: center left; /* 👈 cambia encuadre */
+  }
+}
+
 
 
 
