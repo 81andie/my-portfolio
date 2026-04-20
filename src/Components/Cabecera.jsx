@@ -48,7 +48,7 @@ export const Cabecera = () => {
     return (
         <>
             {/* TEXTO */}
-            <div className="flex flex-col justify-center items-center mt-5 title ">
+            <div className="flex flex-col text-center justify-center items-center mt-5 title ">
                 {mostrarTexto && (
                     <span className="">
                         {t('header.helloWorld')}<br />
@@ -56,7 +56,7 @@ export const Cabecera = () => {
                 )}
 
                 {mostrarTexto && (
-                    <span className=" text-center border-orange-400 title">
+                    <span className=" border-orange-400 title">
                         {t('header.Im')}<br />
                     </span>
                 )}
