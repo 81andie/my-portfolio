@@ -20,7 +20,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-image: url("/img/business.jpg");
+ background-image: url("/img/business.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.1;
@@ -31,10 +31,4 @@ body::before {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-@media (max-width: 768px) {
-  .body::before {
-    background-position: center; /* 👈 cambia encuadre */
-  }
 }

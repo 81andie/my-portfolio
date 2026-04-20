@@ -7,8 +7,9 @@
 .title {
   font-family: "Special Elite", system-ui;
   color: var(--color--blueSky);
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
+  white-space: pre-line;
 }
 
 
