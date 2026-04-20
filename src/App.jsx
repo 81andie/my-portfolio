@@ -70,7 +70,7 @@ function App() {
 
     <>
       <I18nextProvider i18n={i18n}>
-        <div className="dark:bg-stone-950/85 backgroundBusiness dark:bg-[url(/img/business.jpg)]  dark:bg-cover dark:bg-blend-overlay bg-right-bottom dark:inset-0 dark:text-white ">
+        <div className="dark:bg-stone-950/85 backgroundBusiness dark:bg-[url(/img/business.jpg)]  dark:bg-cover dark:bg-blend-overlay dark:bg-right-bottom dark:inset-0 dark:text-white ">
           <div>
 
             <div className="marquee-wrapper">
