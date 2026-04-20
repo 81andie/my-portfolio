@@ -56,7 +56,7 @@ export const Cabecera = () => {
                 )}
 
                 {mostrarTexto && (
-                    <span className=" border-orange-400 title">
+                    <span className=" text-center border-orange-400 title">
                         {t('header.Im')}<br />
                     </span>
                 )}
