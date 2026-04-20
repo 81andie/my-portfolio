@@ -117,7 +117,7 @@ export const Cabecera = () => {
                 )}
             </div>
 
-            {/* GRID */}
+       
             <div className="h-auto mb-20 lg:mb-12">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4 ml-4 mr-4 md:ml-10 md:mr-10">
 
