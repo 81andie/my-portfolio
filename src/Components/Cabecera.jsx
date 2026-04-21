@@ -35,6 +35,8 @@ export const Cabecera = () => {
                 id: 3
             },
         ],
+
+        
         [
             {
                 hrefDemo: "https://81andie.github.io/holyWine/",
@@ -86,7 +88,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/AngBitacoraMap",
                 src: "imgProjects/angBitacora1.jpg",
                 title: "Bitácora Map",
-                className: "md:h-auto",
+                className: "md:h-52 lg:h-24 2xl:h-72",
                 id: 9
             },
             {
@@ -94,9 +96,26 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/TraficoValencia",
                 src: "img/mockuptrafic.png",
                 title: "Traffic Valencia",
-                className: "md:h-52 lg:h-52 2xl:h-72",
+                className: "md:h-52 lg:h-40 2xl:h-72",
                 id: 1
             },
+
+             {
+                hrefDemo: "https://81andie.github.io/TraficoValencia/Index.html",
+                href2Github: "https://github.com/81andie/TraficoValencia",
+                src: "img/mockuptrafic.png",
+                title: "Traffic Valencia",
+                className: "md:h-52 lg:h-28 2xl:h-72",
+                id: 10
+            },
+               {
+                hrefDemo: "https://81andie.github.io/TraficoValencia/Index.html",
+                href2Github: "https://github.com/81andie/TraficoValencia",
+                src: "img/mockuptrafic.png",
+                title: "Traffic Valencia",
+                className: "md:h-52 lg:h-28 2xl:h-72",
+                id: 10
+            }
         ]
     ];
 
