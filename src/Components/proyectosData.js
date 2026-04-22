@@ -36,11 +36,11 @@ export const projects = [
     hrefGithub: "https://github.com/81andie/got",
 
     url: [
-      "https://81andie.github.io/got/"
+      "https://github.com/81andie/got"
     ],
 
     url1: [
-      "https://github.com/81andie/got"
+      "https://81andie.github.io/got/"
     ]
 
   },
@@ -90,11 +90,11 @@ export const projects = [
     hrefGithub: "https://github.com/81andie/TurismoMexico",
 
     url: [
-      "https://81andie.github.io/TurismoMexico/Index.html"
+      "https://github.com/81andie/TurismoMexico"
     ],
 
     url1: [
-      "https://github.com/81andie/TurismoMexico"
+      "https://81andie.github.io/TurismoMexico/Index.html"
     ]
 
   },
@@ -174,11 +174,11 @@ export const projects = [
     hrefGithub: "https://github.com/81andie/potterApp",
 
     url: [
-      "https://potter-app-three.vercel.app/#/inicio"
+      "https://github.com/81andie/potterApp"
     ],
 
     url1: [
-      "https://github.com/81andie/potterApp"
+      "https://potter-app-three.vercel.app/#/inicio"
     ]
   },
 
@@ -263,15 +263,15 @@ export const projects = [
       },
     ],
 
-    hrefDemo: "https://potter-app-three.vercel.app/#/inicio",
-    hrefGithub: "https://github.com/81andie/potterApp",
+    hrefDemo: "https://github.com/81andie/Aqvae/deployments/github-pages",
+    hrefGithub: "https://github.com/81andie/Aqvae",
 
     url: [
-      "https://github.com/81andie/Aqvae"
+      "https://github.com/81andie/Aqvae/deployments/github-pages"
     ],
 
     url1: [
-      "https://81andie.github.io/Aqvae/"
+      "https://github.com/81andie/Aqvae"
     ]
   },
 
@@ -355,11 +355,11 @@ export const projects = [
     hrefGithub: "https://github.com/81andie/thunderIA",
 
     url: [
-      "https://81andie.github.io/thunderIA/"
+      "https://github.com/81andie/thunderIA"
     ],
 
     url1: [
-      "https://github.com/81andie/thunderIA"
+      "https://81andie.github.io/thunderIA/"
     ]
   },
   {
@@ -442,11 +442,11 @@ export const projects = [
     hrefGithub: "https://github.com/81andie/gotmap",
 
     url: [
-      "https://81andie.github.io/gotmap/"
+      "https://github.com/81andie/gotmap"
     ],
 
     url1: [
-      "https://github.com/81andie/gotmap"
+      "https://81andie.github.io/gotmap/"
     ]
   },
 
@@ -494,11 +494,11 @@ export const projects = [
     hrefGithub: "https://github.com/81andie/gotopen",
 
     url: [
-      "https://81andie.github.io/gotopen/"
+      "https://github.com/81andie/gotopen"
     ],
 
     url1: [
-      "https://github.com/81andie/gotopen"
+      "https://81andie.github.io/gotopen/"
     ]
   }
 
