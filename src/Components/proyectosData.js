@@ -1,14 +1,13 @@
 export const projects = [
   {
     id: 1,
-  
+
     images: [
-      "../imgProjects/traffic.jpg",
-      "../imgProjects/traffic6.jpg",
-      "../imgProjects/traffic1.jpg",
-      "../imgProjects/traffic5.jpg",
-      "../imgProjects/traffic3.jpg",
-      "../imgProjects/traffic4.jpg",
+      "../imgProjects/leafleat1.jpg",
+      "../imgProjects/leaflet2.jpg",
+      "../imgProjects/leaflet3.jpg",
+      "../imgProjects/leaflet4.jpg",
+
     ],
     technologies: [
       {
@@ -16,9 +15,11 @@ export const projects = [
         icon: "../imgtec/html.jpg",
       },
       {
-        name: "JavaScript",
-        icon: "../imgtec/js.jpg",
+        name: "Angular",
+        icon: "../imgtec/angular.jpg",
       },
+
+
       {
         name: "Tailwind CSS",
         icon: "../imgtec/tailwind.avif",
@@ -31,15 +32,15 @@ export const projects = [
 
     ],
 
-    hrefDemo:"https://81andie.github.io/SpaceAir/map",
-    hrefGithub:"https://github.com/81andie/SpaceAir",
- 
+    hrefDemo: "https://81andie.github.io/got/",
+    hrefGithub: "https://github.com/81andie/got",
+
     url: [
-      "https://github.com/81andie/TraficoValencia/Index.html"
+      "https://81andie.github.io/got/"
     ],
 
     url1: [
-      "https://81andie.github.io/TraficoValencia/Index.html"
+      "https://github.com/81andie/got"
     ]
 
   },
@@ -85,22 +86,22 @@ export const projects = [
 
     ],
 
-    hrefDemo:"https://81andie.github.io/TurismoMexico/Index.html#gsc.tab=0",
-    hrefGithub:"https://github.com/81andie/TurismoMexico",
+    hrefDemo: "https://81andie.github.io/TurismoMexico/Index.html",
+    hrefGithub: "https://github.com/81andie/TurismoMexico",
 
     url: [
-      "https://github.com/81andie/TurismoMexico"
+      "https://81andie.github.io/TurismoMexico/Index.html"
     ],
 
     url1: [
-      "https://81andie.github.io/TurismoMexico/home.html"
+      "https://github.com/81andie/TurismoMexico"
     ]
 
   },
 
   {
     id: 3,
-   
+
     images: [
       "../imgProjects/cleo1.jpg",
       "../imgProjects/cleo2.jpg",
@@ -132,8 +133,8 @@ export const projects = [
       },
     ],
 
-    hrefDemo:"https://81andie.github.io/cosmetics/",
-    hrefGithub:"https://github.com/81andie/cosmetics",
+    hrefDemo: "https://81andie.github.io/cosmetics/",
+    hrefGithub: "https://github.com/81andie/cosmetics",
 
     url: [
       "https://github.com/81andie/cosmetics"
@@ -148,7 +149,7 @@ export const projects = [
 
   {
     id: 4,
-   
+
     images: [
       "../imgProjects/harry1.png",
       "../imgProjects/harry2.png",
@@ -166,25 +167,25 @@ export const projects = [
         icon: "../imgtec/tailwind.avif",
       },
 
-      
+
     ],
 
-    hrefDemo:"https://potter-app-three.vercel.app/#/inicio",
-    hrefGithub:"https://github.com/81andie/potterApp",
+    hrefDemo: "https://potter-app-three.vercel.app/#/inicio",
+    hrefGithub: "https://github.com/81andie/potterApp",
 
     url: [
-      "https://github.com/81andie/potterApp"
+      "https://potter-app-three.vercel.app/#/inicio"
     ],
 
     url1: [
-      "https://potter-app-three.vercel.app/#/inicio"
+      "https://github.com/81andie/potterApp"
     ]
   },
 
 
   {
     id: 5,
-   
+
     images: [
       "../imgProjects/Space1.jpg",
       "../imgProjects/space6.jpg",
@@ -215,10 +216,10 @@ export const projects = [
         icon: "../imgtec/transloco.svg",
       },
     ],
-    
-  
-    hrefDemo:"https://81andie.github.io/SpaceAir/map",
-    hrefGithub:"https://81andie.github.io/SpaceAir",
+
+
+    hrefDemo: "https://81andie.github.io/SpaceAir/map",
+    hrefGithub: "https://81andie.github.io/SpaceAir",
 
     url: [
       "https://github.com/81andie/SpaceAir"
@@ -262,8 +263,8 @@ export const projects = [
       },
     ],
 
-    hrefDemo:"https://potter-app-three.vercel.app/#/inicio",
-    hrefGithub:"https://github.com/81andie/potterApp",
+    hrefDemo: "https://potter-app-three.vercel.app/#/inicio",
+    hrefGithub: "https://github.com/81andie/potterApp",
 
     url: [
       "https://github.com/81andie/Aqvae"
@@ -303,8 +304,8 @@ export const projects = [
 
     ],
 
-    hrefDemo:"https://github.com/81andie/holyWine/deployments/github-pages",
-    hrefGithub:"https://81andie.github.io/holyWine",
+    hrefDemo: "https://github.com/81andie/holyWine/deployments/github-pages",
+    hrefGithub: "https://81andie.github.io/holyWine",
 
     url: [
       "https://github.com/81andie/holyWine"
@@ -319,14 +320,14 @@ export const projects = [
 
   {
     id: 8,
-    
+
     images: [
 
       "../imgProjects/thunder1.jpg",
       "../imgProjects/thunder2.jpg",
       "../imgProjects/thunder3.jpg",
       "../imgProjects/thunder4.jpg",
-    
+
     ],
     technologies: [
       {
@@ -349,28 +350,28 @@ export const projects = [
 
     ],
 
-    
-    hrefDemo:"https://81andie.github.io/thunderIA/",
-    hrefGithub:"https://github.com/81andie/thunderIA",
+
+    hrefDemo: "https://81andie.github.io/thunderIA/",
+    hrefGithub: "https://github.com/81andie/thunderIA",
 
     url: [
-      "https://github.com/81andie/thunderIA"
+      "https://81andie.github.io/thunderIA/"
     ],
 
     url1: [
-      "https://81andie.github.io/thunderIA/"
+      "https://github.com/81andie/thunderIA"
     ]
-  }, 
+  },
   {
     id: 9,
-    
+
     images: [
 
       "../imgProjects/angBitacora1.jpg",
       "../imgProjects/angBitacora2.jpg",
       "../imgProjects/angBitacora3.jpg",
       "../imgProjects/angBitagora4.jpg",
-     
+
 
     ],
     technologies: [
@@ -379,31 +380,131 @@ export const projects = [
         name: "Angular",
         icon: "../imgtec/angular.jpg",
       },
-     
-     
+
+
+      {
+        name: "Boostrap",
+        icon: "../imgtec/boostraap.jpg",
+      },
+
+
+
+      {
+        name: "OpenLayers",
+        icon: "../imgtec/openlayers.png",
+      },
+
+    ],
+
+    hrefDemo: "https://81andie.github.io/AngBitacoraMap/",
+    hrefGithub: "https://github.com/81andie/AngBitacoraMap",
+
+    url: [
+      "https://81andie.github.io/AngBitacoraMap/"
+    ],
+
+    url1: [
+      "https://github.com/81andie/AngBitacoraMap"
+    ]
+  },
+
+
+  {
+    id: 10,
+
+    images: [
+      "../imgProjects/gotmaplibre2.jpg",
+      "../imgProjects/gotmaplibre3.jpg",
+      "../imgProjects/gotmaplibre4.jpg",
+      "../imgProjects/gotmaplibre1.jpg",
+    ],
+    technologies: [
+
+      {
+        name: "Angular",
+        icon: "../imgtec/angular.jpg",
+      },
+
+
       {
         name: "Boostrap",
         icon: "../imgtec/boostraap.jpg",
       },
 
       {
-        name: "OpenLayers",
-        icon: "../imgtec/openlayers.png",
+        name: "MapLibre",
+        icon: "../imgtec/maplibre.jpg",
       },
-      
+
     ],
 
-    hrefDemo:"https://github.com/81andie/AngBitacoraMap/deployments/github-pages",
-    hrefGithub:"https://github.com/81andie/AngBitacoraMap",
+    hrefDemo: "https://81andie.github.io/gotmap/",
+    hrefGithub: "https://github.com/81andie/gotmap",
 
     url: [
-      "https://github.com/81andie/AngBitacoraMap"
+      "https://81andie.github.io/gotmap/"
     ],
 
     url1: [
-      "https://81andie.github.io/AngBitacoraMap/"
+      "https://github.com/81andie/gotmap"
+    ]
+  },
+
+  {
+    id: 11,
+
+    images: [
+     
+       "../imgProjects/open2.jpg",
+      "../imgProjects/open3.jpg",
+      "../imgProjects/open5.jpg",
+    
+      "../img/openlayersGot.png",
+
+
+
+    ],
+    technologies: [
+
+
+
+      {
+        name: "html",
+        icon: "../imgtec/html.jpg",
+      },
+      {
+        name: "Angular",
+        icon: "../imgtec/angular.jpg",
+      },
+
+
+      {
+        name: "Tailwind CSS",
+        icon: "../imgtec/tailwind.avif",
+      },
+
+      {
+        name: "OpenLayers",
+        icon: "../imgtec/openlayers.png",
+      }
+
+    ],
+
+    hrefDemo: "https://81andie.github.io/gotopen/",
+    hrefGithub: "https://github.com/81andie/gotopen",
+
+    url: [
+      "https://81andie.github.io/gotopen/"
+    ],
+
+    url1: [
+      "https://github.com/81andie/gotopen"
     ]
   }
+
+
+
+
 
 
 

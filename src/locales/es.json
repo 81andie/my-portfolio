@@ -8,7 +8,7 @@
     "skills": "Habilidades",
     "Project": "Proyectos",
     "certifications": "Certificaciones",
-    "courses":"Cursos",
+    "courses": "Cursos",
     "contact": "Contacto",
     "helloWorld": "Hola mundo!",
     "Im": "soy Andrea,\nuna programadora Web"
@@ -45,188 +45,151 @@
     "primeNgExperience": "He trabajado con PrimeNG para integrar componentes de interfaz de usuario ricos e interactivos en mis aplicaciones. He utilizado varios componentes como tablas, formularios, menús y buscadores para mejorar la experiencia de usuario y la eficiencia en el desarrollo.",
     "primeReactExperience": "He trabajado con PrimeReact para integrar componentes de interfaz de usuario avanzados en mis aplicaciones React. He utilizado varios componentes como tablas, formularios, calendarios y gráficos para mejorar la funcionalidad y la experiencia de usuario, facilitando el desarrollo de interfaces modernas y eficientes."
   },
+  "certifications1": [
+    {
+      "id": 1,
+      "month": "2024",
+      "course": "Curso de Introducción al Desarrollo Web",
+      "institution": "Goggle Activate",
+      "instructor": "Universidad de Alicante",
+      "image": "./imgtec/google.jpg",
+      "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
+      "topics": [
+        "Historia de la Web",
+        "Como funciona la Web",
+        "Cómo se escribe una página web",
+        "Cómo se publica un sitio web",
+        "Cómo se escribe una página web bien estructurada"
+      ]
+    },
+    {
+      "id": 2,
+      "month": "2023",
+      "course": "Curso de Introducción al Desarrollo Web: Html y CSS",
+      "institution": "Google Actívate",
+      "instructor": "Universidad de Alicante",
+      "image": "./imgtec/google.jpg",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+      "topics": [
+        "Cómo se define la presentación de una página web",
+        "Cómo se define la presentación de los elementos de una página web",
+        "Cómo se maqueta una página web",
+        "Cómo se logra que una página web tenga éxito"
+      ]
+    },
+    {
+      "id": 3,
+      "month": "2023",
+      "course": "Responsive Web Design, developer Certification",
+      "institution": "FreeCodeCamp",
+      "instructor": "",
+      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+      "topics": [
+        "Página Tribute Page",
+        "Página de documentació técnica (projecto certificación)",
+        "Landing Page del producto (projecto certificación)",
+        "Algoritmos de JavaScript y proyectos",
+        "Crea tu propio portfolio"
+      ]
+    },
+    {
+      "id": 4,
+      "month": "2023",
+      "course": "Algoritmos y estructuras de datos en JavaScript",
+      "institution": "FreeCodeCamp",
+      "instructor": "",
+      "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
+      "summary": "Resum del curs",
+      "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
+      "topics": [
+        "JavaScript Básico",
+        "ES6",
+        "Expresiones Regulares",
+        "Depuración",
+        "Estructuras de datos básicas",
+        "Programación de algoritmos básicos",
+        "Programación orientada a objetos",
+        "Programación funcional",
+        "Programación de algoritmos intermedios",
+        "Algoritmos de JavaScript y proyectos de estructuras de datos",
+        "Comprobador de palíndromos",
+        "Conversor de números romanos",
+        "Cifrado César",
+        "Validador de números telefónicos",
+        "Caja registradora"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "GeoGotApp",
+      "description": "GeoGotApp es una aplicación web desarrollada con Angular, Tailwind CSS y Leaflet, centrada en ofrecer una experiencia interactiva para explorar las localizaciones reales de rodaje de la serie Game of Thrones.",
+      "description1": "La aplicación permite a los usuarios descubrir escenarios exteriores a través de un mapa dinámico, combinando datos geográficos con contenido visual y contextual. Cada localización incluye información relevante como imágenes del lugar, el tipo de escenario representado en la serie y los actores asociados a las escenas."
+    },
+    {
+      "id": 2,
+      "title": "México Guide",
+      "description": "México Guide, es una página web desarrollada con JS, siendo una guia interactiva que permite la geolocalización de los destinos turísticos más importantes de México, tesoros Mayas, yacimientos arqueológicos y ubicaciones de Patrimonio de la Unesco, todo mostrado por la geolocalización de diferentes marcadores(clusters de colores), para añadir una claridad en la experiencia del usuario.",
+      "description1": "Cada geolocalización, incluye una descripción y una pequeña galería de fotos del lugar, que ha sido desarrollada con Google Apis. Los datos aportados para la geolocalización són del Instituto de Geografía de la Unam(México), de la plataforma IDEA."
+    },
+    {
+      "id": 3,
+      "title": "Cleopatra Cosmétics",
+      "description": "Cleopatra Cosmétics, es un e-comerce desarrollado con React especializado en productos cosméticos de lujo, el diseño limpio y senzillo, permite ver de forma muy clara sus principales funcionalidades, guiando al cliente por sus diferentes procesos de compra, la pasarela de compra esta lista para poder conectarla a una base de datos, a parte que se geolocaliza la tienda física utilizando React Leaflet"
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter App",
+      "description": "Harry Potter es una web desarrollada con Angular20, dónde encontrarás toda la información sobre Harry Potter, los datos están recogidos de la Api, HP-API, permitiendo la renderización de los principales personajes, profesores, estudiantes y todos los hechizos relacionados con el Universo Potter"
+    },
+    {
+      "id": 5,
+      "title": "SpaceAirTracker",
+      "description": "SpaceAirTracker es una web desarrollada con Angular17 y la libreria OpenLayers es un rastreador de vuelos nacionales e internacionales, que permite, geolocalizar el vuelo, y de cada uno, poder saber su velocidad, ICAO, latitud y país de origen, permite tambien rastrear los vuelos a partir de su ciudad de origen. Su estilo claro y funcional está diseñado con Boostrap"
+    },
+    {
+      "id": 6,
+      "title": "Claustrum Aqvae",
+      "description": "Claustrum Aqvae, està desarrollada en Angular 17  es una web que mide el estado de los pantanos de Cataluña. Para el mapa interactivo e animaciones, he utilizado la libraria de Mapbox, combinada con la api Mapbox Places, para solventar la geolocalización de todos los pantanos de la Comunidad de Cataluña. Permite una busqueda por dia, de cualquier pantano, emitiendo los datos de medición del embalse consultado.",
+      "description1": "Para el estilo he utilizado la libreria Tailwind. Para mostrar los datos he utilizado el portal 'Dades Obertes de Catalunya'"
+    },
+    {
+      "id": 7,
+      "title": "The Holy Wine",
+      "description": "The Holy Wine, està desarrollada con la última versión de Angular, Angular 19, utilizando todas las novedades en las nuevas directivas del framework, para el estilo he utilizado la libreria Angular Material y para el diseño he utilizado Tailwind.",
+      "description1": "Se puede hacer busquedas por vino, lugar, tiene más de 10000 entradas. Tiene una sección explicando las diferentes variedades de uvas de la base de datos y es posible conocer los catadores de algunos vinos más exclusivos, escaneando el código qr que se adjunta en las cards."
+    },
+    {
+      "id": 8,
+      "title": "ThunderAI (Necessita Key (HuggingFace)",
+      "description": "ThunderAI, esta desarrollada con JS, vite y tailwind. Aprovechando los modelos de inteligencia Artificial que ofrece la plataforma Hugging Face, he utilizado el último modelo de DeepSeek R3",
+      "description1": "Le puedes preguntar lo que quieras en cualquier idioma, o complejidad. La interfaz es muy limpia y moderna"
+    },
+    {
+      "id": 9,
+      "title": "Bitácora Map",
+      "description": "Bitácora Map está desarrollada con Angular 17, OpenLayers y Bootstrap. Es la herramienta ideal para complementar tus viajes y compartir información con quien quieras. Permite añadir marcadores, dibujar polígonos y líneas, añadir comentarios y editarlos fácilmente. Además, los datos se pueden guardar en LocalStorage para acceder a ellos en cualquier momento.",
+      "description1": "Ofrece la posibilidad de descargar y cargar archivos GeoJSON."
+    },
 
-  "certifications1": [{
-    "id": 1,
-    "month": "2024",
-    "course": "Curso de Introducción al Desarrollo Web",
-    "institution": "Goggle Activate",
-    "instructor": "Universidad de Alicante",
-    "image": "./imgtec/google.jpg",
-    
-    "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
-    "topics": [
-      "Historia de la Web",
-      "Como funciona la Web",
-      "Cómo se escribe una página web",
-      "Cómo se publica un sitio web",
-      "Cómo se escribe una página web bien estructurada"
-    ]
-  },
+      {
+      "id": 10,
+      "title": "GeoGotApp",
+      "description": "GeoGotApp es una aplicación web desarrollada con Angular, Tailwind CSS y MapLibre, centrada en ofrecer una experiencia interactiva para explorar las localizaciones reales de rodaje de la serie Game of Thrones.",
+      "description1": "La aplicación permite a los usuarios descubrir escenarios exteriores a través de un mapa dinámico, combinando datos geográficos con contenido visual y contextual. Cada localización incluye información relevante como imágenes del lugar, el tipo de escenario representado en la serie y los actores asociados a las escenas."
+    },
 
-  {
-    "id": 2,
-    "month": "2023",
-    "course": "Curso de Introducción al Desarrollo Web: Html y CSS",
-    "institution": "Google Actívate",
-    "instructor": "Universidad de Alicante",
-    "image": "./imgtec/google.jpg",
-  
-    "summary": "Resum del curs",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
-    "topics": [
-      "Cómo se define la presentación de una página web",
-      "Cómo se define la presentación de los elementos de una página web",
-      "Cómo se maqueta una página web",
-      "Cómo se logra que una página web tenga éxito"
-    ]
-  },
-
-  {
-    "id": 3,
-    "month": "2023",
-    "course": "Responsive Web Design, developer Certification",
-    "institution": "FreeCodeCamp",
-    "instructor": "",
-    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-   
-    "summary": "Resum del curs",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
-    "topics": [
-      "Página Tribute Page",
-      "Página de documentació técnica (projecto certificación)",
-      "Landing Page del producto (projecto certificación)",
-      "Algoritmos de JavaScript y proyectos",
-      "Crea tu propio portfolio"
-
-    ]
-  },
-
-  {
-    "id": 4,
-    "month": "2023",
-    "course": "Algoritmos y estructuras de datos en JavaScript",
-    "institution": "FreeCodeCamp",
-    "instructor": "",
-    "image": "https://www.emprendedorinteligente.com/wp-content/uploads/2019/11/header-activate-logo-lg-1024x286.png",
-   
-    "summary": "Resum del curs",
-    "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
-    "topics": [
-      "JavaScript Básico",
-      "ES6",
-      "Expresiones Regulares",
-      "Depuración",
-      "Estructuras de datos básicas",
-      "Programación de algoritmos básicos",
-      "Programación orientada a objetos",
-      "Programación funcional",
-      "Programación de algoritmos intermedios",
-      "Algoritmos de JavaScript y proyectos de estructuras de datos",
-      "Comprobador de palíndromos",
-      "Conversor de números romanos",
-      "Cifrado César",
-      "Validador de números telefónicos",
-      "Caja registradora"
-
-
-    ]
-  }
-],
-
-"projects" :[
-  {
-    "id": 1,
-    "title": "Traffic Valéncia",
-    "description":
-      "Traffic Valencia es una página web desarrollada con JS que  geocaliza todas las cámaras de tráfico de la área metropolitana de Valéncia. Los usuarios pueden consultar a tiempo real transmisiones de las cámaras, proporcionando una herramienta práctica y visual para monitorizar el estado del tráfico en la ciudad",
-
-    "description1": "Traffic Valencia utiliza los datos proporcionados por el portal de datos abiertos del Ayuntamiento de Valéncia. Además incorpora una libreria ligera 'leaflet-control-geocoder', permitiendo que los usuarios puedan  geolocalizar destinos específicos de manera sencilla e intuitiva. Está diseñada con Tailwind CSS, lo que nos asegura un estilo moderno, añadiendo una experiencia visual atractiva, aportándole un óptimo enfoque en el mobile-first"
-
-  },
-
-
-
-
-  {
-    "id": 2,
-    "title": "México Guide",
-    "description":
-      "México Guide, es una página web desarrollada con JS, siendo una guia interactiva que permite la geolocalización de los destinos turísticos más importantes de México, tesoros Mayas, yacimientos arqueológicos y ubicaciones de Patrimonio de la Unesco, todo mostrado por la geolocalización de diferentes marcadores(clusters de colores), para añadir una claridad en la experiencia del usuario.",
-    "description1": "Cada geolocalización, incluye una descripción y una pequeña galería de fotos del lugar, que ha sido desarrollada con Google Apis. Los datos aportados para la geolocalización són del Instituto de Geografía de la Unam(México), de la plataforma IDEA."
-  },
-
-  {
-    "id": 3,
-    "title": "Cleopatra Cosmétics",
-    "description":
-      "Cleopatra Cosmétics, es un e-comerce desarrollado con React especializado en productos cosméticos de lujo, el diseño limpio y senzillo, permite ver de forma muy clara sus principales funcionalidades, guiando al cliente por sus diferentes procesos de compra, la pasarela de compra esta lista para poder conectarla a una base de datos, a parte que se geolocaliza la tienda física utilizando React Leaflet"
-  },
-
-
-
-  {
-    "id": 4,
-    "title": "Harry Potter App",
-    "description":
-      "Harry Potter es una web desarrollada con Angular20, dónde encontrarás toda la información sobre Harry Potter, los datos están recogidos de la Api, HP-API, permitiendo la renderización de los principales personajes, profesores, estudiantes y todos los hechizos relacionados con el Universo Potter"
-    
-  },
-
-
-  {
-    "id": 5,
-    "title": "SpaceAirTracker",
-    "description":
-      "SpaceAirTracker es una web desarrollada con Angular17 y la libreria OpenLayers es un rastreador de vuelos nacionales e internacionales, que permite, geolocalizar el vuelo, y de cada uno, poder saber su velocidad, ICAO, latitud y país de origen, permite tambien rastrear los vuelos a partir de su ciudad de origen. Su estilo claro y funcional está diseñado con Boostrap"
-   
-  },
-
-
-  {
-    "id": 6,
-    "title": "Claustrum Aqvae",
-    "description":
-      "Claustrum Aqvae, està desarrollada en Angular 17  es una web que mide el estado de los pantanos de Cataluña. Para el mapa interactivo e animaciones, he utilizado la libraria de Mapbox, combinada con la api Mapbox Places, para solventar la geolocalización de todos los pantanos de la Comunidad de Cataluña. Permite una busqueda por dia, de cualquier pantano, emitiendo los datos de medición del embalse consultado.",
-
-    "description1": "Para el estilo he utilizado la libreria Tailwind. Para mostrar los datos he utilizado el portal 'Dades Obertes de Catalunya'"
-    
-  },
-
-  {
-    "id": 7,
-    "title": "The Holy Wine",
-    "description":
-      "The Holy Wine, està desarrollada con la última versión de Angular, Angular 19, utilizando todas las novedades en las nuevas directivas del framework, para el estilo he utilizado la libreria Angular Material y para el diseño he utilizado Tailwind.",
-    "description1": "Se puede hacer busquedas por vino, lugar, tiene más de 10000 entradas. Tiene una sección explicando las diferentes variedades de uvas de la base de datos y es posible conocer los catadores de algunos vinos más exclusivos, escaneando el código qr que se adjunta en las cards."
-    
-  },
-
-  {
-    "id": 8,
-    "title": "ThunderAI (Necessita Key (HuggingFace)",
-    "description":
-
-      "ThunderAI, esta desarrollada con JS, vite y tailwind. Aprovechando los modelos de inteligencia Artificial que ofrece la plataforma Hugging Face, he utilizado el último modelo de DeepSeek R3",
-    "description1": "Le puedes preguntar lo que quieras en cualquier idioma, o complejidad. La interfaz es muy limpia y moderna"
-
-  },
-
-  {
-    "id": 9,
-    "title": "Bitácora Map",
-    "description": "Bitácora Map está desarrollada con Angular 17, OpenLayers y Bootstrap. Es la herramienta ideal para complementar tus viajes y compartir información con quien quieras. Permite añadir marcadores, dibujar polígonos y líneas, añadir comentarios y editarlos fácilmente. Además, los datos se pueden guardar en LocalStorage para acceder a ellos en cualquier momento.",
-    "description1": "Ofrece la posibilidad de descargar y cargar archivos GeoJSON."
-  }
-  
-
-],
-
-
-
-
-
-  
+     {
+      "id": 11,
+      "title": "GeoGotApp",
+      "description": "GeoGotApp es una aplicación web desarrollada con Angular, Tailwind CSS y OpenLayers, centrada en ofrecer una experiencia interactiva para explorar las localizaciones reales de rodaje de la serie Game of Thrones.",
+      "description1": "La aplicación permite a los usuarios descubrir escenarios exteriores a través de un mapa dinámico, combinando datos geográficos con contenido visual y contextual. Cada localización incluye información relevante como imágenes del lugar, el tipo de escenario representado en la serie y los actores asociados a las escenas."
+    }
+  ],
   "courses": [
     {
       "id": 1,
@@ -235,7 +198,6 @@
       "institution": "Udemy",
       "instructor": "Jonas Schmedtmann",
       "image": "./imgtec/Udemy.png",
-      
       "summary": "Proyectos",
       "gradient": "linear-gradient(to bottom, rgba(167, 184, 227, 0.269), rgba(16, 90, 239, 0.358))",
       "topics": [
@@ -252,7 +214,6 @@
       "institution": "Udemy",
       "instructor": "Javier Muñiz",
       "image": "./imgtec/Udemy.png",
-     
       "summary": "Resumen del curso",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(245, 90, 239, 0.358))",
       "topics": [
@@ -267,7 +228,6 @@
       "institution": "Udemy",
       "instructor": "Juan Pablo de la Torre",
       "image": "./imgtec/Udemy.png",
-     
       "summary": "Resumen del curso",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -290,7 +250,6 @@
       "institution": "Udemy",
       "instructor": "Colt Steele",
       "image": "./imgtec/Udemy.png",
-    
       "summary": "Resumen del curso",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -318,7 +277,6 @@
       "institution": "Udemy",
       "instructor": "Colt Steele",
       "image": "./imgtec/Udemy.png",
-     
       "summary": "Resumen del curso",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -337,7 +295,6 @@
       "institution": "Udemy",
       "instructor": "Victor Robles",
       "image": "./imgtec/Udemy.png",
-     
       "summary": "Resumen del curso",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -366,7 +323,6 @@
       "institution": "Udemy",
       "instructor": "Fernando Herrera",
       "image": "./imgtec/Udemy.png",
-     
       "summary": "Resumen del curso",
       "gradient": "linear-gradient(to bottom, rgba(129, 184, 227, 0.269), rgba(390, 90, 239, 0.358))",
       "topics": [
@@ -379,55 +335,45 @@
       ]
     }
   ],
-
-  "sobreMi":{
+  "sobreMi": {
     "ini": "¡Hola!",
     "intro": "Entre los prompts, para ver el mensaje por la terminal",
-  "bienvenida": "¡Bienvenido a mi terminal!",
-   "instructions":"Instrucciones",
-  "fecha": "Hoy es",
-  "quienSoy": "Me llamo Andrea, y soy una gerundense que hace más de un año medio desarrollando webs en el sector del Frontend, mis frameworks favoritos son Angular y React.",
-  "unMundoDescubierto": "Desde que descubrí este mundo, hace aproximadamente un año, me he sumergido en este viaje emocionante de aprendizaje constante y crecimiento personal, y he aprendido que no hay nada imposible de conseguir si trabajas duro y con disciplina.",
-  "viajeLenguajes": "Durante este viaje, he adquirido experiencia en el desarrollo Web Frontend y mis pinitos en el Backend, utilizando las tecnologías más demandadas de esta carrera, HTML, CSS, Javascript, React, Node, MongoDb.",
-  "gracias": "Si has llegado hasta aquí, quería agradecerte que hayas dedicado tu tiempo a conocerme un poco más. Si tienes alguna pregunta o quieres saber más sobre mi, no dudes en contactar conmigo. ¡Gracias!",
-  "help": "Comandos disponibles:",
-  "commands": {
-    "init": "Inicializa la terminal.",
-    "date": "Muestra la fecha actual.",
-    "bienvenida": "Un saludo inicial y guía.",
-    "quienSoy": "Información sobre mí.",
-    "unMundoDescubierto": "Mi introducción al desarrollo.",
-    "viajeLenguajes": "Tecnologías y proyectos.",
-    "gracias": "Mensaje de agradecimiento.",
-    "clear": "Limpia la terminal.",
-    "help": "Muestra esta lista de comandos."
+    "bienvenida": "¡Bienvenido a mi terminal!",
+    "instructions": "Instrucciones",
+    "fecha": "Hoy es",
+    "quienSoy": "Me llamo Andrea, y soy una gerundense que hace más de un año medio desarrollando webs en el sector del Frontend, mis frameworks favoritos son Angular y React.",
+    "unMundoDescubierto": "Desde que descubrí este mundo, hace aproximadamente un año, me he sumergido en este viaje emocionante de aprendizaje constante y crecimiento personal, y he aprendido que no hay nada imposible de conseguir si trabajas duro y con disciplina.",
+    "viajeLenguajes": "Durante este viaje, he adquirido experiencia en el desarrollo Web Frontend y mis pinitos en el Backend, utilizando las tecnologías más demandadas de esta carrera, HTML, CSS, Javascript, React, Node, MongoDb.",
+    "gracias": "Si has llegado hasta aquí, quería agradecerte que hayas dedicado tu tiempo a conocerme un poco más. Si tienes alguna pregunta o quieres saber más sobre mi, no dudes en contactar conmigo. ¡Gracias!",
+    "help": "Comandos disponibles:",
+    "commands": {
+      "init": "Inicializa la terminal.",
+      "date": "Muestra la fecha actual.",
+      "bienvenida": "Un saludo inicial y guía.",
+      "quienSoy": "Información sobre mí.",
+      "unMundoDescubierto": "Mi introducción al desarrollo.",
+      "viajeLenguajes": "Tecnologías y proyectos.",
+      "gracias": "Mensaje de agradecimiento.",
+      "clear": "Limpia la terminal.",
+      "help": "Muestra esta lista de comandos."
+    },
+    "unknownCommand": "Comando desconocido",
+    "placeholder": "Introduce un comando"
   },
-  "unknownCommand": "Comando desconocido",
-  "placeholder": "Introduce un comando"
-
-  },
-
-
-
-  
-  
-  "Contact":{
-    "contacto":"Contacto",
+  "Contact": {
+    "contacto": "Contacto",
     "you wants": "Quieres accesoramiento, consejo o quieres transmitirme tu idea para tu web, ponte en contacto conmigo",
-    "name":"Nombre",
+    "name": "Nombre",
     "email": "Correo Electrónico",
     "NameEmail": "Nombre y Apellidos",
     "you want": "Que quieres consultarme...",
-    "Submit":"Enviar"
+    "Submit": "Enviar"
   },
   "footer": {
     "text": "Diseñadora de páginas web y desarrolladora web:",
-     "AllReserve": "Todos los derechos reservados"
-  
+    "AllReserve": "Todos los derechos reservados"
   },
-
-   "errorPage": {
+  "errorPage": {
     "text": "Lo sentimos, no encontramos la página, te has perdido...Vuelve a"
-    
   }
 }

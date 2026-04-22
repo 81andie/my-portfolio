@@ -133,9 +133,9 @@
     "projects": [
       {
         "id": 1,
-        "title": "Traffic Valéncia",
-        "description": "Traffic Valéncia is a website developed with JS that geolocates all the traffic cameras in the metropolitan area of Valencia. Users can check live streams from the cameras, providing a practical and visual tool to monitor traffic conditions in the city.",
-        "description1": "Traffic Valéncia uses data provided by the open data portal of the City Council of Valencia. It also incorporates a lightweight library 'leaflet-control-geocoder', allowing users to geolocate specific destinations in a simple and intuitive way. It is designed with Tailwind CSS, ensuring a modern style with an attractive visual experience, focusing on mobile-first."
+        "title": "GeoGotApp",
+        "description": "GeoGotApp is a web application developed using Angular, Tailwind CSS, and Leaflet, designed to provide an interactive experience for exploring real-world filming locations from Game of Thrones.",
+        "description1": "The application allows users to discover outdoor filming locations through a dynamic map, combining geospatial data with visual and contextual content. Each location includes relevant information such as images of the place, the type of scene it represents in the series, and the actors involved."
       },
       {
         "id": 2,
@@ -182,7 +182,20 @@
         "title": "Bitácora Map",
         "description": "Bitácora Map is developed with Angular 17, OpenLayers, and Bootstrap. It is the perfect tool to complement your travels and share information with whoever you want. It allows you to add markers, draw polygons and lines, add comments, and edit them easily. Additionally, data can be saved in LocalStorage for access at any time.",
         "description1": "It offers the ability to download and upload GeoJSON files."
+      },
+        {
+        "id": 10,
+        "title": "GeoGotApp",
+        "description": "GeoGotApp is a web application developed using Angular, Tailwind CSS, and MapLibre, designed to provide an interactive experience for exploring real-world filming locations from Game of Thrones.",
+        "description1": "The application allows users to discover outdoor filming locations through a dynamic map, combining geospatial data with visual and contextual content. Each location includes relevant information such as images of the place, the type of scene it represents in the series, and the actors involved."
+      },
+        {
+        "id": 11,
+        "title": "GeoGotApp",
+        "description": "GeoGotApp is a web application developed using Angular, Tailwind CSS, and OpenLayers, designed to provide an interactive experience for exploring real-world filming locations from Game of Thrones.",
+        "description1": "The application allows users to discover outdoor filming locations through a dynamic map, combining geospatial data with visual and contextual content. Each location includes relevant information such as images of the place, the type of scene it represents in the series, and the actors involved."
       }
+
     ],
   
   

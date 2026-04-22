@@ -92,29 +92,29 @@ export const Cabecera = () => {
                 id: 9
             },
             {
-                hrefDemo: "https://81andie.github.io/TraficoValencia/Index.html",
-                href2Github: "https://github.com/81andie/TraficoValencia",
-                src: "img/mockuptrafic.png",
-                title: "Traffic Valencia",
+                hrefDemo: "https://81andie.github.io/got/",
+                href2Github: "https://github.com/81andie/got",
+                src: "img/gotLeaflet.png",
+                title: "GeoGotApp",
                 className: "md:h-52 lg:h-40 2xl:h-72",
                 id: 1
             },
 
              {
-                hrefDemo: "https://81andie.github.io/TraficoValencia/Index.html",
-                href2Github: "https://github.com/81andie/TraficoValencia",
-                src: "img/mockuptrafic.png",
-                title: "Traffic Valencia",
+                hrefDemo: "https://81andie.github.io/gotmap/",
+                href2Github: "https://github.com/81andie/gotmap",
+                src: "img/gotmaplibre1.jpg",
+                title: "GeoGotApp",
                 className: "md:h-52 lg:h-28 2xl:h-72",
                 id: 10
             },
                {
-                hrefDemo: "https://81andie.github.io/TraficoValencia/Index.html",
-                href2Github: "https://github.com/81andie/TraficoValencia",
-                src: "img/mockuptrafic.png",
-                title: "Traffic Valencia",
+                hrefDemo: "https://81andie.github.io/gotopen/",
+                href2Github: "https://github.com/81andie/gotopen",
+                src: "img/openlayersGot.png",
+                title: "GeoGotApp",
                 className: "md:h-52 lg:h-28 2xl:h-72",
-                id: 10
+                id: 11
             }
         ]
     ];
@@ -154,7 +154,7 @@ export const Cabecera = () => {
                                                 className={`
                                                     w-full aspect-video
                                                     ${item.className}
-                                                    border-4 border-x-fuchsia-500 border-y-blue-200
+                                                    border-4 border-x-fuchsia-500 border-y-blue-200 rounded-lg
                                                 `}
                                                 src={item.src}
                                                 title={item.title}
@@ -165,7 +165,7 @@ export const Cabecera = () => {
                                                     w-full
                                                     aspect-[4/5] object-cover
                                                     ${item.className} md:object-contain
-                                                    border-4 border-x-fuchsia-500 border-y-blue-200
+                                                    border-4 border-x-fuchsia-500 border-y-blue-200 rounded-lg
                                                 `}
                                                 src={item.src}
                                                 alt={item.title}

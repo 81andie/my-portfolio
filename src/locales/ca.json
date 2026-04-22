@@ -129,9 +129,9 @@
     "projects": [
       {
         "id": 1,
-        "title": "Traffic València",
-        "description": "Traffic València és una pàgina web desenvolupada amb JS que geolocalitza totes les càmeres de trànsit de l'àrea metropolitana de València. Els usuaris poden consultar en temps real les transmissions de les càmeres, proporcionant una eina pràctica i visual per monitoritzar l'estat del trànsit a la ciutat.",
-        "description1": "Traffic València utilitza les dades proporcionades pel portal de dades obertes de l'Ajuntament de València. A més, incorpora una biblioteca lleugera 'leaflet-control-geocoder', permetent als usuaris geolocalitzar destinacions específiques de manera senzilla i intuïtiva. Està dissenyada amb Tailwind CSS, el que ens assegura un estil modern, afegint una experiència visual atractiva, amb un enfocament òptim en el mobile-first."
+        "title": "GeoGotApp",
+        "description": "GeoGotApp és una aplicació web desenvolupada amb Angular, Tailwind CSS i Leaflet, dissenyada per oferir una experiència interactiva per explorar les localitzacions reals de rodatge de Game of Thrones.",
+        "description1": "L’aplicació permet als usuaris descobrir escenaris exteriors mitjançant un mapa dinàmic, combinant dades geoespacials amb contingut visual i contextual. Cada localització inclou informació rellevant com imatges del lloc, el tipus d’escenari representat a la sèrie i els actors que hi participen."
       },
       {
         "id": 2,
@@ -178,7 +178,22 @@
         "title": "Bitácora Map",
         "description": "Bitácora Map està desenvolupada amb Angular 17, OpenLayers i Bootstrap. És l'eina ideal per complementar els teus viatges i compartir informació amb qui vulguis. Permet afegir marcadors, dibuixar polígons i línies, afegir comentaris i editar-los fàcilment. A més, les dades es poden desar en LocalStorage per accedir-hi en qualsevol moment.",
         "description1": "Ofereix la possibilitat de descarregar i carregar arxius GeoJSON."
+      },
+      {
+        "id": 10,
+        "title": "GeoGotApp",
+        "description": "GeoGotApp és una aplicació web desenvolupada amb MapLibre, Tailwind CSS, dissenyada per oferir una experiència interactiva per explorar les localitzacions reals de rodatge de Game of Thrones.",
+        "description1": "L’aplicació permet als usuaris descobrir escenaris exteriors mitjançant un mapa dinàmic, combinant dades geoespacials amb contingut visual i contextual. Cada localització inclou informació rellevant com imatges del lloc, el tipus d’escenari representat a la sèrie i els actors que hi participen."
+      },
+
+       {
+        "id": 11,
+        "title": "GeoGotApp",
+        "description": "GeoGotApp és una aplicació web desenvolupada amb OpenLayers, Tailwind CSS, dissenyada per oferir una experiència interactiva per explorar les localitzacions reals de rodatge de Game of Thrones.",
+        "description1": "L’aplicació permet als usuaris descobrir escenaris exteriors mitjançant un mapa dinàmic, combinant dades geoespacials amb contingut visual i contextual. Cada localització inclou informació rellevant com imatges del lloc, el tipus d’escenari representat a la sèrie i els actors que hi participen."
       }
+
+
     ],
   
   "courses": [

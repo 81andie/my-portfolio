@@ -54,7 +54,7 @@ export const ProjectDetails = () => {
             {order.map((image, i) => (
               <motion.img
                 key={image}
-                className="h-52 w-52 object-cover object-center lg:h-64 lg:object-cover lg:object-center md:h-52 md:object-cover md:object-center  md:w-52 lg:w-52 "
+                className="h-52 w-52 object-contain object-center bg-center lg:h-64 lg:object-cover lg:object-center md:h-52 md:object-cover md:object-center  md:w-52 lg:w-52 "
                 src={image}
                 alt={`Project ${buscarProjecto.title} - Image ${i + 1}`}
                 layout
@@ -74,7 +74,7 @@ export const ProjectDetails = () => {
               {buscarProjecto.technologies && buscarProjecto.technologies.map((tech, i) => (
                 <img
                   key={i}
-                  className="h-10 w-auto p-1 rounded-md inset-0 bg-blue-50"
+                  className="h-10 w-auto p-1 object-contain rounded-md inset-0 bg-blue-50"
                   src={tech.icon}
                   alt={tech.name}
                   title={tech.name}
