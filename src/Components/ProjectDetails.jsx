@@ -49,7 +49,7 @@ export const ProjectDetails = () => {
         <div className="flex flex-col md:flex-row lg:flex-row  rounded-lg mb-10">
           
           {/* Grid de imágenes */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 gap-2 mt-5 max-w-md mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 gap-2 mt-5 max-w-sm mx-auto">
 
             {order.map((image, i) => (
               <motion.img
