@@ -54,7 +54,7 @@ export const ProjectDetails = () => {
             {order.map((image, i) => (
               <motion.img
                 key={image}
-                className="h-52 w-52 object-cover object-center bg-center lg:h-64 lg:object-cover lg:object-center md:h-52 md:object-cover md:object-center  md:w-52 lg:w-52 "
+                className="h-72 w-72 object-cover object-center bg-center lg:h-64 lg:object-cover lg:object-center md:h-52 md:object-cover md:object-center  md:w-52 lg:w-52 "
                 src={image}
                 alt={`Project ${buscarProjecto.title} - Image ${i + 1}`}
                 layout
