@@ -49,12 +49,15 @@ export const ProjectDetails = () => {
         <div className="flex flex-col md:flex-row lg:flex-row  rounded-lg mb-10">
           
           {/* Grid de imágenes */}
-          <div className="grid-flow-dense grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-1 mt-5 p-1">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 gap-2 mt-5 max-w-md mx-auto">
 
             {order.map((image, i) => (
               <motion.img
                 key={image}
-                className="h-72 w-72 object-cover object-center bg-center lg:h-64 lg:object-cover lg:object-center md:h-52 md:object-cover md:object-center  md:w-52 lg:w-52 "
+                className="w-full 
+            aspect-square 
+            object-cover 
+            rounded-lg "
                 src={image}
                 alt={`Project ${buscarProjecto.title} - Image ${i + 1}`}
                 layout
