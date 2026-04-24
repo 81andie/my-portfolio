@@ -16,8 +16,8 @@ export const ErrorPage = () => {
   return (
     <>
 
-      <div className="w-full h-96 sky">
-        <Canvas className="w-full h-80">
+      <div className="w-full h-screen ">
+        <Canvas className="w-full h-screen bg-[url(/img/sky.jpg)] bg-cover bg-center">
           <mesh>
             <sphereGeometry args={[2, 80, 80]} />
             <meshBasicMaterial map={texture} />

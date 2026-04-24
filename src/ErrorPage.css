@@ -1,19 +1,17 @@
+
+
+
 .ovni {
   position: absolute;
-  right: 200px;
+  left: 200px;
   top: 300px;
   animation: moveUFO 8.5s linear infinite;
-  
+
 
 
 }
 
-.sky{
-  background-image: url('https://www.pixel4k.com/wp-content/uploads/2018/10/starry-sky-night-stars-forest-nebula-4k_1540575372.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  object-position: top;
-}
+
 
 @keyframes moveUFO {
   0% {
@@ -40,8 +38,16 @@
     transform: translateX(90%) rotate(10deg);
   }
 
+  55% {
+    transform: translateY(70%) rotate(8deg);
+  }
+
+  58% {
+    transform: translateY(30%) rotate(8deg);
+  }
+
   60% {
-    transform: translateZ(100%) rotate(8deg);
+    transform: translate(100%) rotate(8deg);
   }
 
   70% {
@@ -50,10 +56,18 @@
 
   80% {
     transform: translateX(110%) rotate(40deg) rotateZ(-0.19turn);
-    
+
   }
 
- 
+  90% {
+    transform:
+      left(-80%) translateX(-100%)
+      /* se va hacia la izquierda */
+      translateY(80%) translateZ(20%) rotate(50deg) rotateZ(-0.19turn);
+
+  }
+
+
 }
 
 @keyframes swingUFO {
@@ -61,12 +75,11 @@
   0%,
   100% {
     transform: translateX(-50%) rotate(0deg);
-   
+
   }
 
   50% {
     transform: translateX(-50%) rotate(10deg);
-    
+
   }
 }
-
