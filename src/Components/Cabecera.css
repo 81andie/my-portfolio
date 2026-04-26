@@ -46,3 +46,11 @@
 .pi-user {
   margin-left: 5px;
 }
+
+i{
+  text-shadow: 2px 3px 5px black;
+}
+
+i:hover{
+  scale: 1rem;
+}

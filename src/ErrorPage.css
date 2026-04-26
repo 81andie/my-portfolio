@@ -15,6 +15,7 @@
 
 @keyframes moveUFO {
   0% {
+
     transform: translateX(60%) rotate(0deg);
   }
 
@@ -47,25 +48,20 @@
   }
 
   60% {
-    transform: translate(100%) rotate(8deg);
+    transform: translate(35%) rotate(8deg);
   }
 
-  70% {
-    transform: translateX(100%) rotate(40deg) rotateZ(-0.20turn);
+
+   70% {
+    transform: translate(40%) rotate(8deg);
   }
-
-  80% {
-    transform: translateX(110%) rotate(40deg) rotateZ(-0.19turn);
-
+  
+  100% {
+      transform: translateX(60%) rotate(0deg);
   }
+ 
 
-  90% {
-    transform:
-      left(-80%) translateX(-100%)
-      /* se va hacia la izquierda */
-      translateY(80%) translateZ(20%) rotate(50deg) rotateZ(-0.19turn);
 
-  }
 
 
 }

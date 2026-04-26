@@ -36,7 +36,7 @@ export const Cabecera = () => {
             },
         ],
 
-        
+
         [
             {
                 hrefDemo: "https://81andie.github.io/holyWine/",
@@ -61,7 +61,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/TurismoMexico",
                 src: "img/mockupMex1.png",
                 title: "México Guide",
-                className: "md:h-36 lg:h-62",
+                className: "md:h-72 lg:h-62",
                 id: 2
             },
             {
@@ -70,7 +70,7 @@ export const Cabecera = () => {
                 src: "img/macbook-subtle-turn.mp4",
                 title: "Claustrum Aquae",
                 isVideo: true,
-                className: "md:h-auto 2xl:h-96",
+                className: "md:h-72 2xl:h-96",
                 id: 6
             },
             {
@@ -78,7 +78,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/thunderIA",
                 src: "imgProjects/thunder1.jpg",
                 title: "ThunderAI",
-                className: "md:h-28 lg:h-48 2xl:h-96",
+                className: "md:h-72 lg:h-48 2xl:h-96",
                 id: 8
             }
         ],
@@ -100,7 +100,7 @@ export const Cabecera = () => {
                 id: 1
             },
 
-             {
+            {
                 hrefDemo: "https://81andie.github.io/gotmap/",
                 href2Github: "https://github.com/81andie/gotmap",
                 src: "img/gotmaplibre1.jpg",
@@ -108,7 +108,7 @@ export const Cabecera = () => {
                 className: "md:h-52 lg:h-28 2xl:h-72",
                 id: 10
             },
-               {
+            {
                 hrefDemo: "https://81andie.github.io/gotopen/",
                 href2Github: "https://github.com/81andie/gotopen",
                 src: "img/openlayersGot.png",
@@ -136,15 +136,18 @@ export const Cabecera = () => {
                 )}
             </div>
 
-       
-            <div className="h-auto mb-20 lg:mb-12">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 ml-4 mr-4 md:ml-10 md:mr-10">
+
+            <div className="h-auto mb-20 lg:mb-2">
+                <div className="grid grid-cols-1   
+                sm:grid-cols-2 md:grid-cols-2
+                lg:grid-cols-4 gap-3 
+                ml-4 mr-4 md:ml-4 md:mr-4">
 
                     {imageData.map((column, colIndex) => (
-                        <div key={colIndex} className="grid gap-4 w-full">
+                        <div key={colIndex} className="grid gap-4 w-full h-full">
 
                             {column.map((item) => (
-                                <figure key={item.id} className="relative group w-full">
+                                <figure key={item.id} className="relative group w-full h-full">
 
                                     {/* IMAGEN / VIDEO */}
                                     <a href={item.hrefDemo} target="_blank" rel="noopener noreferrer">
@@ -152,7 +155,7 @@ export const Cabecera = () => {
                                         {item.isVideo ? (
                                             <iframe
                                                 className={`
-                                                    w-full aspect-video
+                                                    w-full  aspect-video
                                                     ${item.className}
                                                     border-4 border-x-fuchsia-500 border-y-blue-200 rounded-lg
                                                 `}
@@ -163,7 +166,7 @@ export const Cabecera = () => {
                                             <img
                                                 className={`
                                                     w-full
-                                                    aspect-[4/5] object-cover
+                                                    aspect-[4/5]  object-cover
                                                     ${item.className} md:object-contain
                                                     border-4 border-x-fuchsia-500 border-y-blue-200 rounded-lg
                                                 `}
@@ -175,23 +178,23 @@ export const Cabecera = () => {
                                     </a>
 
                                     {/* BOTONES */}
-                                    <div className="absolute inset-0 flex items-end opacity-0 group-hover:opacity-100 transition pointer-events-none">
-                                        <div className="pointer-events-auto w-full flex justify-center">
+                                    <div className="absolute inset-0 flex items-end transition pointer-events-none rounded-lg ">
+                                        <div className="pointer-events-auto w-full flex justify-center ">
 
                                             {item.hrefDemo && (
-                                                <a href={item.hrefDemo} target="_blank" rel="noopener noreferrer" className="w-1/3 p-2 bg-zinc-300/30 text-center">
-                                                    <i className="pi pi-eye text-fuchsia-500"></i>
+                                                <a href={item.hrefDemo} target="_blank" rel="noopener noreferrer" className="w-1/3 p-2 bg-fuchsia-900 text-center sm:opacity-95 md:opacity-0 md:group-hover:opacity-95 lg:opacity-0 lg:group-hover:opacity-95">
+                                                    <i className="pi pi-eye text-xl text-white  "></i>
                                                 </a>
                                             )}
 
                                             {item.href2Github && (
-                                                <a href={item.href2Github} target="_blank" rel="noopener noreferrer" className="w-1/3 p-2 bg-zinc-400/40 text-center">
-                                                    <i className="pi pi-github text-fuchsia-500"></i>
+                                                <a href={item.href2Github} target="_blank" rel="noopener noreferrer" className="w-1/3 p-2 bg-fuchsia-700 text-center sm:opacity-95 md:opacity-0  md:group-hover:opacity-95 lg:opacity-0 lg:group-hover:opacity-95">
+                                                    <i className="pi pi-github text-xl text-white"></i>
                                                 </a>
                                             )}
 
-                                            <NavLink to={`/proyectos/${item.id}`} className="w-1/3 p-2 bg-zinc-300/50 text-center">
-                                                <i className="pi pi-info text-fuchsia-500"></i>
+                                            <NavLink to={`/proyectos/${item.id}`} className="w-1/3 p-2 bg-fuchsia-500 text-center sm:opacity-95   md:opacity-0 lg:opacity-0 lg:group-hover:opacity-95 md:group-hover:opacity-95">
+                                                <i className="pi pi-info text-xl text-white"></i>
                                             </NavLink>
 
                                         </div>
