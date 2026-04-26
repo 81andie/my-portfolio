@@ -8,7 +8,7 @@ export const Contacto = () => {
 
   return (
     <>
-      <form className="mb-20 mr-2 ml-2 mt-32">
+      <form className="mb-20 mr-2 ml-2 mt-32 ">
         <div className="flex flex-col  lg:flex-row md:flex-row">
           <div className="md:w-2/5 lg:w-2/5 h-96 opacity-65 ">
             <img src="https://images.pexels.com/photos/4792728/pexels-photo-4792728.jpeg?auto=compress&cs=tinysrgb&w=600" className="h-96 w-full object-cover rounded-lg"></img>
