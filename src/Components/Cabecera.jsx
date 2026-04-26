@@ -31,7 +31,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/cosmetics",
                 src: "img/cleopatraCosmetics.jpg",
                 title: "Cleopatra Cosmétics",
-                className: "md:h-52",
+                className: "md:h-60",
                 id: 3
             },
         ],
@@ -43,7 +43,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/holyWine",
                 src: "img/Mobile App Screen Mockup, Mosaic.png",
                 title: "The Holy Wine",
-                className: "md:h-52",
+                className: "md:h-60",
                 id: 7
             },
             {
@@ -61,7 +61,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/TurismoMexico",
                 src: "img/mockupMex1.png",
                 title: "México Guide",
-                className: "md:h-72 lg:h-62",
+                className: "md:h-64 lg:h-92",
                 id: 2
             },
             {
@@ -70,7 +70,7 @@ export const Cabecera = () => {
                 src: "img/macbook-subtle-turn.mp4",
                 title: "Claustrum Aquae",
                 isVideo: true,
-                className: "md:h-72 2xl:h-96",
+                className: "md:h-72 lg:h-32 2xl:h-96",
                 id: 6
             },
             {
@@ -88,7 +88,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/AngBitacoraMap",
                 src: "imgProjects/angBitacora1.jpg",
                 title: "Bitácora Map",
-                className: "md:h-52 lg:h-24 2xl:h-72",
+                className: "md:h-52 lg:h-34 2xl:h-72",
                 id: 9
             },
             {
