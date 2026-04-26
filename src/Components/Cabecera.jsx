@@ -23,7 +23,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/SpaceAir",
                 src: "img/iPhone 15 Mockup, Perspective.png",
                 title: "SpaceAirTracker",
-                className: "md:h-auto",
+                className: "md:h-auto lg:h-96",
                 id: 5
             },
             {
@@ -51,7 +51,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/hpApp",
                 src: "imgProjects/harry3.png",
                 title: "Harry Potter App",
-                className: "md:h-92",
+                className: "md:h-92 lg:h-96",
                 id: 4
             }
         ],
@@ -61,7 +61,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/TurismoMexico",
                 src: "img/mockupMex1.png",
                 title: "México Guide",
-                className: "md:h-64 lg:h-92",
+                className: "md:h-64 lg:h-40",
                 id: 2
             },
             {
@@ -70,7 +70,7 @@ export const Cabecera = () => {
                 src: "img/macbook-subtle-turn.mp4",
                 title: "Claustrum Aquae",
                 isVideo: true,
-                className: "md:h-72 lg:h-32 2xl:h-96",
+                className: "md:h-72 lg:h-56 2xl:h-96",
                 id: 6
             },
             {
@@ -78,7 +78,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/thunderIA",
                 src: "imgProjects/thunder1.jpg",
                 title: "ThunderAI",
-                className: "md:h-72 lg:h-48 2xl:h-96",
+                className: "md:h-72 lg:h-52 2xl:h-96",
                 id: 8
             }
         ],
@@ -88,7 +88,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/AngBitacoraMap",
                 src: "imgProjects/angBitacora1.jpg",
                 title: "Bitácora Map",
-                className: "md:h-52 lg:h-34 2xl:h-72",
+                className: "md:h-52 lg:h-42 2xl:h-92",
                 id: 9
             },
             {
@@ -96,7 +96,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/got",
                 src: "img/gotLeaflet.png",
                 title: "GeoGotApp",
-                className: "md:h-52 lg:h-40 2xl:h-72",
+                className: "md:h-52 lg:h-40 2xl:h-92",
                 id: 1
             },
 
@@ -140,7 +140,7 @@ export const Cabecera = () => {
             <div className="h-auto mb-20 lg:mb-2">
                 <div className="grid grid-cols-1   
                 sm:grid-cols-2 md:grid-cols-2
-                lg:grid-cols-4 gap-3 
+                lg:grid-cols-4 gap-4
                 ml-4 mr-4 md:ml-4 md:mr-4">
 
                     {imageData.map((column, colIndex) => (
