@@ -17,7 +17,7 @@ export const Cabecera = () => {
     }, []);
 
     const imageData = [
-        [
+        [/*
             {
                 hrefDemo: "https://81andie.github.io/SpaceAir/map",
                 href2Github: "https://github.com/81andie/SpaceAir",
@@ -25,6 +25,15 @@ export const Cabecera = () => {
                 title: "SpaceAirTracker",
                 className: "md:h-auto lg:h-96",
                 id: 5
+            },*/
+
+                        {
+                hrefDemo: "https://81andie.github.io/AngBitacoraMap/",
+                href2Github: "https://github.com/81andie/AngBitacoraMap",
+                src: "imgProjects/angBitacora1.jpg",
+                title: "Bitácora Map",
+                className: "md:h-auto lg:h-96",
+                id: 9
             },
             {
                 hrefDemo: "https://81andie.github.io/cosmetics/",
@@ -78,25 +87,18 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/thunderIA",
                 src: "imgProjects/thunder1.jpg",
                 title: "ThunderAI",
-                className: "md:h-72 lg:h-52 2xl:h-96",
+                className: "md:h-92 lg:h-56 2xl:h-96",
                 id: 8
             }
         ],
         [
-            {
-                hrefDemo: "https://81andie.github.io/AngBitacoraMap/",
-                href2Github: "https://github.com/81andie/AngBitacoraMap",
-                src: "imgProjects/angBitacora1.jpg",
-                title: "Bitácora Map",
-                className: "md:h-52 lg:h-42 2xl:h-92",
-                id: 9
-            },
+
             {
                 hrefDemo: "https://81andie.github.io/got/",
                 href2Github: "https://github.com/81andie/got",
                 src: "img/gotLeaflet.png",
                 title: "GeoGotApp",
-                className: "md:h-52 lg:h-40 2xl:h-92",
+                className: "md:h-auto lg:h-50 2xl:h-92",
                 id: 1
             },
 
@@ -105,7 +107,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/gotmap",
                 src: "img/gotmaplibre1.jpg",
                 title: "GeoGotApp",
-                className: "md:h-52 lg:h-28 2xl:h-72",
+                className: "md:h-72 lg:h-92 2xl:h-72",
                 id: 10
             },
             {
@@ -113,7 +115,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/gotopen",
                 src: "img/openlayersGot.png",
                 title: "GeoGotApp",
-                className: "md:h-52 lg:h-28 2xl:h-72",
+                className: "md:h-72 lg:h-48 2xl:h-72",
                 id: 11
             }
         ]
