@@ -70,7 +70,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/TurismoMexico",
                 src: "img/mockupMex1.png",
                 title: "México Guide",
-                className: "md:h-64 lg:h-40",
+                className: "md:h-92 lg:h-40",
                 id: 2
             },
             {
@@ -79,7 +79,7 @@ export const Cabecera = () => {
                 src: "img/macbook-subtle-turn.mp4",
                 title: "Claustrum Aquae",
                 isVideo: true,
-                className: "md:h-72 lg:h-56 2xl:h-96",
+                className: "md:auto lg:h-56 2xl:h-96",
                 id: 6
             },
             {
@@ -87,7 +87,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/thunderIA",
                 src: "imgProjects/thunder1.jpg",
                 title: "ThunderAI",
-                className: "md:h-92 lg:h-56 2xl:h-96",
+                className: "md:h-auto lg:h-56 2xl:h-96",
                 id: 8
             }
         ],
@@ -98,7 +98,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/got",
                 src: "img/gotLeaflet.png",
                 title: "GeoGotApp",
-                className: "md:h-auto lg:h-50 2xl:h-92",
+                className: "md:h-auto lg:h-32 2xl:h-92",
                 id: 1
             },
 
@@ -107,7 +107,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/gotmap",
                 src: "img/gotmaplibre1.jpg",
                 title: "GeoGotApp",
-                className: "md:h-72 lg:h-92 2xl:h-72",
+                className: "md:h-60 lg:h-92 2xl:h-72",
                 id: 10
             },
             {
@@ -115,7 +115,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/gotopen",
                 src: "img/openlayersGot.png",
                 title: "GeoGotApp",
-                className: "md:h-72 lg:h-48 2xl:h-72",
+                className: "md:h-92 lg:h-48 2xl:h-72",
                 id: 11
             }
         ]
