@@ -137,7 +137,7 @@ useEffect(() => {
         <div className="w-full ">
          
           <input type="text"
-            className="m-0 w-full  p-3 rounded-md bg-white dark:bg-gray-900  text-green-500 mt-20 font-mono "
+            className="m-0 w-full  p-3 rounded-md bg-slate-950 dark:bg-gray-900  text-green-500 mt-20 font-mono "
             placeholder="Escribe un prompt..."
             ref={inputRef}
             value={input}
