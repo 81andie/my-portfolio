@@ -29,7 +29,7 @@ useEffect(() => {
     if (e.key === "Enter") {
 
       let newOutPut = "";
-      newOutPut = output + "\n" + "$ " + input + "\n";
+      newOutPut = output + "\n" +" " +"$ " + input + "\n";
       switch (input) {
 
         case 'init':
@@ -137,7 +137,7 @@ useEffect(() => {
         <div className="w-full">
          
           <input type="text"
-            className="border-none outline-none m-0 p-0 bg-transparent text-green-500 mt-20 font-mono"
+            className="border-none outline-none m-0  w-full bg-transparent p-3 rounded-md  dark:bg-slate-50 text-green-500 mt-20 font-mono bg-slate-950"
             placeholder="Escribe un prompt..."
             ref={inputRef}
             value={input}
@@ -145,8 +145,8 @@ useEffect(() => {
             onKeyDown={onKeyDownEnter}
 
           />
-          <div className="terminal font-mono mb-2 mt-2">
-           <p className="p-1">{output}</p> 
+          <div className="terminal font-mono m-0   mb-2 mt-2 w-full rounded-md bg-slate-950">
+           <p className=" text-green-500 ml-2">{output}</p> 
           </div>
         </div>
         </div>
