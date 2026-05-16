@@ -115,7 +115,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/gotopen",
                 src: "img/openlayersGot.png",
                 title: "GeoGotApp",
-                className: "md:h-92 lg:h-48 2xl:h-72",
+                className: "md:h-92 lg:h-60 2xl:h-72",
                 id: 11
             }
         ]
@@ -124,7 +124,7 @@ export const Cabecera = () => {
     return (
         <>
             {/* TEXTO */}
-            <div className="flex flex-col text-center justify-center items-center mt-5 title">
+            <div className="flex flex-col text-center justify-center items-center mt-44 title">
                 {mostrarTexto && (
                     <span>
                         {t('header.helloWorld')}<br />
