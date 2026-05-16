@@ -106,7 +106,7 @@ useEffect(() => {
       onClick={e=> inputRef.current.focus()}
       >
 
-        <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono dark:text-zinc-100 card terminal-demo h-80">
+        <div className="md:flex flex-col md:flex-row lg:flex-row justify-center  font-mono dark:text-zinc-200 card terminal-demo h-80">
           <div className="grid grid-cols-1 md:grid-rows-2 text-center md:text-left lg-text-left md:mr-5">
             <div>
               <p className="text-xl font-bold">{t('sobreMi.instructions')}</p>
@@ -115,7 +115,7 @@ useEffect(() => {
           </div>
 
 
-          <div className="flex flex-col text-center md:text-left">
+          <div className="flex flex-col text-center md:text-left ">
             <ol>
               <pre>
               <p className="text-xl font-bold">Propmts</p>
@@ -134,10 +134,10 @@ useEffect(() => {
           </div>
         </div>
 
-        <div className="w-full">
+        <div className="w-full ">
          
           <input type="text"
-            className="border-none outline-none m-0  w-full bg-transparent p-3 rounded-md  dark:bg-slate-50 text-green-500 mt-20 font-mono bg-slate-950"
+            className="m-0 w-full  p-3 rounded-md bg-white dark:bg-gray-900  text-green-500 mt-20 font-mono "
             placeholder="Escribe un prompt..."
             ref={inputRef}
             value={input}
