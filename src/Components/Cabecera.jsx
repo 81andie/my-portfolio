@@ -66,7 +66,7 @@ export const Cabecera = () => {
         ],
         [
             {
-                hrefDemo: "https://github.com/81andie/TurismoMexico/deployments/github-pages",
+                hrefDemo: "https://81andie.github.io/TurismoMexico/Index.html",
                 href2Github: "https://github.com/81andie/TurismoMexico",
                 src: "img/mockupMex1.png",
                 title: "México Guide",
