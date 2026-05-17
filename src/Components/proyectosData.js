@@ -267,11 +267,11 @@ export const projects = [
     hrefGithub: "https://github.com/81andie/Aqvae",
 
     url: [
-      "https://github.com/81andie/Aqvae/deployments/github-pages"
+      "https://github.com/81andie/Aqvae"
     ],
 
     url1: [
-      "https://github.com/81andie/Aqvae"
+      "https://github.com/81andie/Aqvae/deployments/github-pages"
     ]
   },
 
@@ -396,15 +396,15 @@ export const projects = [
 
     ],
 
-    hrefDemo: "https://81andie.github.io/AngBitacoraMap/",
-    hrefGithub: "https://github.com/81andie/AngBitacoraMap",
+    hrefDemo: "https://81andie.github.io/AngBitacoraMap",
+    hrefGithub: "https://81andie.github.io/AngBitacoraMap/",
 
     url: [
-      "https://81andie.github.io/AngBitacoraMap/"
+      "https://github.com/81andie/AngBitacoraMap"
     ],
 
     url1: [
-      "https://github.com/81andie/AngBitacoraMap"
+      "https://81andie.github.io/AngBitacoraMap/"
     ]
   },
 
