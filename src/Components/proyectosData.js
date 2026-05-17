@@ -271,7 +271,7 @@ export const projects = [
     ],
 
     url1: [
-      "https://github.com/81andie/Aqvae/deployments/github-pages"
+      "https://81andie.github.io/Aqvae/"
     ]
   },
 
