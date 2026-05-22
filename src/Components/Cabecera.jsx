@@ -124,7 +124,7 @@ export const Cabecera = () => {
     return (
         <>
             {/* TEXTO */}
-            <div className="flex flex-col text-center justify-center items-center mt-24 title">
+            <div className="flex flex-col text-center justify-center items-center mt-32 title">
                 {mostrarTexto && (
                     <span>
                         {t('header.helloWorld')}<br />

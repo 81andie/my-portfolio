@@ -83,8 +83,8 @@ export const Skills = () => {
 
     {
       img: "imgSkills/primeng.jpeg",
-      level: "OPENLAYERS",
-      description: t('skills.openlayersExperience'),    
+      level: "PrimeNg",
+      description: t('skills.primeNgExperience'),    
     },
 
     {
@@ -98,7 +98,7 @@ export const Skills = () => {
     <>
 
     
-      <div className="contenedor gap-2 opacity-70 hover:opacity-100 transition-opacity duration-300">
+      <div className="contenedor mt-40 gap-5 opacity-70 hover:opacity-100 transition-opacity duration-300">
         {skills.map((skill, index) => (
           <figure key={index}>
             <img src={skill.img} alt={`skill-${index}`} className="object-contain "/>
