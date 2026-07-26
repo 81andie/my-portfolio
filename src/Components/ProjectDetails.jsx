@@ -86,8 +86,8 @@ export const ProjectDetails = () => {
             </div>
 
             {/* Descripción */}
-            <p className="text-md mt-2 ml-1 mr-1 text-justify font-mono">{projectTranslation.description}</p>
-            <p className="text-md mt-4 ml-1 mr-1 text-justify font-mono">{projectTranslation.description1}</p>
+            <p className="text-md mt-2 ml-1 mr-1 text-left font-mono">{projectTranslation.description}</p>
+            <p className="text-md mt-4 ml-1 mr-1 text-left font-mono">{projectTranslation.description1}</p>
 
             {/* Links del proyecto */}
             <div className="flex gap-2 dark:text-slate-900 p-1">

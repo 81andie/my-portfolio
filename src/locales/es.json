@@ -188,7 +188,17 @@
       "title": "GeoGotApp",
       "description": "GeoGotApp es una aplicación web desarrollada con Angular, Tailwind CSS y OpenLayers, centrada en ofrecer una experiencia interactiva para explorar las localizaciones reales de rodaje de la serie Game of Thrones.",
       "description1": "La aplicación permite a los usuarios descubrir escenarios exteriores a través de un mapa dinámico, combinando datos geográficos con contenido visual y contextual. Cada localización incluye información relevante como imágenes del lugar, el tipo de escenario representado en la serie y los actores asociados a las escenas."
+    },
+
+     {
+      "id": 12,
+      "title": "GeoGotApp",
+     "description": "Gerunda Turism es una aplicación web desarrollada con OpenLayers, Tailwind CSS y Angular, diseñada para ofrecer una experiencia interactiva que permite explorar los principales alojamientos y lugares turísticos (hoteles, pensiones, apartamentos, así como los principales restaurantes y cafeterías).",
+     "description1": "En ella podrás encontrar el teléfono, la dirección, la página web y el correo electrónico de cada establecimiento para facilitar posibles reservas."
     }
+
+
+
   ],
   "courses": [
     {

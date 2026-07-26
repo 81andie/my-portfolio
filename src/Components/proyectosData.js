@@ -500,6 +500,58 @@ export const projects = [
     url1: [
       "https://81andie.github.io/gotopen/"
     ]
+  },
+
+   {
+    id: 12,
+
+    images: [
+     
+       "../imgProjects/gerunda1.jpg",
+      "../imgProjects/gerunda2.jpg",
+      "../imgProjects/gerunda3.jpg",
+    
+      "../imgProjects/gerunda4.jpg",
+
+
+
+    ],
+    technologies: [
+
+
+
+      {
+        name: "html",
+        icon: "../imgtec/html.jpg",
+      },
+      {
+        name: "Angular",
+        icon: "../imgtec/angular.jpg",
+      },
+
+
+      {
+        name: "Tailwind CSS",
+        icon: "../imgtec/tailwind.avif",
+      },
+
+      {
+        name: "OpenLayers",
+        icon: "../imgtec/openlayers.png",
+      }
+
+    ],
+
+    hrefDemo: "81andie.github.io/mygerunda/",
+    hrefGithub: "https://github.com/81andie/mygerunda",
+
+    url: [
+      "https://github.com/81andie/mygerunda"
+    ],
+
+    url1: [
+      "https://81andie.github.io/mygerunda/"
+    ]
   }
 
 

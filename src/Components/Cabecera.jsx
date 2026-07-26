@@ -32,15 +32,24 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/AngBitacoraMap",
                 src: "imgProjects/angBitacora1.jpg",
                 title: "Bitácora Map",
-                className: "md:h-auto lg:h-96",
+                className: "md:h-auto lg:h-38",
                 id: 9
+            },
+
+            {
+                hrefDemo: "https://81andie.github.io/mygerunda/",
+                href2Github: "https://github.com/81andie/mygerunda",
+                src: "imgProjects/gerunda1.jpg",
+                title: "Gerunda Turism",
+                className: "md:h-auto lg:h-36",
+                id: 12
             },
             {
                 hrefDemo: "https://81andie.github.io/cosmetics/",
                 href2Github: "https://github.com/81andie/cosmetics",
                 src: "img/cleopatraCosmetics.jpg",
                 title: "Cleopatra Cosmétics",
-                className: "md:h-60",
+                className: "md:h-36",
                 id: 3
             },
         ],
