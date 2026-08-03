@@ -32,7 +32,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/AngBitacoraMap",
                 src: "imgProjects/angBitacora1.jpg",
                 title: "Bitácora Map",
-                className: "md:h-auto lg:h-38",
+                className: "md:h-72 lg:h-38",
                 id: 9
             },
 
@@ -41,7 +41,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/mygerunda",
                 src: "imgProjects/gerunda1.jpg",
                 title: "Gerunda Turism",
-                className: "md:h-auto lg:h-36",
+                className: "md:h-72 lg:h-36",
                 id: 12
             },
             {
@@ -49,7 +49,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/cosmetics",
                 src: "img/cleopatraCosmetics.jpg",
                 title: "Cleopatra Cosmétics",
-                className: "md:h-36",
+                className: "md:h-52",
                 id: 3
             },
         ],
@@ -69,7 +69,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/hpApp",
                 src: "imgProjects/harry3.png",
                 title: "Harry Potter App",
-                className: "md:h-92 lg:h-96",
+                className: "md:h-72 lg:h-96",
                 id: 4
             }
         ],
@@ -81,7 +81,7 @@ export const Cabecera = () => {
                 src: "img/macbook-subtle-turn.mp4",
                 title: "Claustrum Aquae",
                 isVideo: true,
-                className: "md:auto lg:h-72 2xl:h-96",
+                className: "md:h-72 lg:h-72 2xl:h-96",
                 id: 6
             },
             {
@@ -89,7 +89,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/thunderIA",
                 src: "imgProjects/thunder1.jpg",
                 title: "ThunderAI",
-                className: "md:h-auto lg:h-92 2xl:h-96",
+                className: "md:h-72 lg:h-92 2xl:h-96",
                 id: 8
             }
         ],
@@ -100,7 +100,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/got",
                 src: "img/gotLeaflet.png",
                 title: "GeoGotApp",
-                className: "md:h-auto lg:h-32 2xl:h-92",
+                className: "md:h-72 lg:h-32 2xl:h-92",
                 id: 1
             },
 
@@ -109,7 +109,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/gotmap",
                 src: "img/gotmaplibre1.jpg",
                 title: "GeoGotApp",
-                className: "md:h-60 lg:h-92 2xl:h-72",
+                className: "md:h-72 lg:h-92 2xl:h-72",
                 id: 10
             },
             {
@@ -117,7 +117,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/gotopen",
                 src: "img/openlayersGot.png",
                 title: "GeoGotApp",
-                className: "md:h-92 lg:h-60 2xl:h-72",
+                className: "md:h-72 lg:h-60 2xl:h-72",
                 id: 11
             }
         ]
@@ -143,7 +143,7 @@ export const Cabecera = () => {
 
             <div className="h-auto mb-20 lg:mb-2">
                 <div className="grid grid-cols-1   
-                sm:grid-cols-2 md:grid-cols-2
+                sm:grid-cols-2 md:grid-cols-1
                 lg:grid-cols-4 gap-4
                 ml-4 mr-4 md:ml-4 md:mr-4">
 
