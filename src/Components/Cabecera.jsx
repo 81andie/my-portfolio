@@ -74,21 +74,14 @@ export const Cabecera = () => {
             }
         ],
         [
-            {
-                hrefDemo: "https://81andie.github.io/TurismoMexico/Index.html",
-                href2Github: "https://github.com/81andie/TurismoMexico",
-                src: "img/mockupMex1.png",
-                title: "México Guide",
-                className: "md:h-92 lg:h-40",
-                id: 2
-            },
+           
             {
                 hrefDemo: "https://81andie.github.io/Aqvae/",
                 href2Github: "https://github.com/81andie/Aqvae",
                 src: "img/macbook-subtle-turn.mp4",
                 title: "Claustrum Aquae",
                 isVideo: true,
-                className: "md:auto lg:h-56 2xl:h-96",
+                className: "md:auto lg:h-72 2xl:h-96",
                 id: 6
             },
             {
@@ -96,7 +89,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/thunderIA",
                 src: "imgProjects/thunder1.jpg",
                 title: "ThunderAI",
-                className: "md:h-auto lg:h-56 2xl:h-96",
+                className: "md:h-auto lg:h-92 2xl:h-96",
                 id: 8
             }
         ],
