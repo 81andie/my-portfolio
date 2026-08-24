@@ -98,7 +98,7 @@ export const Cabecera = () => {
             {
                 hrefDemo: "https://81andie.github.io/got/",
                 href2Github: "https://github.com/81andie/got",
-                src: "img/gotLeaflet.png",
+                src: "img/gotLeaflet.jpg",
                 title: "GeoGotApp",
                 className: "md:h-72 lg:h-32 2xl:h-92",
                 id: 1
