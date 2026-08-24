@@ -115,7 +115,7 @@ export const Cabecera = () => {
             {
                 hrefDemo: "https://81andie.github.io/gotopen/",
                 href2Github: "https://github.com/81andie/gotopen",
-                src: "img/openlayersGot.png",
+                src: "img/openlayersGot.jpg",
                 title: "GeoGotApp",
                 className: "md:h-72 lg:h-60 2xl:h-72",
                 id: 11
