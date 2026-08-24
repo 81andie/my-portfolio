@@ -154,7 +154,7 @@ export const Cabecera = () => {
                                 <figure key={item.id} className="relative group w-full h-full">
 
                                     {/* IMAGEN / VIDEO */}
-                                    <a href={item.hrefDemo} target="_blank" rel="noopener noreferrer">
+                                    <a href={item.hrefDemo} target="_blank" rel="noopener noreferrer" aria-label="enlaces en las imágenes">
 
                                         {item.isVideo ? (
                                             <iframe
@@ -186,18 +186,18 @@ export const Cabecera = () => {
                                         <div className="pointer-events-auto w-full flex justify-center ">
 
                                             {item.hrefDemo && (
-                                                <a href={item.hrefDemo} target="_blank" rel="noopener noreferrer" className="w-1/3 p-2 bg-fuchsia-900 text-center sm:opacity-95 md:opacity-0 md:group-hover:opacity-95 lg:opacity-0 lg:group-hover:opacity-95">
+                                                <a href={item.hrefDemo} target="_blank" rel="noopener noreferrer" aria-label="icono de ver proyecto" className="w-1/3 p-2 bg-fuchsia-900 text-center sm:opacity-95 md:opacity-0 md:group-hover:opacity-95 lg:opacity-0 lg:group-hover:opacity-95">
                                                     <i className="pi pi-eye text-xl text-white  "></i>
                                                 </a>
                                             )}
 
                                             {item.href2Github && (
-                                                <a href={item.href2Github} target="_blank" rel="noopener noreferrer" className="w-1/3 p-2 bg-fuchsia-700 text-center sm:opacity-95 md:opacity-0  md:group-hover:opacity-95 lg:opacity-0 lg:group-hover:opacity-95">
+                                                <a href={item.href2Github} target="_blank" rel="noopener noreferrer" aria-label="ver proyecto en github" className="w-1/3 p-2 bg-fuchsia-700 text-center sm:opacity-95 md:opacity-0  md:group-hover:opacity-95 lg:opacity-0 lg:group-hover:opacity-95">
                                                     <i className="pi pi-github text-xl text-white"></i>
                                                 </a>
                                             )}
 
-                                            <NavLink to={`/proyectos/${item.id}`} className="w-1/3 p-2 bg-fuchsia-500 text-center sm:opacity-95   md:opacity-0 lg:opacity-0 lg:group-hover:opacity-95 md:group-hover:opacity-95">
+                                            <NavLink to={`/proyectos/${item.id}`} aria-label="ir a proyectos" className="w-1/3 p-2 bg-fuchsia-500 text-center sm:opacity-95   md:opacity-0 lg:opacity-0 lg:group-hover:opacity-95 md:group-hover:opacity-95">
                                                 <i className="pi pi-info text-xl text-white"></i>
                                             </NavLink>
 
