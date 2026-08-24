@@ -13,8 +13,8 @@ export const Footer = () => {
         <img src={img} className='w-28 h-28' alt="logo-imagen" />
 
         <div className="icons_social flex flex-row text-3xl justify-center gap-3">
-          <a href="https://github.com/81andie" target="_blank" rel="noopener noreferrer"><i className="pi pi-github mr-1" style={{ color: '#e040a4' }}></i></a>
-          <a href="https://www.linkedin.com/in/andrea-hern%C3%A0ndez-abbab9288/" target="_blank" rel="noopener noreferrer"><i className="pi pi-linkedin" style={{ color: '#e040a4' }}></i></a>
+          <a href="https://github.com/81andie" target="_blank" rel="noopener noreferrer" aria-label="ir a github"><i className="pi pi-github mr-1" style={{ color: '#e040a4' }}></i></a>
+          <a href="https://www.linkedin.com/in/andrea-hern%C3%A0ndez-abbab9288/" target="_blank" rel="noopener noreferrer" aria-label="ir a linkedin"><i className="pi pi-linkedin" style={{ color: '#e040a4' }}></i></a>
         </div>
 
         <div className="text-center mb-2">
