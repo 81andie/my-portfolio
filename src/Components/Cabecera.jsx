@@ -49,7 +49,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/cosmetics",
                 src: "img/cleopatraCosmetics.jpg",
                 title: "Cleopatra Cosmétics",
-                className: "md:h-52",
+                className: "md:h-48",
                 id: 3
             },
         ],
@@ -81,7 +81,7 @@ export const Cabecera = () => {
                 src: "img/macbook-subtle-turn.mp4",
                 title: "Claustrum Aquae",
                 isVideo: true,
-                className: "md:h-72 lg:h-72 2xl:h-96",
+                className: "md:h-72 lg:h-92 2xl:h-96",
                 id: 6
             },
             {
@@ -109,7 +109,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/gotmap",
                 src: "img/gotmaplibre1.jpg",
                 title: "GeoGotApp",
-                className: "md:h-72 lg:h-92 2xl:h-72",
+                className: "md:h-72 lg:h-56 2xl:h-72",
                 id: 10
             },
             {
