@@ -32,7 +32,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/AngBitacoraMap",
                 src: "imgProjects/angBitacora1.jpg",
                 title: "Bitácora Map",
-                className: "md:h-72 lg:h-38",
+                className: "md:h-72 lg:h-60",
                 id: 9
             },
 
@@ -41,7 +41,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/mygerunda",
                 src: "imgProjects/gerunda1.jpg",
                 title: "Gerunda Turism",
-                className: "md:h-72 lg:h-36",
+                className: "md:h-72 lg:h-32",
                 id: 12
             },
             {
@@ -61,7 +61,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/holyWine",
                 src: "img/Mobile App Screen Mockup, Mosaic.png",
                 title: "The Holy Wine",
-                className: "md:h-60",
+                className: "md:h-60 lg:h-92",
                 id: 7
             },
             {
@@ -81,7 +81,7 @@ export const Cabecera = () => {
                 src: "img/macbook-subtle-turn.mp4",
                 title: "Claustrum Aquae",
                 isVideo: true,
-                className: "md:h-72 lg:h-92 2xl:h-96",
+                className: "md:h-72 lg:h-52 2xl:h-92",
                 id: 6
             },
             {
@@ -89,7 +89,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/thunderIA",
                 src: "imgProjects/thunder1.jpg",
                 title: "ThunderAI",
-                className: "md:h-72 lg:h-92 2xl:h-96",
+                className: "md:h-72 lg:h-96 2xl:h-96",
                 id: 8
             }
         ],
@@ -143,7 +143,7 @@ export const Cabecera = () => {
 
             <div className="h-auto mb-20 lg:mb-2">
                 <div className="grid grid-cols-1   
-                sm:grid-cols-2 md:grid-cols-1
+                sm:grid-cols-1 md:grid-cols-1
                 lg:grid-cols-4 gap-4
                 ml-4 mr-4 md:ml-4 md:mr-4">
 
