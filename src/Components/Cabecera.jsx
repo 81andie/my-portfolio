@@ -67,7 +67,7 @@ export const Cabecera = () => {
             {
                 hrefDemo: "https://potter-app-three.vercel.app/#/inicio",
                 href2Github: "https://github.com/81andie/hpApp",
-                src: "imgProjects/harry3.png",
+                src: "imgProjects/harry3.jpg",
                 title: "Harry Potter App",
                 className: "md:h-72 lg:h-96",
                 id: 4
@@ -81,7 +81,7 @@ export const Cabecera = () => {
                 src: "img/macbook-subtle-turn.mp4",
                 title: "Claustrum Aquae",
                 isVideo: true,
-                className: "md:h-72 lg:h-52 2xl:h-92",
+                className: "md:h-72 lg:h-52 2xl:h-96",
                 id: 6
             },
             {
@@ -100,7 +100,7 @@ export const Cabecera = () => {
                 href2Github: "https://github.com/81andie/got",
                 src: "img/gotLeaflet.jpg",
                 title: "GeoGotApp",
-                className: "md:h-72 lg:h-32 2xl:h-92",
+                className: "md:h-72 lg:h-32 2xl:h-96",
                 id: 1
             },
 
