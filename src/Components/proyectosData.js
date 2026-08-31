@@ -457,9 +457,10 @@ export const projects = [
      
        "../imgProjects/open2.jpg",
       "../imgProjects/open3.jpg",
-      "../imgProjects/open5.jpg",
+      "../imgProjects/open4.png",
+       "../imgProjects/open5.jpg",
     
-      "../img/openlayersGot.png",
+     
 
 
 
