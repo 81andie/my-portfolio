@@ -151,10 +151,10 @@ export const projects = [
     id: 4,
 
     images: [
-      "../imgProjects/harry1.png",
-      "../imgProjects/harry2.png",
-      "../imgProjects/harry3.png",
-      "../imgProjects/harry4.png",
+      "../imgProjects/harry1.jpg",
+      "../imgProjects/harry2.jpg",
+      "../imgProjects/harry3.jpg",
+      "../imgProjects/harry4.jpg",
 
     ],
     technologies: [
@@ -238,7 +238,7 @@ export const projects = [
       "../imgProjects/aqvae2.webp",
       "../imgProjects/aqvae8.jpg",
       "../imgProjects/aqvae3.jpg",
-      "../imgProjects/aqvae4.webp",
+      "../imgProjects/aqvae4.jpg",
       "../imgProjects/aqvae5.webp"
     ],
     technologies: [
