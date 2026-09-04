@@ -59,7 +59,7 @@ export const Cabecera = () => {
             {
                 hrefDemo: "https://81andie.github.io/holyWine/",
                 href2Github: "https://github.com/81andie/holyWine",
-                src: "img/Mobile App Screen Mockup, Mosaic.png",
+                src: "img/Mobile App Screen Mockup, Mosaic.jpg",
                 title: "The Holy Wine",
                 className: "md:h-60 lg:h-92",
                 id: 7
